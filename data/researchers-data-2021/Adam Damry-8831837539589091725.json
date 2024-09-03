@@ -1,0 +1,27 @@
+{
+  "ANU": {
+    "name": "Adam Damry",
+    "link": "https://researchers.anu.edu.au/researchers/damry-a",
+    "colleges": "College of Science",
+    "email": "Adam.Damry@anu.edu.au",
+    "phone": "",
+    "expertise": [],
+    "interest": [],
+    "biography": "",
+    "project": [],
+    "publication": []
+  },
+  "Microsoft-Academic": [
+    {
+      "title": "from protein sequence to motion to function towards the rational design of functional protein dynamics",
+      "year": 2019,
+      "source": "",
+      "authors": [
+        {
+          "name": "adam damry"
+        }
+      ]
+    }
+  ],
+  "ANDS-Grants": []
+}

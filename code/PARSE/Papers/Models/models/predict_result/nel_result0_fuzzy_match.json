@@ -1,0 +1,3095 @@
+{
+  "SOLUTION": {
+    "generator": {
+      "position": [
+        [
+          177,
+          177
+        ]
+      ],
+      "sentence": [
+        "spice can questions answer such as which caption generator best understands colors? can and caption generators recently introduction count? there has been considerable interest"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q1878349",
+      "wikidata_desc": "album by Bad Religion",
+      "matched_words": "generator"
+    },
+    "truth value": {
+      "position": [
+        [
+          699,
+          700
+        ]
+      ],
+      "sentence": [
+        "we expect that human a evaluator might consider the truth value of each of the semantic propositions contained thereinsuch as there is a girl"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q185521",
+      "wikidata_desc": "value indicating the relation of a proposition to truth",
+      "matched_words": "truth value"
+    },
+    "framework": {
+      "position": [
+        [
+          1723,
+          1723
+        ]
+      ],
+      "sentence": [
+        "recent work has proposed a common framework for semantic graphs an called abstract meaning representation amr [24]"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q107661386",
+      "wikidata_desc": "American laptop manufacturer",
+      "matched_words": "framework"
+    },
+    "correctness": {
+      "position": [
+        [
+          3551,
+          3551
+        ]
+      ],
+      "sentence": [
+        "better or equal to human percentage caption. of captions that pass the turing average test. correctness of the captions on a scale 15 incorrect average correct). detail of the captions from"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q360812",
+      "wikidata_desc": "quality of an algorithm being correct with respect to a specification",
+      "matched_words": "correctness"
+    },
+    "metrics": {
+      "position": [
+        [
+          4571,
+          4571
+        ]
+      ],
+      "sentence": [
+        "counting and other existing questions gram evaluation metrics have little to offer in terms of the understanding relative strengths and weaknesses"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q650486",
+      "wikidata_desc": "Canadian indie rock band",
+      "matched_words": "metric"
+    },
+    "color": {
+      "position": [
+        [
+          4649,
+          4649
+        ]
+      ],
+      "sentence": [
+        "although subcategories. the best models outperform the human baseline in their use of object attributes, color none of the models exhibits a convincing ability to human count msr [6] google [38]"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q1075",
+      "wikidata_desc": "characteristic of visual perception",
+      "matched_words": "color"
+    },
+    "evaluation metric": {
+      "position": [
+        [
+          65,
+          66
+        ],
+        [
+          267,
+          268
+        ],
+        [
+          307,
+          308
+        ]
+      ],
+      "sentence": [
+        "automatic existing evaluation metrics are primarily sensitive to gram which overlap, is neither necessary nor sufficient for the task",
+        "and accurate inexpensive automatic existing evaluation metrics are primarily sensitive to gram which overlap, is neither necessary nor sufficient for the task evaluation metrics to encourage rapid progress",
+        "there is an urgent to need develop new automated and accurate inexpensive automatic existing evaluation metrics are primarily sensitive to gram which overlap, is neither necessary nor sufficient for the task evaluation metrics to encourage rapid progress evaluation metrics for this task [8,9]"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q35116116",
+      "matched_words": "Evaluation metrics for biostatistical and epidemiological collaborations",
+      "wikidata_desc": "scientific article"
+    },
+    "extensive evaluation": {
+      "position": [
+        [
+          116,
+          117
+        ]
+      ],
+      "sentence": [
+        "and propose a automated new caption evaluation metric defined over scene graphs spice. coined extensive evaluations across a range of models and indicate datasets that spice captures human judgments over captions"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q39133299",
+      "matched_words": "Extensive evaluations of the cytotoxic effects of gold nanoparticles.",
+      "wikidata_desc": "scientific article published on 27 June 2013"
+    },
+    "evaluator": {
+      "position": [
+        [
+          694,
+          695
+        ]
+      ],
+      "sentence": [
+        "we expect that human a evaluator might consider the truth value of each of the semantic propositions contained thereinsuch as there"
+      ],
+      "is_matched": false,
+      "exact_match": false
+    },
+    "event structure": {
+      "position": [
+        [
+          1471,
+          1473
+        ]
+      ],
+      "sentence": [
+        "srls are used to try to capture basic the event structure of sentences who did what to whom"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q5416730"
+    },
+    "semantic structure": {
+      "position": [
+        [
+          1643,
+          1644
+        ]
+      ],
+      "sentence": [
+        "or similar semantic structures"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q38475666",
+      "matched_words": "Semantic structures and diagnostic thinking of experts and novices",
+      "wikidata_desc": "scientific article published on September 1991"
+    },
+    "tuple": {
+      "position": [
+        [
+          2926,
+          2927
+        ]
+      ],
+      "sentence": [
+        "stephen partial gould credit when only one element of a tuple is incorrect"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q2879072",
+      "wikidata_desc": "computer science concept",
+      "matched_words": "tuple"
+    },
+    "models": {
+      "position": [
+        [
+          4651,
+          4653
+        ]
+      ],
+      "sentence": [
+        "the best models outperform the human baseline in their use of object attributes, color none of the models exhibits a convincing ability to human count msr [6] google [38] msr [39] captivator berkeley"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q3234845",
+      "wikidata_desc": "painting by Georges Seurat",
+      "matched_words": "models"
+    },
+    "composite score": {
+      "position": [
+        [
+          5101,
+          5102
+        ]
+      ],
+      "sentence": [
+        "all values not shown are less than flickr 0.001 8k composite scores, - 0.73 inter-human 0.39 0.36 0.35 0.28 0.18 0.26 0.45 0.44 0.42 0.32 0.14 0.32"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q37196102",
+      "matched_words": "Composite scores for executive function items: demographic heterogeneity and relationships with quantitative magnetic resonance imaging",
+      "wikidata_desc": "scientific article published on September 2008"
+    }
+  },
+  "RESEARCH_PROBLEM": {
+    "scene graph": {
+      "position": [
+        [
+          440,
+          441
+        ],
+        [
+          829,
+          830
+        ],
+        [
+          1637,
+          1638
+        ],
+        [
+          2053,
+          2054
+        ],
+        [
+          2278,
+          2279
+        ]
+      ],
+      "sentence": [
+        "reference and candidate captions mapped are through dependency parse trees top to semantic scene graphs encoding (right) the objects (red)",
+        "work recent has demonstrated reference and candidate captions mapped are through dependency parse trees top to semantic scene graphs encoding (right) the objects (red) scene graphs to be a highly effective representation performing for complex image retrieval queries [15 16]",
+        "and the proposed metric was not evaluated against human judgments existing or semantic 2.2 metrics. work recent has demonstrated reference and candidate captions mapped are through dependency parse trees top to semantic scene graphs encoding (right) the objects (red) scene graphs to be a highly effective representation performing for complex image retrieval queries [15 16] scene graphs graphs",
+        "semantic 3.1 captions. parsingcaptions to scene we graphs define the subtask of parsing captions to and the proposed metric was not evaluated against human judgments existing or semantic 2.2 metrics. work recent has demonstrated reference and candidate captions mapped are through dependency parse trees top to semantic scene graphs encoding (right) the objects (red) scene graphs to be a highly effective representation performing for complex image retrieval queries [15 16] scene graphs graphs scene graphs as follows",
+        "duplication of instances object was necessary to enable semantic 3.1 captions. parsingcaptions to scene we graphs define the subtask of parsing captions to and the proposed metric was not evaluated against human judgments existing or semantic 2.2 metrics. work recent has demonstrated reference and candidate captions mapped are through dependency parse trees top to semantic scene graphs encoding (right) the objects (red) scene graphs to be a highly effective representation performing for complex image retrieval queries [15 16] scene graphs graphs scene graphs as follows scene graphs to be grounded to image in regions. our work"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q1406181",
+      "wikidata_desc": "term",
+      "matched_words": "scene graph"
+    },
+    "graph": {
+      "position": [
+        [
+          1998,
+          1999
+        ]
+      ],
+      "sentence": [
+        "and the scene for graph the reference captions s is denoted by g(s)"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q141488",
+      "wikidata_desc": "mathematical structure; representation of a set of objects where some pairs of the objects are connected by links",
+      "matched_words": "graph"
+    },
+    "graphs": {
+      "position": [
+        [
+          938,
+          938
+        ],
+        [
+          2036,
+          2036
+        ],
+        [
+          6355,
+          6355
+        ]
+      ],
+      "sentence": [
+        "we map from dependency trees to scene graphs using a system rule-based [16]",
+        "next present we the semantic parsing step to generate scene we map from dependency trees to scene graphs using a system rule-based [16] graphs from semantic 3.1 captions. parsingcaptions to scene we graphs define the subtask of parsing captions",
+        "c d : generating semantically precise scene next present we the semantic parsing step to generate scene we map from dependency trees to scene graphs using a system rule-based [16] graphs from semantic 3.1 captions. parsingcaptions to scene we graphs define the subtask of parsing captions graphs from textual descriptions for improved image retrieval"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q141488",
+      "wikidata_desc": "mathematical structure; representation of a set of objects where some pairs of the objects are connected by links",
+      "matched_words": "graph"
+    },
+    "sentence": {
+      "position": [
+        [
+          4180,
+          4180
+        ]
+      ],
+      "sentence": [
+        "they were asked to evaluate caption by triples identifying which of the sentences"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q41796",
+      "wikidata_desc": "textual unit consisting of one or more words that are grammatically linked, expressing a complete thought in non-functional linguistics",
+      "matched_words": "sentence"
+    },
+    "and": {
+      "position": [
+        [
+          1660,
+          1660
+        ],
+        [
+          3437,
+          3437
+        ]
+      ],
+      "sentence": [
+        "have been used in a number recent of works within the context of image and video retrieval systems to performance improve on complex queries [18,15,16]",
+        "representing detailedness correctness, have been used in a number recent of works within the context of image and video retrieval systems to performance improve on complex queries [18,15,16] and percentage m5 m4 m3 m2 m1 (0.000) (0.000) (0.007) (0.001) (0.142) (0.265) (0.091) 0.88 0.84"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q12364761",
+      "wikidata_desc": "conjunction",
+      "matched_words": "and"
+    },
+    "computational linguistics": {
+      "position": [
+        [
+          1713,
+          1714
+        ]
+      ],
+      "sentence": [
+        "of transforming a sentence into its meaning representation also has received considerable attention within the computational linguistics community"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q182557",
+      "wikidata_desc": "interdisciplinary field",
+      "matched_words": "computational linguistics"
+    },
+    "semantic graphs": {
+      "position": [
+        [
+          1725,
+          1726
+        ]
+      ],
+      "sentence": [
+        "recent work has proposed a common framework for semantic graphs an called abstract meaning representation amr [24]"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q38417382",
+      "matched_words": "Semantic graphs and associative memories",
+      "wikidata_desc": "scientific article published on 23 December 2004"
+    },
+    "image": {
+      "position": [
+        [
+          1898,
+          1898
+        ]
+      ],
+      "sentence": [
+        "our approach is suited better to evaluating computer generated image first, captions. we transform both candidate caption and reference captions into an intermediate representation that"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q478798",
+      "wikidata_desc": "artifact that depicts or records visual perception",
+      "matched_words": "image"
+    },
+    "si": {
+      "position": [
+        [
+          2015,
+          2015
+        ]
+      ],
+      "sentence": [
+        "formed as the union of graphs scene si for each si s and combining synonymous object nodes"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q10916511",
+      "wikidata_desc": "family name (\\u53f8)",
+      "matched_words": "si"
+    },
+    "relations": {
+      "position": [
+        [
+          2118,
+          2118
+        ]
+      ],
+      "sentence": [
+        "r is set the of hyper edges representing relations between objects"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q23905861",
+      "wikidata_desc": "psychological basis of interaction",
+      "matched_words": "relations"
+    },
+    "image retrieval": {
+      "position": [
+        [
+          2242,
+          2243
+        ],
+        [
+          6319,
+          6320
+        ],
+        [
+          6361,
+          6362
+        ]
+      ],
+      "sentence": [
+        "of reference captions image our (left) scene graph implementation departs slightly from previous work in image retrieval [15 16]",
+        "l : of reference captions image our (left) scene graph implementation departs slightly from previous work in image retrieval [15 16] image retrieval using scene graphs",
+        "c d : generating semantically precise scene graphs from textual descriptions for improved l : of reference captions image our (left) scene graph implementation departs slightly from previous work in image retrieval [15 16] image retrieval using scene graphs image retrieval"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q10927554",
+      "wikidata_desc": "computer system for browsing, searching and retrieving images from a large database of digital images",
+      "matched_words": "image retrieval"
+    },
+    "object": {
+      "position": [
+        [
+          2436,
+          2436
+        ]
+      ],
+      "sentence": [
+        "results which in the object mention girl with attribute young"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q488383",
+      "wikidata_desc": "anything that exists and may be acted upon by a subject",
+      "matched_words": "object"
+    },
+    "modifiers": {
+      "position": [
+        [
+          2500,
+          2500
+        ]
+      ],
+      "sentence": [
+        "\\\\fspice: instead, semantic propositional image caption numeric 7 evaluation modifiers are encoded as object attributes"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q45342890",
+      "wikidata_desc": "substance that changes the velocity of a process without itself being consumed or transformed by the reaction",
+      "matched_words": "modifier"
+    },
+    "semantic parsing": {
+      "position": [
+        [
+          2582,
+          2583
+        ],
+        [
+          6558,
+          6559
+        ]
+      ],
+      "sentence": [
+        "it is our that hope ongoing advances in syntactic and semantic parsing will allow spice to further be improved in future releases",
+        "d : shallow it is our that hope ongoing advances in syntactic and semantic parsing will allow spice to further be improved in future releases semantic parsing using support vector machines"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q55632839"
+    },
+    "tuples": {
+      "position": [
+        [
+          2681,
+          2681
+        ]
+      ],
+      "sentence": [
+        "tuples. or we define the function t that returns logical tuples from a scene t as: graph"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q1684164",
+      "matched_words": "tuple space",
+      "wikidata_desc": "implementation of the associative memory paradigm for parallel/distributed computing, provides a repository of tuples that can be accessed concurrently"
+    },
+    "level": {
+      "position": [
+        [
+          3302,
+          3302
+        ]
+      ],
+      "sentence": [
+        "the wmt metrics shared task [33 34] for scoring machine metrics. translation to evaluate system level correlation"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q1046315",
+      "wikidata_desc": "in a video game, space available to the player in completing an objective",
+      "matched_words": "level"
+    },
+    "candidate": {
+      "position": [
+        [
+          4145,
+          4145
+        ]
+      ],
+      "sentence": [
+        "vehicles and household the objects. dataset also includes human judgments over 4 000 candidate pairs. sentence however"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q618536",
+      "wikidata_desc": "prospective recipient of an award or position",
+      "matched_words": "candidate"
+    },
+    "images": {
+      "position": [
+        [
+          4164,
+          4164
+        ]
+      ],
+      "sentence": [
+        "amt workers were not asked to evaluate captions against images"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q2259762",
+      "wikidata_desc": "1972 film directed by Robert Altman",
+      "matched_words": "images"
+    },
+    "correct": {
+      "position": [
+        [
+          4279,
+          4279
+        ]
+      ],
+      "sentence": [
+        "paired in four ways human correct (hc)"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q110783332",
+      "wikidata_desc": "tugboat built in 1968",
+      "matched_words": "correct"
+    },
+    "metrics": {
+      "position": [
+        [
+          4347,
+          4347
+        ]
+      ],
+      "sentence": [
+        "evaluation metrics vs"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q650486",
+      "wikidata_desc": "Canadian indie rock band",
+      "matched_words": "metric"
+    },
+    "color perception": {
+      "position": [
+        [
+          4911,
+          4912
+        ]
+      ],
+      "sentence": [
+        "table 2 we review the performance of coco 2015 captioning challenge submissions in terms of color perception"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q67439593",
+      "wikidata_desc": "mental processing of chromatic signals from the eye by the visual cortex",
+      "matched_words": "color perception"
+    },
+    "4": {
+      "position": [
+        [
+          5163,
+          5163
+        ]
+      ],
+      "sentence": [
+        "as reported in section 4 2, spice more approximates closely human judgment when aggregated over more captions"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q202",
+      "wikidata_desc": "natural number",
+      "matched_words": "4"
+    },
+    "classification": {
+      "position": [
+        [
+          5496,
+          5496
+        ]
+      ],
+      "sentence": [
+        "caption level classification accuracy of evaluation metrics at matching human judgment on pascal with 5 reference captions"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q13582682",
+      "wikidata_desc": "grouping of objects into classes",
+      "matched_words": "classification"
+    },
+    "pami": {
+      "position": [
+        [
+          6077,
+          6077
+        ]
+      ],
+      "sentence": [
+        "berg, a.c., t l : babytalk understanding and generating simple image pami descriptions. 8. 28912903 elliott"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q386681",
+      "wikidata_desc": "Egyptian pharaoh",
+      "matched_words": "pami"
+    },
+    "machine translation": {
+      "position": [
+        [
+          6179,
+          6180
+        ],
+        [
+          6530,
+          6531
+        ],
+        [
+          6940,
+          6941
+        ],
+        [
+          6968,
+          6969
+        ]
+      ],
+      "sentence": [
+        "w : bleu a method for automatic evaluation of machine translation",
+        "acl in: seventh workshop on statistical w : bleu a method for automatic evaluation of machine translation machine translation",
+        "in acl tenth workshop on statistical acl in: seventh workshop on statistical w : bleu a method for automatic evaluation of machine translation machine translation machine translation",
+        "in ninth acl workshop on statistical in acl tenth workshop on statistical acl in: seventh workshop on statistical w : bleu a method for automatic evaluation of machine translation machine translation machine translation machine translation"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q79798",
+      "wikidata_desc": "use of software for language translation",
+      "matched_words": "machine translation"
+    },
+    "semantic search": {
+      "position": [
+        [
+          6416,
+          6417
+        ]
+      ],
+      "sentence": [
+        "r : visual semantic search videos retrieving via complex textual queries"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q1891170",
+      "wikidata_desc": "contextual queries",
+      "matched_words": "semantic search"
+    },
+    "statistical machine": {
+      "position": [
+        [
+          6529,
+          6529
+        ]
+      ],
+      "sentence": [
+        "acl in: seventh workshop on statistical machine translation"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q3245113",
+      "matched_words": "statistical machine translation",
+      "wikidata_desc": "machine translation paradigm"
+    },
+    "vision and language": {
+      "position": [
+        [
+          6607,
+          6609
+        ]
+      ],
+      "sentence": [
+        "4th emnlp workshop on vision and language 24. (2015) banarescu"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q111467776",
+      "wikidata_desc": "research area of artificial intelligence combining computer vision and natural language processing",
+      "matched_words": "vision and language"
+    },
+    "image captioning": {
+      "position": [
+        [
+          7195,
+          7196
+        ],
+        [
+          7280,
+          7281
+        ],
+        [
+          7368,
+          7369
+        ],
+        [
+          7456,
+          7457
+        ],
+        [
+          7544,
+          7545
+        ],
+        [
+          7632,
+          7633
+        ],
+        [
+          7720,
+          7721
+        ],
+        [
+          7808,
+          7809
+        ],
+        [
+          7896,
+          7897
+        ],
+        [
+          7984,
+          7985
+        ],
+        [
+          8072,
+          8073
+        ]
+      ],
+      "sentence": [
+        "g , m.: mitchell, language models for image captioning the quirks and what works",
+        "c l : exploring neighbor nearest approaches for g , m.: mitchell, language models for image captioning the quirks and what works image captioning",
+        "c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for g , m.: mitchell, language models for image captioning the quirks and what works image captioning image captioning",
+        "c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for g , m.: mitchell, language models for image captioning the quirks and what works image captioning image captioning image captioning",
+        "c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for g , m.: mitchell, language models for image captioning the quirks and what works image captioning image captioning image captioning image captioning",
+        "c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for g , m.: mitchell, language models for image captioning the quirks and what works image captioning image captioning image captioning image captioning image captioning",
+        "c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for g , m.: mitchell, language models for image captioning the quirks and what works image captioning image captioning image captioning image captioning image captioning image captioning",
+        "c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for g , m.: mitchell, language models for image captioning the quirks and what works image captioning image captioning image captioning image captioning image captioning image captioning image captioning",
+        "c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for g , m.: mitchell, language models for image captioning the quirks and what works image captioning image captioning image captioning image captioning image captioning image captioning image captioning image captioning",
+        "c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for g , m.: mitchell, language models for image captioning the quirks and what works image captioning image captioning image captioning image captioning image captioning image captioning image captioning image captioning image captioning",
+        "c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for c l : exploring neighbor nearest approaches for g , m.: mitchell, language models for image captioning the quirks and what works image captioning image captioning image captioning image captioning image captioning image captioning image captioning image captioning image captioning image captioning"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q39161486"
+    },
+    "generate image": {
+      "position": [
+        [
+          206,
+          206
+        ]
+      ],
+      "sentence": [
+        "such as the task of automatically generating image captions [1,2]"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q46993657",
+      "matched_words": "Generating Images with Perceptual Similarity Metrics based on Deep Networks",
+      "wikidata_desc": "scientific article published in January 2016"
+    },
+    "automatic image": {
+      "position": [
+        [
+          321,
+          321
+        ],
+        [
+          1058,
+          1058
+        ]
+      ],
+      "sentence": [
+        "in this we paper, present a novel automatic image caption evaluation metric that measures quality the of generated captions by analyzing their semantic",
+        "a principled metric for in this we paper, present a novel automatic image caption evaluation metric that measures quality the of generated captions by analyzing their semantic automatic image caption evaluation that compares semantic propositional 2. content; we show that spice outperforms metrics"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q2851778",
+      "matched_words": "automatic image annotation",
+      "wikidata_desc": "process which automatically assigns metadata in the form of captioning or keywords to a digital image"
+    },
+    "caption c": {
+      "position": [
+        [
+          585,
+          586
+        ]
+      ],
+      "sentence": [
+        "now consider the captions (c d) obtained from the (c) image: same a shiny metal pot filled with some diced"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q5036913",
+      "matched_words": "Caption contest"
+    },
+    "complex image": {
+      "position": [
+        [
+          839,
+          839
+        ]
+      ],
+      "sentence": [
+        "work recent has demonstrated scene graphs to be a highly effective representation performing for complex image retrieval queries [15 16]"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q99961919",
+      "matched_words": "Complex Images of a Point Charge in Rectangular Conducting Planes",
+      "wikidata_desc": "article published in 1994"
+    },
+    "image caption": {
+      "position": [
+        [
+          54,
+          55
+        ],
+        [
+          207,
+          208
+        ],
+        [
+          424,
+          425
+        ],
+        [
+          806,
+          807
+        ],
+        [
+          1144,
+          1145
+        ],
+        [
+          1530,
+          1531
+        ],
+        [
+          1598,
+          1599
+        ],
+        [
+          2464,
+          2465
+        ],
+        [
+          5432,
+          5433
+        ]
+      ],
+      "sentence": [
+        "abstract. mark.johnson@mq.edu.au australia there is considerable interest in the task of generating automatically image captions",
+        "such as the task of automatically generating abstract. mark.johnson@mq.edu.au australia there is considerable interest in the task of generating automatically image captions image captions [1,2]",
+        "illustrates our methods main principle which uses semantic propositional content to assess the quality of such as the task of automatically generating abstract. mark.johnson@mq.edu.au australia there is considerable interest in the task of generating automatically image captions image captions [1,2] image captions",
+        "the scene graph explicitly encodes the attributes objects, and relationships found in illustrates our methods main principle which uses semantic propositional content to assess the quality of such as the task of automatically generating abstract. mark.johnson@mq.edu.au australia there is considerable interest in the task of generating automatically image captions image captions [1,2] image captions image captions",
+        "work dedicated to the development of that metrics can be used for automatic evaluation of the scene graph explicitly encodes the attributes objects, and relationships found in illustrates our methods main principle which uses semantic propositional content to assess the quality of such as the task of automatically generating abstract. mark.johnson@mq.edu.au australia there is considerable interest in the task of generating automatically image captions image captions [1,2] image captions image captions image captions",
+        "verbs as are frequently absent from work dedicated to the development of that metrics can be used for automatic evaluation of the scene graph explicitly encodes the attributes objects, and relationships found in illustrates our methods main principle which uses semantic propositional content to assess the quality of such as the task of automatically generating abstract. mark.johnson@mq.edu.au australia there is considerable interest in the task of generating automatically image captions image captions [1,2] image captions image captions image captions image captions or not meaningful e g",
+        "closest work to ours is probably the bag of aggregated tuples semantic bast metric for verbs as are frequently absent from work dedicated to the development of that metrics can be used for automatic evaluation of the scene graph explicitly encodes the attributes objects, and relationships found in illustrates our methods main principle which uses semantic propositional content to assess the quality of such as the task of automatically generating abstract. mark.johnson@mq.edu.au australia there is considerable interest in the task of generating automatically image captions image captions [1,2] image captions image captions image captions image captions or not meaningful e g image captions",
+        "be found in the original spice paper. slightly modifies the original parser to better evaluate closest work to ours is probably the bag of aggregated tuples semantic bast metric for verbs as are frequently absent from work dedicated to the development of that metrics can be used for automatic evaluation of the scene graph explicitly encodes the attributes objects, and relationships found in illustrates our methods main principle which uses semantic propositional content to assess the quality of such as the task of automatically generating abstract. mark.johnson@mq.edu.au australia there is considerable interest in the task of generating automatically image captions image captions [1,2] image captions image captions image captions image captions or not meaningful e g image captions image captions",
+        "a novel semantic evaluation metric that measures effectively how be found in the original spice paper. slightly modifies the original parser to better evaluate closest work to ours is probably the bag of aggregated tuples semantic bast metric for verbs as are frequently absent from work dedicated to the development of that metrics can be used for automatic evaluation of the scene graph explicitly encodes the attributes objects, and relationships found in illustrates our methods main principle which uses semantic propositional content to assess the quality of such as the task of automatically generating abstract. mark.johnson@mq.edu.au australia there is considerable interest in the task of generating automatically image captions image captions [1,2] image captions image captions image captions image captions or not meaningful e g image captions image captions image captions recover objects"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q39161486",
+      "matched_words": "image captioning"
+    },
+    "translation": {
+      "position": [
+        [
+          1316,
+          1316
+        ]
+      ],
+      "sentence": [
+        "these methods were originally developed for the evaluation text of summaries or machine translations (mt)"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q7553",
+      "wikidata_desc": "transfer of the meaning of something in one language into another",
+      "matched_words": "translation"
+    },
+    "sentence similarity": {
+      "position": [
+        [
+          1493,
+          1494
+        ]
+      ],
+      "sentence": [
+        "sentence similarity is calculated by first matching semantic frames across sentences by starting with the verbs at"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q66709272",
+      "matched_words": "Sentence Similarity by Combining Explicit Semantic Analysis and Overlapping N-Grams",
+      "wikidata_desc": "scientific article published on 01 September 2014"
+    },
+    "complex query": {
+      "position": [
+        [
+          1668,
+          1669
+        ]
+      ],
+      "sentence": [
+        "of works within the context of image and video retrieval systems to performance improve on complex queries [18,15,16]"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q108269566",
+      "matched_words": "Complex Query Augmentation for Question Answering over Knowledge Graphs"
+    },
+    "semantic meaning": {
+      "position": [
+        [
+          1949,
+          1950
+        ]
+      ],
+      "sentence": [
+        "this in work we focus exclusively on semantic meaning"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q38377781",
+      "matched_words": "Semantic meaning and pragmatic interpretation in 5-year-olds: evidence from real-time spoken language comprehension",
+      "wikidata_desc": "scientific article"
+    },
+    "g(c": {
+      "position": [
+        [
+          2091,
+          2091
+        ]
+      ],
+      "sentence": [
+        "we parse c to a scene g(c) graph: ho(c)"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q27131842",
+      "matched_words": "Gly-Chg-Ala-Gly-Tyr-Lys(5-GalO)-Gly-Glu-Gln-Gly-Pro-Lys-Gly-Glu-Thr",
+      "wikidata_desc": "chemical compound"
+    },
+    "mention": {
+      "position": [
+        [
+          2106,
+          2106
+        ]
+      ],
+      "sentence": [
+        "where (1) k(c)i c is the set of object mentions in c"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q41899400",
+      "matched_words": "Mentions and physical manifestations of thinking. Discussion contribution to the article with the same title by F. Kahuda. Cas.L\\u00e9k.ces.114, 1975, No 29, p.881-91",
+      "wikidata_desc": "scientific article published on February 20, 1976"
+    },
+    "evaluator": {
+      "position": [
+        [
+          3951,
+          3951
+        ]
+      ],
+      "sentence": [
+        "each caption was scored by three human expert evaluators sourced from a pool of native speakers"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q113178969",
+      "matched_words": "Evaluators Not Designers:",
+      "wikidata_desc": "scientific article published on 15 December 2004"
+    },
+    "human evaluation": {
+      "position": [
+        [
+          4236,
+          4237
+        ]
+      ],
+      "sentence": [
+        "however the differences between this approach and the approaches previous to human evaluations have not been studied"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q41944846",
+      "matched_words": "Human Evaluation of the Glu298Asp Polymorphism in NOS3 Gene and its Relationship with Onset age of ESRD in Iranian Patients Suffering from ADPKD.",
+      "wikidata_desc": "scientific article published on January 2012"
+    },
+    "quality judgment": {
+      "position": [
+        [
+          4408,
+          4409
+        ]
+      ],
+      "sentence": [
+        "reaching a correlation coefficient 0.88 of with human quality judgments (m1)"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q56475812",
+      "matched_words": "Quality judgments of journals as indicators of research performance in the humanities and the social and behavioral sciences",
+      "wikidata_desc": "article by A. J. Nederhof & R. A. Zwaan published June 1991 in Journal of the Association for Information Science and Technology"
+    },
+    "size": {
+      "position": [
+        [
+          4918,
+          4918
+        ]
+      ],
+      "sentence": [
+        "ability, counting and understanding of size attributes by using word lists to isolate attribute tuples that contain colors"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q59053608",
+      "matched_words": "Of size and abundance",
+      "wikidata_desc": "scientific article published in Nature"
+    },
+    "mm": {
+      "position": [
+        [
+          5388,
+          5388
+        ]
+      ],
+      "sentence": [
+        "spice performs best in terms of distinguishing two between model generated captions mm pairs as illustrated in table 4 and figure right. 4 this is important as distinguishing"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q836",
+      "matched_words": "Myanmar",
+      "wikidata_desc": "sovereign state in Southeast Asia"
+    },
+    "pairwise classification": {
+      "position": [
+        [
+          5478,
+          5479
+        ]
+      ],
+      "sentence": [
+        "pairwise classification accuracy of automated metrics at matching human judgment with reference table captions 4"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q114217067",
+      "matched_words": "Pairwise classification using quantum support vector machine with Kronecker kernel",
+      "wikidata_desc": "scientific article published in 2022"
+    },
+    "human model": {
+      "position": [
+        [
+          5532,
+          5533
+        ]
+      ],
+      "sentence": [
+        "meteor is best differentiating at human and model captions hm and human captions where one incorrect is (hi)"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q55197566",
+      "matched_words": "Human and model observer performance for lesion detection in breast cone beam CT images with the FDK reconstruction.",
+      "wikidata_desc": "scientific article"
+    },
+    "image description": {
+      "position": [
+        [
+          5903,
+          5904
+        ],
+        [
+          6222,
+          6223
+        ]
+      ],
+      "sentence": [
+        "j : framing image description as a task: ranking data",
+        "d : cider consensus based j : framing image description as a task: ranking data image description evaluation"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q59580687",
+      "matched_words": "Image description and image comparison",
+      "wikidata_desc": "doctoral thesis by Victoria G. Mortimer"
+    },
+    "semantic inference": {
+      "position": [
+        [
+          5946,
+          5947
+        ]
+      ],
+      "sentence": [
+        "j : from image descriptions to denotations: visual new similarity metrics for semantic inference over event tacl descriptions. 2 5. 6778 lin"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q31020503",
+      "matched_words": "Semantic inference using chemogenomics data for drug discovery",
+      "wikidata_desc": "scientific article"
+    },
+    "microsoft coco": {
+      "position": [
+        [
+          5986,
+          5986
+        ]
+      ],
+      "sentence": [
+        "zitnick, p., c l : microsoft coco common objects in context"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q30337048",
+      "matched_words": "Microsoft COCO: Common Objects in Context",
+      "wikidata_desc": "scientific article (publication date: 21 February 2015)"
+    },
+    "description generation": {
+      "position": [
+        [
+          6137,
+          6138
+        ]
+      ],
+      "sentence": [
+        "b : automatic description generation from a images: survey of models"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q41967340",
+      "matched_words": "Description generation of abnormal densities found in radiographs.",
+      "wikidata_desc": "scientific article published on January 1995"
+    },
+    "translation evaluation": {
+      "position": [
+        [
+          6243,
+          6244
+        ]
+      ],
+      "sentence": [
+        "a : meteor universal language specific translation evaluation for any target language"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q65355753",
+      "matched_words": "Translation Evaluation of Aging, Inflammation and HIV in Lung Function (TEAL)",
+      "wikidata_desc": "clinical trial"
+    },
+    "machine 15": {
+      "position": [
+        [
+          6285,
+          6286
+        ]
+      ],
+      "sentence": [
+        "in acl second workshop on statistical machine 15. translation johnson"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q939794",
+      "wikidata_desc": "album by Millencolin",
+      "matched_words": "machine 15"
+    },
+    "vision": {
+      "position": [
+        [
+          6369,
+          6370
+        ]
+      ],
+      "sentence": [
+        "in emnlp 4th workshop on vision and language"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q1682108",
+      "wikidata_desc": "something seen in a dream, trance, or religious ecstasy",
+      "matched_words": "vision"
+    },
+    "visual semantic": {
+      "position": [
+        [
+          6415,
+          6415
+        ]
+      ],
+      "sentence": [
+        "r : visual semantic search videos retrieving via complex textual queries"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q38443677",
+      "matched_words": "Visual semantic features are activated during the processing of concrete words: event-related potential evidence for perceptual semantic priming",
+      "wikidata_desc": "scientific article published on September 2000"
+    },
+    "shallow semantic": {
+      "position": [
+        [
+          6557,
+          6557
+        ]
+      ],
+      "sentence": [
+        "d : shallow semantic parsing using support vector machines"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q38400334",
+      "matched_words": "Shallow semantic parsing of randomized controlled trial reports",
+      "wikidata_desc": "scientific article published on January 2006"
+    }
+  },
+  "METHOD": {
+    "gram": {
+      "position": [
+        [
+          71,
+          71
+        ],
+        [
+          476,
+          476
+        ],
+        [
+          481,
+          481
+        ],
+        [
+          502,
+          502
+        ],
+        [
+          1004,
+          1004
+        ],
+        [
+          1198,
+          1198
+        ],
+        [
+          4569,
+          4569
+        ]
+      ],
+      "sentence": [
+        "automatic existing evaluation metrics are primarily sensitive to gram which overlap, is neither necessary nor sufficient for the task of simulating human judgment",
+        "an score calculated over tuples in the candidate reference and scene marily graphs sensitive to automatic existing evaluation metrics are primarily sensitive to gram which overlap, is neither necessary nor sufficient for the task of simulating human judgment gram overlap",
+        "an score calculated over tuples in the candidate reference and scene marily graphs sensitive to automatic existing evaluation metrics are primarily sensitive to gram which overlap, is neither necessary nor sufficient for the task of simulating human judgment gram overlap gram overlap is neither nor necessary sufficient for two sentences to convey the same meaning to",
+        "sufficient for two sentences to convey the same meaning to [14]. illustrate the limitations of an score calculated over tuples in the candidate reference and scene marily graphs sensitive to automatic existing evaluation metrics are primarily sensitive to gram which overlap, is neither necessary nor sufficient for the task of simulating human judgment gram overlap gram overlap is neither nor necessary sufficient for two sentences to convey the same meaning to gram comparisons",
+        "we show that spice outperforms existing sufficient for two sentences to convey the same meaning to [14]. illustrate the limitations of an score calculated over tuples in the candidate reference and scene marily graphs sensitive to automatic existing evaluation metrics are primarily sensitive to gram which overlap, is neither necessary nor sufficient for the task of simulating human judgment gram overlap gram overlap is neither nor necessary sufficient for two sentences to convey the same meaning to gram comparisons gram metrics in terms of agreement with human of evaluations model generated captions",
+        "most of the metrics in common for use caption evaluation are based on we show that spice outperforms existing sufficient for two sentences to convey the same meaning to [14]. illustrate the limitations of an score calculated over tuples in the candidate reference and scene marily graphs sensitive to automatic existing evaluation metrics are primarily sensitive to gram which overlap, is neither necessary nor sufficient for the task of simulating human judgment gram overlap gram overlap is neither nor necessary sufficient for two sentences to convey the same meaning to gram comparisons gram metrics in terms of agreement with human of evaluations model generated captions gram matching",
+        "counting and other existing questions most of the metrics in common for use caption evaluation are based on we show that spice outperforms existing sufficient for two sentences to convey the same meaning to [14]. illustrate the limitations of an score calculated over tuples in the candidate reference and scene marily graphs sensitive to automatic existing evaluation metrics are primarily sensitive to gram which overlap, is neither necessary nor sufficient for the task of simulating human judgment gram overlap gram overlap is neither nor necessary sufficient for two sentences to convey the same meaning to gram comparisons gram metrics in terms of agreement with human of evaluations model generated captions gram matching gram evaluation metrics have little to offer in terms of the understanding relative strengths and weaknesses"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q41803",
+      "wikidata_desc": "unit of mass equal to 1/1000th of a kilogram",
+      "matched_words": "gram"
+    },
+    "spice": {
+      "position": [
+        [
+          114,
+          114
+        ]
+      ],
+      "sentence": [
+        "and propose a automated new caption evaluation metric defined over scene graphs spice. coined extensive evaluations across a range of models and indicate datasets that spice captures human"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q42527",
+      "wikidata_desc": "dried seed, fruit, root, bark, or vegetable substance primarily used for flavoring, coloring or preserving food",
+      "matched_words": "spice"
+    },
+    "cider": {
+      "position": [
+        [
+          160,
+          160
+        ],
+        [
+          1267,
+          1267
+        ],
+        [
+          1301,
+          1301
+        ]
+      ],
+      "sentence": [
+        "0.43 versus for cider and 0 53 for meteor)",
+        "is [11] a package of a measures for automatic evaluation of text summaries f-measures. using 0.43 versus for cider and 0 53 for meteor) cider applies term frequency inverse document frequency tfidf weights to grams in the candidate and reference",
+        "with the exception of is [11] a package of a measures for automatic evaluation of text summaries f-measures. using 0.43 versus for cider and 0 53 for meteor) cider applies term frequency inverse document frequency tfidf weights to grams in the candidate and reference cider"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q167296",
+      "wikidata_desc": "fermented alcoholic beverage from apple juice",
+      "matched_words": "cider"
+    },
+    "datasets": {
+      "position": [
+        [
+          242,
+          242
+        ]
+      ],
+      "sentence": [
+        "while datasets new often spur considerable innovationas has been the case with the coco ms captioning challenge"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q107382240",
+      "wikidata_desc": "Python library",
+      "matched_words": "datasets"
+    },
+    "graph": {
+      "position": [
+        [
+          1569,
+          1569
+        ]
+      ],
+      "sentence": [
+        "the process. matching our work differs from these approaches as we represent sentences scene using graphs"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q141488",
+      "wikidata_desc": "mathematical structure; representation of a set of objects where some pairs of the objects are connected by links",
+      "matched_words": "graph"
+    },
+    "stage": {
+      "position": [
+        [
+          872,
+          872
+        ]
+      ],
+      "sentence": [
+        "we use a two stage similar approach to previous works [16,17,18]"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q194428",
+      "wikidata_desc": "designated space for the performance of productions",
+      "matched_words": "stage"
+    },
+    "gould": {
+      "position": [
+        [
+          1164,
+          1164
+        ]
+      ],
+      "sentence": [
+        "stephen metrics gould are posed as similarity measures that compare a candidate sentence a to set of reference"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q669368",
+      "wikidata_desc": "family name",
+      "matched_words": "gould"
+    },
+    "exact": {
+      "position": [
+        [
+          1226,
+          1226
+        ],
+        [
+          4537,
+          4537
+        ]
+      ],
+      "sentence": [
+        "meteor uses exact",
+        "help understand the importance of we synonym-matching, also evaluated spice using exact matching only spice meteor uses exact exact in table performance 1). degraded only marginally"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q652369",
+      "wikidata_desc": "Dutch business software company",
+      "matched_words": "exact"
+    },
+    "paraphrase": {
+      "position": [
+        [
+          1232,
+          1232
+        ]
+      ],
+      "sentence": [
+        "and synonym paraphrase matches between grams to align sentences"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q255189",
+      "wikidata_desc": "restatement of the meaning of a text or passage using other words",
+      "matched_words": "paraphrase"
+    },
+    "grams": {
+      "position": [
+        [
+          1235,
+          1235
+        ]
+      ],
+      "sentence": [
+        "and synonym paraphrase matches between grams to align sentences"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q37522126",
+      "wikidata_desc": "family name",
+      "matched_words": "grams"
+    },
+    "score": {
+      "position": [
+        [
+          1244,
+          1244
+        ]
+      ],
+      "sentence": [
+        "before computing a weighted score with an alignment fragmentation penalty"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q539769",
+      "wikidata_desc": "communications satellite",
+      "matched_words": "score"
+    },
+    "rouge": {
+      "position": [
+        [
+          1251,
+          1251
+        ],
+        [
+          1427,
+          1427
+        ]
+      ],
+      "sentence": [
+        "rouge is [11] a package of a measures for automatic evaluation of text summaries f-measures. using",
+        "cider and meteor were found to have greater agreement with human consensus than and bleu rouge is [11] a package of a measures for automatic evaluation of text summaries f-measures. using rouge within [12]. the context of automatic mt evaluation"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q503205",
+      "wikidata_desc": "Brazilian pop band",
+      "matched_words": "rouge"
+    },
+    "term": {
+      "position": [
+        [
+          1269,
+          1269
+        ]
+      ],
+      "sentence": [
+        "a package of a measures for automatic evaluation of text summaries f-measures. using cider applies term frequency inverse document frequency tfidf weights to grams in the candidate and reference sentences"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q1969448",
+      "wikidata_desc": "word or phrase from a specialized area of knowledge",
+      "matched_words": "term"
+    },
+    "summaries": {
+      "position": [
+        [
+          1313,
+          1313
+        ],
+        [
+          6199,
+          6199
+        ]
+      ],
+      "sentence": [
+        "these methods were originally developed for the evaluation text of summaries or machine translations (mt)",
+        "c y : rouge a package for automatic evaluation of these methods were originally developed for the evaluation text of summaries or machine translations (mt) summaries"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q113327989",
+      "wikidata_desc": "scientific article published on 12 June 2005",
+      "matched_words": "summaries"
+    },
+    "smatch": {
+      "position": [
+        [
+          1744,
+          1744
+        ],
+        [
+          1764,
+          1764
+        ],
+        [
+          2883,
+          2883
+        ],
+        [
+          6731,
+          6731
+        ]
+      ],
+      "sentence": [
+        "for which a number of [25,26,17] parsers and the smatch evaluation metric have been developed",
+        "we found that amr representations using similarity for which a number of [25,26,17] parsers and the smatch evaluation metric have been developed smatch performed poorly as image caption representations",
+        "different inflectional forms matchor to if they are found in the same wordnet unlike sysnet. we found that amr representations using similarity for which a number of [25,26,17] parsers and the smatch evaluation metric have been developed smatch performed poorly as image caption representations smatch [27]",
+        "k : different inflectional forms matchor to if they are found in the same wordnet unlike sysnet. we found that amr representations using similarity for which a number of [25,26,17] parsers and the smatch evaluation metric have been developed smatch performed poorly as image caption representations smatch [27] smatch an evaluation metric for semantic feature in: structures. acl (2)"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q5185959",
+      "wikidata_desc": "Belgian supermarket chain",
+      "matched_words": "smatch"
+    },
+    "image": {
+      "position": [
+        [
+          3976,
+          3976
+        ]
+      ],
+      "sentence": [
+        "but association to images was performed using image an retrieval system"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q478798",
+      "wikidata_desc": "artifact that depicts or records visual perception",
+      "matched_words": "image"
+    },
+    "primacy": {
+      "position": [
+        [
+          1885,
+          1885
+        ]
+      ],
+      "sentence": [
+        "because we exploit the structure semantic of scene descriptions and give primacy to nouns"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q52146179",
+      "wikidata_desc": "episode of Numbers (S4 E7)",
+      "matched_words": "primacy"
+    },
+    "semantic parsing": {
+      "position": [
+        [
+          5620,
+          5622
+        ]
+      ],
+      "sentence": [
+        "we are aware that significant challenges still remain in semantic and parsing, hope that the development of more powerful parsers will underpin improvements further to the metric"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q55632839"
+    },
+    "r": {
+      "position": [
+        [
+          2110,
+          2110
+        ],
+        [
+          6413,
+          6413
+        ],
+        [
+          6898,
+          6898
+        ]
+      ],
+      "sentence": [
+        "r is set the of hyper edges representing relations between objects",
+        "r is set the of hyper edges representing relations between objects r : visual semantic search videos retrieving via complex textual queries",
+        "r is set the of hyper edges representing relations between objects r : visual semantic search videos retrieving via complex textual queries r : expectation based syntactic comprehension"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q206904",
+      "wikidata_desc": "programming language",
+      "matched_words": "r"
+    },
+    "duplication": {
+      "position": [
+        [
+          2270,
+          2270
+        ]
+      ],
+      "sentence": [
+        "duplication of instances object was necessary to enable scene graphs to be grounded to image in"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q51984269",
+      "wikidata_desc": "superpower of creating physical duplicates of oneself",
+      "matched_words": "duplication"
+    },
+    "rule": {
+      "position": [
+        [
+          2342,
+          2342
+        ]
+      ],
+      "sentence": [
+        "we adopt a variant of the rule based version the of stanford scene graph parser [16]"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q1151067",
+      "wikidata_desc": "prescription, including laws, regulations, instructions, guidelines, and social conventions; determinate method for performing any operation",
+      "matched_words": "rule"
+    },
+    "free": {
+      "position": [
+        [
+          2356,
+          2356
+        ]
+      ],
+      "sentence": [
+        "a probabilistic context free (pcfg) grammar dependency parser is followed by three post processing steps simplify that quantificational modifiers"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q45650",
+      "wikidata_desc": "English rock band",
+      "matched_words": "free"
+    },
+    "parser": {
+      "position": [
+        [
+          2894,
+          2894
+        ]
+      ],
+      "sentence": [
+        "a recently proposed metric for evaluating amr that parsers considers multiple alignments of amr graphs"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q105832388",
+      "wikidata_desc": "software that interprets a string",
+      "matched_words": "parser"
+    },
+    "resolve": {
+      "position": [
+        [
+          2373,
+          2373
+        ]
+      ],
+      "sentence": [
+        "resolve pronouns and handle plural the nouns. resulting tree structure is then parsed according to nine"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q2706519",
+      "wikidata_desc": "original song written and composed by Dave Grohl, Nate Mendel, Taylor Hawkins, Chris Shiflett",
+      "matched_words": "resolve"
+    },
+    "amod": {
+      "position": [
+        [
+          2418,
+          2418
+        ]
+      ],
+      "sentence": [
+        "one of the linguistic rules adjectival amod captures modifiers"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q4747446",
+      "wikidata_desc": "major weekly newspaper published in Bangladesh",
+      "matched_words": "amod"
+    },
+    "young": {
+      "position": [
+        [
+          2441,
+          2441
+        ]
+      ],
+      "sentence": [
+        "results which in the object mention girl with attribute young"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q12678727",
+      "wikidata_desc": "family name",
+      "matched_words": "young"
+    },
+    "pipeline": {
+      "position": [
+        [
+          2446,
+          2446
+        ]
+      ],
+      "sentence": [
+        "full details of pipeline the can be found in the original spice paper. slightly modifies the original parser to"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q1192422",
+      "wikidata_desc": "data processing chain",
+      "matched_words": "pipeline"
+    },
+    "numeric modifier": {
+      "position": [
+        [
+          2488,
+          2489
+        ]
+      ],
+      "sentence": [
+        "nouns transformation that duplicates nodes individual of the graph according to the value of their numeric modifier"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q113899784"
+    },
+    "object": {
+      "position": [
+        [
+          2504,
+          2504
+        ],
+        [
+          4620,
+          4620
+        ]
+      ],
+      "sentence": [
+        "\\\\fspice: instead, semantic propositional image caption numeric 7 evaluation modifiers are encoded as object attributes",
+        "spice is comprised of \\\\fspice: instead, semantic propositional image caption numeric 7 evaluation modifiers are encoded as object attributes object"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q488383",
+      "wikidata_desc": "anything that exists and may be acted upon by a subject",
+      "matched_words": "object"
+    },
+    "operator": {
+      "position": [
+        [
+          2768,
+          2768
+        ]
+      ],
+      "sentence": [
+        "define we the binary matching operator as the function that returns tuples matching in two scene graphs"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q131030",
+      "wikidata_desc": "mapping from one vector space or module to another in mathematics",
+      "matched_words": "operator"
+    },
+    "p": {
+      "position": [
+        [
+          2785,
+          2785
+        ]
+      ],
+      "sentence": [
+        "we then define precision p"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q9946",
+      "wikidata_desc": "letter of the Latin alphabet",
+      "matched_words": "p"
+    },
+    "amr": {
+      "position": [
+        [
+          2892,
+          2892
+        ]
+      ],
+      "sentence": [
+        "a recently proposed metric for evaluating amr that parsers considers multiple alignments of amr graphs"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q2844485",
+      "wikidata_desc": "male given name",
+      "matched_words": "amr"
+    },
+    "and": {
+      "position": [
+        [
+          2943,
+          2943
+        ]
+      ],
+      "sentence": [
+        "many relations such as in and on are so common they deserve arguably no credit when applied to the wrong being"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q12364761",
+      "wikidata_desc": "conjunction",
+      "matched_words": "and"
+    },
+    "metric": {
+      "position": [
+        [
+          373,
+          373
+        ],
+        [
+          3173,
+          3173
+        ],
+        [
+          5293,
+          5293
+        ]
+      ],
+      "sentence": [
+        "analyzed in greater detail than with automated other one metrics. of the problems with using metrics such as bleu [10]",
+        "more easily interpretable analyzed in greater detail than with automated other one metrics. of the problems with using metrics such as bleu [10] metrics",
+        "the number reference of captions available to the more easily interpretable analyzed in greater detail than with automated other one metrics. of the problems with using metrics such as bleu [10] metrics metrics is varied from 1 to 48"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q650486",
+      "wikidata_desc": "Canadian indie rock band",
+      "matched_words": "metric"
+    },
+    "system": {
+      "position": [
+        [
+          3225,
+          3225
+        ],
+        [
+          3392,
+          3392
+        ],
+        [
+          4300,
+          4300
+        ]
+      ],
+      "sentence": [
+        "study we both system level and caption level correlation with human data judgments. for the evaluation is drawn from",
+        "study we both system level and caption level correlation with human data judgments. for the evaluation is drawn from system level pearsons correlation between evaluation metrics and judgments human for the 15 competition entries plus",
+        "and model model system-level 4.2 (mm). in correlation table 1 we report study we both system level and caption level correlation with human data judgments. for the evaluation is drawn from system level pearsons correlation between evaluation metrics and judgments human for the 15 competition entries plus system level correlations between metrics and human judgments over entries in the 2015 coco captioning challenge"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q58778",
+      "wikidata_desc": "set of interacting or interdependent components",
+      "matched_words": "system"
+    },
+    "correlation": {
+      "position": [
+        [
+          3352,
+          3352
+        ],
+        [
+          5018,
+          5018
+        ]
+      ],
+      "sentence": [
+        "for caption level we correlation, evaluate using kendalls rank correlation coefficient",
+        "less that evidence any of these models have learned to count caption-level 4.4 objects. in for caption level we correlation, evaluate using kendalls rank correlation coefficient correlation table 3 we report caption level correlations between automated metrics human and judgments on flickr"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q186290",
+      "wikidata_desc": "any statistical relationship, whether causal or not, between two random variables or bivariate data",
+      "matched_words": "correlation"
+    },
+    "same": {
+      "position": [
+        [
+          3791,
+          3791
+        ]
+      ],
+      "sentence": [
+        "each entry was evaluated using the subset same of 1000 images from the c40 test set"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q932640",
+      "wikidata_desc": "city in East Timor",
+      "matched_words": "same"
+    },
+    "an": {
+      "position": [
+        [
+          3977,
+          3977
+        ]
+      ],
+      "sentence": [
+        "but association to images was performed using image an retrieval system"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q954372",
+      "wikidata_desc": "French-Chilean musician, rapper, and activist",
+      "matched_words": "an"
+    },
+    "amt": {
+      "position": [
+        [
+          4049,
+          4049
+        ],
+        [
+          4119,
+          4119
+        ],
+        [
+          4155,
+          4155
+        ]
+      ],
+      "sentence": [
+        "captions were scored using amt on a graded correctness scale from 1 the description has no relevance to the image",
+        "pascal sentence dataset originally containing five captions imagewere per annotated with 50 captions each using captions were scored using amt on a graded correctness scale from 1 the description has no relevance to the image amt",
+        "pascal sentence dataset originally containing five captions imagewere per annotated with 50 captions each using captions were scored using amt on a graded correctness scale from 1 the description has no relevance to the image amt amt workers were not asked to evaluate captions against images"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q399445",
+      "wikidata_desc": "designation for an administrative territorial entity",
+      "matched_words": "amt"
+    },
+    "triples": {
+      "position": [
+        [
+          4175,
+          4175
+        ]
+      ],
+      "sentence": [
+        "they were asked to evaluate caption by triples identifying which of the sentences"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q115099831",
+      "wikidata_desc": "South Korean girl group",
+      "matched_words": "triples"
+    },
+    "b": {
+      "position": [
+        [
+          4182,
+          4182
+        ]
+      ],
+      "sentence": [
+        "b or c"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q9705",
+      "wikidata_desc": "second letter of the Latin alphabet",
+      "matched_words": "b"
+    },
+    "sentence": {
+      "position": [
+        [
+          4190,
+          4190
+        ]
+      ],
+      "sentence": [
+        "is more similar to sentence where a?, sentence a is a reference caption"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q41796",
+      "wikidata_desc": "textual unit consisting of one or more words that are grammatically linked, expressing a complete thought in non-functional linguistics",
+      "matched_words": "sentence"
+    },
+    "model": {
+      "position": [
+        [
+          4270,
+          4270
+        ]
+      ],
+      "sentence": [
+        "candidate sentence pairs were generated from both human model and captions"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q4610556",
+      "wikidata_desc": "person employed to display, advertise and promote products, or to serve as a visual aid",
+      "matched_words": "model"
+    },
+    "we": {
+      "position": [
+        [
+          4527,
+          4527
+        ]
+      ],
+      "sentence": [
+        "to help understand the importance of we synonym-matching, also evaluated spice using exact matching only spice exact in table performance 1). degraded"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q83799",
+      "wikidata_desc": "novel by Yevgeny Zamyatin",
+      "matched_words": "we"
+    },
+    "color": {
+      "position": [
+        [
+          4559,
+          4559
+        ]
+      ],
+      "sentence": [
+        "although we expect to synonym-matching become more important when fewer reference captions are color 4.3 available. perception"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q1075",
+      "wikidata_desc": "characteristic of visual perception",
+      "matched_words": "color"
+    },
+    "counting": {
+      "position": [
+        [
+          4564,
+          4564
+        ]
+      ],
+      "sentence": [
+        "counting and other existing questions gram evaluation metrics have little to offer in terms of the"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q247154",
+      "wikidata_desc": "action of finding the number of elements of a finite set of objects",
+      "matched_words": "counting"
+    },
+    "relation": {
+      "position": [
+        [
+          4622,
+          4622
+        ]
+      ],
+      "sentence": [
+        "relation and attribute tuples"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q203066",
+      "wikidata_desc": "property that assigns truth values to k-tuples of individuals",
+      "matched_words": "relation"
+    },
+    "subdivide": {
+      "position": [
+        [
+          4852,
+          4852
+        ]
+      ],
+      "sentence": [
+        "0.000 spice has the useful property that it is defined over tuples that are easy subdivide to into meaningful categories"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q110866956",
+      "wikidata_desc": "To divide into smaller sections",
+      "matched_words": "subdivide"
+    },
+    "precision": {
+      "position": [
+        [
+          4861,
+          4861
+        ]
+      ],
+      "sentence": [
+        "precision"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q962365",
+      "wikidata_desc": "measure of random errors in a system: the variation among measurements of the same value",
+      "matched_words": "precision"
+    },
+    "scores": {
+      "position": [
+        [
+          5143,
+          5143
+        ]
+      ],
+      "sentence": [
+        "relative to the correlation between human scores of 0 73, this represents only a modest over improvement existing metrics"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q3476059",
+      "wikidata_desc": "Chicken & ribs restaurant",
+      "matched_words": "scores"
+    },
+    "y": {
+      "position": [
+        [
+          5870,
+          5870
+        ]
+      ],
+      "sentence": [
+        "bengio, r.s., y : show"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q9973",
+      "wikidata_desc": "letter of the Latin alphabet",
+      "matched_words": "y"
+    },
+    "j": {
+      "position": [
+        [
+          5900,
+          5900
+        ],
+        [
+          5934,
+          5934
+        ]
+      ],
+      "sentence": [
+        "j : framing image description as a task: ranking data",
+        "j : framing image description as a task: ranking data j : from image descriptions to denotations: visual new similarity metrics for semantic inference over event"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q9773",
+      "wikidata_desc": "letter of the Latin alphabet",
+      "matched_words": "j"
+    },
+    "jair": {
+      "position": [
+        [
+          5916,
+          5916
+        ],
+        [
+          6152,
+          6152
+        ]
+      ],
+      "sentence": [
+        "jair 47 4. 853899 young",
+        "jair 47 4. 853899 young jair 55 10. 409442 papineni"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q16580669",
+      "wikidata_desc": "male given name",
+      "matched_words": "jair"
+    },
+    "w": {
+      "position": [
+        [
+          6170,
+          6170
+        ]
+      ],
+      "sentence": [
+        "w : bleu a method for automatic evaluation of machine translation"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q9964",
+      "wikidata_desc": "letter of the Latin alphabet",
+      "matched_words": "w"
+    },
+    "consensus": {
+      "position": [
+        [
+          6220,
+          6220
+        ]
+      ],
+      "sentence": [
+        "d : cider consensus based image description evaluation"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q202722",
+      "wikidata_desc": "general agreement on a subject",
+      "matched_words": "consensus"
+    },
+    "s": {
+      "position": [
+        [
+          6385,
+          6385
+        ],
+        [
+          6770,
+          6770
+        ]
+      ],
+      "sentence": [
+        "s : a transition based algorithm for amr in: parsing. hlt-naacl",
+        "s : a transition based algorithm for amr in: parsing. hlt-naacl s : flickr30k entities collecting region to phrase correspondences for image-to-sentence richer models"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q9956",
+      "wikidata_desc": "19th letter in the English alphabet",
+      "matched_words": "s"
+    },
+    "stanford": {
+      "position": [
+        [
+          6490,
+          6490
+        ]
+      ],
+      "sentence": [
+        "manning, j., c d : universal stanford dependencies a cross linguistic typology"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q173813",
+      "wikidata_desc": "census-designated place in Santa Clara County, California, United States",
+      "matched_words": "stanford"
+    },
+    "support vector machines": {
+      "position": [
+        [
+          6561,
+          6563
+        ]
+      ],
+      "sentence": [
+        "d : shallow semantic parsing using support vector machines"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q61733185",
+      "wikidata_desc": "article",
+      "matched_words": "support vector machines"
+    },
+    "k": {
+      "position": [
+        [
+          6729,
+          6729
+        ]
+      ],
+      "sentence": [
+        "k : smatch an evaluation metric for semantic feature in: structures. acl (2)"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q9922",
+      "wikidata_desc": "letter of the Latin alphabet",
+      "matched_words": "k"
+    },
+    "semantic graph": {
+      "position": [
+        [
+          1679,
+          1680
+        ]
+      ],
+      "sentence": [
+        "several of these papers have demonstrated that semantic graphs can be parsed from natural language \\\\fspice: descriptions semantic propositional image caption [18,16]. 5 evaluation"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q38417382",
+      "matched_words": "Semantic graphs and associative memories",
+      "wikidata_desc": "scientific article published on 23 December 2004"
+    },
+    "modifier": {
+      "position": [
+        [
+          2371,
+          2371
+        ],
+        [
+          2420,
+          2420
+        ]
+      ],
+      "sentence": [
+        "free (pcfg) grammar dependency parser is followed by three post processing steps simplify that quantificational modifiers",
+        "one of the linguistic rules adjectival amod captures free (pcfg) grammar dependency parser is followed by three post processing steps simplify that quantificational modifiers modifiers"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q45342890",
+      "wikidata_desc": "substance that changes the velocity of a process without itself being consumed or transformed by the reaction",
+      "matched_words": "modifier"
+    },
+    "tuples": {
+      "position": [
+        [
+          2671,
+          2671
+        ]
+      ],
+      "sentence": [
+        "tuples. or we define the function t that returns logical tuples from a scene t as:"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q1684164",
+      "matched_words": "tuple space",
+      "wikidata_desc": "implementation of the associative memory paradigm for parallel/distributed computing, provides a repository of tuples that can be accessed concurrently"
+    },
+    "statistical machine": {
+      "position": [
+        [
+          6284,
+          6284
+        ],
+        [
+          6939,
+          6939
+        ],
+        [
+          6967,
+          6967
+        ]
+      ],
+      "sentence": [
+        "in acl second workshop on statistical machine 15. translation johnson",
+        "in acl tenth workshop on in acl second workshop on statistical machine 15. translation johnson statistical machine translation",
+        "in ninth acl workshop on in acl tenth workshop on in acl second workshop on statistical machine 15. translation johnson statistical machine translation statistical machine translation"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q3245113",
+      "matched_words": "statistical machine translation",
+      "wikidata_desc": "machine translation paradigm"
+    },
+    "question": {
+      "position": [
+        [
+          171,
+          171
+        ]
+      ],
+      "sentence": [
+        "spice can questions answer such as which caption generator best understands colors? can and caption generators recently introduction"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q189756",
+      "wikidata_desc": "linguistic expression used to make a request for information, or the request made using such an expression",
+      "matched_words": "question"
+    },
+    "m coco": {
+      "position": [
+        [
+          235,
+          235
+        ],
+        [
+          5339,
+          5339
+        ]
+      ],
+      "sentence": [
+        "flickr 30k and ms coco [5]",
+        "differences or in metric implementations we use the flickr 30k and ms coco [5] ms coco evaluation on code). pascal-50s"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q30337044",
+      "matched_words": "COCO",
+      "wikidata_desc": "dataset"
+    },
+    "semantic": {
+      "position": [
+        [
+          2541,
+          2541
+        ]
+      ],
+      "sentence": [
+        "scene grapheven if no associated relations can identifiedas graph disconnected nodes are easily handled by our semantic proposition score notwithstanding calculation. the use of the stanford scene graph parser"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q96276859",
+      "matched_words": "Semantic UI",
+      "wikidata_desc": "a UI framework designed for theming"
+    },
+    "human judgment": {
+      "position": [
+        [
+          343,
+          344
+        ]
+      ],
+      "sentence": [
+        "our closely method resembles human judgment while offering the additional advantage the that performance of any model can be analyzed in"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q51846764",
+      "matched_words": "Human judgments of positive and negative causal chains.",
+      "wikidata_desc": "scientific article published in April 2009"
+    },
+    "dependency tree": {
+      "position": [
+        [
+          1781,
+          1782
+        ]
+      ],
+      "sentence": [
+        "the use of dependency trees as the starting point for semantic parsing graphs appears to be a common theme spice"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q67387497",
+      "matched_words": "Dependency Trees for Greenlandic"
+    },
+    "similarity measure": {
+      "position": [
+        [
+          1168,
+          1169
+        ]
+      ],
+      "sentence": [
+        "stephen metrics gould are posed as similarity measures that compare a candidate sentence a to set of reference or ground truth sentences"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q29017317",
+      "wikidata_desc": "real-valued function that quantifies the similarity between two objects",
+      "matched_words": "similarity measure"
+    },
+    "weight": {
+      "position": [
+        [
+          1215,
+          1215
+        ]
+      ],
+      "sentence": [
+        "calculated as a weighted mean geometric over different length n-grams"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q39547324",
+      "matched_words": "A weighted and directed interareal connectivity matrix for macaque cerebral cortex.",
+      "wikidata_desc": "scientific article published on 25 September 2012"
+    },
+    "human consensus": {
+      "position": [
+        [
+          1422,
+          1423
+        ]
+      ],
+      "sentence": [
+        "cider and meteor were found to have greater agreement with human consensus than and bleu rouge within [12]. the context of automatic mt evaluation"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q38546351",
+      "matched_words": "Human consensus interferons: Bridging the natural and artificial cytokines with intrinsic disorder",
+      "wikidata_desc": "scientific article published on 06 July 2015"
+    },
+    "srls": {
+      "position": [
+        [
+          1463,
+          1463
+        ]
+      ],
+      "sentence": [
+        "srls are used to try to capture basic the event structure of sentences who did what"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q46300018",
+      "matched_words": "SRLS analysis of 15N spin relaxation from E. coli ribonuclease HI: the tensorial perspective.",
+      "wikidata_desc": "scientific article"
+    },
+    "first match": {
+      "position": [
+        [
+          1498,
+          1498
+        ]
+      ],
+      "sentence": [
+        "sentence similarity is calculated by first matching semantic frames across sentences by starting with the verbs at their however, head. this"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q15055391",
+      "wikidata_desc": "first match played by a team or in a venue",
+      "matched_words": "first match"
+    },
+    "match semantic": {
+      "position": [
+        [
+          1499,
+          1499
+        ]
+      ],
+      "sentence": [
+        "sentence similarity is calculated by first matching semantic frames across sentences by starting with the verbs at their however, head. this approach"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q114570156",
+      "matched_words": "MATCHING SEMANTICALLY DESCRIBED WEB SERVICES USING ONTOLOGIES",
+      "wikidata_desc": "scientific article published in 2006"
+    },
+    "parse": {
+      "position": [
+        [
+          1683,
+          1683
+        ],
+        [
+          2385,
+          2385
+        ]
+      ],
+      "sentence": [
+        "several of these papers have demonstrated that semantic graphs can be parsed from natural language \\\\fspice: descriptions semantic propositional image caption [18,16]. 5 evaluation the task of",
+        "resolve pronouns and handle plural the nouns. resulting tree structure is then several of these papers have demonstrated that semantic graphs can be parsed from natural language \\\\fspice: descriptions semantic propositional image caption [18,16]. 5 evaluation the task of parsed according to nine simple rules linguistic to extract lemmatized objects"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q107383341",
+      "matched_words": "parsedatetime",
+      "wikidata_desc": "Python library"
+    },
+    "g(s": {
+      "position": [
+        [
+          2006,
+          2006
+        ]
+      ],
+      "sentence": [
+        "and the scene for graph the reference captions s is denoted by g(s)"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q50294372",
+      "matched_words": "G(s):GTP activates Adenylyl cyclase",
+      "wikidata_desc": "An instance of the biological reaction in Homo sapiens with Reactome ID (R-HSA-381704)"
+    },
+    "linguistic rule": {
+      "position": [
+        [
+          2513,
+          2514
+        ]
+      ],
+      "sentence": [
+        "we add an additional linguistic rule that ensures that nouns will always appear as objects the in scene grapheven if no"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q52273192",
+      "matched_words": "Linguistic rules and the perception and recall of speech by schizophrenic patients.",
+      "wikidata_desc": "scientific article published in September 1967"
+    },
+    "noun": {
+      "position": [
+        [
+          2518,
+          2518
+        ]
+      ],
+      "sentence": [
+        "we add an additional linguistic rule that ensures that nouns will always appear as objects the in scene grapheven if no associated relations can identifiedas"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q1084",
+      "wikidata_desc": "word that functions as the name of a specific object or set of objects",
+      "matched_words": "noun"
+    },
+    "precision p": {
+      "position": [
+        [
+          2784,
+          2784
+        ]
+      ],
+      "sentence": [
+        "we then define precision p"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q10638473",
+      "matched_words": "Precision Pistol Competition"
+    },
+    "multiple alignment": {
+      "position": [
+        [
+          2896,
+          2897
+        ]
+      ],
+      "sentence": [
+        "a recently proposed metric for evaluating amr that parsers considers multiple alignments of amr graphs"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q114677893",
+      "wikidata_desc": "ontology part of OBOFoundry",
+      "matched_words": "multiple alignment"
+    },
+    "unintended side": {
+      "position": [
+        [
+          3025,
+          3026
+        ]
+      ],
+      "sentence": [
+        "are there risks of unintended side effects [30]"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q50158602",
+      "matched_words": "Unintended Side Effects of Transformation Are Very Rare in Cryptococcus neoformans.",
+      "wikidata_desc": "scientific article published on 5 January 2018"
+    },
+    "attribute": {
+      "position": [
+        [
+          3096,
+          3096
+        ]
+      ],
+      "sentence": [
+        "attributes relations, and while ignoring other important aspects of grammar and syntax"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q2722260",
+      "wikidata_desc": "computer term which describes a variable linked to a particular instance or class; characteristics that are attributed to an object",
+      "matched_words": "attribute"
+    },
+    "pearson correlation coefficient": {
+      "position": [
+        [
+          3308,
+          3310
+        ]
+      ],
+      "sentence": [
+        "we use the pearson correlation coefficient"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q1136628",
+      "matched_words": "Pearson product-moment correlation coefficient",
+      "wikidata_desc": "type of coefficient"
+    },
+    "linear association": {
+      "position": [
+        [
+          3315,
+          3316
+        ]
+      ],
+      "sentence": [
+        "although pearsons measures linear association"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q34738558",
+      "matched_words": "Linear association between cellular DNA and Epstein-Barr virus DNA in a human lymphoblastoid cell line",
+      "wikidata_desc": "scientific article"
+    },
+    "manually": {
+      "position": [
+        [
+          3893,
+          3893
+        ]
+      ],
+      "sentence": [
+        "the images were manually to selected focus mainly on people and animals performing actions"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q110136244",
+      "matched_words": "manually curated database",
+      "wikidata_desc": "type of database"
+    },
+    "[35]": {
+      "position": [
+        [
+          4039,
+          4039
+        ]
+      ],
+      "sentence": [
+        "flickr 30k and coco captions as the dataset composite [35]"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q29543535",
+      "matched_words": "[35] Isoelectric focusing",
+      "wikidata_desc": "scientific article (publication date:  1990)"
+    },
+    "correlation table": {
+      "position": [
+        [
+          4295,
+          4296
+        ]
+      ],
+      "sentence": [
+        "and model model system-level 4.2 (mm). in correlation table 1 we report system level correlations between metrics and human judgments over entries in the"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q26856898",
+      "matched_words": "correspondence table"
+    },
+    "m5": {
+      "position": [
+        [
+          4445,
+          4445
+        ]
+      ],
+      "sentence": [
+        "and across each dimension of quality representing m5, correctness"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q1229371",
+      "wikidata_desc": "Istanbul Metro line",
+      "matched_words": "m5"
+    },
+    "exact match": {
+      "position": [
+        [
+          4533,
+          4534
+        ]
+      ],
+      "sentence": [
+        "to help understand the importance of we synonym-matching, also evaluated spice using exact matching only spice exact in table performance 1). degraded only marginally"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q39893449",
+      "wikidata_desc": "SKOS mapping relation (for use with P4390): two concepts have equivalent meaning, and the link can be exploited across a wide range of applications and schemes; the link is meant to be transitive",
+      "matched_words": "exact match"
+    },
+    "error mode": {
+      "position": [
+        [
+          4587,
+          4588
+        ]
+      ],
+      "sentence": [
+        "or error modes"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q18424571",
+      "matched_words": "Error Modes and Effects Analysis"
+    },
+    "word list": {
+      "position": [
+        [
+          4923,
+          4924
+        ]
+      ],
+      "sentence": [
+        "ability, counting and understanding of size attributes by using word lists to isolate attribute tuples that contain colors"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q697133",
+      "matched_words": "words frequency list",
+      "wikidata_desc": "list of words with their frequency"
+    },
+    "adjective": {
+      "position": [
+        [
+          4941,
+          4941
+        ]
+      ],
+      "sentence": [
+        "and adjectives, size-related respectively"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q38429954",
+      "matched_words": "Adjectives, phrases, and sentences: intracorrelation of three five-factor personality inventories",
+      "wikidata_desc": "scientific article published on December 2002"
+    },
+    "73": {
+      "position": [
+        [
+          5146,
+          5146
+        ]
+      ],
+      "sentence": [
+        "relative to the correlation between human scores of 0 73, this represents only a modest over improvement existing metrics"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q713122",
+      "wikidata_desc": "natural number",
+      "matched_words": "73"
+    },
+    "rank correlation": {
+      "position": [
+        [
+          5238,
+          5239
+        ]
+      ],
+      "sentence": [
+        "be for established. consistency with previous evaluations on the pascal dataset instead [12], of reporting rank correlations we evaluate on this dataset using accuracy"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q3753228",
+      "wikidata_desc": "any of several statistics that measure an ordinal association",
+      "matched_words": "rank correlation"
+    },
+    "evaluator": {
+      "position": [
+        [
+          5274,
+          5274
+        ]
+      ],
+      "sentence": [
+        "higher score to caption the in each candidate pair most commonly preferred by human to evaluators. help quantify the impact of reference captions on performance"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q113178969",
+      "matched_words": "Evaluators Not Designers:",
+      "wikidata_desc": "scientific article published on 15 December 2004"
+    },
+    "annotator": {
+      "position": [
+        [
+          5648,
+          5648
+        ]
+      ],
+      "sentence": [
+        "in future work we hope to use human to annotators establish an upper bound for how closely spice approximates human judgments given perfect semantic parsing"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q105842399",
+      "wikidata_desc": "one who adds explanatory or informational notes to a text",
+      "matched_words": "annotator"
+    },
+    "convolutional network": {
+      "position": [
+        [
+          5828,
+          5829
+        ]
+      ],
+      "sentence": [
+        "t : long term recurrent convolutional networks for recognition visual and description"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q45963341",
+      "matched_words": "Convolutional networks can learn to generate affinity graphs for image segmentation.",
+      "wikidata_desc": "scientific article"
+    },
+    "eacl": {
+      "position": [
+        [
+          6251,
+          6251
+        ]
+      ],
+      "sentence": [
+        "in eacl 2014 workshop on statistical translation. machine 14. (2014) gim enez"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q1377231",
+      "matched_words": "European Anti-Capitalist Left",
+      "wikidata_desc": "European informal political network for left-wing parties"
+    },
+    "textual query": {
+      "position": [
+        [
+          6422,
+          6423
+        ]
+      ],
+      "sentence": [
+        "r : visual semantic search videos retrieving via complex textual queries"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q33659981",
+      "matched_words": "Textual query of personal photos facilitated by large-scale web data",
+      "wikidata_desc": "scientific article published in May 2011"
+    },
+    "unbiased": {
+      "position": [
+        [
+          6866,
+          6866
+        ]
+      ],
+      "sentence": [
+        "a a : unbiased look at dataset bias"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q7882384",
+      "matched_words": "unbiased.co.uk"
+    },
+    "psycholinguistic": {
+      "position": [
+        [
+          6888,
+          6888
+        ]
+      ],
+      "sentence": [
+        "j : a probabilistic earley parser as a psycholinguistic model"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q179488",
+      "matched_words": "psycholinguistics",
+      "wikidata_desc": "study of relations between psychology and language"
+    },
+    "expectation base syntactic": {
+      "position": [
+        [
+          6900,
+          6901
+        ]
+      ],
+      "sentence": [
+        "r : expectation based syntactic comprehension"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q38395891",
+      "matched_words": "Expectation-based syntactic comprehension",
+      "wikidata_desc": "scientific article published on 30 July 2007"
+    }
+  },
+  "DATASET": {},
+  "TOOL": {
+    "picsom": {
+      "position": [
+        [
+          4682,
+          4682
+        ]
+      ],
+      "sentence": [
+        "captivator berkeley [40] lrcn montreal/toronto [1] m-rnn [2] nearest [41] neighbor m-rnn [42] brno mil picsom [43] university mlbl [44] neuraltalk [45] tsinghua acvt [36] spice random bigeye object relation attribute"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q80618031",
+      "matched_words": "PicSOM-self-organizing image retrieval with MPEG-7 content descriptors",
+      "wikidata_desc": "scientific article published on 01 January 2002"
+    }
+  },
+  "LANGUAGE": {},
+  "RESOURCE": {}
+}

@@ -1,0 +1,161 @@
+{
+  "math": {
+    "QA": 36,
+    "RT": 5,
+    "ST": 38,
+    "PR": 48,
+    "MP": 8,
+    "OC": 14,
+    "DG": 6,
+    "NA": 5,
+    "IT": 109,
+    "AG": 12,
+    "CT": 19,
+    "NT": 20,
+    "KT": 4,
+    "FA": 12,
+    "OA": 19,
+    "GT": 12,
+    "AT": 14,
+    "AP": 4,
+    "LO": 1,
+    "DS": 4,
+    "SG": 1,
+    "SP": 1,
+    "GN": 1,
+    "MG": 6,
+    "CO": 6,
+    "GR": 1,
+    "GM": 1
+  },
+  "quant-ph": {
+    "Unknown Subcategory": 176
+  },
+  "astro-ph": {
+    "Unknown Subcategory": 195,
+    "GA": 318,
+    "CO": 174,
+    "SR": 120,
+    "IM": 59,
+    "HE": 61,
+    "EP": 8
+  },
+  "physics": {
+    "optics": 96,
+    "atom-ph": 81,
+    "gen-ph": 2,
+    "flu-dyn": 43,
+    "ao-ph": 6,
+    "plasm-ph": 49,
+    "data-an": 6,
+    "comp-ph": 21,
+    "class-ph": 2,
+    "ins-det": 11,
+    "bio-ph": 5,
+    "geo-ph": 1,
+    "acc-ph": 3,
+    "chem-ph": 3,
+    "app-ph": 9,
+    "med-ph": 2,
+    "ed-ph": 1,
+    "pop-ph": 1,
+    "atm-clus": 1,
+    "soc-ph": 1
+  },
+  "cond-mat": {
+    "other": 15,
+    "mtrl-sci": 23,
+    "quant-gas": 44,
+    "stat-mech": 7,
+    "mes-hall": 18,
+    "str-el": 5,
+    "dis-nn": 3,
+    "Unknown Subcategory": 8,
+    "soft": 3
+  },
+  "cs": {
+    "LO": 22,
+    "CC": 3,
+    "IT": 109,
+    "AI": 27,
+    "MA": 2,
+    "NE": 3,
+    "NI": 16,
+    "DS": 3,
+    "NA": 1,
+    "CG": 7,
+    "LG": 33,
+    "DC": 17,
+    "SE": 6,
+    "HC": 6,
+    "CR": 4,
+    "CY": 11,
+    "SY": 18,
+    "RO": 17,
+    "GT": 2,
+    "DM": 2,
+    "CL": 8,
+    "CV": 76,
+    "IR": 4,
+    "FL": 1,
+    "PF": 5,
+    "SI": 4,
+    "SD": 1,
+    "DB": 1
+  },
+  "q-fin": {
+    "RM": 1,
+    "ST": 1,
+    "EC": 3,
+    "MF": 1,
+    "PM": 1,
+    "CP": 1
+  },
+  "stat": {
+    "TH": 38,
+    "ML": 30,
+    "AP": 7,
+    "ME": 6
+  },
+  "nlin": {
+    "PS": 50,
+    "AO": 4,
+    "CD": 8,
+    "SI": 6
+  },
+  "math-ph": {
+    "Unknown Subcategory": 8
+  },
+  "gr-qc": {
+    "Unknown Subcategory": 63
+  },
+  "hep-ph": {
+    "Unknown Subcategory": 1
+  },
+  "nucl-th": {
+    "Unknown Subcategory": 4
+  },
+  "nucl-ex": {
+    "Unknown Subcategory": 5
+  },
+  "q-bio": {
+    "NC": 3,
+    "PE": 2
+  },
+  "hep-th": {
+    "Unknown Subcategory": 1
+  },
+  "econ": {
+    "GN": 2,
+    "TH": 1
+  },
+  "eess": {
+    "SP": 6,
+    "AS": 1,
+    "IV": 5,
+    "SY": 3
+  },
+  "hep-ex": {
+    "Unknown Subcategory": 1
+  }
+}

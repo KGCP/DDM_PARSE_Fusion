@@ -1,0 +1,53 @@
+@prefix askg-data: <https://www.anu.edu.au/onto/scholarly/> .
+@prefix askg-onto: <https://www.anu.edu.au/onto/scholarly#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix domo: <https://www.anu.edu.au/onto/domo#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix tnnt: <https://soco.cecc.anu.edu.au/tool/TNNT#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+askg-data:Paper-0f3855c297f7d1 a askg-onto:Paper ;
+    rdfs:label "[Video Representation Learning Using Discriminative Pooling]-[J. Wang]-[2018]"@en ;
+    dc:title "Video Representation Learning Using Discriminative Pooling"^^xsd:string ;
+    askg-onto:hasSection askg-data:Abstract-1e02d7b05abc0c ;
+    askg-onto:presentedIn askg-data:Conference-CVPR ;
+    askg-onto:hasAuthor askg-data:J_Wang,
+        askg-data:A_Cherian,
+        askg-data:F_Porikli,
+        askg-data:S_Gould .
+
+askg-data:J_Wang rdfs:label "J Wang"@en .
+
+askg-data:Conference-CVPR rdfs:label "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"@en .
+
+askg-data:Abstract-1e02d7b05abc0c a askg-onto:Abstract ;
+    domo:keyword askg-data:KeywordOfSection-002464f10ada14,
+            askg-data:KeywordOfSection-240e5289a2eba4,
+            askg-data:KeywordOfSection-700c8a940734e1,
+            askg-data:KeywordOfSection-7246cf35eb1414,
+            askg-data:KeywordOfSection-c3b6b102319e53 ;
+    askg-onto:summary "discriminative pooling is a new approach to deep learning for action recognition in videos. The authors propose a nonlinear hyperplane that separates the unknown from the discriminative features in a video. They say the hyperplane can be used to learn action classifiers for short videos."^^xsd:string .
+
+askg-data:KeywordOfSection-002464f10ada14 a askg-onto:KeywordOfSection ;
+    askg-onto:correspondsTo askg-data:Keyword-recognition_tasks ;
+    askg-onto:similarityScore "0.5872"^^xsd:float .
+
+askg-data:KeywordOfSection-240e5289a2eba4 a askg-onto:KeywordOfSection ;
+    askg-onto:correspondsTo askg-data:Keyword-recognition_videos ;
+    askg-onto:similarityScore "0.595"^^xsd:float .
+
+askg-data:Paper-1116db0bffbb21 a askg-onto:Paper ;
+    rdfs:label "[Natural variation in preparation for nutrient depletion reveals a cost–benefit tradeoff]-[J. Wang]-[2015]"@en ;
+    dc:title "Natural variation in preparation for nutrient depletion reveals a cost–benefit tradeoff"^^xsd:string ;
+    askg-onto:hasSection askg-data:Abstract-d1dacdbd6ce7e9,
+        askg-data:Discussion-99d6bce501ba16,
+        askg-data:Experiment-bfacc0f202b0b0,
+        askg-data:Introduction-f3349a4f11078f,
+        askg-data:Methodology-04a36f1089ccdc,
+        askg-data:RelatedWork-8efede0a270b12 ;
+    askg-onto:hasAuthor askg-data:J_Wang,
+        askg-data:E_Atolia,
+        askg-data:B_Hua.

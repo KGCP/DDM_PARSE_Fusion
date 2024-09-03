@@ -1,0 +1,97 @@
+{
+    "General-Metadata": {
+        "FILENAME": "1203.1980.pdf",
+        "SEPARATOR": "/",
+        "PARENT": "/data/python-resources/AGRIF/docs-repo/ANU-Scholarly-KG/researchers-data-papers-2022",
+        "CANONICALPATH": "/data/python-resources/AGRIF/docs-repo/ANU-Scholarly-KG/researchers-data-papers-2022/1203.1980.pdf",
+        "ABSOLUTEPATH": "/data/python-resources/AGRIF/docs-repo/ANU-Scholarly-KG/researchers-data-papers-2022/1203.1980.pdf",
+        "PATH": "/data/python-resources/AGRIF/docs-repo/ANU-Scholarly-KG/researchers-data-papers-2022/1203.1980.pdf",
+        "FILE": true,
+        "DIRECTORY": false,
+        "FILELENGTH": 2380810,
+        "HIDDEN": false,
+        "ABSOLUTE": true,
+        "URL": "file:/data/python-resources/AGRIF/docs-repo/ANU-Scholarly-KG/researchers-data-papers-2022/1203.1980.pdf",
+        "URI": "file:/data/python-resources/AGRIF/docs-repo/ANU-Scholarly-KG/researchers-data-papers-2022/1203.1980.pdf",
+        "READ": true,
+        "WRITE": true,
+        "EXTENSION": "pdf",
+        "MODIFIED": "2022-06-02 01:54:06",
+        "DATE": 20220602,
+        "DATEPATTERN": "yyyyMMdd",
+        "TIME": 15406053,
+        "TIMEPATTERN": "HHmmssSSS",
+        "TYPE": "application/pdf",
+        "PID": "null",
+        "OID": "null",
+        "FID": "null",
+        "PROCESSOR": "unknown"
+    },
+    "PDF-META": {
+        "ORIGINAL": "unknown",
+        "TITLE": null,
+        "LANGUAGE": null,
+        "AUTHOR": null,
+        "CREATOR": null,
+        "SUBJECT": null,
+        "PRODUCER": "doPDF Ver 7.2 Build 376 (Windows 7 Business Edition (SP 1) - Version: 6.1.7601 (x86))",
+        "KEYWORDS": null,
+        "CREATION-DATE": {
+            "DATE": 20120309,
+            "DATEPATTERN": "yyyyMMdd",
+            "TIME": 151817000,
+            "TIMEPATTERN": "HHmmssSSS"
+        },
+        "MODIFIED-DATE": "unavailable",
+        "HAS-FORMS": false,
+        "HAS-METADATA-STREAM": false,
+        "HAS-OUTLINE": false,
+        "HAS-THREADS": false,
+        "TAGGED": false,
+        "PAGE-LAYOUT": "OneColumn",
+        "PAGE-MODE": "UseNone",
+        "TRAPPED": null,
+        "VERSION": 1.5,
+        "SECURITY": {
+            "ENCRYPTED": false
+        }
+    },
+    "Use-Case$Folder": "researchers-data-papers-2022",
+    "Specific-Metadata": {
+        "PDF.Author": "",
+        "PDF.Creator": "",
+        "PDF.Producer": "",
+        "PDF.Subject": "",
+        "PDF.Title": "",
+        "PDF.Number-of-pages": 11,
+        "PDF.Outlines": [],
+        "text-analysis": {
+            "text": "\f\uf0bf\uf0f7\n\n\uf0be\uf0f7\n\n\uf0bd\uf0f7\n\n\f\uf0bf\uf0f7\n\n\uf0be\uf0f7\n\n\uf0bd\uf0f7\n\n\f\uf0b4\uf0b1\uf0bd\uf0bf\uf0b4\uf020\uf0b1\uf0ad\uf0bd\uf0b7\uf0b4\uf0b4\n\n\uf0bf\uf0ac\uf0b1\uf0ae\uf020\uf0bf\uf0b2\uf0b9\uf0b4\uf0bb\n\n\f\f\uf0bf\uf0f7\n\n\uf0ee\n\n\uf0ee\n\n\uf0ee\n\n\uf0ef\n\n\uf0ef\n\n\uf0ef\n\n\uf0ef\n\n\uf0ee\n\n\uf0ee\n\n\uf0ef\n\n\uf0ef\n\n\uf0ef\n\n\uf0ee\n\n\uf0ee\n\n\uf0ef\n\n\uf0ee\n\n\uf0ef\n\n\uf0ee\n\n\uf0be\uf0f7\n\n\uf0ee\n\n\uf0ee\n\n\uf0ee\n\n\uf0ef\n\n\uf0ef\n\n\uf0ef\n\n\uf0ef\n\n\uf0ee\n\n\uf0ee\n\n\uf0ef\n\n\uf0ef\n\n\uf0ef\n\n\uf0ee\n\n\uf0ee\n\n\f\uf0ee\uf0f2\uf0f0\n\n\uf0ef\uf0f2\uf0eb\n\n\uf0ef\uf0f2\uf0f0\n\n\uf0f0\uf0f2\uf0eb\n\n\uf0f0\uf0f2\uf0f0\n\n\uf0f0\uf0f2\uf0ee\n\n\uf0f0\uf0f2\uf0ec\n\n\uf0f0\uf0f2\uf0ea\n\n\uf0f0\uf0f2\uf0e8\n\n\uf0ef\uf0f2\uf0f0\n\n\f\uf0bf\uf0f7\n\n\uf0ee\n\n\uf0ee\n\n\uf0ee\n\n\uf0ef\n\n\uf0ef\n\n\uf0ef\n\n\uf0ef\n\n\uf0ee\n\n\uf0ee\n\n\uf0ef\n\n\uf0ef\n\n\uf0ef\n\n\uf0ef\n\n\uf0ee\n\n\uf0ee\n\n\uf0ee\n\n\uf0be\uf0f7\n\n\uf0ee\n\n\uf0ee\n\n\uf0ee\n\n\uf0ef\n\n\uf0ef\n\n\uf0ef\n\n\uf0ef\n\n\uf0ee\n\n\uf0ee\n\n\uf0ef\n\n\uf0ef\n\n\uf0ef\n\n\uf0ef\n\n\uf0ee\n\n\uf0ee\n\n\uf0ee\n\n\f\uf0ee\n\n\uf0ee\n\n\uf0ee\n\n\uf0ef\n\n\uf0ef\n\n\uf0ef\n\n\uf0ef\n\n\uf0ee\n\n\uf0ee\n\n\uf0ef\n\n\uf0ef\n\n\uf0ef\n\n\uf0ef\n\n\uf0ee\n\n\uf0ee\n\n\uf0ee\n\n\uf0ef\uf0f2\uf0ef\n\uf0ef\uf0f2\uf0f0\n\uf0f0\uf0f2\uf0e7\n\uf0f0\uf0f2\uf0e8\n\uf0f0\uf0f2\uf0e9\n\n\uf0f0\uf0f2\uf0ea\n\n\uf0f0\uf0f2\uf0e9\n\n\uf0f0\uf0f2\uf0e8\n\n\uf0f0\uf0f2\uf0e7\n\n\uf0ef\uf0f2\uf0f0\n\n\f\uf0ef\uf0f2\uf0eb\n\uf0ef\uf0f2\uf0ec\n\uf0ef\uf0f2\uf0ed\n\uf0ef\uf0f2\uf0ee\n\uf0ef\uf0f2\uf0ef\n\uf0ef\uf0f2\uf0f0\n\uf0f0\uf0f2\uf0e7\n\n\uf0f0\uf0f2\uf0ee\n\n\uf0f0\uf0f2\uf0ec\n\n\uf0f0\uf0f2\uf0ea\n\n\uf0f0\uf0f2\uf0e8\n\n\uf0ef\uf0f2\uf0f0\n\n\f\f",
+            "clean-text": "\f\n\n\n\n\n\n\f\n\n\n\n\n\n\f\n\n\n\n\f\f\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\f\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\f\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\f\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\f\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\f\f",
+            "ascii-text": "\f\n\n\n\n\n\n\f\n\n\n\n\n\n\f\n\n\n\n\f\f\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\f\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\f\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\f\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\f\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\f\f",
+            "pattern-matching": {
+                "e-mails": {},
+                "phone-numbers": {},
+                "URLs": {},
+                "all-caps": {},
+                "start-with-caps": {},
+                "IDs-start-with-year": {},
+                "money-amounts-with-decimals": {}
+            },
+            "number-of-characters": "467",
+            "Tokenized-text$Keywords": {},
+            "Number-of-keywords": "0"
+        }
+    },
+    "Associated-Metadata": {},
+    "NLP-NER": [
+        {
+            "doc-0": {
+                "filename": "1203.1980.pdf"
+            }
+        }
+    ],
+    "NLP-NER-Summary": {
+        "doc-0": {}
+    }
+}

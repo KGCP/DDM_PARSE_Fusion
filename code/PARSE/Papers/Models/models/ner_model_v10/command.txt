@@ -1,0 +1,6 @@
+this is for remote ssh:
+
+conda activate pytorch
+nohup python train.py
+kill 74247(PID)
+top -U u7274475

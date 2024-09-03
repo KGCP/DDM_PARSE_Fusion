@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<section>
+  <section ID="1">
+    <heading>Introduction</heading>
+  </section>
+  <section ID="2">
+    <heading>Related Work</heading>
+    <section ID="2.1">
+      <heading>Computer science in evaluating grant applications</heading>
+    </section>
+    <section ID="2.2">
+      <heading>Term vectors and statistical measures in text representation</heading>
+    </section>
+    <section ID="2.3">
+      <heading>Data mining models in text classification</heading>
+    </section>
+  </section>
+  <section ID="3">
+    <heading>Methodology</heading>
+    <section ID="3.1">
+      <heading>Data set</heading>
+    </section>
+    <section ID="3.2">
+      <heading>Text pre-processing for grant applications</heading>
+    </section>
+    <section ID="3.3">
+      <heading>Selection of high, low and moderate IC-score research proposals</heading>
+    </section>
+    <section ID="3.4">
+      <heading>Design and apply the feature extraction technique</heading>
+    </section>
+    <section ID="3.5">
+      <heading>Apply data mining models with grant applications</heading>
+    </section>
+    <section ID="3.6">
+      <heading>Analyse moderate IC-score grant applications</heading>
+    </section>
+  </section>
+  <section ID="4">
+    <heading>Experimental Settings</heading>
+  </section>
+  <section ID="5">
+    <heading>Experimental Result</heading>
+  </section>
+  <section ID="6">
+    <heading>Conclusion</heading>
+  </section>
+  <section ID="7">
+    <heading>Reference</heading>
+  </section>
+</section>

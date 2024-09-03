@@ -1,0 +1,27 @@
+Vision-and-Language Navigation (VLN) is important
+because it represents a significant step towards capabilities
+critical for practical robotics. To further the investigation of
+VLN, in this paper we introduced the Matterport3D Simulator.
+This simulator achieves a unique and desirable tradeoff
+between reproducibility, interactivity, and visual realism.
+Leveraging these advantages, we collected the Roomto-
+Room (R2R) dataset. The R2R dataset is the first dataset
+to evaluate the capability to follow natural language navigation
+instructions in previously unseen real images at building
+scale. To explore this task we investigated several baselines
+and a sequence-to-sequence neural network agent.
+From this work we reach three main conclusions. First,
+VLN is interesting because existing vision and language
+methods can be successfully applied. Second, the challenge
+of generalizing to previously unseen environments is significant.
+Third, crowd-sourced reconstructions of real locations
+are a highly-scalable and underutilized resource5. The
+process used to generate R2R is applicable to a host of related
+vision and language problems, particularly in robotics.
+We hope that this simulator will benefit the community by
+providing a visually-realistic framework to investigate VLN
+and related problems such as navigation instruction generation,
+embodied visual question answering, human-robot dialog,
+and domain transfer to real settings.
+
+Vision-and-Language Navigation (VLN) is important because it is critical for practical robotics. We developed the Matterport3D Simulator to investigate VLN and crowd-sourced reconstructions of real locations. The simulator can follow natural language navigation instructions in previously unseen real images.

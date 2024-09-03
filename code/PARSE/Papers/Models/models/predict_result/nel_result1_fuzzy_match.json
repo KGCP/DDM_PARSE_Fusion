@@ -1,0 +1,1889 @@
+{
+  "SOLUTION": {
+    "qi": {
+      "position": [
+        [
+          9,
+          9
+        ]
+      ],
+      "sentence": [
+        "text interpreting navigation visually-grounded instructions in real peter environments qi anderson1 damien wu2 jake teney2 mark bruce3 niko 1 2 3 johnson4 s ian underhauf"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q837855",
+      "wikidata_desc": "ancient Chinese state during the Zhou dynasty",
+      "matched_words": "qi"
+    },
+    "apr": {
+      "position": [
+        [
+          52,
+          52
+        ]
+      ],
+      "sentence": [
+        "university of adelaide 3 queensland university of technology 4 macquarie arxiv:1711.07280v3 university [cs cv] 5 apr a abstract mark.johnson@mq.edu.au 4 {qi.wu01,damien.teney,ian.reid,anton.vandenhengel}@adelaide.edu.au, niko.suenderhauf@qut.edu.au 3 jacob.bruce@hdr.qut.edu.au, 3 firstname.lastname@anu.edu.au, 2 1 2018 robot that"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q22815214",
+      "matched_words": "high-altitude long endurance unmanned aerial vehicle",
+      "wikidata_desc": "aircraft without humans aboard capable of operating above 9000 m for extensive periods"
+    },
+    "cartoon series": {
+      "position": [
+        [
+          83,
+          84
+        ]
+      ],
+      "sentence": [
+        "can carry out a natural language instruction has been a dream since before the jetsons cartoon series imagined a life of leisure mediated by a fleet of robot attentive helpers"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q581714",
+      "matched_words": "animated series",
+      "wikidata_desc": "TV genre; set of regularly presented animated television programs"
+    },
+    "natural language instruction": {
+      "position": [
+        [
+          927,
+          929
+        ]
+      ],
+      "sentence": [
+        "the associated task requires an agent follow to natural language instructions to navigate to a location goal in a previously unseen building"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q61636961",
+      "matched_words": "Natural language instructions for joint spatial reference between naive users and a mobile robot"
+    }
+  },
+  "RESEARCH_PROBLEM": {
+    "sequence": {
+      "position": [
+        [
+          165,
+          165
+        ]
+      ],
+      "sentence": [
+        "both tasks can be interpreted as visually grounded sequence to sequence translation problems"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q133250",
+      "wikidata_desc": "ordered list of the same type of elements (finite or infinite)",
+      "matched_words": "sequence"
+    },
+    "and": {
+      "position": [
+        [
+          348,
+          348
+        ],
+        [
+          483,
+          483
+        ]
+      ],
+      "sentence": [
+        "of one the primary requirements will be new techniques for linking natural language to vision and action in previously unstructured, unseen environments",
+        "it is the recent success of recurrent neural network methods for the joint interpretation of of one the primary requirements will be new techniques for linking natural language to vision and action in previously unstructured, unseen environments and images natural language that motivates the vln task"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q12364761",
+      "wikidata_desc": "conjunction",
+      "matched_words": "and"
+    },
+    "20": {
+      "position": [
+        [
+          460,
+          460
+        ]
+      ],
+      "sentence": [
+        "vision-and-language although (vln). interpreting natural language navigation instructions has received significant attention previously 13, [12, 20"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q40292",
+      "wikidata_desc": "natural number",
+      "matched_words": "20"
+    },
+    "interpretation": {
+      "position": [
+        [
+          481,
+          481
+        ]
+      ],
+      "sentence": [
+        "it is the recent success of recurrent neural network methods for the joint interpretation of and images natural language that motivates the vln task"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q210439",
+      "wikidata_desc": "facilitating of oral or sign-language communication between users of different languages",
+      "matched_words": "interpretation"
+    },
+    "classification": {
+      "position": [
+        [
+          700,
+          700
+        ]
+      ],
+      "sentence": [
+        "problem open-set of relating real language to real imagery into a simpler far closed set classification problem"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q13582682",
+      "wikidata_desc": "grouping of objects into classes",
+      "matched_words": "classification"
+    },
+    "vision and language": {
+      "position": [
+        [
+          1026,
+          1027
+        ],
+        [
+          1230,
+          1231
+        ],
+        [
+          4916,
+          4918
+        ]
+      ],
+      "sentence": [
+        "the first dataset benchmark for vision and language navigation in previously real, unseen",
+        "and visual dialog has considerable spurred progress in the first dataset benchmark for vision and language navigation in previously real, unseen vision and language understanding",
+        "although visual attention tion has as at softmax also (h proved highly beneficial in and visual dialog has considerable spurred progress in the first dataset benchmark for vision and language navigation in previously real, unseen vision and language understanding vision and language problems [60"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q111467776",
+      "wikidata_desc": "research area of artificial intelligence combining computer vision and natural language processing",
+      "matched_words": "vision and language"
+    },
+    "image captioning": {
+      "position": [
+        [
+          1212,
+          1213
+        ],
+        [
+          3983,
+          3984
+        ],
+        [
+          6528,
+          6529
+        ],
+        [
+          8120,
+          8121
+        ]
+      ],
+      "sentence": [
+        "scenarios still enabling reproducible vision evaluations. and language the development of new benchmark datasets for image captioning [14]",
+        "in to contrast many other vision and language tasks such as scenarios still enabling reproducible vision evaluations. and language the development of new benchmark datasets for image captioning [14] image captioning and visual dialog",
+        "bottom up and top down attention for in to contrast many other vision and language tasks such as scenarios still enabling reproducible vision evaluations. and language the development of new benchmark datasets for image captioning [14] image captioning and visual dialog image captioning and visual question answering",
+        "self-critical goel. sequence training for bottom up and top down attention for in to contrast many other vision and language tasks such as scenarios still enabling reproducible vision evaluations. and language the development of new benchmark datasets for image captioning [14] image captioning and visual dialog image captioning and visual question answering image captioning"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q39161486"
+    },
+    "vqa": {
+      "position": [
+        [
+          1219,
+          1219
+        ]
+      ],
+      "sentence": [
+        "visual answering question vqa [4"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q7907465",
+      "wikidata_desc": "Wikimedia disambiguation page",
+      "matched_words": "vqa"
+    },
+    "language understanding": {
+      "position": [
+        [
+          1232,
+          1233
+        ]
+      ],
+      "sentence": [
+        "and visual dialog has considerable spurred progress in vision and language understanding"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q108751957",
+      "wikidata_desc": "part of NLP",
+      "matched_words": "language understanding"
+    },
+    "agents": {
+      "position": [
+        [
+          1663,
+          1663
+        ]
+      ],
+      "sentence": [
+        "in navigation a number of recent papers use reinforcement learning rl to train navigational agents 50, [31, 53"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q2826781",
+      "wikidata_desc": "Finnish band",
+      "matched_words": "agents"
+    },
+    "3": {
+      "position": [
+        [
+          3468,
+          3468
+        ]
+      ],
+      "sentence": [
+        "is which augmented to the simulator action space defined in section 3 2 2"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q201",
+      "wikidata_desc": "natural number",
+      "matched_words": "3"
+    },
+    "collection": {
+      "position": [
+        [
+          3776,
+          3776
+        ]
+      ],
+      "sentence": [
+        "workers, according to their performance on previous over tasks. 400 workers participated in the data collection"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q2668072",
+      "wikidata_desc": "set of purposefully gathered physical or digital objects with some common characteristics",
+      "matched_words": "collection"
+    },
+    "6": {
+      "position": [
+        [
+          4055,
+          4055
+        ]
+      ],
+      "sentence": [
+        "explore to the difficulty of the r2r navigation 5.1. task. sequence to sequence figure model 6"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q23488",
+      "wikidata_desc": "natural number",
+      "matched_words": "6"
+    },
+    "vision": {
+      "position": [
+        [
+          230,
+          230
+        ]
+      ],
+      "sentence": [
+        "which can in future support a range of embodied and vision language tasks"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q1682108",
+      "wikidata_desc": "something seen in a dream, trance, or religious ecstasy",
+      "matched_words": "vision"
+    },
+    "architecture": {
+      "position": [
+        [
+          4413,
+          4413
+        ]
+      ],
+      "sentence": [
+        "the agent with a recurrent neural network policy using an lstm based sequence to sequence architecture with an attention mechanism [6]"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q12271",
+      "wikidata_desc": "both the process and product of planning, designing and construction",
+      "matched_words": "architecture"
+    },
+    "word embedding": {
+      "position": [
+        [
+          5215,
+          5216
+        ]
+      ],
+      "sentence": [
+        "the size the of input word embedding to 256"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q18395344",
+      "wikidata_desc": "method in natural language processing",
+      "matched_words": "word embedding"
+    },
+    "work": {
+      "position": [
+        [
+          5874,
+          5874
+        ]
+      ],
+      "sentence": [
+        "models for that are expected to operate in new 7. environments. conclusion and future figure work 8"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q6958747",
+      "wikidata_desc": "activities performed as a means of support",
+      "matched_words": "work"
+    },
+    "38": {
+      "position": [
+        [
+          5885,
+          5885
+        ]
+      ],
+      "sentence": [
+        "in previously seen environments student forcing achieves training 38 6% success 3m navigation left error). although this is recoverable if the instructions enough contain"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q600809",
+      "wikidata_desc": "natural number",
+      "matched_words": "38"
+    },
+    "acknowledgements": {
+      "position": [
+        [
+          6326,
+          6326
+        ]
+      ],
+      "sentence": [
+        "and domain transfer to real acknowledgements settings. this research is supported by a facebook parlai research award"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q93963836"
+    },
+    "parlai": {
+      "position": [
+        [
+          6335,
+          6335
+        ]
+      ],
+      "sentence": [
+        "and domain transfer to real acknowledgements settings. this research is supported by a facebook parlai research award"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q2052839",
+      "matched_words": "Parlais",
+      "wikidata_desc": "Ancient Roman site in Turkey"
+    },
+    "machine translation": {
+      "position": [
+        [
+          6634,
+          6635
+        ],
+        [
+          7773,
+          7774
+        ]
+      ],
+      "sentence": [
+        "neural machine translation by jointly learning to align and translate",
+        "effective approaches to attention based neural neural machine translation by jointly learning to align and translate machine translation"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q79798",
+      "wikidata_desc": "use of software for language translation",
+      "matched_words": "machine translation"
+    },
+    "3d vision": {
+      "position": [
+        [
+          6870,
+          6871
+        ]
+      ],
+      "sentence": [
+        "international conference on 3d vision (3dv)"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q4636308",
+      "wikidata_desc": "Wikimedia disambiguation page",
+      "matched_words": "3d vision"
+    },
+    "image recognition": {
+      "position": [
+        [
+          7322,
+          7323
+        ]
+      ],
+      "sentence": [
+        "deep residual for learning image recognition"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q28038508",
+      "wikidata_desc": "image identification made by artificial intelligence",
+      "matched_words": "image recognition"
+    },
+    "neural computation": {
+      "position": [
+        [
+          7345,
+          7346
+        ]
+      ],
+      "sentence": [
+        "neural computation"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q15708807",
+      "wikidata_desc": "journal",
+      "matched_words": "neural computation"
+    },
+    "autonomous": {
+      "position": [
+        [
+          7384,
+          7384
+        ]
+      ],
+      "sentence": [
+        "natural language command of an micro-air autonomous vehicle"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q69527499",
+      "wikidata_desc": "science fiction novel by Annalee Newitz",
+      "matched_words": "autonomous"
+    },
+    "embedding": {
+      "position": [
+        [
+          7433,
+          7433
+        ]
+      ],
+      "sentence": [
+        "caffe convolutional architecture for fast feature embedding"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q980509",
+      "wikidata_desc": "injective and structure-preserving map",
+      "matched_words": "embedding"
+    },
+    "interaction": {
+      "position": [
+        [
+          7577,
+          7577
+        ]
+      ],
+      "sentence": [
+        "in human robot interaction (hri)"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q52948",
+      "wikidata_desc": "kind of action that occurs as two or more objects have an effect upon one another",
+      "matched_words": "interaction"
+    },
+    "research": {
+      "position": [
+        [
+          7938,
+          7938
+        ]
+      ],
+      "sentence": [
+        "parlai a dialog research platform. software arxiv preprint arxiv:1705 06476, 2017"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q42240",
+      "wikidata_desc": "systematic study undertaken to increase knowledge",
+      "matched_words": "research"
+    },
+    "cognitive": {
+      "position": [
+        [
+          8329,
+          8329
+        ]
+      ],
+      "sentence": [
+        "towards cognitive exploration deep through reinforcement learning for mobile robots"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q20813310",
+      "wikidata_desc": "album by Soen",
+      "matched_words": "cognitive"
+    },
+    "perception": {
+      "position": [
+        [
+          8726,
+          8726
+        ]
+      ],
+      "sentence": [
+        "gibson savarese. env real world perception for embodied agents"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q160402",
+      "wikidata_desc": "organization, identification, and interpretation of sensory information in order to represent and understand the environment in the brain",
+      "matched_words": "perception"
+    },
+    "natural language instruction": {
+      "position": [
+        [
+          71,
+          74
+        ]
+      ],
+      "sentence": [
+        "4 {qi.wu01,damien.teney,ian.reid,anton.vandenhengel}@adelaide.edu.au, niko.suenderhauf@qut.edu.au 3 jacob.bruce@hdr.qut.edu.au, 3 firstname.lastname@anu.edu.au, 2 1 2018 robot that can carry out a natural language instruction has been a dream since before the jetsons cartoon series imagined a life of leisure"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q61636961",
+      "matched_words": "Natural language instructions for joint spatial reference between naive users and a mobile robot"
+    },
+    "visual question answer": {
+      "position": [
+        [
+          153,
+          155
+        ],
+        [
+          604,
+          606
+        ],
+        [
+          6313,
+          6315
+        ],
+        [
+          6531,
+          6533
+        ],
+        [
+          6571,
+          6573
+        ],
+        [
+          7157,
+          7159
+        ]
+      ],
+      "sentence": [
+        "what it is sees carrying out a vision and language process that is similar to visual question answering",
+        "differences between vision and language navigation vln and what it is sees carrying out a vision and language process that is similar to visual question answering visual question answering (vqa)",
+        "embodied differences between vision and language navigation vln and what it is sees carrying out a vision and language process that is similar to visual question answering visual question answering (vqa) visual question answering",
+        "bottom up and top down attention for image captioning and embodied differences between vision and language navigation vln and what it is sees carrying out a vision and language process that is similar to visual question answering visual question answering (vqa) visual question answering visual question answering",
+        "vqa bottom up and top down attention for image captioning and embodied differences between vision and language navigation vln and what it is sees carrying out a vision and language process that is similar to visual question answering visual question answering (vqa) visual question answering visual question answering visual question answering",
+        "iqa vqa bottom up and top down attention for image captioning and embodied differences between vision and language navigation vln and what it is sees carrying out a vision and language process that is similar to visual question answering visual question answering (vqa) visual question answering visual question answering visual question answering visual question answering in interactive environments"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q46994316",
+      "matched_words": "Visual Question Answering with Question Representation Update (QRU)",
+      "wikidata_desc": "scientific article published in January 2016"
+    },
+    "vision language": {
+      "position": [
+        [
+          231,
+          232
+        ]
+      ],
+      "sentence": [
+        "which can in future support a range of embodied and vision language tasks"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q89699980",
+      "matched_words": "Vision-Language Navigation Policy Learning and Adaptation",
+      "wikidata_desc": "scientific article published on 07 February 2020"
+    },
+    "task": {
+      "position": [
+        [
+          3769,
+          3769
+        ]
+      ],
+      "sentence": [
+        "we used only us based amt screened workers, according to their performance on previous over tasks. 400 workers participated in the data collection"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q759676",
+      "wikidata_desc": "activity that needs to be accomplished within a defined period of time",
+      "matched_words": "task"
+    },
+    "visual information processing": {
+      "position": [
+        [
+          537,
+          539
+        ]
+      ],
+      "sentence": [
+        "a distant previous problem. approaches to natural language command robots of have often neglected the visual information processing aspect of the problem"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q105699014",
+      "matched_words": "Visual Information Processing and Communication",
+      "wikidata_desc": "conference series"
+    },
+    "visual reinforcement": {
+      "position": [
+        [
+          1003,
+          1004
+        ],
+        [
+          7507,
+          7508
+        ]
+      ],
+      "sentence": [
+        "a framework software for visual reinforcement learning using matterport3d the panoramic rgb dataset 2. [11]; we present room to room (r2r)",
+        "vizdoom a doom based ai research platform for a framework software for visual reinforcement learning using matterport3d the panoramic rgb dataset 2. [11]; we present room to room (r2r) visual reinforcement learning"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q25303714",
+      "matched_words": "visual reinforcement audiometry",
+      "wikidata_desc": "key behavioural test for evaluating hearing in young children"
+    },
+    "goal": {
+      "position": [
+        [
+          1124,
+          1124
+        ]
+      ],
+      "sentence": [
+        "this is typically achieved either assuming by that the set of all navigation goals"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q4503831",
+      "wikidata_desc": "idea of the future or result that a person or group wants to achieve",
+      "matched_words": "goal"
+    },
+    "mesh": {
+      "position": [
+        [
+          1577,
+          1577
+        ]
+      ],
+      "sentence": [
+        "the dataset also globally-aligned, includes textured 3d meshes annotated with and class instance segmentations of regions rooms and in objects. terms of visual"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q24503377",
+      "wikidata_desc": "material of connected strands of metal, fiber, or other flexible or ductile materials",
+      "matched_words": "mesh"
+    },
+    "object instance": {
+      "position": [
+        [
+          1885,
+          1885
+        ]
+      ],
+      "sentence": [
+        "and additional in instrumentation the form of rendered object class and object instance segmentations based on the underlying matterport3d 3. annotations). mesh matterport3d in simulator this section"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q38391375",
+      "matched_words": "Object Instance Segmentation and Fine-Grained Localization Using Hypercolumns.",
+      "wikidata_desc": "scientific article published on 08 June 2016"
+    },
+    "3.2.3": {
+      "position": [
+        [
+          2541,
+          2541
+        ]
+      ],
+      "sentence": [
+        "for example as described in section implementation 3.2.3 4. the details matterport3d simulator is written in c++ opengl. using in addition to the"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q62169099",
+      "matched_words": "3.2.3 Thermocouple Psychometry",
+      "wikidata_desc": "scientific article published in 2002"
+    },
+    "instruction": {
+      "position": [
+        [
+          3873,
+          3874
+        ]
+      ],
+      "sentence": [
+        "the level abstraction of in instructions varies widely"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q925783",
+      "wikidata_desc": "single operation of a computer",
+      "matched_words": "instruction"
+    },
+    "r2r": {
+      "position": [
+        [
+          2889,
+          2889
+        ],
+        [
+          4045,
+          4045
+        ]
+      ],
+      "sentence": [
+        "the r2r task requires an embodied agent to follow natural language instructions to navigate from a",
+        "neural network agent and several other baselines that we use explore to the difficulty of the r2r task requires an embodied agent to follow natural language instructions to navigate from a the r2r navigation 5.1. task. sequence to sequence figure model 6"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q7274490",
+      "wikidata_desc": "Wikimedia disambiguation page",
+      "matched_words": "r2r"
+    },
+    "language generation": {
+      "position": [
+        [
+          5371,
+          5372
+        ]
+      ],
+      "sentence": [
+        "language generation [8])"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q18345081",
+      "matched_words": "Language Generation Center"
+    },
+    "7": {
+      "position": [
+        [
+          5868,
+          5868
+        ]
+      ],
+      "sentence": [
+        "datasets are unlikely to be sufficient models for that are expected to operate in new 7. environments. conclusion and future figure work 8"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q23350",
+      "wikidata_desc": "natural number",
+      "matched_words": "7"
+    },
+    "sequence sequence": {
+      "position": [
+        [
+          5931,
+          5932
+        ]
+      ],
+      "sentence": [
+        "namely gestures and with dialog. regard to the sequence to sequence model"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q41589189",
+      "matched_words": "sequence-to-sequence learning",
+      "wikidata_desc": "family of machine learning approaches"
+    },
+    "sequence model": {
+      "position": [
+        [
+          5933,
+          5934
+        ]
+      ],
+      "sentence": [
+        "namely gestures and with dialog. regard to the sequence to sequence model"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q72923395",
+      "matched_words": "Sequence modeling using semisynthetic ribonuclease S",
+      "wikidata_desc": "scientific article published on 01 March 1982"
+    },
+    "embody visual": {
+      "position": [
+        [
+          6312,
+          6312
+        ]
+      ],
+      "sentence": [
+        "embodied visual question answering"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q50639307",
+      "matched_words": "Embodied visual perception of distorted finger postures.",
+      "wikidata_desc": "scientific article published in April 2011"
+    },
+    "domain transfer": {
+      "position": [
+        [
+          6322,
+          6323
+        ]
+      ],
+      "sentence": [
+        "and domain transfer to real acknowledgements settings. this research is supported by a facebook parlai research award"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q32564",
+      "matched_words": "domain name transfer",
+      "wikidata_desc": "transfer of internet domains"
+    },
+    "robotic vision": {
+      "position": [
+        [
+          6356,
+          6357
+        ]
+      ],
+      "sentence": [
+        "the australian council research centre of excellence for robotic vision project ce140100016), number and the australian research councils projects discovery funding scheme project 5 dp160102156)."
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q33936429",
+      "matched_words": "Robotic vision. Neuromorphic vision sensors",
+      "wikidata_desc": "scientific article"
+    },
+    "indoor scene": {
+      "position": [
+        [
+          6608,
+          6608
+        ]
+      ],
+      "sentence": [
+        "joint semantic data for indoor scene understanding"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q110685578",
+      "matched_words": "Indoor Scene of People Dancing and Playing Instruments - John Phillip - ABDAG014484.179",
+      "wikidata_desc": "artwork in the Aberdeen City Council (Archives, Gallery and Museums Collection)"
+    },
+    "scene understand": {
+      "position": [
+        [
+          6609,
+          6610
+        ],
+        [
+          8279,
+          8280
+        ]
+      ],
+      "sentence": [
+        "joint semantic data for indoor scene understanding",
+        "sun rgb rgb-d a joint semantic data for indoor scene understanding scene understanding benchmark suite"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q30474275",
+      "matched_words": "Scene Understanding for the Visually Impaired Using Visual Sonification by Visual Feature Analysis and Auditory Signatures",
+      "wikidata_desc": "scientific article (publication date: 10 August 2012)"
+    }
+  },
+  "METHOD": {
+    "vision": {
+      "position": [
+        [
+          187,
+          187
+        ],
+        [
+          1201,
+          1201
+        ]
+      ],
+      "sentence": [
+        "to enable and encourage the application of vision language and methods to the problem of interpreting visuallygrounded navigation instructions",
+        "moving closer to real while scenarios still enabling reproducible to enable and encourage the application of vision language and methods to the problem of interpreting visuallygrounded navigation instructions vision evaluations. and language the development of new benchmark datasets for image captioning [14]"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q1682108",
+      "wikidata_desc": "something seen in a dream, trance, or religious ecstasy",
+      "matched_words": "vision"
+    },
+    "we": {
+      "position": [
+        [
+          797,
+          797
+        ],
+        [
+          4395,
+          4395
+        ]
+      ],
+      "sentence": [
+        "the open-set distinctly nature of the underlying to problem. enable the reproducible evaluation of vln we methods, present the matterport3d simulator",
+        "we provide will an evaluation server where agent trajectories be may uploaded for the open-set distinctly nature of the underlying to problem. enable the reproducible evaluation of vln we methods, present the matterport3d simulator we scoring. model the agent with a recurrent neural network policy using an lstm based sequence"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q83799",
+      "wikidata_desc": "novel by Yevgeny Zamyatin",
+      "matched_words": "we"
+    },
+    "agent": {
+      "position": [
+        [
+          924,
+          924
+        ],
+        [
+          2313,
+          2313
+        ]
+      ],
+      "sentence": [
+        "the associated task requires an agent follow to natural language instructions to navigate to a location goal in a previously unseen",
+        "the the associated task requires an agent follow to natural language instructions to navigate to a location goal in a previously unseen agent is permitted follow to any edges in the navigation graph"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q392648",
+      "wikidata_desc": "in grammar, thematic relation that refers to the cause or initiator of an event",
+      "matched_words": "agent"
+    },
+    "sequence": {
+      "position": [
+        [
+          965,
+          965
+        ],
+        [
+          967,
+          967
+        ],
+        [
+          1042,
+          1042
+        ],
+        [
+          5367,
+          5367
+        ]
+      ],
+      "sentence": [
+        "using several baselines a and sequence to sequence model based on methods successfully applied to other vision and language tasks [4",
+        "using several baselines a and sequence to using several baselines a and sequence to sequence model based on methods successfully applied to other vision and language tasks [4 sequence model based on methods successfully applied to other vision and language tasks [4",
+        "building scale 3d 3. environments; we apply using several baselines a and sequence to using several baselines a and sequence to sequence model based on methods successfully applied to other vision and language tasks [4 sequence model based on methods successfully applied to other vision and language tasks [4 sequence to sequence neural networks to r2r the dataset",
+        "is difficult to exactly determine the best next target output for at an arbitrary preceding building scale 3d 3. environments; we apply using several baselines a and sequence to using several baselines a and sequence to sequence model based on methods successfully applied to other vision and language tasks [4 sequence model based on methods successfully applied to other vision and language tasks [4 sequence to sequence neural networks to r2r the dataset sequence (e g"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q133250",
+      "wikidata_desc": "ordered list of the same type of elements (finite or infinite)",
+      "matched_words": "sequence"
+    },
+    "visual": {
+      "position": [
+        [
+          1260,
+          1260
+        ]
+      ],
+      "sentence": [
+        "although many tasks combining visual and linguistic reasoning have been motivated by their potential robotic applications [4"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q4014836",
+      "wikidata_desc": "advertising term",
+      "matched_words": "visual"
+    },
+    "ot": {
+      "position": [
+        [
+          1837,
+          1837
+        ]
+      ],
+      "sentence": [
+        "the simulator outputs an rgb image observation ot corresponding to the agents first person view. camera images are generated from perspective projections precomputed"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q21148371",
+      "wikidata_desc": "given name",
+      "matched_words": "ot"
+    },
+    "panoramic": {
+      "position": [
+        [
+          2025,
+          2025
+        ]
+      ],
+      "sentence": [
+        "the matterport3d dataset consists of panoramic 10,800 views constructed from 194 400 rgb of images 90 building scale scenes"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q69908943",
+      "wikidata_desc": "pong console manufacturer",
+      "matched_words": "panoramic"
+    },
+    "v": {
+      "position": [
+        [
+          2268,
+          2268
+        ]
+      ],
+      "sentence": [
+        "of next step viewpoints reachable is given \\\\b by: \\\\t wt+1 \\\\t \\\\b vt vi v | hvt"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q9963",
+      "wikidata_desc": "letter of Latin-based alphabets",
+      "matched_words": "v"
+    },
+    "vertex": {
+      "position": [
+        [
+          2387,
+          2387
+        ]
+      ],
+      "sentence": [
+        "on average each graph contains 117 with viewpoints, an average vertex degree of 4 1"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q26401",
+      "wikidata_desc": "special kind of point that describes the corners or intersections of geometric shapes",
+      "matched_words": "vertex"
+    },
+    "task": {
+      "position": [
+        [
+          2529,
+          2529
+        ]
+      ],
+      "sentence": [
+        "aspects these of the rl environment are task and dataset dependent"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q759676",
+      "wikidata_desc": "activity that needs to be accomplished within a defined period of time",
+      "matched_words": "task"
+    },
+    "learning": {
+      "position": [
+        [
+          8025,
+          8025
+        ]
+      ],
+      "sentence": [
+        "mapping instructions and visual observations to actions with learning. reinforcement in emnlp"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q133500",
+      "wikidata_desc": "any process in an organism in which a relatively long-lasting adaptive behavioral change occurs as the result of experience",
+      "matched_words": "learning"
+    },
+    "caffe": {
+      "position": [
+        [
+          2579,
+          2579
+        ]
+      ],
+      "sentence": [
+        "allowing the simulator to be easily used deep with learning frameworks such as caffe and tensorflow [1]"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q27643379",
+      "wikidata_desc": "deep learning framework",
+      "matched_words": "caffe"
+    },
+    "gym": {
+      "position": [
+        [
+          2593,
+          2593
+        ]
+      ],
+      "sentence": [
+        "or within rl platforms such as parlai openai and gym [9]"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q2992394",
+      "wikidata_desc": "1996 studio album by Di Derre",
+      "matched_words": "gym"
+    },
+    "annotations": {
+      "position": [
+        [
+          3512,
+          3512
+        ]
+      ],
+      "sentence": [
+        "we use the region matterport3d annotations to sample start pose s0 and goal v location pairs that are predominantly in different"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q105229735",
+      "wikidata_desc": "adding and managing notes to texts simplified",
+      "matched_words": "annotations"
+    },
+    "r2r": {
+      "position": [
+        [
+          3928,
+          3928
+        ],
+        [
+          3967,
+          3967
+        ],
+        [
+          6269,
+          6269
+        ]
+      ],
+      "sentence": [
+        "although we use the r2r dataset in with conjunction the matterport3d simulator",
+        "based on the matterport dataset 4.4. [11]. evaluation one protocol of the strengths of the although we use the r2r dataset in with conjunction the matterport3d simulator r2r task is that",
+        "process the used to generate based on the matterport dataset 4.4. [11]. evaluation one protocol of the strengths of the although we use the r2r dataset in with conjunction the matterport3d simulator r2r task is that r2r is applicable to a host of related vision and language problems"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q7274490",
+      "wikidata_desc": "Wikimedia disambiguation page",
+      "matched_words": "r2r"
+    },
+    "contributions": {
+      "position": [
+        [
+          4095,
+          4095
+        ]
+      ],
+      "sentence": [
+        "white areas represent words with individual contributions too small to (i.e., show. disregarding heading and elevation and the goal location v"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q51459841",
+      "wikidata_desc": "Providence, R. I. | University of Toronto - Gerstein Science Information Centre View Book",
+      "matched_words": "contributions"
+    },
+    "stopping": {
+      "position": [
+        [
+          4199,
+          4199
+        ]
+      ],
+      "sentence": [
+        "we consider stopping to be a fundamental aspect completing of the task"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q16064987",
+      "wikidata_desc": "in transport",
+      "matched_words": "stopping"
+    },
+    "xl": {
+      "position": [
+        [
+          4444,
+          4444
+        ]
+      ],
+      "sentence": [
+        "xl i"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q1859276",
+      "wikidata_desc": "an extensible programming language",
+      "matched_words": "xl"
+    },
+    "xi": {
+      "position": [
+        [
+          4550,
+          4550
+        ]
+      ],
+      "sentence": [
+        "discuss we further details in the following language sections. instruction encoding each word xi in the language instruction is presented sequentially to the lstm encoder as an embedding vector"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q14406",
+      "wikidata_desc": "fourteenth letter of the Greek alphabet",
+      "matched_words": "xi"
+    },
+    "instruction": {
+      "position": [
+        [
+          4554,
+          4554
+        ]
+      ],
+      "sentence": [
+        "further details in the following language sections. instruction encoding each word xi in the language instruction is presented sequentially to the lstm encoder as an embedding vector"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q925783",
+      "wikidata_desc": "single operation of a computer",
+      "matched_words": "instruction"
+    },
+    "embedding": {
+      "position": [
+        [
+          4564,
+          4564
+        ],
+        [
+          4775,
+          4775
+        ]
+      ],
+      "sentence": [
+        "word xi in the language instruction is presented sequentially to the lstm encoder as an embedding vector",
+        "an word xi in the language instruction is presented sequentially to the lstm encoder as an embedding vector embedding is learned for each action"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q980509",
+      "wikidata_desc": "injective and structure-preserving map",
+      "matched_words": "embedding"
+    },
+    "encoder": {
+      "position": [
+        [
+          4572,
+          4572
+        ]
+      ],
+      "sentence": [
+        "we denote the output of encoder the at step i as hi"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q5392830",
+      "wikidata_desc": "encoder in digital electronics, a one-hot to binary converter",
+      "matched_words": "encoder"
+    },
+    "h": {
+      "position": [
+        [
+          4611,
+          4611
+        ]
+      ],
+      "sentence": [
+        "hl as the encoder we context, denote which h will be used in the attention mechanism"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q9914",
+      "wikidata_desc": "letter of the Latin alphabet",
+      "matched_words": "h"
+    },
+    "agents": {
+      "position": [
+        [
+          4658,
+          4658
+        ]
+      ],
+      "sentence": [
+        "instruction. action space the simulator action space is statedependent refer section 3 2 2), allowing agents to fine-grained make choices between different forward that trajectories are presented"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q2826781",
+      "wikidata_desc": "Finnish band",
+      "matched_words": "agents"
+    },
+    "attention": {
+      "position": [
+        [
+          4818,
+          4818
+        ]
+      ],
+      "sentence": [
+        "ht1 action ). prediction with attention mechanism to a predict distribution over actions at step t"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q6501338",
+      "wikidata_desc": "behavioral and cognitive process of selectively concentrating on a discrete aspect of information, whether deemed subjective or objective, while ignoring other perceivable information",
+      "matched_words": "attention"
+    },
+    "softmax": {
+      "position": [
+        [
+          4909,
+          4909
+        ]
+      ],
+      "sentence": [
+        "although visual attention tion has as at softmax also (h proved highly beneficial in vision and language problems [60"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q482747",
+      "wikidata_desc": "video game developer and publisher",
+      "matched_words": "softmax"
+    },
+    "pytorch": {
+      "position": [
+        [
+          5283,
+          5283
+        ]
+      ],
+      "sentence": [
+        "we train pytorch in using the adam optimizer with weight and decay a batch size of 100"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q47509047",
+      "wikidata_desc": "open source machine learning library for Python, based on Torch",
+      "matched_words": "pytorch"
+    },
+    "adam": {
+      "position": [
+        [
+          5287,
+          5287
+        ]
+      ],
+      "sentence": [
+        "we train pytorch in using the adam optimizer with weight and decay a batch size of 100"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q70899",
+      "wikidata_desc": "first man according to the Abrahamic creation and religions such as Judaism, Christianity and Islam",
+      "matched_words": "adam"
+    },
+    "amt": {
+      "position": [
+        [
+          5632,
+          5632
+        ]
+      ],
+      "sentence": [
+        "performance by human-generated collecting trajectories for one third of the test (1,390 set instructions using amt"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q399445",
+      "wikidata_desc": "designation for an administrative territorial entity",
+      "matched_words": "amt"
+    },
+    "r": {
+      "position": [
+        [
+          5728,
+          5728
+        ],
+        [
+          5966,
+          5966
+        ]
+      ],
+      "sentence": [
+        "our exploitative r agent andom achieves an average success rate of 13 2% on test the set which",
+        "both methods improve over significantly the our exploitative r agent andom achieves an average success rate of 13 2% on test the set which r andom baseline"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q206904",
+      "wikidata_desc": "programming language",
+      "matched_words": "r"
+    },
+    "process": {
+      "position": [
+        [
+          6264,
+          6264
+        ]
+      ],
+      "sentence": [
+        "process the used to generate r2r is applicable to a host of related vision and language"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q10843872",
+      "wikidata_desc": "set of interrelated tasks that transform inputs into outputs, where the tasks may be carried out by people, nature or machines using various resources",
+      "matched_words": "process"
+    },
+    "doom": {
+      "position": [
+        [
+          7501,
+          7501
+        ]
+      ],
+      "sentence": [
+        "vizdoom a doom based ai research platform for visual reinforcement learning"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q189784",
+      "wikidata_desc": "1993 first-person shooter video game developed by ID Software",
+      "matched_words": "doom"
+    },
+    "generation": {
+      "position": [
+        [
+          7839,
+          7839
+        ]
+      ],
+      "sentence": [
+        "generation and comprehension of object unambiguous descriptions"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q213381",
+      "wikidata_desc": "all of the people born and living at about the same time, regarded collectively",
+      "matched_words": "generation"
+    },
+    "structured prediction": {
+      "position": [
+        [
+          8148,
+          8149
+        ]
+      ],
+      "sentence": [
+        "a reduction of imitation learning and structured prediction to no regret learning. online in aistats"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q7625208",
+      "wikidata_desc": "supervised machine learning techniques",
+      "matched_words": "structured prediction"
+    },
+    "parlai": {
+      "position": [
+        [
+          2590,
+          2590
+        ]
+      ],
+      "sentence": [
+        "or within rl platforms such as parlai openai and gym [9]"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q2052839",
+      "matched_words": "Parlais",
+      "wikidata_desc": "Ancient Roman site in Turkey"
+    },
+    "vln": {
+      "position": [
+        [
+          796,
+          796
+        ]
+      ],
+      "sentence": [
+        "models the open-set distinctly nature of the underlying to problem. enable the reproducible evaluation of vln we methods, present the matterport3d simulator"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q2231898",
+      "matched_words": "Arturo Michelena International Airport",
+      "wikidata_desc": "airport in Venezuela"
+    },
+    "wt+1": {
+      "position": [
+        [
+          2104,
+          2104
+        ],
+        [
+          2136,
+          2136
+        ]
+      ],
+      "sentence": [
+        "at each step t the simulator also outputs a of set next step reachable viewpoints wt+1 v",
+        "actions are to deterministic. determine at each step t the simulator also outputs a of set next step reachable viewpoints wt+1 v wt+1"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q18032376",
+      "matched_words": "WT1",
+      "wikidata_desc": "protein-coding gene in the species Homo sapiens"
+    },
+    "discretized": {
+      "position": [
+        [
+          2483,
+          2483
+        ]
+      ],
+      "sentence": [
+        "agents even operating in 3d simulators that notionally continuous support motion typically use discretized action in spaces practice [62"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q27441030",
+      "matched_words": "Discretized light-cone quantization: Solution to a field theory in one space and one time dimension",
+      "wikidata_desc": "scientific article"
+    },
+    "opengl": {
+      "position": [
+        [
+          2551,
+          2551
+        ]
+      ],
+      "sentence": [
+        "as described in section implementation 3.2.3 4. the details matterport3d simulator is written in c++ opengl. using in addition to the c++ api"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q178570",
+      "wikidata_desc": "cross-platform graphics API",
+      "matched_words": "opengl"
+    },
+    "python binding": {
+      "position": [
+        [
+          2560,
+          2561
+        ]
+      ],
+      "sentence": [
+        "python bindings also are provided"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q113272713",
+      "matched_words": "Python Bindings for the Open Source Electromagnetic Simulator Meep",
+      "wikidata_desc": "scientific article published on 27 July 2010"
+    },
+    "recurrent": {
+      "position": [
+        [
+          4401,
+          4401
+        ]
+      ],
+      "sentence": [
+        "evaluation server where agent trajectories be may uploaded for we scoring. model the agent with a recurrent neural network policy using an lstm based sequence to sequence architecture with an attention"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q111378911",
+      "wikidata_desc": "episode of Unreal",
+      "matched_words": "recurrent"
+    },
+    "lstm": {
+      "position": [
+        [
+          4408,
+          4408
+        ],
+        [
+          4803,
+          4803
+        ],
+        [
+          5206,
+          5206
+        ]
+      ],
+      "sentence": [
+        "uploaded for we scoring. model the agent with a recurrent neural network policy using an lstm based sequence to sequence architecture with an attention mechanism [6]",
+        "the decoder uploaded for we scoring. model the agent with a recurrent neural network policy using an lstm based sequence to sequence architecture with an attention mechanism [6] lstm operates ht 0 0 as lstmdec qt",
+        "we the set number of hidden units in each the decoder uploaded for we scoring. model the agent with a recurrent neural network policy using an lstm based sequence to sequence architecture with an attention mechanism [6] lstm operates ht 0 0 as lstmdec qt lstm to 512"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q6673524",
+      "matched_words": "long short-term memory",
+      "wikidata_desc": "artificial recurrent neural network architecture used in deep learning"
+    },
+    "reverse order": {
+      "position": [
+        [
+          4633,
+          4635
+        ]
+      ],
+      "sentence": [
+        "we found it valuable to reverse order the of words in the input language model instruction. action space the simulator action space is"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q43070557",
+      "matched_words": "Reverse orders of reactivities in the polymerization of cyclic esters using N(2)O(2) aluminium alkoxide complexes.",
+      "wikidata_desc": "scientific article published on 23 December 2009"
+    },
+    "alignment function": {
+      "position": [
+        [
+          4855,
+          4856
+        ]
+      ],
+      "sentence": [
+        "this is achieved by using the general global, alignment function described by luong et al"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q113777788",
+      "matched_words": "Alignment function as a new kind of transverse momentum dependent functions",
+      "wikidata_desc": "scientific article published in 2022"
+    },
+    "entropy loss": {
+      "position": [
+        [
+          4960,
+          4961
+        ]
+      ],
+      "sentence": [
+        "we use cross entropy loss at each step to maximize the likelihood of ground-truth the target action at given the"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q40242648",
+      "matched_words": "Entropy loss in long-distance DNA looping.",
+      "wikidata_desc": "scientific article published on July 2003"
+    },
+    "force": {
+      "position": [
+        [
+          5044,
+          5044
+        ]
+      ],
+      "sentence": [
+        "the teacher forcing approach"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q11402",
+      "wikidata_desc": "physical influence that tends to cause an object to change motion unless opposed by other forces",
+      "matched_words": "force"
+    },
+    "sample": {
+      "position": [
+        [
+          5140,
+          5140
+        ]
+      ],
+      "sentence": [
+        "or the always sampling approach in sampling scheduled implementation"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q485146",
+      "wikidata_desc": "limited quantity of something which is intended to be similar to and represent a larger amount of that thing(s) (could be countable objects such as individual items available as units for sale, or a material not countable as individual items)",
+      "matched_words": "sample"
+    },
+    "gesture": {
+      "position": [
+        [
+          5924,
+          5924
+        ]
+      ],
+      "sentence": [
+        "namely gestures and with dialog. regard to the sequence to sequence model"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q371174",
+      "wikidata_desc": "form of non-verbal communication or non-vocal communication",
+      "matched_words": "gesture"
+    },
+    "dialog": {
+      "position": [
+        [
+          5927,
+          5927
+        ]
+      ],
+      "sentence": [
+        "namely gestures and with dialog. regard to the sequence to sequence model"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q15816429",
+      "wikidata_desc": "journal",
+      "matched_words": "dialog"
+    },
+    "convolutional": {
+      "position": [
+        [
+          7428,
+          7428
+        ]
+      ],
+      "sentence": [
+        "caffe convolutional architecture for fast feature embedding"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q17084460",
+      "matched_words": "convolutional neural network",
+      "wikidata_desc": "A class of deep neural networks, most commonly applied to analyzing visual imagery."
+    },
+    "berg": {
+      "position": [
+        [
+          7460,
+          7460
+        ]
+      ],
+      "sentence": [
+        "referit berg. game referring to objects in photographs of natural scenes"
+      ],
+      "is_matched": true,
+      "exact_match": true,
+      "wikidata_ID": "Q503912",
+      "wikidata_desc": "former municipality in Troms, Norway",
+      "matched_words": "berg"
+    },
+    "co attention": {
+      "position": [
+        [
+          7738,
+          7739
+        ]
+      ],
+      "sentence": [
+        "question-image hierarchical co attention for visual question in answering. nips"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q114748643",
+      "matched_words": "Co-Attention Fusion Network for Multimodal Skin Cancer Diagnosis",
+      "wikidata_desc": "scientific article published in 2023"
+    },
+    "iclr": {
+      "position": [
+        [
+          7996,
+          7996
+        ]
+      ],
+      "sentence": [
+        "iclr, in 2017"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q30108190",
+      "matched_words": "International Conference on Learning Representations",
+      "wikidata_desc": "annual conference series on feature learning"
+    },
+    "imitation learn": {
+      "position": [
+        [
+          8145,
+          8146
+        ]
+      ],
+      "sentence": [
+        "a reduction of imitation learning and structured prediction to no regret learning. online in aistats"
+      ],
+      "is_matched": true,
+      "exact_match": false,
+      "wikidata_ID": "Q52261182",
+      "matched_words": "Imitation learning in budgerigars: Dawson and Foss (1965) revisited.",
+      "wikidata_desc": "scientific article published in June 1986"
+    }
+  },
+  "DATASET": {},
+  "TOOL": {},
+  "LANGUAGE": {},
+  "RESOURCE": {}
+}

@@ -1,0 +1,406 @@
+{
+  "ANU": {
+    "name": "Aaron Tranter",
+    "link": "https://researchers.anu.edu.au/researchers/tranter-a",
+    "colleges": "College of Science",
+    "email": "aaron.tranter@anu.edu.au",
+    "phone": "",
+    "expertise": [],
+    "interest": [],
+    "biography": "",
+    "project": [],
+    "publication": [
+      {
+        "title": "High-performance Raman memory with spatio-temporal reversal",
+        "year": "2018",
+        "source": "Optics Express, vol. 26, no. 10, pp. 12424-12431",
+        "authors": [
+          "Vernaz-Gris P",
+          "Aaron Tranter",
+          "Everett J"
+        ]
+      },
+      {
+        "title": "Multiparameter optimisation of a magneto-optical trap using deep learning",
+        "year": "2018",
+        "source": "Nature Communications, vol. 9, pp. 7pp",
+        "authors": [
+          "Aaron Tranter",
+          "Slatyer H",
+          "Hush M"
+        ]
+      },
+      {
+        "title": "Time-reversed and coherently enhanced memory: A single-mode quantum atom-optic memory without a cavity",
+        "year": "2018",
+        "source": "Physical Review A, vol. 98, no. 6, pp. 1-7",
+        "authors": [
+          "Everett J",
+          "Vernaz-Gris P",
+          "Campbell G",
+          "Aaron Tranter"
+        ]
+      }
+    ]
+  },
+  "Microsoft-Academic": [
+    {
+      "title": "multiparameter optimisation of a magneto optical trap using deep learning",
+      "year": 2018,
+      "source": "nature communications",
+      "authors": [
+        {
+          "name": "aaron tranter",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "harry j slatyer",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "michael r hush",
+          "affiliation": "university of new south wales"
+        },
+        {
+          "name": "anthony leung",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "jesse l everett",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "karun paul",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "pierre vernazgris",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "ping koy lam",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "benjamin buchler",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "geoff campbell",
+          "affiliation": "australian national university"
+        }
+      ],
+      "id": 64187185
+    },
+    {
+      "title": "multiparameter optimisation of a magneto optical trap using deep learning",
+      "year": 2018,
+      "source": "arxiv quantum physics",
+      "authors": [
+        {
+          "name": "aaron tranter",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "harry j slatyer",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "michael r hush",
+          "affiliation": "university of new south wales"
+        },
+        {
+          "name": "anthony leung",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "jesse l everett",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "karun paul",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "pierre vernazgris",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "ping koy lam",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "benjamin buchler",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "geoff campbell",
+          "affiliation": "australian national university"
+        }
+      ],
+      "id": 2595199528
+    },
+    {
+      "title": "towards storage of sub megahertz single photons in gradient echo memory",
+      "year": 2019,
+      "source": "",
+      "authors": [
+        {
+          "name": "w y sarah lau",
+          "affiliation": "university of queensland"
+        },
+        {
+          "name": "anthony leung",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "karun paul",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "aaron tranter",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "geoff campbell",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "t j weinhold",
+          "affiliation": "university of queensland"
+        },
+        {
+          "name": "ping koy lam",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "a white",
+          "affiliation": "university of queensland"
+        },
+        {
+          "name": "ben c buchler",
+          "affiliation": "australian national university"
+        }
+      ]
+    },
+    {
+      "title": "high performance raman memory with spatio temporal reversal",
+      "year": 2018,
+      "source": "arxiv quantum physics",
+      "authors": [
+        {
+          "name": "pierre vernazgris",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "aaron tranter",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "jesse l everett",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "anthony leung",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "karun paul",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "geoff campbell",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "ping koy lam",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "ben c buchler",
+          "affiliation": "australian national university"
+        }
+      ],
+      "id": 2595199528
+    },
+    {
+      "title": "high performance raman memory with spatio temporal reversal",
+      "year": 2018,
+      "source": "optics express",
+      "authors": [
+        {
+          "name": "pierre vernazgris",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "aaron tranter",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "jesse l everett",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "anthony leung",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "karun paul",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "geoff campbell",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "ping koy lam",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "ben c buchler",
+          "affiliation": "australian national university"
+        }
+      ],
+      "id": 178776955
+    },
+    {
+      "title": "time reversed and coherently enhanced memory a single mode quantum atom optic memory without a cavity",
+      "year": 2018,
+      "source": "physical review a",
+      "authors": [
+        {
+          "name": "jesse l everett",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "pierre vernazgris",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "geoff campbell",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "aaron tranter",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "karun paul",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "anthony leung",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "ping koy lam",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "ben c buchler",
+          "affiliation": "australian national university"
+        }
+      ],
+      "id": 164566984
+    },
+    {
+      "title": "stopped and stationary light with cold atomic ensembles and machine learning",
+      "year": 2018,
+      "source": "",
+      "authors": [
+        {
+          "name": "ben c buchler",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "jesse l everett",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "youngwook cho",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "aaron tranter",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "harry j slatyer",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "michael r hush",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "karun paul",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "pierre vernazgris",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "anthony leung",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "daniel b higginbottom",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "ping koy lam",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "geoff campbell",
+          "affiliation": "australian national university"
+        }
+      ]
+    },
+    {
+      "title": "extending gradient echo memory using machine learning and single photons",
+      "year": 2018,
+      "source": "",
+      "authors": [
+        {
+          "name": "anthony leung",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "aaron tranter",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "karun paul",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "jesse l everett",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "pierre vernazgris",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "daniel b higginbottom",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "geoff campbell",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "ping koy lam",
+          "affiliation": "australian national university"
+        },
+        {
+          "name": "ben c buchler",
+          "affiliation": "australian national university"
+        }
+      ]
+    }
+  ],
+  "ANDS-Grants": []
+}

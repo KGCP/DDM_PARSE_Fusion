@@ -1,0 +1,70 @@
+Recently there has been considerable interest in joint visual and linguistic prob-
+lems, such as the task of automatically generating image captions [1,2]. Interest
+has been driven in part by the development of new and larger benchmark datasets
+such as Flickr 8K [3], Flickr 30K [4] and MS COCO [5]. However, while new
+datasets often spur considerable innovation|as has been the case with the MS
+COCO Captioning Challenge [6]|benchmark datasets also require fast, accurate
+and inexpensive evaluation metrics to encourage rapid progress. Unfortunately,
+existing metrics have proven to be inadequate substitutes for human judgment
+in the task of evaluating image captions [7,3,8]. As such, there is an urgent need
+to develop new automated evaluation metrics for this task [8,9]. In this paper,
+we present a novel automatic image caption evaluation metric that measures the
+quality of generated captions by analyzing their semantic content. Our method
+closely resembles human judgment while o ering the additional advantage that
+the performance of any model can be analyzed in greater detail than with other
+automated metrics.One of the problems with using metrics such as Bleu [10], ROUGE [11],
+CIDEr [12] or METEOR [13] to evaluate captions, is that these metrics are pri-marily sensitive to n-gram overlap. However, n-gram overlap is neither necessary
+nor su cient for two sentences to convey the same meaning [14].
+To illustrate the limitations of n-gram comparisons, consider the following
+two captions (a,b) from the MS COCO dataset:
+(a) A young girl standing on top of a tennis court.
+(b) A gira e standing on top of a green  eld.
+The captions describe two very di erent images. However, comparing these cap-
+tions using any of the previously mentioned n-gram metrics produces a high
+similarity score due to the presence of the long 5-gram phrase `standing on top
+of a' in both captions. Now consider the captions (c,d) obtained from the same
+image:
+(c) A shiny metal pot  lled with some diced veggies.
+(d) The pan on the stove has chopped vegetables in it.
+These captions convey almost the same meaning, but exhibit low n-gram simi-
+larity as they have no words in common.
+To overcome the limitations of existing n-gram based automatic evaluation
+metrics, in this work we hypothesize that semantic propositional content is an important component of human caption evaluation. That is, given an image with
+the caption `A young girl standing on top of a tennis court', we expect that a
+human evaluator might consider the truth value of each of the semantic propo-
+sitions contained therein|such as (1) there is a girl, (2) girl is young, (3) girl is
+standing, (4) there is a court, (5) court is tennis, and (6) girl is on top of court.
+If each of these propositions is clearly and obviously supported by the image, we
+would expect the caption to be considered acceptable, and scored accordingly.
+Taking this main idea as motivation, we estimate caption quality by trans-
+forming both candidate and reference captions into a graph-based semantic rep-
+resentation called a scene graph. The scene graph explicitly encodes the objects,
+attributes and relationships found in image captions, abstracting away most of
+the lexical and syntactic idiosyncrasies of natural language in the process. Recent
+work has demonstrated scene graphs to be a highly e ective representation for
+performing complex image retrieval queries [15,16], and we demonstrate similar
+advantages when using this representation for caption evaluation.
+To parse an image caption into a scene graph, we use a two-stage approach
+similar to previous works [16,17,18]. In the  rst stage, syntactic dependencies
+between words in the caption are established using a dependency parser [19]
+pre-trained on a large dataset. An example of the resulting dependency syntax
+tree, using Universal Dependency relations [20], is shown in Figure 1 top. In the
+second stage, we map from dependency trees to scene graphs using a rule-based
+system [16]. Given candidate and reference scene graphs, our metric computes
+an F-score de ned over the conjunction of logical tuples representing semantic
+propositions in the scene graph (e.g., Figure 1 right). We dub this approach
+SPICE for Semantic Propositional Image Caption Evaluation.
+Using a range of datasets and human evaluations, we show that SPICE out-
+performs existing n-gram metrics in terms of agreement with human evaluations
+of model-generated captions, while o ering scope for further improvements to
+the extent that semantic parsing techniques continue to improve. We make code
+available from the project page1. Our main contributions are: 1. We propose SPICE, a principled metric for automatic image caption evalu-
+ation that compares semantic propositional content;
+2. We show that SPICE outperforms metrics Bleu, METEOR, ROUGE-L and
+CIDEr in terms of agreement with human evaluations; and
+3. We demonstrate that SPICE performance can be decomposed to answer
+questions such as `which caption-generator best understands colors?' and
+`can caption generators count?'
+----
+
+we present a novel automatic image caption evaluation metric. The metric measures the quality of image captions by analyzing their semantic content. We estimate caption quality by transforming candidate and reference captions into a graph-based semantic graph. Our method resembles human judgment and can be analyzed in greater detail.

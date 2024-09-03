@@ -1,0 +1,4 @@
+ssh dirtgpu
+conda activate pytorch
+nohup python .py's path
+

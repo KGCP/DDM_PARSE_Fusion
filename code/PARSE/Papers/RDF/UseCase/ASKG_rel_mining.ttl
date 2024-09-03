@@ -1,0 +1,49 @@
+@prefix askg-data: <https://www.anu.edu.au/onto/scholarly/> .
+@prefix askg-onto: <https://www.anu.edu.au/onto/scholarly#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix domo: <https://www.anu.edu.au/onto/domo#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix tnnt: <https://soco.cecc.anu.edu.au/tool/TNNT#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+askg-data:Paper-5003681fa6a914 a askg-onto:Paper ;
+    rdfs:label "[SPICE: Semantic Propositional Image Caption Evaluation]-[Peter Anderson]-[2016]"@en ;
+    dc:title "SPICE: Semantic Propositional Image Caption Evaluation"^^xsd:string ;
+    askg-onto:hasSection askg-data:Abstract-1f35f04243f730,
+        askg-data:Discussion-fc3bb8b300771b,
+        askg-data:Experiment-dc48c6d08186a7,
+        askg-data:Introduction-4a6ea40a2ade35,
+        askg-data:Methodology-d0d063923e3df1,
+        askg-data:RelatedWork-058ae263480b8b ;
+    askg-onto:id "1607.08822"^^xsd:string ;
+    askg-onto:paperLink "http://arxiv.org/abs/1607.08822v1"^^xsd:string,
+        "http://arxiv.org/pdf/1607.08822v1"^^xsd:string ;
+    askg-onto:hasAuthor askg-data:Author-Peter_Anderson ,
+        askg-data:Author-Basura_Fernando ,
+        askg-data:Author-Mark_Johnson ,
+        askg-data:Author-Stephen_Gould .
+
+
+askg-data:Introduction-4a6ea40a2ade35 a askg-onto:Introduction ;
+    rdfs:label "Paper-[SPICE: Semantic Propositional Image Caption Evaluation]-[Peter Anderson]-[2016] | Section-[Introduction]"@en ;
+    domo:keyword askg-data:KeywordOfSection-42f695981d9dcd,
+        askg-data:KeywordOfSection-652f5df72129ea,
+        askg-data:KeywordOfSection-b5e56b566d1d01,
+        askg-data:KeywordOfSection-b95d4e4a6ce833,
+        askg-data:KeywordOfSection-ba21b3f9611606 ;
+    askg-onto:contains askg-data:Excerpt-01ccc70d36d3a2,
+        askg-data:Excerpt-e02f6da9ae2248;
+    askg-onto:summary "we present a novel automatic image caption evaluation metric for automatically generating image captions. We use semantic propositional content to assess the quality of image caption quality. The method is based on a syntactic dependency tree and a semantic scene graph. We argue that the method resembles human judgment for the task of evaluating image caption quality."^^xsd:string .
+
+askg-data:Excerpt-e02f6da9ae2248 rdfs:label "Paper-['SPICE: Semantic Propositional Image Caption Evaluation'] | Section-['Introduction'] | Excerpt-[1713]-[1714]"@en ;
+    askg-onto:inSentence "transforming a sentence into its meaning representation also has received considerable attention within the computational linguistics community"^^xsd:string ;
+    askg-onto:mentions askg-data:AcademicEntity-computational_linguistics-Q182557 ;
+    askg-onto:wordIndexFrom "1713"^^xsd:int ;
+    askg-onto:wordIndexTo "1714"^^xsd:int .
+
+askg-data:AcademicEntity-computational_linguistics-Q182557 rdfs:label "computational linguistics"^^xsd:string ;
+    owl:sameAs wd:Q182557 ;
+    skos:broader askg-onto:ResearchProblem .

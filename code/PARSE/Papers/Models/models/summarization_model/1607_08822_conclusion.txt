@@ -1,0 +1,15 @@
+We introduce SPICE, a novel semantic evaluation metric that measures how
+e ectively image captions recover objects, attributes and the relations between
+them. Our experiments demonstrate that, on natural image captioning datasets,
+SPICE captures human judgment over model-generated captions better than existing n-gram metrics such as Bleu, METEOR, ROUGE-L and CIDEr. Never-
+theless, we are aware that signi cant challenges still remain in semantic parsing,
+and hope that the development of more powerful parsers will underpin further
+improvements to the metric. In future work we hope to use human annotators
+to establish an upper bound for how closely SPICE approximates human judg-
+ments given perfect semantic parsing. We release our code and hope that our
+work will help in the development of better captioning models.
+
+
+
+
+SPICE is a new semantic evaluation metric for image captioning. The metric captures human judgment over model-generated captions better than existing n-gram metrics. The researchers hope the metric will help in the development of better captioning models.    The researchers have developed SPICE to measure human judgment.
