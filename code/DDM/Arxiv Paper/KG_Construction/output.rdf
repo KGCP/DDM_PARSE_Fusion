@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:askg-onto="https://www.anu.edu.au/onto/scholarly#"
+   xmlns:domo="https://www.anu.edu.au/onto/domo#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Section-Conclusion">
+    <rdfs:label>Conclusion</rdfs:label>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Figure1:_Thepipelineonanalysin"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Thissectiondetailstheworkflowo"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Fig.1showsthepipelineof_analys"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-3.1_Dataset_Thedatasetusedtoan"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-3,805researchproposalsaregiven"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-In_addition,theentiredatasetco"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-AMetadata_Extractor&amp;Loader(MEL"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-toolisappliedtoextracttextfrom"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Bydefault,allJSONfilesarestore"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-basedontheproposal_index."/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Beforedesigningthewholepipelin"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Atthesametime,somefundamentalv"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Table1showsastatisticofICscore"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Inaddition,99researchproposals"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Table1alsoshowsthemedianICscor"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-3.2_Textpre-processingforgrant"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-provedthattextpre-processingte"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Afterallthetextisextracted,all"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Then,thenumbersarealsoremovedb"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Thirdly,removingpunctuationsan"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-3_RunningTitleforHeader_Table1"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Statistic_Value_ICscorecountin"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-No."/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-LowICscore_HighICscore_Moderat"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Fanietal."/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-have_shown_that_deleting_stop_"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Therefore,_we_create_a_list_of"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-The_reasonforchoosing1.0isthat"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Meanwhile,thewordswhoseIDFvalu"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Webelievethatthesewordsappeart"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Finally,_textstemmingisthelast"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Textstemmingisatechniqueforred"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-No_Text"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Ithelpstoreducethevocabularyan"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-isimplementedinthisstep."/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-3.3_Selectionofhigh,lowandmode"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Therefore,weconductseveralexpe"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-WedecidetousetheTF-IDFalgorith"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Thetrainingdatarangecanbe_sele"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Table2showsalistofexperimentsf"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Forexample,inthefirstexperimen"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Thentheselectedresearchproposa"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-In_additiontotheaboveresearchp"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Then,thefinaltestdatacombinest"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Itcanbefoundthattheactualsizeo"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Inthefollowingexperiments,each"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Ifthenumberofintermediate-leve"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Somedetailsrequirefurtherexpla"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Firstly,800researchproposals(4"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Onereasonisthatitcanreduce_the"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Themostimportant_4_RunningTitl"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Secondly,_in_the_final_test_da"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-ProposalswithanICscoregreatert"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-IftheresearchproposalshaveanIC"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Thirdly,itneedstobeexplainedth"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Forexample,thelowICscoreforexp"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Then,theproposalswithanICscore"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Fourthly,thelowICscoreboundary"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Thereasonisthatthe_ICscoreof4."/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Table3:_Theselectionexperiment"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Testaccuracy(%)_1_66.91_2_65.8"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Then,the15%,85%optionisselecte"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-3.4_Designandapplythefeatureex"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Inspecific,ifthetermexistsatle"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-In_addition,ifatermdoesnotexis"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Thedesignofthismodified_featur"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Theexperimentalsoconsidersthen"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Unigramisthemostcommonchoicefo"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Atthesametime,whencollectingpr"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Inaddition,the_bigrammentioned"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Thetrigramdenotesacombination_"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-3.5_Applydataminingmodelswithg"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-TheDTandRF_classifiersareconve"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Basedontheexperimentalresultof"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Inthecomparisonstudyoffeature_"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Inordertoanalysetheproposedmod"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-whichbringusanintuitiveunderst"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-3.6_AnalysemoderateIC-scoregra"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Thepurposeofthisseriesofexperi"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Sincetheproposedmodelistrained"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-BasedonthemedianICscore,thesel"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-NewlowIC-scorerange_NewhighIC-"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Table4showsalistofexperimentsu"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Consideringthesymmetricdistrib"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Inaddition_totheexperimentsinT"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-4_ExperimentalSettings_Thissec"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Initially,MEL"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-isimplementedthroughasetof_Pyt"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-ToextractmetadatafromthePDFver"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-ractmetadatafromthePDFversiono"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Inthestatisticalanalysisofgran"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-areusedtocalculatethemedian,mo"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Intheexperimentsofselectinghig"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-isappliedtoimplementtheDTandRF"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Thepythonlibrary_gensim"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-isusedtoimplementtheTF-IDFalgo"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Hyper-parametertuningisasignif"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-is_applied."/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-The_first_step_to_implement_Ba"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Inaddition,wealsoneedtoimpleme"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Secondly,themaximizemethodisus"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Then_iterisdefinedforthenumber"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Themoresteps,theeasierit_istof"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Theinit_pointsisdefinedforrand"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Finally,theparametervaluesfore"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-To_find_the_hyper-parameters_o"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-FortheDTclassifier,therangeset"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Themax_depthparameter_indicate"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Theparametersmin_samples_leaf,"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-AllexperimentsrelatedtoRFclass"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Meanwhile,the10-foldcross-vali"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Toevaluatetheperformanceofthen"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Thehardware_platformisMacBookP"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Thememoryconfigurationis16GB21"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-5_ExperimentalResult_Table_5_s"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-It_can_be_found_that_the_RF_cl"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-6_RunningTitleforHeader_Table5"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Model_Acc(%)_F1score(%)_1_DTcl"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Table6showstheperformanceofthe"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Basedon_thecomparisonofTable5a"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Thehyper-parameters_aremax_dep"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Toincludeallthetermsfromthecor"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Anotherreasonwhywedonotchooset"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Featuresextractedfromthepropos"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Basedonthecomparisonofthetwota"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Atthesametime,theexperimentalr"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-It_shouldalsobenotedthatthenew"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Basedonthedecisiontreeplotsgen"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Fromtheresultoffindinghyper-pa"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Inaddition,although_weconsider"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Moreover,basedonthesamefeature"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Nevertheless,theresultsoftheDT"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Fig.2showstheconfusionmatrixof"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Itshows13highIC-scoreresearch_"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Inaddition,6researchproposalsw"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Thenumber59denotesthatthepropo"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-8_RunningTitleforHeader_Table7"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-TestAcc(%)_1_75.91_2_73.43_3_7"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-The_top100featuresgiveusabette"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Ameasureofthefeature_importanc"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Althoughtheclassifierisonlyest"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Table7bringstheperformanceofch"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Basedonthetestaccuracy,_itcanb"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Moreover,itiseasytofindthatthe"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Basedontheconfusionmatrixabove"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Meanwhile,theresearchproposals"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Therefore,itcanbe_concludedtha"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-In_additiontotheexperimentsana"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Applyingthesamemethodbutwithdi"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Inevery_IdeasGrantapplication,"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Theexperimentalresultshowsthat"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-AlthoughweguesstheICscoreismor"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Section-Methodology">
+    <rdfs:label>Methodology</rdfs:label>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-sandfuturework_aredescribedins"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-2_RelatedWork_2.1_Computerscie"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-proposedamulti-criteriaapproac"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Inthismethod,afuzzypreferencer"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-ThePreferenceSelectionIndex(PS"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-No_Text"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-One_advantageofapplyingthePSIm"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Another_similarandrecentlyrela"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-ThissystemusedaLatentDirichlet"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-TheK-meansclusteringalgorithm"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-wasappliedtogrouppaperswithsim"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-TheresultsshowedthattheLDAwith"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-2.2_Termvectorsandstatisticalm"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-TFindicatesthefrequencyofaword"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-WhencalculatingTF,allthewordsf"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-However,inpractice,peopleonlyp"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Forexample,“this,“are,and“it"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Then,theIDFisimplementedtoadju"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-In_2016,GuoandYang"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-analysedtheshortcomingsoftheTF"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Then,anintra-classdispersional"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Chenetal."/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-proposedanewtermweightingtechn"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-The_experimentalresultsshowedt"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-DasandChakraborty"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-proposedatextsentimentclassifi"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-In_addition,_this_study_also_c"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-FanandQin"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-proposedanotherimprovedTF-IDFa"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-In2019,animprovedTF-IDFalgorit"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-2.3_Dataminingmodelsintextclas"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-RFclassifierisanotherpopularda"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Thetermforestcan_beinterpreted"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-IntheRFclassifier,eachdecision"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-TheRFclassifier_votesoneachtre"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-In2016,anewsclassificationmeth"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Basedonadifferentnumberofn-gra"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Theresultscanguideresearcherst"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Fourdifferentdataminingmodelsw"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Wongsoet_al."/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-[17]appliedTF-IDFandSVDalgorit"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-ppliedTF-IDFandSVDalgorithms[1"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-At_thesametime,theMultivariate"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-andSVMwerecomparedinthisstudy."/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Finally,withthe_combinationofT"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-However,withtheincreaseinthenu">
+    <rdfs:label>However,withtheincreaseinthenumberofresearchproposals andthedevelopmentofdataminingtechniques,fundingagenciesareincreasinglyusingdataminingmodelstoassistin themanualreviewofresearchproposals.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-3.3_Selectionofhigh,lowandmode">
+    <rdfs:label>3.3 Selectionofhigh,lowandmoderateIC-scoreresearchproposals AssumingthattheclassificationmodelistrainedonresearchproposalswithsignificantlyhighandlowICscores,better resultswillbeobtainedifindeterminateresearchproposalsareavoided.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-RFclassifierisanotherpopularda">
+    <rdfs:label>RFclassifierisanotherpopulardataminingmodel.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-proposedanewtermweightingtechn">
+    <rdfs:label>proposedanewtermweightingtechniquecalledTermFrequency &amp;InverseGravityMoment(TF-IGM),whichwasmainlyusedtomeasuretheclassdiscriminationofaterm.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Section-Introduction">
+    <rdfs:label>Introduction</rdfs:label>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-In_the_21st_century,_the_impor"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Therefore,eachcountry’sgovernm"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Determiningwhetherascientificr"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Toobtainfinancialsupport,scien"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-No_Text"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Usually,thegovernmentresearchf"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-However,withtheincreaseinthenu"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Atthesametime,itmustbemadeclea"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Applyingdataminingmodelstoares"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-First,dataminingmodelscanbrief"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Second,aneffectivedata_mining_"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Next,ahigh-qualitydataminingmo"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Fourth,forgovernmentor_funding"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Dataminingmodelscanbetterunder"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Basedonthebenefitsandmotivatio"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Meanwhile,theotherprimarygoalo"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-In_addition,wefocusonproposing"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Thecontributionsofthispaperare"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-•_AmodelisproposedwithaRandomF"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-•_Theproposedmodelforpredictin"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Thispaperisdividedintosixsecti"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Inthefirstsection,theproject’s"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Insection2,thebackgroundandrel"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Themethodologysection_mainlyde"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Section4bringstheoveralldesign"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Then,_theexperimentalsettingsa"/>
+    <domo:contains rdf:resource="https://www.anu.edu.au/onto/scholarly/Sentence-Thefifth_sectiongivestheexperi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Inthefirstsection,theproject’s">
+    <rdfs:label>Inthefirstsection,theproject’smotivationandproblemstatementarebriefly introduced.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Toobtainfinancialsupport,scien">
+    <rdfs:label>Toobtainfinancialsupport,scientistsand researchersalwayswriteresearchproposalstopresenttheirresearchplansandexplainthesignificanceoftheprojectto thefundingagencies</rdfs:label>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-It_shouldalsobenotedthatthenew">
+    <rdfs:label>It shouldalsobenotedthatthenewlyproposedmodifiedTF-IDFalgorithmcanbeunderstoodasasimpleencoding technique,suchastakingthevalue0ortheIDFvalueofthetermdependingonwhetherthetermexistsintheresearch proposals.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Reference-7">
+    <rdfs:label>7</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Determiningwhetherascientificr">
+    <rdfs:label>Determiningwhetherascientificresearchprojectis worthyoffundingisasignificantandrigorousstepforfundingagencies.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-No.">
+    <rdfs:label>No.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Itshows13highIC-scoreresearch_">
+    <rdfs:label>Itshows13highIC-scoreresearch proposalsareincorrectlypredictedaslowIC-scoreproposals.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Section-References">
+    <rdfs:label>References</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Inthefollowingexperiments,each">
+    <rdfs:label>Inthefollowingexperiments,eachexperimentisdesignedand conductedthesameasthefirstexperiment.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-WedecidetousetheTF-IDFalgorith">
+    <rdfs:label>WedecidetousetheTF-IDFalgorithmandRFclassifierintheselectionexperiment.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-FortheDTclassifier,therangeset">
+    <rdfs:label>FortheDTclassifier,therangesettingsforfindinghyper-parametersareasfollows: max_depth=(3,10), min_samples_split=(3,10),max_features=(0.1,0.999),andmax_samples_leaf=(3,10).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-In_addition,ifatermdoesnotexis">
+    <rdfs:label>In addition,ifatermdoesnotexistinthedocuments,thenthetermisassignedavalueof0.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Reference-0">
+    <rdfs:label>0</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Reference-2">
+    <rdfs:label>2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Afterallthetextisextracted,all">
+    <rdfs:label>Afterallthetextisextracted,allcharacters,whetheruppercaseorlowercase, areconvertedtolowercase.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Figure1:_Thepipelineonanalysin">
+    <rdfs:label>Figure1: Thepipelineonanalysinggrantapplications.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Fanietal.">
+    <rdfs:label>Fanietal.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-In_additiontotheaboveresearchp">
+    <rdfs:label>In additiontotheaboveresearchproposals,another15%ofresearchproposalsarerandomlyselectedbasedontheoriginal distributioninthemoderaterange.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-2.2_Termvectorsandstatisticalm">
+    <rdfs:label>2.2 Termvectorsandstatisticalmeasuresintextrepresentation TF-IDFiscommonlyusedindataminingandinformationretrieval.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Forexample,inthefirstexperimen">
+    <rdfs:label>Forexample,inthefirstexperiment,allresearchproposalsare rankedaccordingtotheICscorefrom1to7,with0∼15%aslowIC-scoreresearchproposalsand85%∼100%ashigh ICscoreresearchproposals.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Thirdly,removingpunctuationsan">
+    <rdfs:label>Thirdly,removingpunctuationsandtokenizingbywhitespacearealsoadopted,which makethetextintosmallpiecescalledtokens.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-andSVMwerecomparedinthisstudy.">
+    <rdfs:label>andSVMwerecomparedinthisstudy.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Thefifth_sectiongivestheexperi">
+    <rdfs:label>Thefifth sectiongivestheexperimentalresultsofthisprojectandcarriesonthefurtheranalysis.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-[17]appliedTF-IDFandSVDalgorit">
+    <rdfs:label>[17]appliedTF-IDFandSVDalgorithms[18]tothefeatureselectionstepandcomparethetwoalgorithms</rdfs:label>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-1"/>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-7"/>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Another_similarandrecentlyrela">
+    <rdfs:label>Another similarandrecentlyrelatedworkwastheresearchpaperclassificationsystembuiltbasedontheTF-IDFandLDA schemes</rdfs:label>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-3.6_AnalysemoderateIC-scoregra">
+    <rdfs:label>3.6 AnalysemoderateIC-scoregrantapplications WealsoconductseveralexperimentstoanalysemoderateIC-scoreresearchproposalsbasedontheproposedmodel.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Thetermforestcan_beinterpreted">
+    <rdfs:label>Thetermforestcan beinterpretedtomeanthateachclassifierintheensembleisaDTclassifier,whileallcombinationsofclassifiersarea forest</rdfs:label>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-1"/>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Bydefault,allJSONfilesarestore">
+    <rdfs:label>Bydefault,allJSONfilesarestoredinCouchDBdatabase</rdfs:label>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-2"/>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Inthestatisticalanalysisofgran">
+    <rdfs:label>Inthestatisticalanalysisofgrantapplications, thePythonlanguageandNumpylibrary</rdfs:label>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-3"/>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Toincludeallthetermsfromthecor">
+    <rdfs:label>Toincludeallthetermsfromthecorpus,wechoosetheRFclassifierbasedonunigramandthemodifiedTF-IDF algorithmasthefinalproposedmodel.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-The_top100featuresgiveusabette">
+    <rdfs:label>The top100featuresgiveusabetterunderstandingofwhatisgoingoninsidetheblackbox.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-3,805researchproposalsaregiven">
+    <rdfs:label>3,805researchproposalsaregiveninthisdatasetwithpeer-reviewedICscores(1-7).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-In2019,animprovedTF-IDFalgorit">
+    <rdfs:label>In2019,animprovedTF-IDFalgorithmbasedonclassification discriminationstrengthwasproposedfortextclassification</rdfs:label>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-TheRFclassifier_votesoneachtre">
+    <rdfs:label>TheRFclassifier votesoneachtreeinspecificclassificationproblemsandselectsthemostpopularcategoryasthefinalresult.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Thepythonlibrary_gensim">
+    <rdfs:label>Thepythonlibrary gensim</rdfs:label>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-3"/>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Testaccuracy(%)_1_66.91_2_65.8">
+    <rdfs:label>Testaccuracy(%) 1 66.91 2 65.88 3 62.17 4 56.84 5 65 6 Lessthan50 AccordingtotheresultsfromTable3,thebestperformancecanachieve66.91%basedonanRFclassifier,TF-IDF algorithmwith15%and85%cut-offoption.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Second,aneffectivedata_mining_">
+    <rdfs:label>Second,aneffectivedata mining model can help human evaluators understand the research proposals’ strengths and weaknesses during the manualreviewprocess.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Basedon_thecomparisonofTable5a">
+    <rdfs:label>Basedon thecomparisonofTable5andTable6,thebestperformanceisachievedwith84.17%accuracybytheRFclassifierwith thenewlyproposedmodifiedTF-IDFalgorithmexcepttheNo.14modelcombinationinTable6.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Themoresteps,theeasierit_istof">
+    <rdfs:label>Themoresteps,theeasierit istofindthebestaccuracyvalue.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Then,_theexperimentalsettingsa">
+    <rdfs:label>Then, theexperimentalsettingsandimplementationswiththehardwareplatformsareintroducedinthissection.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-ToextractmetadatafromthePDFver">
+    <rdfs:label>ToextractmetadatafromthePDFversionofa file,theTesseract-OCRmethod[28]andpdftotexttool[29]areapplied</rdfs:label>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-2"/>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-8"/>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Thereasonisthatthe_ICscoreof4.">
+    <rdfs:label>Thereasonisthatthe ICscoreof4.75iscommon,andmorethan5%(35%∼40%)researchproposalshavethisICscore.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Moreover,basedonthesamefeature">
+    <rdfs:label>Moreover,basedonthesamefeatureextractionalgorithm,theclassification accuracyoftheRFclassifierisalwaysbetterthanthatoftheDTclassifier.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Then,anintra-classdispersional">
+    <rdfs:label>Then,anintra-classdispersionalgorithm basedonTF-IDFwasproposed.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Table6showstheperformanceofthe">
+    <rdfs:label>Table6showstheperformanceofthenewlyproposedmodifiedTF-IDFalgorithmwithDTandRFclassifiers.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Theexperimentalsoconsidersthen">
+    <rdfs:label>Theexperimentalsoconsidersthen-grams</rdfs:label>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-2"/>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Textstemmingisatechniqueforred">
+    <rdfs:label>Textstemmingisatechniqueforreducing eachwordtoitsrootformat</rdfs:label>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-2"/>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Therefore,_we_create_a_list_of">
+    <rdfs:label>Therefore, we create a list of customstopwordsaccordingtotheIDFformulaanddeletetheIDFvalueofthetermfromthetextlowerthan1.0.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Unigramisthemostcommonchoicefo">
+    <rdfs:label>Unigramisthemostcommonchoicefortextclassificationtasks, butbigramandtrigrammaybetterrepresentscientificterms,wherebigramistwoconsecutivewordsinasentence, andtrigramisthreeconsecutivewordsinasentence.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Sincetheproposedmodelistrained">
+    <rdfs:label>SincetheproposedmodelistrainedbasedonthelowIC-scoreproposalsof 0∼15%andhighIC-scoreproposalsof85∼100%,therangeofresearchproposalswithmoderateICscoreis15%∼85%.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Finally,withthe_combinationofT">
+    <rdfs:label>Finally,withthe combinationofTF-IDFandMultivariateBernoulliNaiveBayes,newsarticlesintheIndonesianLanguagecorpuswere classified,andthebestresultwasobtained</rdfs:label>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-1"/>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-AMetadata_Extractor&amp;Loader(MEL">
+    <rdfs:label>AMetadata Extractor&amp;Loader(MEL)</rdfs:label>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-2"/>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-5_ExperimentalResult_Table_5_s">
+    <rdfs:label>5 ExperimentalResult Table 5 shows the performance of the TF-IDF algorithm with DT and RF classifiers.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Consideringthesymmetricdistrib">
+    <rdfs:label>ConsideringthesymmetricdistributionoftheICscores,newresearchproposalswithlowandhighICscoresare selectedineachexperiment,andperformanceanalysisisconductedbasedontheproposedtrainingmodel.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Reference-6">
+    <rdfs:label>6</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Atthesametime,theexperimentalr">
+    <rdfs:label>Atthesametime,theexperimentalresultsprovethatthecoreidea ofdefiningthemodifiedTF-IDFalgorithmismeaningfulandshowtheraretermsassociatedwithinnovativeness.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Fourth,forgovernmentor_funding">
+    <rdfs:label>Fourth,forgovernmentor fundingagencies,differentfundingprojectsshouldbeestablishedtoimprovethequalityofvarioustypesofresearch.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Table1showsastatisticofICscore">
+    <rdfs:label>Table1showsastatisticofICscores,showingthat3,693researchproposalshavevalidIC scores.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-To_find_the_hyper-parameters_o">
+    <rdfs:label>To find the hyper-parameters of the RF classifier, the range of each parameter is set as follows: max_depth = (5, 60),min_samples_split=(10,100),max_features=(0.1,0.999),max_samples_leaf=(10,50)andn_estimation= (100,400).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-2.3_Dataminingmodelsintextclas">
+    <rdfs:label>2.3 Dataminingmodelsintextclassification In the field of data mining, the DT classifier is widely welcome for its advantage of showing how models make decisionsaccordingtothedatafeatures</rdfs:label>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-1"/>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Secondly,themaximizemethodisus">
+    <rdfs:label>Secondly,themaximizemethodisusedtorunthetechniquewithn_iterandinit_points parameters.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-The_experimentalresultsshowedt">
+    <rdfs:label>The experimentalresultsshowedthattheTF-IGMperformedbetterthanthetraditionalTF-IDFinthreestandardcorpora.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Wongsoet_al.">
+    <rdfs:label>Wongsoet al.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Meanwhile,the10-foldcross-vali">
+    <rdfs:label>Meanwhile,the10-foldcross-validationmethodisalsoappliedinfindingthe hyper-parameters.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-wasappliedtogrouppaperswithsim">
+    <rdfs:label>wasappliedtogrouppaperswithsimilartopics basedontheTF-IDFvectorencodingofeachpaper.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-TestAcc(%)_1_75.91_2_73.43_3_7">
+    <rdfs:label>TestAcc(%) 1 75.91 2 73.43 3 72.5 4 65.63 5 65.25 6 64 7 61.38 Inadditiontoanalysingtheconfusionmatrix,wealsoextractthe100mostinfluentialfeaturesfromtheproposedmodel, whichgivesanintuitiveunderstandingofhowmucheachfeaturecontributestoreducingtheweightedimpurities.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Table4showsalistofexperimentsu">
+    <rdfs:label>Table4showsalistofexperimentsusedtoanalysetheresearchproposalsofmoderateIC score.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-FanandQin">
+    <rdfs:label>FanandQin</rdfs:label>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-1"/>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-One_advantageofapplyingthePSIm">
+    <rdfs:label>One advantageofapplyingthePSImethodwasthattheresearcherdidnotneedtodeterminetheweightcriteria.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Fig.1showsthepipelineof_analys">
+    <rdfs:label>Fig.1showsthepipelineof analysinggrantapplications.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-First,dataminingmodelscanbrief">
+    <rdfs:label>First,dataminingmodelscanbrieflyintroduce theessentialfeaturesoftheresearchproposalstohelphumanevaluatorsbetterscreentheexcellentresearchproposals, suchastheinfluentialfeaturesofthedataminingmodelsacrossalltheresearchproposals.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-proposedamulti-criteriaapproac">
+    <rdfs:label>proposedamulti-criteriaapproachtoevaluateresearchproposalsbasedoninterval-valuedintuitionistic fuzzysets.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-BasedonthemedianICscore,thesel">
+    <rdfs:label>BasedonthemedianICscore,theselectionrangeoftestingmoderateICscorebytestingseveralcut-offoptions,suchas 5 RunningTitleforHeader Table4: ExperimentaldesignforanalyzingmoderateIC-scoreresearchproposals.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Basedonthetestaccuracy,_itcanb">
+    <rdfs:label>Basedonthetestaccuracy, itcanbeconcludedthatthereisacorrelationbetweenthemoderateIC-scoreresearch proposalsandhigh/lowIC-scoreresearchproposals.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-TheK-meansclusteringalgorithm">
+    <rdfs:label>TheK-meansclusteringalgorithm</rdfs:label>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-ThissystemusedaLatentDirichlet">
+    <rdfs:label>ThissystemusedaLatentDirichletallocation(LDA)schemetoextractrepresentativekeywordsfrom theabstractofeachpaper</rdfs:label>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Itcanbefoundthattheactualsizeo">
+    <rdfs:label>ItcanbefoundthattheactualsizeofthemoderateIC-scoreresearchproposals andthefinaltestdatavarieswiththecut-offoptions.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-TFindicatesthefrequencyofaword">
+    <rdfs:label>TFindicatesthefrequencyofawordinadocument oracollectionofdocuments.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-DasandChakraborty">
+    <rdfs:label>DasandChakraborty</rdfs:label>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Inordertoanalysetheproposedmod">
+    <rdfs:label>Inordertoanalysetheproposedmodelintheend,the100most influentialtermsfromthecollectionsofresearchproposalsareextractedbythefunctionfromscikit-learnlibrary</rdfs:label>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-2"/>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Forexample,“this,“are,and“it">
+    <rdfs:label>Forexample,“this",“are",and“it"usuallydonot representimportantinmostcases.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Basedontheconfusionmatrixabove">
+    <rdfs:label>BasedontheconfusionmatrixaboveandtheexperimentalresultsofcheckingmoderateIC-scoreresearchproposals,it canbefoundthatthemodelisalwaysmoreaccurateinpredictingresearchproposalswithlowICscoresthanwith highICscores.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Reference-4">
+    <rdfs:label>4</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Themostimportant_4_RunningTitl">
+    <rdfs:label>Themostimportant 4 RunningTitleforHeader reasonisthateachresearchproposalhasmanyuniqueterms,thentherewillbemorethan110,000uniquetermsinthe corpusfor800researchproposals,whichmayleadtoinsufficientmemoryduringmodeltraining.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-3.5_Applydataminingmodelswithg">
+    <rdfs:label>3.5 Applydataminingmodelswithgrantapplications ThispaperusesDTandRFclassifiersfortextclassificationbecausewewouldliketofindoutthemostinfluential termsandunderstoodhowthedataminingmodelpredictshighandlowIC-scoreresearchproposals.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Applyingthesamemethodbutwithdi">
+    <rdfs:label>Applyingthesamemethodbutwithdifferent hyper-parameters,thebestperformingmodelforanalysingtheIdeasGrantscanreachanaccuracyof82.5%.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-At_thesametime,theMultivariate">
+    <rdfs:label>At thesametime,theMultivariateBernoulliNaiveBayes</rdfs:label>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-1"/>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Basedonadifferentnumberofn-gra">
+    <rdfs:label>Basedonadifferentnumberofn-gramsandvariousdatasets,fivedataminingclassifierswerebuiltandcompared</rdfs:label>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-1"/>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Fourdifferentdataminingmodelsw">
+    <rdfs:label>Fourdifferentdataminingmodelswereimplementedwithfivedifferentensemblemethods,andtheexperimental resultsshowedthattheRFclassifierwiththeBaggingensemblemethodachievedthebestperformance</rdfs:label>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-1"/>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Thenumber59denotesthatthepropo">
+    <rdfs:label>Thenumber59denotesthattheproposedmodel correctlypredicts59researchproposalswithlowICscoresand42withhighICscores.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Thetrigramdenotesacombination_">
+    <rdfs:label>Thetrigramdenotesacombination oftheunigrams,bigrams,andtrigrams.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Ameasureofthefeature_importanc">
+    <rdfs:label>Ameasureofthefeature importanceisvaluableforinternalmodeldevelopmentpurposesbyshowingtowhatextentfeaturescontributetotest data.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Theinit_pointsisdefinedforrand">
+    <rdfs:label>Theinit_pointsisdefinedforrandomexplorationontheparameterspace,whichhelps toexplorethediversityofthespace.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-3">
+    <rdfs:label>3</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Then,the15%,85%optionisselecte">
+    <rdfs:label>Then,the15%,85%optionisselectedforfutureexperimentsondifferent dataminingmodelswithfeatureextractiontechniques.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Reference-9">
+    <rdfs:label>9</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Intheexperimentsofselectinghig">
+    <rdfs:label>Intheexperimentsofselectinghigh,low,andmoderateIC-scoreresearchproposalsandimplementingthe dataminingmodels,thescikit-learnlibrary</rdfs:label>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-2"/>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-areusedtocalculatethemedian,mo">
+    <rdfs:label>areusedtocalculatethemedian,mode,andotherstatisticalmeasurements ofICscore.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Dataminingmodelscanbetterunder">
+    <rdfs:label>Dataminingmodelscanbetterunderstandhowtoensurethathumanevaluatorsrespondtothesenecessaryqualities.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-•_AmodelisproposedwithaRandomF">
+    <rdfs:label>• AmodelisproposedwithaRandomForestclassifieroverdocumentsencodedwithfeaturesdenotingthe presenceorabsenceofunigramterms.TheunigramtermsareencodedbyamodifiedTermFrequency-Inverse DocumentFrequency(TF-IDF)algorithm,whichonlyimplementstheIDFpartofTF-IDF.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Finally,_textstemmingisthelast">
+    <rdfs:label>Finally, textstemmingisthelasttechniqueweapplyinthetextpre-processingstep.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Inaddition,99researchproposals">
+    <rdfs:label>Inaddition,99researchproposalsdonotcontainanICscore,13ofwhichhaveanICscorebelow1.0,andthese researchproposalsthereforenotbeusedinthisproject.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Atthesametime,whencollectingpr">
+    <rdfs:label>Atthesametime,whencollectingproposals,wealsoconsider deletingthewordsthatonlyexistonceortwice,becauseveryraretermstendnottobepredictive.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Hyper-parametertuningisasignif">
+    <rdfs:label>Hyper-parametertuningisasignificantstepinapplyingdataminingmodels,andtheBayesianOptimizationtool</rdfs:label>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-3"/>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Next,ahigh-qualitydataminingmo">
+    <rdfs:label>Next,ahigh-qualitydataminingmodelcanbeappliedtodevelopproceduresandguidelinesfor humanassessorstoevaluatefutureresearchproposalstoimprovethequalityofassessments.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Themax_depthparameter_indicate">
+    <rdfs:label>Themax_depthparameter indicatesthemaximumdepthofthetree,andthemax_featuresdenotesthenumberoffeaturestoconsiderwhenfinding thebestsplit</rdfs:label>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-2"/>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Applyingdataminingmodelstoares">
+    <rdfs:label>Applyingdataminingmodelstoaresearchproposalhasseveralbenefits.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Themethodologysection_mainlyde">
+    <rdfs:label>Themethodologysection mainlydescribesthepipelineweapplyforthisresearchproject.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Inaddition,6researchproposalsw">
+    <rdfs:label>Inaddition,6researchproposalswithlowICscoresare guessedwronglywhichtheyarepredictedashighIC-scoreproposals.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Inaddition,wealsoneedtoimpleme">
+    <rdfs:label>Inaddition,wealsoneedtoimplementthescoringmethod andthecross-validationsetup.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-IftheresearchproposalshaveanIC">
+    <rdfs:label>IftheresearchproposalshaveanICscoreoflessthan5.0,theseproposalsarelabelledaslowIC-scoreresearch proposals.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Atthesametime,itmustbemadeclea">
+    <rdfs:label>Atthesametime,itmustbemadeclearthatrelyingsolelyondatamining modelstoreplacemanualchecksisnotreliable.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Inthecomparisonstudyoffeature_">
+    <rdfs:label>Inthecomparisonstudyoffeature extractiontechniques,400researchproposalsforeachlowandhighICscorearerandomlyselectedformodeltraining, andthetrainingdatais85%,andthetestdatais15%.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Initially,MEL">
+    <rdfs:label>Initially,MEL</rdfs:label>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-2"/>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Meanwhile,thewordswhoseIDFvalu">
+    <rdfs:label>Meanwhile,thewordswhoseIDFvalue arelessthan1.0onlyaccountfor0.2%ofthetotalwords,andtheyareallcommonwordssuchas“next”,“shift”and “other”.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Section4bringstheoveralldesign">
+    <rdfs:label>Section4bringstheoveralldesignoftheproject.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-IntheRFclassifier,eachdecision">
+    <rdfs:label>IntheRFclassifier,eachdecisiontreealsoselectstheoptimalattributebasedontheAttributeSelection 2 RunningTitleforHeader Measures(ASM).Atthesametime,eachdecisiontreedependsindependentlyonarandomsample.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Thedesignofthismodified_featur">
+    <rdfs:label>Thedesignofthismodified featureextractionalgorithmfollowstheideathatraretermscandefineinnovativeness.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Then,thenumbersarealsoremovedb">
+    <rdfs:label>Then,thenumbersarealsoremovedbecausethenumbersintheresearchproposalsare notrelevantforfutureanalysis.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-isimplementedinthisstep.">
+    <rdfs:label>isimplementedinthisstep.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Ithelpstoreducethevocabularyan">
+    <rdfs:label>Ithelpstoreducethevocabularyandsurfacesyntaxtogetclosertothemeaningof eachterm,andthePorterStemmingalgorithm</rdfs:label>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-2"/>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Inevery_IdeasGrantapplication,">
+    <rdfs:label>Inevery IdeasGrantapplication,thereisasectioncalled“InnovationandCreativitystatement.” Wealsoextractthispartfrom eachIdeasgrantandanalyseusingtheproposedpipeline.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-isusedtoimplementtheTF-IDFalgo">
+    <rdfs:label>isusedtoimplementtheTF-IDFalgorithmandthenewlyproposedmodifiedTF-IDFalgorithm.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Thememoryconfigurationis16GB21">
+    <rdfs:label>Thememoryconfigurationis16GB2133 MHzLPDDR3.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-3.4_Designandapplythefeatureex">
+    <rdfs:label>3.4 Designandapplythefeatureextractiontechnique WeproposeamodifiedTF-IDFalgorithm,whichonlyimplementstheIDFpartofTF-IDFasthefeatureextraction technique.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-In_2016,GuoandYang">
+    <rdfs:label>In 2016,GuoandYang</rdfs:label>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Table3:_Theselectionexperiment">
+    <rdfs:label>Table3: TheselectionexperimentalresultsbasedonRFclassifier,TF-IDFalgorithmandunigramfeatures.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-In_addition,wefocusonproposing">
+    <rdfs:label>In addition,wefocusonproposinganefficientfeatureextractiontechniqueratherthanthechoiceofclassifiers,sowe choosetheverycommonDecisionTree(DT)andRFclassifiersforexperimentalcomparison.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Then,theproposalswithanICscore">
+    <rdfs:label>Then,theproposalswithanICscoreof4.25willnotbeconsideredthelowIC-scoreresearch proposals.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-In_additiontotheexperimentsana">
+    <rdfs:label>In additiontotheexperimentsanalysingallgrantapplications,wefollowthesamepipelineandestablishanewmodelto evaluateIdeasGrantapplicationsonly,theonewithinnovationcriteria.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-4_ExperimentalSettings_Thissec">
+    <rdfs:label>4 ExperimentalSettings Thissectiondescribesallexperimentalsettingsforthispaper.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Featuresextractedfromthepropos">
+    <rdfs:label>Featuresextractedfromtheproposedmodelshowsthatonly618featuresareconsideredsignificant,based ontensofthousandsoffeaturesintheresearchproposals.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-The_reasonforchoosing1.0isthat">
+    <rdfs:label>The reasonforchoosing1.0isthatafterimplementationsomepreliminaryexperiments,weconfirmthatthefeaturewords consideredasimportantbyDTandRFclassifierswilllessthan1000words.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Then,thefinaltestdatacombinest">
+    <rdfs:label>Then,thefinaltestdatacombinestheprevioustestdatasetandtheselected15% moderateIC-scoreresearchproposals.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-have_shown_that_deleting_stop_">
+    <rdfs:label>have shown that deleting stop words can improve the performance of data mining tasks.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-ProposalswithanICscoregreatert">
+    <rdfs:label>ProposalswithanICscoregreaterthan5.0arelabelledashighIC-scoreproposalsinthefinaltestdata set.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Table1alsoshowsthemedianICscor">
+    <rdfs:label>Table1alsoshowsthemedianICscore,5.0,themostfrequent ICscore.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-6_RunningTitleforHeader_Table5">
+    <rdfs:label>6 RunningTitleforHeader Table5: ExperimentalresultswithTF-IDFalgorithm.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-ractmetadatafromthePDFversiono">
+    <rdfs:label>ractmetadatafromthePDFversionofa file,theTesseract-OCRmethod[28]andpdftotexttool[29]areapplied.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-TheDTandRF_classifiersareconve">
+    <rdfs:label>TheDTandRF classifiersareconvenienttopresentthisvaluableinformation.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-3.1_Dataset_Thedatasetusedtoan">
+    <rdfs:label>3.1 Dataset Thedatasetusedtoanalysethegrantapplicationsisthe2019grantapplicationssubmittedtoanAustralianGovernment researchfundingagency.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Forexample,thelowICscoreforexp">
+    <rdfs:label>Forexample,thelowICscoreforexperimentNo.1issetat 15%,whichis4.25.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Inaddition,although_weconsider">
+    <rdfs:label>Inaddition,although weconsiderdifferentn-grams,especiallybigramandtrigram,withremovingscarcewords,Table5andTable6could provethatitmighthelpbutnotalways.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Then_iterisdefinedforthenumber">
+    <rdfs:label>Then_iterisdefinedforthenumberofstepstoruntheoptimizationfunction.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Meanwhile,theresearchproposals">
+    <rdfs:label>Meanwhile,theresearchproposalswiththemedianICscoreof5.0arepredictedtobeabout37.2% withhigh-ICscoreresearchproposalsandabout62.8%withlow-ICscoreresearchproposals.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Reference-5">
+    <rdfs:label>5</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Thehardware_platformisMacBookP">
+    <rdfs:label>Thehardware platformisMacBookProwithIntelCorei72.9GHzQuard-Coreprocessor.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Thentheselectedresearchproposa">
+    <rdfs:label>Thentheselectedresearchproposalsaredividedinto85%trainingsetand15%testset.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Anotherreasonwhywedonotchooset">
+    <rdfs:label>Anotherreasonwhywedonotchoosethebigramandtrigramcombinations astheproposedmodelisthebigramandtrigramtermsareinfactnotregardedasessentialfeaturesbyDTandRF classifiers.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Inaddition_totheexperimentsinT">
+    <rdfs:label>Inaddition totheexperimentsinTable4,anotherexperimentisdesignedtocheckthemedianIC-scoreresearchproposals(IC score=5.0)topredicttheproportionofhighorlowIC-scoreresearchproposalsratherthancalculatethetestaccuracy.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-6">
+    <rdfs:label>6</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-In2016,anewsclassificationmeth">
+    <rdfs:label>In2016,anewsclassificationmethodwasproposedbasedontheTF-IDFalgorithmandSupportVectorMachine(SVM)</rdfs:label>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-1"/>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Table2showsalistofexperimentsf">
+    <rdfs:label>Table2showsalistofexperimentsforhigh, low,andmoderateIC-scoreresearchproposalsselection.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-In_addition,_this_study_also_c">
+    <rdfs:label>In addition, this study also compared the binary bag of words, TF-IDF, and TF-IDF with NWNalgorithms.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Beforedesigningthewholepipelin">
+    <rdfs:label>Beforedesigningthewholepipeline,astatisticalanalysisisrequiredbasedontheICscoresofresearchproposals.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Onereasonisthatitcanreduce_the">
+    <rdfs:label>Onereasonisthatitcanreduce thetrainingscalebydrawingsamplingfromthetrainingdataset,thusreducingthemodel’stime.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-AlthoughweguesstheICscoreismor">
+    <rdfs:label>AlthoughweguesstheICscoreismorerelevanttothe“InnovationandCreativitystatement”comparedwithother sections,asevaluatorsmaydescribetheirinnovationinthissection,theexperimentalresultdoesnotsupportourguess.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-3_RunningTitleforHeader_Table1">
+    <rdfs:label>3 RunningTitleforHeader Table1: StatisticalsummaryoftheICscoresofgrantapplications.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Fromtheresultoffindinghyper-pa">
+    <rdfs:label>Fromtheresultoffindinghyper-parameters,itcanbefoundthatthebestperformingmodeldoesnotuseallthefeatures toapplywiththedataminingalgorithms,suchastheRFclassifieronlyuses99.31%features.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Basedonthecomparisonofthetwota">
+    <rdfs:label>Basedonthecomparisonofthetwotables,itcanbefoundthattheproposedmodifiedTF-IDFalgorithmispractical andeffectivedespitetwoorthreeexceptionsexist.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Model_Acc(%)_F1score(%)_1_DTcl">
+    <rdfs:label>Model Acc(%) F1score(%) 1 DTclassifier+unigram 76.67 71.43 2 DTclassifier+unigram+removewordsexist≤1time 76.67 71.43 3 DTclassifier+unigram+removewordsexist≤2times 79.17 76.47 4 DTclassifier+bigram 75.83 76.03 5 DTclassifier+bigram+removewordsexist≤1time 73.33 68.63 6 DTclassifier+bigram+removewordsexist≤2times 71.67 66.67 7 DTclassifier+trigram 76.67 71.43 8 DTclassifier+trigram+removewordsexist≤1time 76.67 71.43 9 DTclassifier+trigram+removewordsexist≤2times 76.67 71.43 10 RFclassifier+unigram 81.67 78.85 11 RFclassifier+unigram+removewordsexist≤1time 80.83 77.67 12 RFclassifier+unigram+removewordsexist≤2times 80 76.47 13 RFclassifier+bigram 80.83 80.34 14 RFclassifier+bigram+removewordsexist≤1time 80.83 80.00 15 RFclassifier+bigram+removewordsexist≤2times 79.17 77.88 16 RFclassifier+trigram 81.67 78.85 17 RFclassifier+trigram+removewordsexist≤1time 80 76.47 18 RFclassifier+trigram+removewordsexist≤2times 81.67 78.85 Table6: ExperimentalresultswiththenewlyproposedmodifiedTF-IDFalgorithm.</rdfs:label>
+    <rdfs:label>Model Acc(%) F1score(%) 1 DTclassifier+unigram 77.5 74.29 2 DTclassifier+unigram+removewordsexist≤1time 80.83 78.10 3 DTclassifier+unigram+removewordsexist≤2times 77.5 75.23 4 DTclassifier+bigram 79.17 75.73 5 DTclassifier+bigram+removewordsexist≤1time 79.17 77.48 6 DTclassifier+bigram+removewordsexist≤2times 79.17 73.68 7 DTclassifier+trigram 76.67 69.57 8 DTclassifier+trigram+removewordsexist≤1time 76.67 69.57 9 DTclassifier+trigram+removewordsexist≤2times 74.17 73.50 10 RFclassifier+unigram 84.17 81.55 11 RFclassifier+unigram+removewordsexist≤1time 84.17 81.55 12 RFclassifier+unigram+removewordsexist≤2times 84.17 81.55 13 RFclassifier+bigram 84.17 81.55 14 RFclassifier+bigram+removewordsexist≤1time 83.34 80.39 15 RFclassifier+bigram+removewordsexist≤2times 84.17 81.55 16 RFclassifier+trigram 84.17 81.55 17 RFclassifier+trigram+removewordsexist≤1time 84.17 81.55 18 RFclassifier+trigram+removewordsexist≤2times 84.17 81.55 7 RunningTitleforHeader Figure2: Confusionmatrixon“unseen”testsetoftheproposedmodel.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-sandfuturework_aredescribedins">
+    <rdfs:label>sandfuturework aredescribedinsection6.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-In_addition,theentiredatasetco">
+    <rdfs:label>In addition,theentiredatasetcontainsdifferenttypesofgrantapplications,suchasSynergyGrants,StandardProject Grants,andIdeasGrants.BesidestheICscore,reviewersalsoscoreseveralotherassessmentscores,suchas“Feasibility Score”or“SignificanceScore.” SinceallresearchproposalsaresavedinPDFformat, extractingthetextfromPDFfilesisnecessary.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Basedontheexperimentalresultof">
+    <rdfs:label>Basedontheexperimentalresultofthehighandlow IC-scoreresearchproposalsselection, allexperimentsareconductedwiththelowIC-scoreresearchproposals(IC score0∼15%)andthehighIC-scoreresearchproposals(ICscore85%∼100%).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-WhencalculatingTF,allthewordsf">
+    <rdfs:label>WhencalculatingTF,allthewordsfromdocumentsaretreatedasequallyimportant.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Firstly,800researchproposals(4">
+    <rdfs:label>Firstly,800researchproposals(400withlowICscoresand400withhigh ICscores)arerandomlyselectedtoimplementtheRFclassifierineachexperiment.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Then,theIDFisimplementedtoadju">
+    <rdfs:label>Then,theIDFisimplementedtoadjustthetermweightsindocumentswhichcan increasetheweightsofthoserarebutimportantwordsandweighdownthosefrequentwordsbutlessimportant.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Meanwhile,theotherprimarygoalo">
+    <rdfs:label>Meanwhile,theotherprimarygoaloftheprojectistodevelopapredictivevocabularyforcontemporaneous RunningTitleforHeader proposalsandtounderstandhowthemodelinferredresearchproposalswithhighICscoresfromthedatafeatures.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-is_applied.">
+    <rdfs:label>is applied.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Secondly,_in_the_final_test_da">
+    <rdfs:label>Secondly, in the final test data set, the moderate IC-score research proposals are labelled based on the median IC scoreof5.0.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Theresultscanguideresearcherst">
+    <rdfs:label>Theresultscanguideresearcherstoselectanappropriatedataminingmodelaccordingtothesizeofthedata set.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-ppliedTF-IDFandSVDalgorithms[1">
+    <rdfs:label>ppliedTF-IDFandSVDalgorithms[18]tothefeatureselectionstepandcomparethetwoalgorithms.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-LowICscore_HighICscore_Moderat">
+    <rdfs:label>LowICscore HighICscore ModerateICscore 1 score&lt;4.25(0∼15%) score&gt;5.63(85%∼100%) 5.63≥score≥4.25(15%∼85%) 2 score&lt;4.36(0∼20%) score&gt;5.5(80%∼100%) 5.5≥score≥4.36(20%∼80%) 3 score&lt;4.5(0∼25%) score&gt;5.375(75%∼100%) 5.375≥score≥4.5(25%∼75%) 4 score&lt;4.57(0∼30%) score&gt;5.25(70%∼100%) 5.25≥score≥4.57(30%∼70%) 5 score&lt;4.75(0∼35%) score&gt;5.2(65%∼100%) 5.2≥score≥4.75(35%∼65%) 6 score&lt;4.75(0∼40%) score&gt;5.08(60%∼100%) 5.08≥score≥4.75(40%∼60%) Inaddition,thedeletionofstopwordsisoneofthemostcrucialtextpre-processingtechniques.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-whichbringusanintuitiveunderst">
+    <rdfs:label>whichbringusanintuitiveunderstandingofhowmucheachtermcontributestoreducingtheweightedimpurities.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Thecontributionsofthispaperare">
+    <rdfs:label>Thecontributionsofthispaperarelistedasfollows: • Astrictexperimentalpipelineforanalysinggrantapplicationsisgiven,andtheexperimentalresultsproveits feasibility.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Nevertheless,theresultsoftheDT">
+    <rdfs:label>Nevertheless,theresultsoftheDTclassifier arestillcrucialbecausetheplotofDTclassifiercontainsallthedecisions.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-3.2_Textpre-processingforgrant">
+    <rdfs:label>3.2 Textpre-processingforgrantapplications HaCohen-Kerneretal.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-In_the_21st_century,_the_impor">
+    <rdfs:label>In the 21st century, the importance of developing cutting-edge scientific research is self-evident for every country.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Althoughtheclassifierisonlyest">
+    <rdfs:label>Althoughtheclassifierisonlyestablishedforthe2019grantapplicationsandmaynotpredictthehighresearch proposalsforfutureapplications,theseuniquetermsarestillvaluableandmeaningfulasareferenceforevaluators.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Webelievethatthesewordsappeart">
+    <rdfs:label>Webelievethatthesewordsappeartoofrequentlyandhavenoinfluenceontheexperimentalresults.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Fig.2showstheconfusionmatrixof">
+    <rdfs:label>Fig.2showstheconfusionmatrixoftheproposedmodelforthe“unseen”testdata.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Theexperimentalresultshowsthat">
+    <rdfs:label>Theexperimentalresultshowsthattheproposedmethod canachieve68.33%accuracyonanalysing“InnovationandCreativitystatement”sectionsonlyfromIdeasGrants.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-toolisappliedtoextracttextfrom">
+    <rdfs:label>toolisappliedtoextracttextfromPDFresearchproposalsandsaveitinaJSONfile withmetadatasetsandcontent.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Thehyper-parameters_aremax_dep">
+    <rdfs:label>Thehyper-parameters aremax_depth=22,max_features=0.9931,min_samples_leaf=11,min_samples_split=67andn_estimation= 102.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Reference-8">
+    <rdfs:label>8</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Fourthly,thelowICscoreboundary">
+    <rdfs:label>Fourthly,thelowICscoreboundaryof4.75isselectedinbothexperiments5and6.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-8_RunningTitleforHeader_Table7">
+    <rdfs:label>8 RunningTitleforHeader Table7: ExperimentalresultsonanalysingmoderateIC-scoreresearchproposals.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Statistic_Value_ICscorecountin">
+    <rdfs:label>Statistic Value ICscorecounting 3,693 Standarddeviation 0.65 Median 5.00 Mode 5.00 Mean 4.92 Min 1.75 25% 4.50 50% 5.00 75% 5.36 Max 6.90 Table2: Experimentaldesignofhigh,lowandmoderateIC-scoreresearchproposalsselection.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Thepurposeofthisseriesofexperi">
+    <rdfs:label>ThepurposeofthisseriesofexperimentsistodeterminewhetherthereisarelationbetweenproposalswithmoderateIC scoresandthatofhighandlowICscores.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-TheresultsshowedthattheLDAwith">
+    <rdfs:label>TheresultsshowedthattheLDAwith30keywordsusingTF-IDF obtainedthebestF-scorecomparedwiththeLDAwithfewerkeywords.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-isimplementedthroughasetof_Pyt">
+    <rdfs:label>isimplementedthroughasetof Python-basedmethodstoextractmetadataforallsupportedfiletypes.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-proposedanotherimprovedTF-IDFa">
+    <rdfs:label>proposedanotherimprovedTF-IDFalgorithm,TF-IDCRF,whichfocusedonthe relationshipbetweenclassesintheclassificationmodel.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Therefore,eachcountry’sgovernm">
+    <rdfs:label>Therefore,eachcountry’sgovernmentresearchfundingagenciesarewillingtoprovidemuchscientificresearchfunding tosupportessentialandcutting-edgescientificresearcheachyear.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-No_Text">
+    <rdfs:label>No Text</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Toevaluatetheperformanceofthen">
+    <rdfs:label>ToevaluatetheperformanceofthenewlyproposedmodifiedTF-IDFalgorithmandtheTF-IDFalgorithmwithdifferent dataminingclassifiers,theclassificationaccuracy(Acc),F1scoreareselectedastheevaluationmetrics.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-ThePreferenceSelectionIndex(PS">
+    <rdfs:label>ThePreferenceSelectionIndex(PSI)wasanotherinterestingmethodtoevaluateresearchgrantapplications</rdfs:label>
+    <askg-onto:hasReference rdf:resource="https://www.anu.edu.au/onto/scholarly/Reference-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-provedthattextpre-processingte">
+    <rdfs:label>provedthattextpre-processingtechniquescouldmakethemodelachievebetterperformance thanwithoutthetextpre-processingstep.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Therefore,weconductseveralexpe">
+    <rdfs:label>Therefore,weconductseveralexperimentsto determinethecut-offpointtodistinguishresearchproposalswithhighandlowICscoresfrommoderateICscores.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Insection2,thebackgroundandrel">
+    <rdfs:label>Insection2,thebackgroundandrelatedworkofthisprojectareintroduced.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-proposedatextsentimentclassifi">
+    <rdfs:label>proposedatextsentimentclassificationtechniquebasedontheTF-IDFalgorithmandNext Word Negation (NWN).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Atthesametime,somefundamentalv">
+    <rdfs:label>Atthesametime,somefundamentalvaluesarealsothebasisofdesigningtheentirepipeline,suchasthemedianIC scoreandmodeICscore.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Thissectiondetailstheworkflowo">
+    <rdfs:label>Thissectiondetailstheworkflowofourproposedpipelineandthedataminingmodel.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Ifthenumberofintermediate-leve">
+    <rdfs:label>Ifthenumberofintermediate-levelresearchproposalsisshort,e.g.,the No.5andNo.6experiments,allmoderateIC-scoreresearchproposalsareconsidered.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Chenetal.">
+    <rdfs:label>Chenetal.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-basedontheproposal_index.">
+    <rdfs:label>basedontheproposal index.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Thispaperisdividedintosixsecti">
+    <rdfs:label>Thispaperisdividedintosixsections.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Moreover,itiseasytofindthatthe">
+    <rdfs:label>Moreover,itiseasytofindthattheproposedmodelcanbetter predicttheresearchproposalsclosetotheoriginaltrainingsetsettings(0∼15%forlowICscoreand85%∼100%for highICscore).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-However,inpractice,peopleonlyp">
+    <rdfs:label>However,inpractice,peopleonlypayattentiontoacertainofwords.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-analysedtheshortcomingsoftheTF">
+    <rdfs:label>analysedtheshortcomingsoftheTF-IDFalgorithm.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-isappliedtoimplementtheDTandRF">
+    <rdfs:label>isappliedtoimplementtheDTandRFclassifiers.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Reference-3">
+    <rdfs:label>3</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Finally,theparametervaluesfore">
+    <rdfs:label>Finally,theparametervaluesforeachaccuracyarelisted,highlightingthebest combinationoftheparameterandthetargetvalue.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Basedonthebenefitsandmotivatio">
+    <rdfs:label>Basedonthebenefitsandmotivationsmentionedabove,wehopetoapplyadataminingmodelwithanappropriate featureextractiontechniquetopredicthighIC-scoreresearchproposalsbasedontheICscoresassignedbytheexpert reviewers.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-•_Theproposedmodelforpredictin">
+    <rdfs:label>• TheproposedmodelforpredictinghighIC-scoreresearchproposalscanachieveanaccuracyof84.17%across alltypesofgrantapplications.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Thetrainingdatarangecanbe_sele">
+    <rdfs:label>Thetrainingdatarangecanbe selectedbytrainingseveralcut-offpoints,suchas15,20,25,30,35,40.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-AllexperimentsrelatedtoRFclass">
+    <rdfs:label>AllexperimentsrelatedtoRFclassifierandDTclassifieradoptthesame settingofthehyper-parameterrange.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-2_RelatedWork_2.1_Computerscie">
+    <rdfs:label>2 RelatedWork 2.1 Computerscienceinevaluatinggrantapplications Oztaysietal.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Inthismethod,afuzzypreferencer">
+    <rdfs:label>Inthismethod,afuzzypreferencerelationmatrixwasusedtodeterminetherelativeimportanceofcriteria.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Theparametersmin_samples_leaf,">
+    <rdfs:label>Theparametersmin_samples_leaf,min_samples_split,andn_estimatorsaredefinedastheminimum numberofsamplesneededonaleafnode,theminimumnumberofsamplesneededtosplitaninternalnode,andthe numberoftreesintheforest,respectively.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Therefore,itcanbe_concludedtha">
+    <rdfs:label>Therefore,itcanbe concludedthatresearchproposalswithhighICscoresusemorediverselanguagethanthosewithlowIC-score.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Inspecific,ifthetermexistsatle">
+    <rdfs:label>Inspecific,ifthetermexistsatleastonceinthedocuments,specifytheIDFvalueforthistermdirectly.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-NewlowIC-scorerange_NewhighIC-">
+    <rdfs:label>NewlowIC-scorerange NewhighIC-scorerange 1 15%∼20% 80%∼85% 2 15%∼25% 75%∼85% 3 15%∼30% 70%∼85% 4 15%∼35% 65%∼85% 5 15%∼40% 60%∼85% 6 15%∼45% 55%∼85% 7 15%∼50% 50%∼85% 20,25,30,35,40,45,and50.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Table7bringstheperformanceofch">
+    <rdfs:label>Table7bringstheperformanceofcheckingresearchproposalsofmoderateICscoresbasedontheproposedmodel.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Thirdly,itneedstobeexplainedth">
+    <rdfs:label>Thirdly,itneedstobeexplainedthatresearchproposalswithborderlineICscoresarenotselectedwhen selectingresearchproposalswithhighorlowICscores.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Basedonthedecisiontreeplotsgen">
+    <rdfs:label>Basedonthedecisiontreeplotsgeneratedbythebestperformancemodel,itcanbefoundthatthemodified TF-IDFalgorithmdoesnotaffecttheshapeofthetreeasseeninthetreegraph,helpingtounderstandwhetherthe chosensplittermisrareorcommon.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Usually,thegovernmentresearchf">
+    <rdfs:label>Usually,thegovernmentresearchfundingagenciesreceivethousandsofresearchproposals eachyear,whicharereviewedonlybyexpertpanels.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Somedetailsrequirefurtherexpla">
+    <rdfs:label>Somedetailsrequirefurtherexplanation.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Reference-1">
+    <rdfs:label>1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-Inaddition,the_bigrammentioned">
+    <rdfs:label>Inaddition,the bigrammentionedinthispaperdenotesacombinationoftheunigramsandbigrams.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-The_first_step_to_implement_Ba">
+    <rdfs:label>The first step to implement Bayesian Optimization is to define the data mining model, such as the RF classifieranditsparametersandcorrespondingbounds.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.anu.edu.au/onto/scholarly/Sentence-It_can_be_found_that_the_RF_cl">
+    <rdfs:label>It can be found that the RF classifiercanconsistentlyachievebetterperformancethantheDTclassifierunderthedifferentsettingsofthen-grams anddeletionofrareterms.</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>
