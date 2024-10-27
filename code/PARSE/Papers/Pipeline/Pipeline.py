@@ -3,8 +3,27 @@ author: Bowen Zhang
 contact: bowen.zhang1@anu.edu.au
 datetime: 7/3/2023 11:52 pm
 """
+import os
 
-from ..Models.PaperSplit.PaperSplit import *
+import pdf2md
+import parse_md
+
+def main():
+    input_dir = "./papers"  # Directory containing PDF files
+    output_dir = "./markdown"  # Directory for output Markdown files
+
+    pdf2md.convert_pdfs_to_markdown(input_dir, output_dir)
+
+    for md_file in os.listdir(output_dir):
+        if md_file.lower().endswith('.md'):
+            md_path = os.path.join(output_dir, md_file)
+            file_name = os.path.splitext(md_file)[0],
+            parse_md.process_markdown_file(
+                input_file=md_path,
+                output_ttl=f"./output/{file_name}.ttl",
+                paper_id=f"{file_name}"
+            )
+
 
 if __name__ == "__main__":
-    print("begin")
+    main()
