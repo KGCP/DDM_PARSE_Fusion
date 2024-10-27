@@ -16,6 +16,7 @@ def generate_filename_hash(filename):
 def convert_pdfs_to_markdown(input_dir, output_dir):
     """
     Convert all PDF files in the input directory to Markdown format with hashed filenames
+    Skip files that have already been converted
 
     Args:
         input_dir (str): Input directory containing PDF files
@@ -28,39 +29,56 @@ def convert_pdfs_to_markdown(input_dir, output_dir):
     hashed_pdf_dir = os.path.join(output_dir, "hashed_pdfs")
     os.makedirs(hashed_pdf_dir, exist_ok=True)
 
-    # Load marker models once for all conversions
-    model_lst = load_all_models()
+    # Load existing filename mapping if it exists
+    mapping_file = os.path.join(output_dir, "filename_mapping.json")
+    if os.path.exists(mapping_file):
+        with open(mapping_file, 'r', encoding='utf-8') as f:
+            filename_mapping = json.load(f)
+    else:
+        filename_mapping = {}
 
     # Get all PDF files from input directory
     pdf_files = [f for f in os.listdir(input_dir) if f.lower().endswith('.pdf')]
-
-    # Create filename mapping dictionary
-    filename_mapping = {}
 
     # First pass: Create filename mapping and copy files with hashed names
     for pdf_file in pdf_files:
         original_name = os.path.splitext(pdf_file)[0]
         hashed_name = generate_filename_hash(original_name)
 
-        # Store mapping
-        filename_mapping[hashed_name] = original_name
+        # Store mapping if not already present
+        if hashed_name not in filename_mapping:
+            filename_mapping[hashed_name] = original_name
 
-        # Copy file with hashed name
-        original_path = os.path.join(input_dir, pdf_file)
-        hashed_path = os.path.join(hashed_pdf_dir, f"{hashed_name}.pdf")
-        copy2(original_path, hashed_path)
+            # Copy file with hashed name if not already present
+            original_path = os.path.join(input_dir, pdf_file)
+            hashed_path = os.path.join(hashed_pdf_dir, f"{hashed_name}.pdf")
+            if not os.path.exists(hashed_path):
+                copy2(original_path, hashed_path)
 
-    # Save filename mapping
-    mapping_file = os.path.join(output_dir, "filename_mapping.json")
+    # Save updated filename mapping
     with open(mapping_file, 'w', encoding='utf-8') as f:
         json.dump(filename_mapping, f, indent=2, ensure_ascii=False)
 
+    # Load marker models only if there are files to convert
+    model_lst = None
+
     # Second pass: Convert PDFs to Markdown using hashed names
     for hashed_name, original_name in filename_mapping.items():
-        pdf_path = os.path.join(hashed_pdf_dir, f"{hashed_name}.pdf")
         md_path = os.path.join(output_dir, f"{hashed_name}.md")
 
+        # Skip if markdown file already exists
+        if os.path.exists(md_path):
+            print(f"Skipping {original_name}.pdf (hash: {hashed_name}) - Markdown file already exists")
+            continue
+
+        # Load models only when needed
+        if model_lst is None:
+            print("Loading marker models...")
+            model_lst = load_all_models()
+
+        pdf_path = os.path.join(hashed_pdf_dir, f"{hashed_name}.pdf")
         print(f"Converting {original_name}.pdf to Markdown (hash: {hashed_name})...")
+
         try:
             # Convert PDF to Markdown
             full_text, images, out_meta = convert_single_pdf(pdf_path, model_lst)

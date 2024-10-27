@@ -6,11 +6,37 @@ from rdflib import Graph, Namespace, Literal, URIRef
 from rdflib.namespace import RDF, RDFS, DC, XSD, OWL, SKOS
 import os
 import html
+import utils
 
 # Define namespaces
 ASKG_DATA = Namespace("https://www.anu.edu.au/data/scholarly/")
 ASKG_ONTO = Namespace("https://www.anu.edu.au/onto/scholarly#")
 DOMO = Namespace("http://example.org/domo/")
+
+MEANINGFUL_TYPES = {
+    # People and Organizations
+    "Person", "Researcher", "Scientist", "Author",
+    "Organization", "Institution", "University", "Company", "Research Group",
+
+    # Academic Concepts
+    "Algorithm", "Method", "Technique", "Framework", "Model",
+    "Dataset", "Database", "Corpus",
+    "Research Field", "Research Area", "Domain",
+    "Theory", "Concept", "Paradigm",
+
+    # Research Artifacts
+    "Paper", "Publication", "Article", "Study",
+    "Experiment", "Result", "Finding",
+    "System", "Tool", "Software", "Platform",
+
+    # Scientific Terms
+    "Protein", "Gene", "Molecule", "Cell Type",
+    "Disease", "Condition", "Symptom",
+    "Technology", "Device", "Equipment",
+
+    # Metrics and Measurements
+    "Metric", "Measure", "Score", "Rate", "Index"
+}
 
 def parse_markdown_structure(md_content):
     """
@@ -108,10 +134,10 @@ def build_document_structure(md_content):
     return doc
 
 def generate_ttl(doc, output_file, paper_id, paper_title):
-    """Generate TTL file from XML document structure"""
+    """Generate TTL file from XML document structure with entity information"""
     g = Graph()
 
-    # Bind namespaces
+    # Bind namespaces (保持原有的命名空间绑定)
     g.bind("askg-data", ASKG_DATA)
     g.bind("askg-onto", ASKG_ONTO)
     g.bind("owl", OWL)
@@ -121,17 +147,18 @@ def generate_ttl(doc, output_file, paper_id, paper_title):
     g.bind("dc", DC)
     g.bind("domo", DOMO)
 
-    # Create URIRef for index predicate
+    # Create URIRef for predicates
     index_predicate = URIRef(ASKG_ONTO + "index")
     level_predicate = URIRef(ASKG_ONTO + "level")
+    mentions_predicate = URIRef(ASKG_ONTO + "mentions")
+    inSentence_predicate = URIRef(ASKG_ONTO + "inSentence")
+    entityType_predicate = URIRef(ASKG_ONTO + "entityType")
 
-    # Create paper node
     paper_uri = ASKG_DATA[f"Paper-{paper_id}"]
     g.add((paper_uri, RDF.type, ASKG_ONTO.Paper))
     g.add((paper_uri, RDFS.label, Literal(paper_title, lang="en")))
     g.add((paper_uri, DC.title, Literal(paper_title, datatype=XSD.string)))
 
-    # Process sections
     for section in doc.findall(".//section"):
         section_id = section.get("ID")
         section_index = section.get("index")
@@ -163,12 +190,13 @@ def generate_ttl(doc, output_file, paper_id, paper_title):
             if para_text is not None:
                 g.add((para_uri, DOMO.Text, Literal(para_text.text, lang="en")))
 
-            # Process sentences
+            # Process sentences and extract entities
             for sent in para.findall("sentence"):
                 sent_id = sent.get("ID")
                 sent_index = sent.get("index")
                 sent_uri = ASKG_DATA[f"Paper-{paper_id}-Section-{section_id}-Paragraph-{para_id}-Sentence-{sent_id}"]
 
+                # Add basic sentence information
                 g.add((sent_uri, RDF.type, ASKG_ONTO.Sentence))
                 g.add((para_uri, ASKG_ONTO.hasSentence, sent_uri))
                 g.add((sent_uri, RDFS.label, Literal(f"Sentence {sent_index}", lang="en")))
@@ -176,7 +204,40 @@ def generate_ttl(doc, output_file, paper_id, paper_title):
 
                 sent_text = sent.find("text")
                 if sent_text is not None:
-                    g.add((sent_uri, DOMO.Text, Literal(sent_text.text, lang="en")))
+                    sentence_text = sent_text.text
+                    g.add((sent_uri, DOMO.Text, Literal(sentence_text, lang="en")))
+
+                    try:
+                        # Get entities with existence check
+                        entities, has_entities = utils.get_entities(sentence_text)
+
+                        print("find entities: ", entities, "in sentence: ", sentence_text)
+
+                        # Add sentence text
+                        g.add((sent_uri, inSentence_predicate, Literal(sentence_text, datatype=XSD.string)))
+
+                        # Only process entities if meaningful ones exist
+                        if has_entities:
+                            for entity in entities:
+                                # Process head entity
+                                if entity.head_type in MEANINGFUL_TYPES:
+                                    head_entity = entity.head.lower().replace(" ", "_")
+                                    head_uri = ASKG_DATA[f"Entity-{head_entity}"]
+                                    g.add((sent_uri, mentions_predicate, head_uri))
+                                    g.add((head_uri, RDFS.label, Literal(entity.head, lang="en")))
+                                    g.add((head_uri, entityType_predicate, Literal(entity.head_type, lang="en")))
+
+                                # Process tail entity
+                                if entity.tail_type in MEANINGFUL_TYPES:
+                                    tail_entity = entity.tail.lower().replace(" ", "_")
+                                    tail_uri = ASKG_DATA[f"Entity-{tail_entity}"]
+                                    g.add((sent_uri, mentions_predicate, tail_uri))
+                                    g.add((tail_uri, RDFS.label, Literal(entity.tail, lang="en")))
+                                    g.add((tail_uri, entityType_predicate, Literal(entity.tail_type, lang="en")))
+
+                    except Exception as e:
+                        print(f"Error extracting entities from sentence: {str(e)}")
+                        continue
 
     # Serialize to TTL file
     g.serialize(destination=output_file, format='turtle')

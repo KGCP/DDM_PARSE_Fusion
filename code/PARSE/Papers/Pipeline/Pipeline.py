@@ -17,11 +17,13 @@ def main():
     for md_file in os.listdir(output_dir):
         if md_file.lower().endswith('.md'):
             md_path = os.path.join(output_dir, md_file)
-            file_name = os.path.splitext(md_file)[0],
+            file_name = os.path.splitext(md_file)[0]
+            os.makedirs("./output", exist_ok=True)
+            print(f"Processing {md_file}...")
             parse_md.process_markdown_file(
                 input_file=md_path,
                 output_ttl=f"./output/{file_name}.ttl",
-                paper_id=f"{file_name}"
+                paper_id=file_name
             )
 
 
