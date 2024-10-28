@@ -137,7 +137,6 @@ def generate_ttl(doc, output_file, paper_id, paper_title):
     """Generate TTL file from XML document structure with entity information"""
     g = Graph()
 
-    # Bind namespaces (保持原有的命名空间绑定)
     g.bind("askg-data", ASKG_DATA)
     g.bind("askg-onto", ASKG_ONTO)
     g.bind("owl", OWL)

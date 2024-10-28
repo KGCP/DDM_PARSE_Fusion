@@ -1,0 +1,3508 @@
+@prefix askg-data: <https://www.anu.edu.au/data/scholarly/> .
+@prefix askg-onto: <https://www.anu.edu.au/onto/scholarly#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix domo: <http://example.org/domo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+askg-data:Paper-0a236cd8bd20b1e9 a askg-onto:Paper ;
+    rdfs:label "0a236cd8bd20b1e9"@en ;
+    dc:title "0a236cd8bd20b1e9"^^xsd:string ;
+    askg-onto:hasSection askg-data:Paper-0a236cd8bd20b1e9-Section-1,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-2,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-3,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-4,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5 .
+
+askg-data:Entity-0000-0002-4473-3877 rdfs:label "0000-0002-4473-3877"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-0009-0003-3986-2679 rdfs:label "0009-0003-3986-2679"@en ;
+    askg-onto:entityType "Index"@en .
+
+askg-data:Entity-100_tokens rdfs:label "100 tokens"@en ;
+    askg-onto:entityType "Measure"@en .
+
+askg-data:Entity-103076 rdfs:label "103076"@en ;
+    askg-onto:entityType "Result"@en .
+
+askg-data:Entity-14 rdfs:label "14"@en ;
+    askg-onto:entityType "Index"@en .
+
+askg-data:Entity-143301 rdfs:label "143301"@en ;
+    askg-onto:entityType "Index"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-150–160> rdfs:label "150–160"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-185 rdfs:label "185"@en ;
+    askg-onto:entityType "Result"@en .
+
+askg-data:Entity-2.8 rdfs:label "2.8"@en ;
+    askg-onto:entityType "Score"@en .
+
+askg-data:Entity-2024 rdfs:label "2024"@en ;
+    askg-onto:entityType "Result"@en .
+
+askg-data:Entity-2402.16829 rdfs:label "2402.16829"@en ;
+    askg-onto:entityType "Concept"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-249–252> rdfs:label "249–252"@en ;
+    askg-onto:entityType "Concept"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-249–263> rdfs:label "249–263"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-3.1 rdfs:label "3.1"@en ;
+    askg-onto:entityType "Score"@en .
+
+askg-data:Entity-3.2 rdfs:label "3.2"@en ;
+    askg-onto:entityType "Score"@en .
+
+askg-data:Entity-3.4 rdfs:label "3.4"@en ;
+    askg-onto:entityType "Score"@en .
+
+askg-data:Entity-3.5 rdfs:label "3.5"@en ;
+    askg-onto:entityType "Score"@en .
+
+askg-data:Entity-3.6 rdfs:label "3.6"@en ;
+    askg-onto:entityType "Score"@en .
+
+askg-data:Entity-3.7 rdfs:label "3.7"@en ;
+    askg-onto:entityType "Score"@en .
+
+askg-data:Entity-3.8 rdfs:label "3.8"@en ;
+    askg-onto:entityType "Score"@en .
+
+askg-data:Entity-3.9 rdfs:label "3.9"@en ;
+    askg-onto:entityType "Score"@en .
+
+askg-data:Entity-4 rdfs:label "4"@en ;
+    askg-onto:entityType "Index"@en .
+
+askg-data:Entity-4.0 rdfs:label "4.0"@en ;
+    askg-onto:entityType "Score"@en .
+
+askg-data:Entity-4.1 rdfs:label "4.1"@en ;
+    askg-onto:entityType "Score"@en .
+
+askg-data:Entity-4.2 rdfs:label "4.2"@en ;
+    askg-onto:entityType "Score"@en .
+
+askg-data:Entity-4.3 rdfs:label "4.3"@en ;
+    askg-onto:entityType "Score"@en .
+
+askg-data:Entity-4.6 rdfs:label "4.6"@en ;
+    askg-onto:entityType "Score"@en .
+
+askg-data:Entity-5% rdfs:label "5%"@en ;
+    askg-onto:entityType "Measure"@en .
+
+askg-data:Entity-618_text_chunks rdfs:label "618 text chunks"@en ;
+    askg-onto:entityType "Result"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-[15]> rdfs:label "[15]"@en ;
+    askg-onto:entityType "Paper"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-[4]> rdfs:label "[4]"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-a_model rdfs:label "a model"@en ;
+    askg-onto:entityType "Model"@en .
+
+askg-data:Entity-a_survey rdfs:label "A Survey"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-a_survey_on_embedding_techniques_for_scholarly_knowledge_graphs rdfs:label "A Survey on Embedding Techniques for Scholarly Knowledge Graphs"@en ;
+    askg-onto:entityType "Paper"@en .
+
+askg-data:Entity-abu-salih rdfs:label "Abu-Salih"@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-academic_entities rdfs:label "academic entities"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-academic_kg_\(askg\) rdfs:label "academic KG (ASKG)"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-academic_kgs rdfs:label "academic KGs"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-academic_knowledge_management rdfs:label "academic knowledge management"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-academic_semantic_knowledge_bases rdfs:label "academic semantic knowledge bases"@en ;
+    askg-onto:entityType "Concept"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-achiam,_s.> rdfs:label "Achiam, S."@en ;
+    askg-onto:entityType "Person"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-adler,_s.> rdfs:label "Adler, S."@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-advanced_techniques rdfs:label "advanced techniques"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-advancements rdfs:label "advancements"@en ;
+    askg-onto:entityType "Result"@en .
+
+askg-data:Entity-advantages rdfs:label "advantages"@en ;
+    askg-onto:entityType "Finding"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-agarwal,_l.> rdfs:label "Agarwal, L."@en ;
+    askg-onto:entityType "Person"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-agrawal,_t.> rdfs:label "Agrawal, T."@en ;
+    askg-onto:entityType "Person"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-ahmad,_i.> rdfs:label "Ahmad, I."@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-ai_hallucination rdfs:label "AI hallucination"@en ;
+    askg-onto:entityType "Concept"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-akkaya,_f.> rdfs:label "Akkaya, F."@en ;
+    askg-onto:entityType "Person"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-aleman,_d.> rdfs:label "Aleman, D."@en ;
+    askg-onto:entityType "Person"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-alghamdi,_h.> rdfs:label "Alghamdi, H."@en ;
+    askg-onto:entityType "Person"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-almeida,_j.> rdfs:label "Almeida, J."@en ;
+    askg-onto:entityType "Author"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-altenschmidt,_s.> rdfs:label "Altenschmidt, S."@en ;
+    askg-onto:entityType "Person"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-altman,_s.> rdfs:label "Altman, S."@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-anadkat rdfs:label "Anadkat"@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-answer rdfs:label "answer"@en ;
+    askg-onto:entityType "Result"@en .
+
+askg-data:Entity-answer_generation rdfs:label "Answer Generation"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-answer_quality rdfs:label "answer quality"@en ;
+    askg-onto:entityType "Result"@en .
+
+askg-data:Entity-anthropic rdfs:label "Anthropic"@en ;
+    askg-onto:entityType "Organization"@en .
+
+askg-data:Entity-approach rdfs:label "approach"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-appropriate_methods rdfs:label "appropriate methods"@en ;
+    askg-onto:entityType "Method"@en .
+
+askg-data:Entity-article rdfs:label "Article"@en ;
+    askg-onto:entityType "Article"@en .
+
+askg-data:Entity-arxiv.2311.07914 rdfs:label "arXiv.2311.07914"@en ;
+    askg-onto:entityType "Paper"@en .
+
+askg-data:Entity-arxiv.2405.12035 rdfs:label "arXiv.2405.12035"@en ;
+    askg-onto:entityType "Article"@en .
+
+askg-data:Entity-arxiv.2405.15374 rdfs:label "arXiv.2405.15374"@en ;
+    askg-onto:entityType "Paper"@en .
+
+askg-data:Entity-arxiv.org rdfs:label "arxiv.org"@en ;
+    askg-onto:entityType "Organization"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-arxiv:2302.13971> rdfs:label "arXiv:2302.13971"@en ;
+    askg-onto:entityType "Article"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-arxiv:2303.08774> rdfs:label "arXiv:2303.08774"@en ;
+    askg-onto:entityType "Index"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-arxiv:2405.12035> rdfs:label "arXiv:2405.12035"@en ;
+    askg-onto:entityType "Publication"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-arxiv_preprint_arxiv:2405.15374_(2024)> rdfs:label "arXiv preprint arXiv:2405.15374 (2024)"@en ;
+    askg-onto:entityType "Publication"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-askg:_an_approach_to_enrich_scholarly_knowledge_graphs_through_paper_decomposition_with_deep_learning> rdfs:label "ASKG: An Approach to Enrich Scholarly Knowledge Graphs through Paper Decomposition with Deep Learning"@en ;
+    askg-onto:entityType "Paper"@en .
+
+askg-data:Entity-australian_national_university rdfs:label "Australian National University"@en ;
+    askg-onto:entityType "Institution"@en .
+
+askg-data:Entity-average rdfs:label "Average"@en ;
+    askg-onto:entityType "Result"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-azhar,_a.> rdfs:label "Azhar, A."@en ;
+    askg-onto:entityType "Person"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-b.> rdfs:label "B."@en ;
+    askg-onto:entityType "Person"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-bowen.zhang@qdx.co> rdfs:label "Bowen.Zhang@qdx.co"@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-bowen_zhang rdfs:label "Bowen Zhang"@en ;
+    askg-onto:entityType "Person"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-cano,_c.> rdfs:label "Cano, C."@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-capabilities rdfs:label "capabilities"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-case-insensitive_searches rdfs:label "case-insensitive searches"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-cc_by_4.0 rdfs:label "CC BY 4.0"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-challenges_posed_by_varied_document_structures rdfs:label "challenges posed by varied document structures"@en ;
+    askg-onto:entityType "Concept"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-chen,_j.> rdfs:label "Chen, J."@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-chunking_approach rdfs:label "chunking approach"@en ;
+    askg-onto:entityType "Method"@en .
+
+askg-data:Entity-chunking_process rdfs:label "chunking process"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-chunks rdfs:label "chunks"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-claude rdfs:label "Claude"@en ;
+    askg-onto:entityType "Tool"@en .
+
+askg-data:Entity-collections_of_research_papers rdfs:label "collections of research papers"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-combining_text_embeddings_and_knowledge_graphs_for_scholarly_document_classification rdfs:label "Combining Text Embeddings and Knowledge Graphs for Scholarly Document Classification"@en ;
+    askg-onto:entityType "Paper"@en .
+
+askg-data:Entity-complex_question-answering_tasks rdfs:label "complex question-answering tasks"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-comprehensive_metadata_and_context rdfs:label "comprehensive metadata and context"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-conference rdfs:label "Conference"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-content_length_comparison rdfs:label "content length comparison"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-context_diversity rdfs:label "context diversity"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-contexts rdfs:label "contexts"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-contextual_information rdfs:label "contextual information"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-cosine_similarity rdfs:label "cosine similarity"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-creative_commons_license_attribution_4.0_international rdfs:label "Creative Commons License Attribution 4.0 International"@en ;
+    askg-onto:entityType "Concept"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-d.> rdfs:label "D."@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-data_analysis rdfs:label "Data Analysis"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-data_mining rdfs:label "Data Mining"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-data_with_named_entity_recognition rdfs:label "data with Named Entity Recognition"@en ;
+    askg-onto:entityType "Concept"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-ddm's_fine-grained_representation> rdfs:label "DDM's fine-grained representation"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-ddm_concept rdfs:label "DDM concept"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-ddm_pipeline rdfs:label "DDM pipeline"@en ;
+    askg-onto:entityType "Tool"@en .
+
+askg-data:Entity-deep_document_model rdfs:label "Deep Document Model"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-deep_document_model_\(ddm\) rdfs:label "Deep Document Model (DDM)"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-deep_document_model_\(ddm\)_concept rdfs:label "Deep Document Model (DDM) concept"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-details rdfs:label "details"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-dimensions rdfs:label "dimensions"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-document_object_model_ontology_\(domo\) rdfs:label "Document Object Model Ontology (DOMO)"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-document_set rdfs:label "document set"@en ;
+    askg-onto:entityType "Concept"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-domain-specific_knowledge_graphs:_a_survey> rdfs:label "Domain-specific knowledge graphs: A survey"@en ;
+    askg-onto:entityType "Paper"@en .
+
+askg-data:Entity-downstream_task_performance rdfs:label "downstream task performance"@en ;
+    askg-onto:entityType "Result"@en .
+
+askg-data:Entity-effective_tools_for_understanding rdfs:label "effective tools for understanding"@en ;
+    askg-onto:entityType "Tool"@en .
+
+askg-data:Entity-effectiveness rdfs:label "effectiveness"@en ;
+    askg-onto:entityType "Result"@en .
+
+askg-data:Entity-entities rdfs:label "entities"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-entity rdfs:label "entity"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-entity_extraction rdfs:label "entity extraction"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-entity_recognition_and_matching rdfs:label "entity recognition and matching"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-evaluator_1 rdfs:label "Evaluator 1"@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-evaluator_2 rdfs:label "Evaluator 2"@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-evaluator_3 rdfs:label "Evaluator 3"@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-evaluators rdfs:label "evaluators"@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-exact_and_string_matching_techniques rdfs:label "exact and string matching techniques"@en ;
+    askg-onto:entityType "Technique"@en .
+
+askg-data:Entity-exceptional_performance rdfs:label "exceptional performance"@en ;
+    askg-onto:entityType "Result"@en .
+
+askg-data:Entity-extensive_knowledge_graphs rdfs:label "extensive knowledge graphs"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-extracting_knowledge_from_unstructured_sources rdfs:label "extracting knowledge from unstructured sources"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-figures_and_tables rdfs:label "figures and tables"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-finding rdfs:label "Finding"@en ;
+    askg-onto:entityType "Result"@en .
+
+askg-data:Entity-flexible_search_techniques rdfs:label "flexible search techniques"@en ;
+    askg-onto:entityType "Technique"@en .
+
+askg-data:Entity-frontiers_of_computer_science rdfs:label "Frontiers of Computer Science"@en ;
+    askg-onto:entityType "Publication"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-gao,_z.> rdfs:label "Gao, Z."@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-generating_answers rdfs:label "generating answers"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-generic_model_\(domo\) rdfs:label "generic model (DOMO)"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-gistembed rdfs:label "GISTEmbed"@en ;
+    askg-onto:entityType "Tool"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-gistembed:_guided_in-sample_selection_of_training_negatives_for_text_embedding_fine-tuning> rdfs:label "GISTEmbed: Guided In-sample Selection of Training Negatives for Text Embedding Fine-tuning"@en ;
+    askg-onto:entityType "Paper"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-goyal,_e.> rdfs:label "Goyal, E."@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-gpt-4_technical_report rdfs:label "GPT-4 technical report"@en ;
+    askg-onto:entityType "Paper"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-grave,_g.> rdfs:label "Grave, G."@en ;
+    askg-onto:entityType "Person"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-gómez-rodríguez,_a.> rdfs:label "Gómez-Rodríguez, A."@en ;
+    askg-onto:entityType "Person"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-h.> rdfs:label "H."@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-haller rdfs:label "Haller"@en ;
+    askg-onto:entityType "Person"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-haller,_k.> rdfs:label "Haller, K."@en ;
+    askg-onto:entityType "Person"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-hambro,_f.> rdfs:label "Hambro, F."@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-hierarchical_relationships rdfs:label "hierarchical relationships"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-human_assessment rdfs:label "human assessment"@en ;
+    askg-onto:entityType "Result"@en .
+
+askg-data:Entity-human_evaluation rdfs:label "human evaluation"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-identified_entities rdfs:label "identified entities"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-identifying_entities rdfs:label "identifying entities"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-identifying_entities_in_user_queries rdfs:label "identifying entities in user queries"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-in-depth_analysis rdfs:label "in-depth analysis"@en ;
+    askg-onto:entityType "Result"@en .
+
+askg-data:Entity-information_extraction rdfs:label "Information Extraction"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-iswc_2024_posters_and_demos rdfs:label "ISWC 2024 Posters and Demos"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-its_authors rdfs:label "its authors"@en ;
+    askg-onto:entityType "Author"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-izacard,_x.> rdfs:label "Izacard, X."@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-jaccard_distance rdfs:label "Jaccard distance"@en ;
+    askg-onto:entityType "Concept"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-jia,_b.> rdfs:label "Jia, B."@en ;
+    askg-onto:entityType "Person"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-joulin,_e.> rdfs:label "Joulin, E."@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-journal_of_network_and_computer_applications rdfs:label "Journal of Network and Computer Applications"@en ;
+    askg-onto:entityType "Publication"@en .
+
+askg-data:Entity-key_contributions rdfs:label "key contributions"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-keyword_frequency_matching rdfs:label "Keyword Frequency Matching"@en ;
+    askg-onto:entityType "Tool"@en .
+
+askg-data:Entity-kg-based rdfs:label "KG-based"@en ;
+    askg-onto:entityType "System"@en .
+
+askg-data:Entity-kg-based_approach rdfs:label "KG-based approach"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-kg-based_context rdfs:label "KG-based context"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-kg-based_methods rdfs:label "KG-based methods"@en ;
+    askg-onto:entityType "Method"@en .
+
+askg-data:Entity-kg-based_systems rdfs:label "KG-based Systems"@en ;
+    askg-onto:entityType "System"@en .
+
+askg-data:Entity-kg-enhanced_query_processing_\(kgqp\) rdfs:label "KG-enhanced Query Processing (KGQP)"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-kg-enhanced_query_processing_\(kgqp\)_mechanism rdfs:label "KG-enhanced Query Processing (KGQP) mechanism"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-kg-enhanced_query_processing_workflow rdfs:label "KG-enhanced Query Processing workflow"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-kg-llm_interaction_process rdfs:label "KG-LLM interaction process"@en ;
+    askg-onto:entityType "Concept"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-kg-rag:_bridging_the_gap_between_knowledge_and_creativity> rdfs:label "KG-RAG: Bridging the Gap Between Knowledge and Creativity"@en ;
+    askg-onto:entityType "Paper"@en .
+
+askg-data:Entity-kg_queries rdfs:label "KG queries"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-kgcp_pipeline rdfs:label "KGCP pipeline"@en ;
+    askg-onto:entityType "System"@en .
+
+askg-data:Entity-kgqp_mechanism rdfs:label "KGQP mechanism"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-kgqp_method rdfs:label "KGQP method"@en ;
+    askg-onto:entityType "Method"@en .
+
+askg-data:Entity-kgqp_process rdfs:label "KGQP process"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-kgs_and_llms rdfs:label "KGs and LLMs"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-knowledge_graph rdfs:label "Knowledge Graph"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-knowledge_graph_construction rdfs:label "Knowledge Graph Construction"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-knowledge_graphs_\(kgs\) rdfs:label "Knowledge Graphs (KGs)"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-knowledge_graphs_reduce_hallucinations_in_llms rdfs:label "Knowledge Graphs Reduce Hallucinations in LLMs"@en ;
+    askg-onto:entityType "Paper"@en .
+
+askg-data:Entity-knowledge_representation rdfs:label "knowledge representation"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-knowledge_utilization rdfs:label "knowledge utilization"@en ;
+    askg-onto:entityType "Concept"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-kumarage,_z.> rdfs:label "Kumarage, Z."@en ;
+    askg-onto:entityType "Person"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-l.> rdfs:label "L."@en ;
+    askg-onto:entityType "Person"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-lachaux,_t.> rdfs:label "Lachaux, T."@en ;
+    askg-onto:entityType "Person"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-lacroix,_b.> rdfs:label "Lacroix, B."@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-lample rdfs:label "Lample"@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-language_model rdfs:label "Language Model"@en ;
+    askg-onto:entityType "Model"@en .
+
+askg-data:Entity-large_language_model rdfs:label "Large Language Model"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-large_language_models_\(llms\) rdfs:label "Large Language Models (LLMs)"@en ;
+    askg-onto:entityType "Tool"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-lavril,_g.> rdfs:label "Lavril, G."@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-leveraging_large_language_models_for_semantic_query_processing_in_a_scholarly_knowledge_graph rdfs:label "Leveraging Large Language Models for Semantic Query Processing in a Scholarly Knowledge Graph"@en ;
+    askg-onto:entityType "Paper"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-li,_m.> rdfs:label "Li, M."@en ;
+    askg-onto:entityType "Person"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-liu,_can> rdfs:label "Liu, Can"@en ;
+    askg-onto:entityType "Person"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-liu,_w.> rdfs:label "Liu, W."@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-llama2 rdfs:label "LLaMA2"@en ;
+    askg-onto:entityType "Tool"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-llama:_open_and_efficient_foundation_language_models> rdfs:label "LLaMA: Open and Efficient Foundation Language Models"@en ;
+    askg-onto:entityType "Paper"@en .
+
+askg-data:Entity-llm_question-answering rdfs:label "LLM question-answering"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-logical_hierarchical_structure_of_documents rdfs:label "logical hierarchical structure of documents"@en ;
+    askg-onto:entityType "Concept"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-luo,_y.> rdfs:label "Luo, Y."@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-ma rdfs:label "Ma"@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-machine_learning rdfs:label "Machine Learning"@en ;
+    askg-onto:entityType "Concept"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-martinet,_m.-a.> rdfs:label "Martinet, M.-A."@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-massive_semi-structured_data rdfs:label "massive semi-structured data"@en ;
+    askg-onto:entityType "Dataset"@en .
+
+askg-data:Entity-mel-tnnt rdfs:label "MEL-TNNT"@en ;
+    askg-onto:entityType "Tool"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-mel:_metadata_extractor_&_loader> rdfs:label "MEL: Metadata Extractor & Loader"@en ;
+    askg-onto:entityType "Tool"@en .
+
+askg-data:Entity-metadata_and_text_into_json_objects rdfs:label "metadata and text into JSON objects"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-model rdfs:label "Model"@en ;
+    askg-onto:entityType "Model"@en .
+
+askg-data:Entity-most_relevant_paragraphs rdfs:label "most relevant paragraphs"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-multimodal_knowledge_graphs rdfs:label "Multimodal Knowledge Graphs"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-naacl rdfs:label "NAACL"@en ;
+    askg-onto:entityType "Institution"@en .
+
+askg-data:Entity-naacl_\(2024\) rdfs:label "NAACL (2024)"@en ;
+    askg-onto:entityType "Organization"@en .
+
+askg-data:Entity-natural_language_processing_\(nlp\)_techniques rdfs:label "Natural Language Processing (NLP) techniques"@en ;
+    askg-onto:entityType "Method"@en .
+
+askg-data:Entity-nlp_techniques rdfs:label "NLP techniques"@en ;
+    askg-onto:entityType "Technique"@en .
+
+askg-data:Entity-novel_framework rdfs:label "novel framework"@en ;
+    askg-onto:entityType "Framework"@en .
+
+askg-data:Entity-number_of_article_sources rdfs:label "number of article sources"@en ;
+    askg-onto:entityType "Result"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-o.> rdfs:label "O."@en ;
+    askg-onto:entityType "Concept"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-omran,_a.> rdfs:label "Omran, A."@en ;
+    askg-onto:entityType "Person"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-omran,_k.> rdfs:label "Omran, K."@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-omran1 rdfs:label "Omran1"@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-ontology-based_kgs rdfs:label "ontology-based KGs"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-ontology-based_metadata_kg rdfs:label "ontology-based metadata KG"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-outputs_of_llms rdfs:label "outputs of LLMs"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-overlap rdfs:label "overlap"@en ;
+    askg-onto:entityType "Result"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-p.g.omran@anu.edu.au> rdfs:label "P.G.Omran@anu.edu.au"@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-pages rdfs:label "pages"@en ;
+    askg-onto:entityType "Concept"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-pan,_l.> rdfs:label "Pan, L."@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-papers rdfs:label "papers"@en ;
+    askg-onto:entityType "Paper"@en .
+
+askg-data:Entity-paragraph_entities rdfs:label "paragraph entities"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-paragraph_with_the_highest_similarity_score rdfs:label "paragraph with the highest similarity score"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-paragraphs rdfs:label "paragraphs"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-paragraphs6 rdfs:label "Paragraphs6"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-parse_component rdfs:label "PARSE component"@en ;
+    askg-onto:entityType "System"@en .
+
+askg-data:Entity-parse_pipeline rdfs:label "PARSE Pipeline"@en ;
+    askg-onto:entityType "Tool"@en .
+
+askg-data:Entity-poster rdfs:label "Poster"@en ;
+    askg-onto:entityType "Concept"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-pouya_g.> rdfs:label "Pouya G."@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-proceedings_of_the_11th_on_knowledge_capture_conference rdfs:label "Proceedings of the 11th on Knowledge Capture Conference"@en ;
+    askg-onto:entityType "Publication"@en .
+
+askg-data:Entity-prompt_engineering_tasks rdfs:label "prompt engineering tasks"@en ;
+    askg-onto:entityType "Concept"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-qdx_technologies_pte.> rdfs:label "QDX Technologies Pte."@en ;
+    askg-onto:entityType "Company"@en .
+
+askg-data:Entity-quantitative_metrics rdfs:label "quantitative metrics"@en ;
+    askg-onto:entityType "Metric"@en .
+
+askg-data:Entity-quantities_within_user_queries rdfs:label "quantities within user queries"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-query_handling rdfs:label "query handling"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-question_answering rdfs:label "Question Answering"@en ;
+    askg-onto:entityType "Concept"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-r.> rdfs:label "R."@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-rag rdfs:label "RAG"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-rag_architecture rdfs:label "RAG architecture"@en ;
+    askg-onto:entityType "Concept"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-relevant,_accurate,_and_comprehensive_answers> rdfs:label "relevant, accurate, and comprehensive answers"@en ;
+    askg-onto:entityType "Finding"@en .
+
+askg-data:Entity-relevant_contextual_information rdfs:label "relevant contextual information"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-relevant_information rdfs:label "relevant information"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-representation_of_academic_papers rdfs:label "representation of academic papers"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-research_on_xyz rdfs:label "Research on XYZ"@en ;
+    askg-onto:entityType "Paper"@en .
+
+askg-data:Entity-research_study rdfs:label "Research Study"@en ;
+    askg-onto:entityType "Study"@en .
+
+askg-data:Entity-retrieval-augmented_generation rdfs:label "Retrieval-Augmented Generation"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-retrieval_and_generation rdfs:label "retrieval and generation"@en ;
+    askg-onto:entityType "Result"@en .
+
+askg-data:Entity-review_on_knowledge_graph_techniques_for_retrieving_scientific_publications rdfs:label "Review on Knowledge Graph Techniques for Retrieving Scientific Publications"@en ;
+    askg-onto:entityType "Paper"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-rodriguez,_a.> rdfs:label "Rodriguez, A."@en ;
+    askg-onto:entityType "Person"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-rodríguez_méndez,_x.> rdfs:label "Rodríguez Méndez, X."@en ;
+    askg-onto:entityType "Person"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-rozière,_n.> rdfs:label "Rozière, N."@en ;
+    askg-onto:entityType "Person"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-runsong.jia@anu.edu.au> rdfs:label "Runsong.Jia@anu.edu.au"@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-runsong_jia rdfs:label "Runsong Jia"@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-sanmartin rdfs:label "Sanmartin"@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-scholarly_domain_inquiries rdfs:label "scholarly domain inquiries"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-scientist rdfs:label "Scientist"@en ;
+    askg-onto:entityType "Scientist"@en .
+
+askg-data:Entity-searches_for_occurrences_of_specified_substring rdfs:label "searches for occurrences of specified substring"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-semantic_distance rdfs:label "Semantic distance"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-semantic_relationships rdfs:label "semantic relationships"@en ;
+    askg-onto:entityType "Concept"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-seneviratne,_s.> rdfs:label "Seneviratne, S."@en ;
+    askg-onto:entityType "Person"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-sergio.rodriguezmendez@anu.edu.au> rdfs:label "Sergio.RodriguezMendez@anu.edu.au"@en ;
+    askg-onto:entityType "Person"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-sergio_j.> rdfs:label "Sergio J."@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-sergio_rodriguez_mendez rdfs:label "Sergio Rodriguez Mendez"@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-simple_chunking rdfs:label "Simple Chunking"@en ;
+    askg-onto:entityType "Tool"@en .
+
+askg-data:Entity-software rdfs:label "Software"@en ;
+    askg-onto:entityType "Software"@en .
+
+askg-data:Entity-solatorio rdfs:label "Solatorio"@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-some_measurement rdfs:label "some measurement"@en ;
+    askg-onto:entityType "Result"@en .
+
+askg-data:Entity-steps rdfs:label "steps"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-string_matching rdfs:label "String Matching"@en ;
+    askg-onto:entityType "Technique"@en .
+
+askg-data:Entity-structural_information rdfs:label "structural information"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-study rdfs:label "Study"@en ;
+    askg-onto:entityType "Study"@en .
+
+askg-data:Entity-submission_type rdfs:label "Submission type"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-subsequent rdfs:label "subsequent"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-superiority rdfs:label "superiority"@en ;
+    askg-onto:entityType "Result"@en .
+
+askg-data:Entity-system_capabilities rdfs:label "system capabilities"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-tasks rdfs:label "tasks"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-taylor rdfs:label "Taylor"@en ;
+    askg-onto:entityType "Person"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-taylor,_a.> rdfs:label "Taylor, A."@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-technique rdfs:label "Technique"@en ;
+    askg-onto:entityType "Technique"@en .
+
+askg-data:Entity-text rdfs:label "text"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-text_data rdfs:label "text data"@en ;
+    askg-onto:entityType "Dataset"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-the_document's_logical_flow> rdfs:label "the document's logical flow"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-the_named_entity_recognition_toolkit rdfs:label "The Named Entity Recognition Toolkit"@en ;
+    askg-onto:entityType "Paper"@en,
+        "Tool"@en .
+
+askg-data:Entity-this_paper rdfs:label "this paper"@en ;
+    askg-onto:entityType "Paper"@en .
+
+askg-data:Entity-threshold rdfs:label "threshold"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-tijani rdfs:label "Tijani"@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-tools rdfs:label "tools"@en ;
+    askg-onto:entityType "Tool"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-touvron,_t.> rdfs:label "Touvron, T."@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-traditional_methods rdfs:label "traditional methods"@en ;
+    askg-onto:entityType "Method"@en .
+
+askg-data:Entity-traditional_role rdfs:label "traditional role"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-two_authors rdfs:label "two authors"@en ;
+    askg-onto:entityType "Researcher"@en .
+
+askg-data:Entity-undefined rdfs:label "Undefined"@en ;
+    askg-onto:entityType "Concept"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-unifying_large_language_models_and_knowledge_graphs:_a_roadmap> rdfs:label "Unifying Large Language Models and Knowledge Graphs: A Roadmap"@en ;
+    askg-onto:entityType "Paper"@en .
+
+askg-data:Entity-university rdfs:label "University"@en ;
+    askg-onto:entityType "University"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-user's_query> rdfs:label "user's query"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-user_query_embeddings rdfs:label "user query embeddings"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-v rdfs:label "V"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-vast_amounts_of_data rdfs:label "vast amounts of data"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-vector-based rdfs:label "Vector-based"@en ;
+    askg-onto:entityType "System"@en .
+
+askg-data:Entity-vector-based_approach rdfs:label "vector-based approach"@en ;
+    askg-onto:entityType "Method"@en .
+
+askg-data:Entity-vector-based_baseline rdfs:label "vector-based baseline"@en ;
+    askg-onto:entityType "Method"@en .
+
+askg-data:Entity-vector-based_systems rdfs:label "Vector-based Systems"@en ;
+    askg-onto:entityType "System"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-wang,_x.> rdfs:label "Wang, X."@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-web_crawling_and_nlp_models rdfs:label "web crawling and NLP models"@en ;
+    askg-onto:entityType "Technique"@en .
+
+askg-data:Entity-wei rdfs:label "Wei"@en ;
+    askg-onto:entityType "Researcher"@en .
+
+askg-data:Entity-wu rdfs:label "Wu"@en ;
+    askg-onto:entityType "Person"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-wu,_q.> rdfs:label "Wu, Q."@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-x rdfs:label "X"@en ;
+    askg-onto:entityType "Concept"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-zhang,_p.> rdfs:label "Zhang, P."@en ;
+    askg-onto:entityType "Person"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-zhang,_x.> rdfs:label "Zhang, X."@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-1 a askg-onto:Section ;
+    rdfs:label "Section 1"@en ;
+    domo:Text "Towards Building An Rdf-Based Deep Document Model And Retrieval Augmented Generation System For Enhanced Question Answering With Large Language Models"@en ;
+    askg-onto:hasParagraph askg-data:Paper-0a236cd8bd20b1e9-Section-1-Paragraph-1.1,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-1-Paragraph-1.2 ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:level "1"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-1-Paragraph-1.1 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 1"@en ;
+    domo:Text "Runsong Jia1, Bowen Zhang2, Sergio J. Rodríguez-Méndez1and Pouya G. Omran1 1Australian National University, Canberra ACT 2601, AU 2*QDX Technologies Pte. Ltd., 33A Pagoda Street, Singapore 059192, SG* Abstract Knowledge Graphs (KGs) are crucial for Retrieval-Augmented Generation (RAG), but traditional methods have limitations in capturing details and querying academic KGs. The challenges lie in identifying the appropriate KG type for RAG, such as a Metadata KG, and optimizing the integration of Large Language Models (LLMs) with KGs to enhance retrieval and generation. This paper introduces a novel framework combining the Deep Document Model (DDM) concept and a KG-enhanced Query Processing (KGQP) mechanism. DDM provides a comprehensive, hierarchical representation of academic papers using advanced Natural Language Processing (NLP) techniques, while KGQP optimizes complex queries using the KG's structural information and semantic relationships. The framework also integrates KGs with state-of-the-art LLMs to improve knowledge utilization and downstream task performance. Evaluations show that the KG-based approach surpasses vector-based methods in relevance, accuracy, completeness, and readability. This research demonstrates the potential of combining KGs and LLMs for effective academic knowledge management and discovery. § *Submission type*: **Poster** §."@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-1-Paragraph-1.1-Sentence-1.1.1,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-1-Paragraph-1.1-Sentence-1.1.10,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-1-Paragraph-1.1-Sentence-1.1.11,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-1-Paragraph-1.1-Sentence-1.1.2,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-1-Paragraph-1.1-Sentence-1.1.3,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-1-Paragraph-1.1-Sentence-1.1.4,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-1-Paragraph-1.1-Sentence-1.1.5,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-1-Paragraph-1.1-Sentence-1.1.6,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-1-Paragraph-1.1-Sentence-1.1.7,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-1-Paragraph-1.1-Sentence-1.1.8,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-1-Paragraph-1.1-Sentence-1.1.9 ;
+    askg-onto:index "1"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-1-Paragraph-1.1-Sentence-1.1.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "Runsong Jia1, Bowen Zhang2, Sergio J."@en ;
+    askg-onto:inSentence "Runsong Jia1, Bowen Zhang2, Sergio J."^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-bowen_zhang,
+        askg-data:Entity-person,
+        askg-data:Entity-runsong_jia,
+        <https://www.anu.edu.au/data/scholarly/Entity-sergio_j.> .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-1-Paragraph-1.1-Sentence-1.1.10 a askg-onto:Sentence ;
+    rdfs:label "Sentence 10"@en ;
+    domo:Text "This research demonstrates the potential of combining KGs and LLMs for effective academic knowledge management and discovery."@en ;
+    askg-onto:inSentence "This research demonstrates the potential of combining KGs and LLMs for effective academic knowledge management and discovery."^^xsd:string ;
+    askg-onto:index "10"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-academic_knowledge_management_and_discovery,
+        askg-data:Entity-kgs,
+        askg-data:Entity-kgs_and_llms,
+        askg-data:Entity-llms .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-1-Paragraph-1.1-Sentence-1.1.11 a askg-onto:Sentence ;
+    rdfs:label "Sentence 11"@en ;
+    domo:Text "§ *Submission type*: **Poster** §."@en ;
+    askg-onto:inSentence "§ *Submission type*: **Poster** §."^^xsd:string ;
+    askg-onto:index "11"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-poster,
+        askg-data:Entity-submission_type .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-1-Paragraph-1.1-Sentence-1.1.2 a askg-onto:Sentence ;
+    rdfs:label "Sentence 2"@en ;
+    domo:Text "Rodríguez-Méndez1and Pouya G."@en ;
+    askg-onto:inSentence "Rodríguez-Méndez1and Pouya G."^^xsd:string ;
+    askg-onto:index "2"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-pouya_g.>,
+        askg-data:Entity-rodríguez-méndez .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-1-Paragraph-1.1-Sentence-1.1.3 a askg-onto:Sentence ;
+    rdfs:label "Sentence 3"@en ;
+    domo:Text "Omran1 1Australian National University, Canberra ACT 2601, AU 2*QDX Technologies Pte."@en ;
+    askg-onto:inSentence "Omran1 1Australian National University, Canberra ACT 2601, AU 2*QDX Technologies Pte."^^xsd:string ;
+    askg-onto:index "3"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-australian_national_university,
+        askg-data:Entity-company,
+        askg-data:Entity-omran1,
+        <https://www.anu.edu.au/data/scholarly/Entity-qdx_technologies_pte.>,
+        askg-data:Entity-researcher .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-1-Paragraph-1.1-Sentence-1.1.4 a askg-onto:Sentence ;
+    rdfs:label "Sentence 4"@en ;
+    domo:Text "Ltd., 33A Pagoda Street, Singapore 059192, SG* Abstract Knowledge Graphs (KGs) are crucial for Retrieval-Augmented Generation (RAG), but traditional methods have limitations in capturing details and querying academic KGs."@en ;
+    askg-onto:inSentence "Ltd., 33A Pagoda Street, Singapore 059192, SG* Abstract Knowledge Graphs (KGs) are crucial for Retrieval-Augmented Generation (RAG), but traditional methods have limitations in capturing details and querying academic KGs."^^xsd:string ;
+    askg-onto:index "4"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-academic_kgs,
+        askg-data:Entity-details,
+        askg-data:Entity-knowledge_graphs,
+        askg-data:Entity-retrieval-augmented_generation,
+        askg-data:Entity-traditional_methods .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-1-Paragraph-1.1-Sentence-1.1.5 a askg-onto:Sentence ;
+    rdfs:label "Sentence 5"@en ;
+    domo:Text "The challenges lie in identifying the appropriate KG type for RAG, such as a Metadata KG, and optimizing the integration of Large Language Models (LLMs) with KGs to enhance retrieval and generation."@en ;
+    askg-onto:inSentence "The challenges lie in identifying the appropriate KG type for RAG, such as a Metadata KG, and optimizing the integration of Large Language Models (LLMs) with KGs to enhance retrieval and generation."^^xsd:string ;
+    askg-onto:index "5"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-knowledge_graphs_\(kgs\),
+        askg-data:Entity-large_language_models_\(llms\),
+        askg-data:Entity-metadata_kg,
+        askg-data:Entity-rag,
+        askg-data:Entity-retrieval_and_generation .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-1-Paragraph-1.1-Sentence-1.1.6 a askg-onto:Sentence ;
+    rdfs:label "Sentence 6"@en ;
+    domo:Text "This paper introduces a novel framework combining the Deep Document Model (DDM) concept and a KG-enhanced Query Processing (KGQP) mechanism."@en ;
+    askg-onto:inSentence "This paper introduces a novel framework combining the Deep Document Model (DDM) concept and a KG-enhanced Query Processing (KGQP) mechanism."^^xsd:string ;
+    askg-onto:index "6"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-deep_document_model_\(ddm\),
+        askg-data:Entity-deep_document_model_\(ddm\)_concept,
+        askg-data:Entity-kg-enhanced_query_processing_\(kgqp\),
+        askg-data:Entity-kg-enhanced_query_processing_\(kgqp\)_mechanism,
+        askg-data:Entity-novel_framework .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-1-Paragraph-1.1-Sentence-1.1.7 a askg-onto:Sentence ;
+    rdfs:label "Sentence 7"@en ;
+    domo:Text "DDM provides a comprehensive, hierarchical representation of academic papers using advanced Natural Language Processing (NLP) techniques, while KGQP optimizes complex queries using the KG's structural information and semantic relationships."@en ;
+    askg-onto:inSentence "DDM provides a comprehensive, hierarchical representation of academic papers using advanced Natural Language Processing (NLP) techniques, while KGQP optimizes complex queries using the KG's structural information and semantic relationships."^^xsd:string ;
+    askg-onto:index "7"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-advanced_techniques,
+        askg-data:Entity-complex_queries,
+        askg-data:Entity-ddm,
+        askg-data:Entity-kg,
+        askg-data:Entity-kgqp,
+        askg-data:Entity-natural_language_processing_\(nlp\)_techniques,
+        askg-data:Entity-representation_of_academic_papers,
+        askg-data:Entity-semantic_relationships,
+        askg-data:Entity-structural_information .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-1-Paragraph-1.1-Sentence-1.1.8 a askg-onto:Sentence ;
+    rdfs:label "Sentence 8"@en ;
+    domo:Text "The framework also integrates KGs with state-of-the-art LLMs to improve knowledge utilization and downstream task performance."@en ;
+    askg-onto:inSentence "The framework also integrates KGs with state-of-the-art LLMs to improve knowledge utilization and downstream task performance."^^xsd:string ;
+    askg-onto:index "8"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-downstream_task_performance,
+        askg-data:Entity-framework,
+        askg-data:Entity-kgs,
+        askg-data:Entity-knowledge_utilization,
+        askg-data:Entity-llms .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-1-Paragraph-1.1-Sentence-1.1.9 a askg-onto:Sentence ;
+    rdfs:label "Sentence 9"@en ;
+    domo:Text "Evaluations show that the KG-based approach surpasses vector-based methods in relevance, accuracy, completeness, and readability."@en ;
+    askg-onto:inSentence "Evaluations show that the KG-based approach surpasses vector-based methods in relevance, accuracy, completeness, and readability."^^xsd:string ;
+    askg-onto:index "9"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-accuracy,
+        askg-data:Entity-completeness,
+        askg-data:Entity-kg-based_approach,
+        askg-data:Entity-readability,
+        askg-data:Entity-relevance,
+        askg-data:Entity-vector-based_methods .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-1-Paragraph-1.2 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 2"@en ;
+    domo:Text "Keywords Knowledge Graph, Deep Document Model, Large Language Model, Information Extraction, Knowledge Graph Construction"@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-1-Paragraph-1.2-Sentence-1.2.1 ;
+    askg-onto:index "2"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-1-Paragraph-1.2-Sentence-1.2.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "Keywords Knowledge Graph, Deep Document Model, Large Language Model, Information Extraction, Knowledge Graph Construction"@en ;
+    askg-onto:inSentence "Keywords Knowledge Graph, Deep Document Model, Large Language Model, Information Extraction, Knowledge Graph Construction"^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-concept,
+        askg-data:Entity-deep_document_model,
+        askg-data:Entity-information_extraction,
+        askg-data:Entity-knowledge_graph,
+        askg-data:Entity-knowledge_graph_construction,
+        askg-data:Entity-large_language_model,
+        askg-data:Entity-method,
+        askg-data:Entity-model .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-2 a askg-onto:Section ;
+    rdfs:label "Section 2"@en ;
+    domo:Text "1. Introduction And Related Work"@en ;
+    askg-onto:hasParagraph askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.1,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.2,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.3 ;
+    askg-onto:index "2"^^xsd:int ;
+    askg-onto:level "4"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.1 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 1"@en ;
+    domo:Text "In the current era, where LLMs are extensively applied for complex question-answering tasks, these models serve as effective tools for understanding. However, relying solely on LLMs is not sufficient to meet the challenges, as they require appropriate methods to process and explore massive semi-structured data [1, 2]. KGs play a crucial role in this context, as they manage vast amounts of data and provide relevant contextual information to LLMs [3, 4]. Existing research has already utilized KGs to enhance the outputs of LLMs [5, 6, 7], highlighting the importance of integrating LLMs with KGs. Through KGs, relevant information can be effectively filtered"@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.1-Sentence-2.1.1,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.1-Sentence-2.1.2,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.1-Sentence-2.1.3,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.1-Sentence-2.1.4,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.1-Sentence-2.1.5 ;
+    askg-onto:index "1"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.1-Sentence-2.1.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "In the current era, where LLMs are extensively applied for complex question-answering tasks, these models serve as effective tools for understanding."@en ;
+    askg-onto:inSentence "In the current era, where LLMs are extensively applied for complex question-answering tasks, these models serve as effective tools for understanding."^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-complex_question-answering_tasks,
+        askg-data:Entity-effective_tools_for_understanding,
+        askg-data:Entity-llms .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.1-Sentence-2.1.2 a askg-onto:Sentence ;
+    rdfs:label "Sentence 2"@en ;
+    domo:Text "However, relying solely on LLMs is not sufficient to meet the challenges, as they require appropriate methods to process and explore massive semi-structured data [1, 2]."@en ;
+    askg-onto:inSentence "However, relying solely on LLMs is not sufficient to meet the challenges, as they require appropriate methods to process and explore massive semi-structured data [1, 2]."^^xsd:string ;
+    askg-onto:index "2"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-appropriate_methods,
+        askg-data:Entity-llms,
+        askg-data:Entity-massive_semi-structured_data .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.1-Sentence-2.1.3 a askg-onto:Sentence ;
+    rdfs:label "Sentence 3"@en ;
+    domo:Text "KGs play a crucial role in this context, as they manage vast amounts of data and provide relevant contextual information to LLMs [3, 4]."@en ;
+    askg-onto:inSentence "KGs play a crucial role in this context, as they manage vast amounts of data and provide relevant contextual information to LLMs [3, 4]."^^xsd:string ;
+    askg-onto:index "3"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-context,
+        askg-data:Entity-contextual_information,
+        askg-data:Entity-kgs,
+        askg-data:Entity-llms,
+        askg-data:Entity-relevant_contextual_information,
+        askg-data:Entity-vast_amounts_of_data .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.1-Sentence-2.1.4 a askg-onto:Sentence ;
+    rdfs:label "Sentence 4"@en ;
+    domo:Text "Existing research has already utilized KGs to enhance the outputs of LLMs [5, 6, 7], highlighting the importance of integrating LLMs with KGs."@en ;
+    askg-onto:inSentence "Existing research has already utilized KGs to enhance the outputs of LLMs [5, 6, 7], highlighting the importance of integrating LLMs with KGs."^^xsd:string ;
+    askg-onto:index "4"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-kgs,
+        askg-data:Entity-llms,
+        askg-data:Entity-outputs_of_llms .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.1-Sentence-2.1.5 a askg-onto:Sentence ;
+    rdfs:label "Sentence 5"@en ;
+    domo:Text "Through KGs, relevant information can be effectively filtered"@en ;
+    askg-onto:inSentence "Through KGs, relevant information can be effectively filtered"^^xsd:string ;
+    askg-onto:index "5"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-kgs,
+        askg-data:Entity-relevant_information .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.2 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 2"@en ;
+    domo:Text "ISWC 2024 Posters and Demos: 23rd International Semantic Web Conference, November 11–15, 2024, Baltimore, United States Envelope-Open Runsong.Jia@anu.edu.au (R. Jia); Bowen.Zhang@qdx.co (B. Zhang); Sergio.RodriguezMendez@anu.edu.au (S. J. Rodríguez-Méndez); P.G.Omran@anu.edu.au (P. G. Omran) Orcid 0009-0003-3986-2679 (R. Jia); 0000-0001-6045-8599 (B. Zhang); 0000-0001-7203-8399 (S. J. Rodríguez-Méndez); 0000-0002-4473-3877 (P. G. Omran) © 2022 Copyright for this paper by its authors. Use permitted under Creative Commons License Attribution 4.0 International (CC BY 4.0). and pinpointed, providing the precise context needed for LLMs to perform their tasks."@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.2-Sentence-2.2.1,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.2-Sentence-2.2.10,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.2-Sentence-2.2.11,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.2-Sentence-2.2.12,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.2-Sentence-2.2.13,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.2-Sentence-2.2.14,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.2-Sentence-2.2.15,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.2-Sentence-2.2.2,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.2-Sentence-2.2.3,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.2-Sentence-2.2.4,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.2-Sentence-2.2.5,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.2-Sentence-2.2.6,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.2-Sentence-2.2.7,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.2-Sentence-2.2.8,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.2-Sentence-2.2.9 ;
+    askg-onto:index "2"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.2-Sentence-2.2.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "ISWC 2024 Posters and Demos: 23rd International Semantic Web Conference, November 11–15, 2024, Baltimore, United States Envelope-Open Runsong.Jia@anu.edu.au (R."@en ;
+    askg-onto:inSentence "ISWC 2024 Posters and Demos: 23rd International Semantic Web Conference, November 11–15, 2024, Baltimore, United States Envelope-Open Runsong.Jia@anu.edu.au (R."^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-conference,
+        askg-data:Entity-iswc_2024_posters_and_demos,
+        <https://www.anu.edu.au/data/scholarly/Entity-runsong.jia@anu.edu.au> .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.2-Sentence-2.2.10 a askg-onto:Sentence ;
+    rdfs:label "Sentence 10"@en ;
+    domo:Text "J."@en ;
+    askg-onto:inSentence "J."^^xsd:string ;
+    askg-onto:index "10"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-j.>,
+        askg-data:Entity-publication .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.2-Sentence-2.2.11 a askg-onto:Sentence ;
+    rdfs:label "Sentence 11"@en ;
+    domo:Text "Rodríguez-Méndez); 0000-0002-4473-3877 (P."@en ;
+    askg-onto:inSentence "Rodríguez-Méndez); 0000-0002-4473-3877 (P."^^xsd:string ;
+    askg-onto:index "11"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-0000-0002-4473-3877,
+        askg-data:Entity-rodríguez-méndez .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.2-Sentence-2.2.12 a askg-onto:Sentence ;
+    rdfs:label "Sentence 12"@en ;
+    domo:Text "G."@en ;
+    askg-onto:inSentence "G."^^xsd:string ;
+    askg-onto:index "12"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-g.>,
+        askg-data:Entity-undefined .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.2-Sentence-2.2.13 a askg-onto:Sentence ;
+    rdfs:label "Sentence 13"@en ;
+    domo:Text "Omran) © 2022 Copyright for this paper by its authors."@en ;
+    askg-onto:inSentence "Omran) © 2022 Copyright for this paper by its authors."^^xsd:string ;
+    askg-onto:index "13"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-its_authors,
+        askg-data:Entity-omran,
+        askg-data:Entity-this_paper .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.2-Sentence-2.2.14 a askg-onto:Sentence ;
+    rdfs:label "Sentence 14"@en ;
+    domo:Text "Use permitted under Creative Commons License Attribution 4.0 International (CC BY 4.0)."@en ;
+    askg-onto:inSentence "Use permitted under Creative Commons License Attribution 4.0 International (CC BY 4.0)."^^xsd:string ;
+    askg-onto:index "14"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-cc_by_4.0,
+        askg-data:Entity-creative_commons_license_attribution_4.0_international .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.2-Sentence-2.2.15 a askg-onto:Sentence ;
+    rdfs:label "Sentence 15"@en ;
+    domo:Text "and pinpointed, providing the precise context needed for LLMs to perform their tasks."@en ;
+    askg-onto:inSentence "and pinpointed, providing the precise context needed for LLMs to perform their tasks."^^xsd:string ;
+    askg-onto:index "15"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-llms,
+        askg-data:Entity-tasks .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.2-Sentence-2.2.2 a askg-onto:Sentence ;
+    rdfs:label "Sentence 2"@en ;
+    domo:Text "Jia); Bowen.Zhang@qdx.co (B."@en ;
+    askg-onto:inSentence "Jia); Bowen.Zhang@qdx.co (B."^^xsd:string ;
+    askg-onto:index "2"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-bowen.zhang@qdx.co>,
+        askg-data:Entity-jia .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.2-Sentence-2.2.3 a askg-onto:Sentence ;
+    rdfs:label "Sentence 3"@en ;
+    domo:Text "Zhang); Sergio.RodriguezMendez@anu.edu.au (S."@en ;
+    askg-onto:inSentence "Zhang); Sergio.RodriguezMendez@anu.edu.au (S."^^xsd:string ;
+    askg-onto:index "3"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-person,
+        <https://www.anu.edu.au/data/scholarly/Entity-sergio.rodriguezmendez@anu.edu.au>,
+        askg-data:Entity-sergio_rodriguez_mendez,
+        askg-data:Entity-zhang .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.2-Sentence-2.2.4 a askg-onto:Sentence ;
+    rdfs:label "Sentence 4"@en ;
+    domo:Text "J."@en ;
+    askg-onto:inSentence "J."^^xsd:string ;
+    askg-onto:index "4"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-j.>,
+        askg-data:Entity-person .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.2-Sentence-2.2.5 a askg-onto:Sentence ;
+    rdfs:label "Sentence 5"@en ;
+    domo:Text "Rodríguez-Méndez); P.G.Omran@anu.edu.au (P."@en ;
+    askg-onto:inSentence "Rodríguez-Méndez); P.G.Omran@anu.edu.au (P."^^xsd:string ;
+    askg-onto:index "5"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-p.g.omran@anu.edu.au>,
+        askg-data:Entity-rodríguez-méndez .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.2-Sentence-2.2.6 a askg-onto:Sentence ;
+    rdfs:label "Sentence 6"@en ;
+    domo:Text "G."@en ;
+    askg-onto:inSentence "G."^^xsd:string ;
+    askg-onto:index "6"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-g.>,
+        askg-data:Entity-person .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.2-Sentence-2.2.7 a askg-onto:Sentence ;
+    rdfs:label "Sentence 7"@en ;
+    domo:Text "Omran) Orcid 0009-0003-3986-2679 (R."@en ;
+    askg-onto:inSentence "Omran) Orcid 0009-0003-3986-2679 (R."^^xsd:string ;
+    askg-onto:index "7"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-0009-0003-3986-2679,
+        askg-data:Entity-omran .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.2-Sentence-2.2.8 a askg-onto:Sentence ;
+    rdfs:label "Sentence 8"@en ;
+    domo:Text "Jia); 0000-0001-6045-8599 (B."@en ;
+    askg-onto:inSentence "Jia); 0000-0001-6045-8599 (B."^^xsd:string ;
+    askg-onto:index "8"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-jia .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.2-Sentence-2.2.9 a askg-onto:Sentence ;
+    rdfs:label "Sentence 9"@en ;
+    domo:Text "Zhang); 0000-0001-7203-8399 (S."@en ;
+    askg-onto:inSentence "Zhang); 0000-0001-7203-8399 (S."^^xsd:string ;
+    askg-onto:index "9"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-zhang .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.3 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 3"@en ;
+    domo:Text "In this work, we propose utilizing the Metadata KG of a document set, such as ASKG [8], integrated with a RAG architecture and LLMs to provide relevant and diverse contexts from research papers for generating answers to complex queries. We utilize the following tools to construct the KG automatically. MEL (Metadata Extractor & Loader) and TNNT (The NLP-NER Toolkit) are powerful tools for extracting knowledge from unstructured sources1. MEL converts metadata and text into JSON objects [9], while TNNT enhances this data with Named Entity Recognition [10]. Additionally, the PARSE component 2 of the KGCP pipeline 3employs web crawling and NLP models to enrich academic semantic knowledge bases in computer science [11]. The key contributions of this paper include: i. constructing KGs using DDM's fine-grained representation, ii. optimizing KG queries with KGQP for extensive knowledge graphs, and iii. enhancing query handling for complex scholarly domain inquiries."@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.3-Sentence-2.3.1,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.3-Sentence-2.3.2,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.3-Sentence-2.3.3,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.3-Sentence-2.3.4,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.3-Sentence-2.3.5,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.3-Sentence-2.3.6,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.3-Sentence-2.3.7,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.3-Sentence-2.3.8,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.3-Sentence-2.3.9 ;
+    askg-onto:index "3"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.3-Sentence-2.3.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "In this work, we propose utilizing the Metadata KG of a document set, such as ASKG [8], integrated with a RAG architecture and LLMs to provide relevant and diverse contexts from research papers for generating answers to complex queries."@en ;
+    askg-onto:inSentence "In this work, we propose utilizing the Metadata KG of a document set, such as ASKG [8], integrated with a RAG architecture and LLMs to provide relevant and diverse contexts from research papers for generating answers to complex queries."^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-answers,
+        askg-data:Entity-askg,
+        askg-data:Entity-complex_queries,
+        askg-data:Entity-contexts,
+        askg-data:Entity-document_set,
+        askg-data:Entity-generating_answers,
+        askg-data:Entity-llms,
+        askg-data:Entity-metadata_kg,
+        askg-data:Entity-rag_architecture,
+        askg-data:Entity-research_papers .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.3-Sentence-2.3.2 a askg-onto:Sentence ;
+    rdfs:label "Sentence 2"@en ;
+    domo:Text "We utilize the following tools to construct the KG automatically."@en ;
+    askg-onto:inSentence "We utilize the following tools to construct the KG automatically."^^xsd:string ;
+    askg-onto:index "2"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-kg,
+        askg-data:Entity-tools .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.3-Sentence-2.3.3 a askg-onto:Sentence ;
+    rdfs:label "Sentence 3"@en ;
+    domo:Text "MEL (Metadata Extractor & Loader) and TNNT (The NLP-NER Toolkit) are powerful tools for extracting knowledge from unstructured sources1."@en ;
+    askg-onto:inSentence "MEL (Metadata Extractor & Loader) and TNNT (The NLP-NER Toolkit) are powerful tools for extracting knowledge from unstructured sources1."^^xsd:string ;
+    askg-onto:index "3"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-extracting_knowledge_from_unstructured_sources,
+        askg-data:Entity-mel,
+        askg-data:Entity-tnnt,
+        askg-data:Entity-tool .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.3-Sentence-2.3.4 a askg-onto:Sentence ;
+    rdfs:label "Sentence 4"@en ;
+    domo:Text "MEL converts metadata and text into JSON objects [9], while TNNT enhances this data with Named Entity Recognition [10]."@en ;
+    askg-onto:inSentence "MEL converts metadata and text into JSON objects [9], while TNNT enhances this data with Named Entity Recognition [10]."^^xsd:string ;
+    askg-onto:index "4"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-data_with_named_entity_recognition,
+        askg-data:Entity-mel,
+        askg-data:Entity-metadata_and_text_into_json_objects,
+        askg-data:Entity-tnnt .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.3-Sentence-2.3.5 a askg-onto:Sentence ;
+    rdfs:label "Sentence 5"@en ;
+    domo:Text "Additionally, the PARSE component 2 of the KGCP pipeline 3employs web crawling and NLP models to enrich academic semantic knowledge bases in computer science [11]."@en ;
+    askg-onto:inSentence "Additionally, the PARSE component 2 of the KGCP pipeline 3employs web crawling and NLP models to enrich academic semantic knowledge bases in computer science [11]."^^xsd:string ;
+    askg-onto:index "5"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-academic_semantic_knowledge_bases,
+        askg-data:Entity-computer_science,
+        askg-data:Entity-kgcp_pipeline,
+        askg-data:Entity-parse_component,
+        askg-data:Entity-web_crawling_and_nlp_models .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.3-Sentence-2.3.6 a askg-onto:Sentence ;
+    rdfs:label "Sentence 6"@en ;
+    domo:Text "The key contributions of this paper include: i."@en ;
+    askg-onto:inSentence "The key contributions of this paper include: i."^^xsd:string ;
+    askg-onto:index "6"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-key_contributions,
+        askg-data:Entity-paper .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.3-Sentence-2.3.7 a askg-onto:Sentence ;
+    rdfs:label "Sentence 7"@en ;
+    domo:Text "constructing KGs using DDM's fine-grained representation, ii."@en ;
+    askg-onto:inSentence "constructing KGs using DDM's fine-grained representation, ii."^^xsd:string ;
+    askg-onto:index "7"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-ddm's_fine-grained_representation>,
+        askg-data:Entity-kgs .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.3-Sentence-2.3.8 a askg-onto:Sentence ;
+    rdfs:label "Sentence 8"@en ;
+    domo:Text "optimizing KG queries with KGQP for extensive knowledge graphs, and iii."@en ;
+    askg-onto:inSentence "optimizing KG queries with KGQP for extensive knowledge graphs, and iii."^^xsd:string ;
+    askg-onto:index "8"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-extensive_knowledge_graphs,
+        askg-data:Entity-kg_queries,
+        askg-data:Entity-kgqp .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-2-Paragraph-2.3-Sentence-2.3.9 a askg-onto:Sentence ;
+    rdfs:label "Sentence 9"@en ;
+    domo:Text "enhancing query handling for complex scholarly domain inquiries."@en ;
+    askg-onto:inSentence "enhancing query handling for complex scholarly domain inquiries."^^xsd:string ;
+    askg-onto:index "9"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-query_handling,
+        askg-data:Entity-scholarly_domain_inquiries .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3 a askg-onto:Section ;
+    rdfs:label "Section 3"@en ;
+    domo:Text "2. Methodology"@en ;
+    askg-onto:hasParagraph askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.1,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.10,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.11,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.12,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.13,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.2,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.3,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.4,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.5,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.6,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.7,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.8,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.9 ;
+    askg-onto:index "3"^^xsd:int ;
+    askg-onto:level "3"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.1 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 1"@en ;
+    domo:Text "Central to our approach is the DDM concept4, which captures the logical hierarchical structure of documents from section, paragraph to sentence level. By employing NLP techniques, DDM conducts in-depth analysis of textual elements, identifies their hierarchical relationships, and creates a model that reflects the document's logical flow. Our process integrates PARSE and DDM methods to construct a KG from scientific papers (ASKG). This approach not only transcends the traditional role of knowledge graphs as mere fact providers but also offers comprehensive metadata and context for collections of research papers. DDM enhances the depth and richness of knowledge representation through its alignment with the Document Object Model Ontology (DOMO). In this way, the DDM's structure is materialized in an ontology-based metadata KG."@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.1-Sentence-3.1.1,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.1-Sentence-3.1.2,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.1-Sentence-3.1.3,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.1-Sentence-3.1.4,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.1-Sentence-3.1.5,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.1-Sentence-3.1.6 ;
+    askg-onto:index "1"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.1-Sentence-3.1.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "Central to our approach is the DDM concept4, which captures the logical hierarchical structure of documents from section, paragraph to sentence level."@en ;
+    askg-onto:inSentence "Central to our approach is the DDM concept4, which captures the logical hierarchical structure of documents from section, paragraph to sentence level."^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-ddm_concept,
+        askg-data:Entity-logical_hierarchical_structure_of_documents .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.1-Sentence-3.1.2 a askg-onto:Sentence ;
+    rdfs:label "Sentence 2"@en ;
+    domo:Text "By employing NLP techniques, DDM conducts in-depth analysis of textual elements, identifies their hierarchical relationships, and creates a model that reflects the document's logical flow."@en ;
+    askg-onto:inSentence "By employing NLP techniques, DDM conducts in-depth analysis of textual elements, identifies their hierarchical relationships, and creates a model that reflects the document's logical flow."^^xsd:string ;
+    askg-onto:index "2"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-a_model,
+        askg-data:Entity-ddm,
+        askg-data:Entity-hierarchical_relationships,
+        askg-data:Entity-in-depth_analysis,
+        askg-data:Entity-nlp_techniques,
+        <https://www.anu.edu.au/data/scholarly/Entity-the_document's_logical_flow> .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.1-Sentence-3.1.3 a askg-onto:Sentence ;
+    rdfs:label "Sentence 3"@en ;
+    domo:Text "Our process integrates PARSE and DDM methods to construct a KG from scientific papers (ASKG)."@en ;
+    askg-onto:inSentence "Our process integrates PARSE and DDM methods to construct a KG from scientific papers (ASKG)."^^xsd:string ;
+    askg-onto:index "3"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-askg,
+        askg-data:Entity-ddm,
+        askg-data:Entity-kg,
+        askg-data:Entity-parse,
+        askg-data:Entity-scientific_papers .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.1-Sentence-3.1.4 a askg-onto:Sentence ;
+    rdfs:label "Sentence 4"@en ;
+    domo:Text "This approach not only transcends the traditional role of knowledge graphs as mere fact providers but also offers comprehensive metadata and context for collections of research papers."@en ;
+    askg-onto:inSentence "This approach not only transcends the traditional role of knowledge graphs as mere fact providers but also offers comprehensive metadata and context for collections of research papers."^^xsd:string ;
+    askg-onto:index "4"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-collections_of_research_papers,
+        askg-data:Entity-comprehensive_metadata_and_context,
+        askg-data:Entity-knowledge_graphs,
+        askg-data:Entity-traditional_role .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.1-Sentence-3.1.5 a askg-onto:Sentence ;
+    rdfs:label "Sentence 5"@en ;
+    domo:Text "DDM enhances the depth and richness of knowledge representation through its alignment with the Document Object Model Ontology (DOMO)."@en ;
+    askg-onto:inSentence "DDM enhances the depth and richness of knowledge representation through its alignment with the Document Object Model Ontology (DOMO)."^^xsd:string ;
+    askg-onto:index "5"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-ddm,
+        askg-data:Entity-document_object_model_ontology_\(domo\),
+        askg-data:Entity-knowledge_representation .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.1-Sentence-3.1.6 a askg-onto:Sentence ;
+    rdfs:label "Sentence 6"@en ;
+    domo:Text "In this way, the DDM's structure is materialized in an ontology-based metadata KG."@en ;
+    askg-onto:inSentence "In this way, the DDM's structure is materialized in an ontology-based metadata KG."^^xsd:string ;
+    askg-onto:index "6"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-ddm,
+        askg-data:Entity-ontology-based_metadata_kg .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.10 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 10"@en ;
+    domo:Text "3. Entity Matching: We link academic entities with relevant paragraphs using GIST- Embedding. The semantic similarity between each entity and paragraph pair is calculated using cosine similarity, with a threshold set at 70%. For each entity, we identify the paragraph with the highest similarity score. Subsequently, we match the entities identified in the user's query with the corresponding entities in our KG."@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.10-Sentence-3.10.1,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.10-Sentence-3.10.2,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.10-Sentence-3.10.3,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.10-Sentence-3.10.4,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.10-Sentence-3.10.5 ;
+    askg-onto:index "10"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.10-Sentence-3.10.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "3."@en ;
+    askg-onto:inSentence "3."^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-concept,
+        askg-data:Entity-triple .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.10-Sentence-3.10.2 a askg-onto:Sentence ;
+    rdfs:label "Sentence 2"@en ;
+    domo:Text "Entity Matching: We link academic entities with relevant paragraphs using GIST- Embedding."@en ;
+    askg-onto:inSentence "Entity Matching: We link academic entities with relevant paragraphs using GIST- Embedding."^^xsd:string ;
+    askg-onto:index "2"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-academic_entities,
+        askg-data:Entity-gist-embedding .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.10-Sentence-3.10.3 a askg-onto:Sentence ;
+    rdfs:label "Sentence 3"@en ;
+    domo:Text "The semantic similarity between each entity and paragraph pair is calculated using cosine similarity, with a threshold set at 70%."@en ;
+    askg-onto:inSentence "The semantic similarity between each entity and paragraph pair is calculated using cosine similarity, with a threshold set at 70%."^^xsd:string ;
+    askg-onto:index "3"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-cosine_similarity,
+        askg-data:Entity-threshold .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.10-Sentence-3.10.4 a askg-onto:Sentence ;
+    rdfs:label "Sentence 4"@en ;
+    domo:Text "For each entity, we identify the paragraph with the highest similarity score."@en ;
+    askg-onto:inSentence "For each entity, we identify the paragraph with the highest similarity score."^^xsd:string ;
+    askg-onto:index "4"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-entity,
+        askg-data:Entity-paragraph_with_the_highest_similarity_score .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.10-Sentence-3.10.5 a askg-onto:Sentence ;
+    rdfs:label "Sentence 5"@en ;
+    domo:Text "Subsequently, we match the entities identified in the user's query with the corresponding entities in our KG."@en ;
+    askg-onto:inSentence "Subsequently, we match the entities identified in the user's query with the corresponding entities in our KG."^^xsd:string ;
+    askg-onto:index "5"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-entities,
+        <https://www.anu.edu.au/data/scholarly/Entity-user's_query> .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.11 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 11"@en ;
+    domo:Text "4. Selection of Most Relevant Paragraphs: We employ Keyword Frequency Matching to select the most relevant paragraphs."@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.11-Sentence-3.11.1,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.11-Sentence-3.11.2 ;
+    askg-onto:index "11"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.11-Sentence-3.11.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "4."@en ;
+    askg-onto:inSentence "4."^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-4,
+        askg-data:Entity-triple .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.11-Sentence-3.11.2 a askg-onto:Sentence ;
+    rdfs:label "Sentence 2"@en ;
+    domo:Text "Selection of Most Relevant Paragraphs: We employ Keyword Frequency Matching to select the most relevant paragraphs."@en ;
+    askg-onto:inSentence "Selection of Most Relevant Paragraphs: We employ Keyword Frequency Matching to select the most relevant paragraphs."^^xsd:string ;
+    askg-onto:index "2"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-keyword_frequency_matching,
+        askg-data:Entity-most_relevant_paragraphs .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.12 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 12"@en ;
+    domo:Text "5. Answer Generation: We utilize LLaMA2 [13] to generate answers based solely on the selected paragraphs."@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.12-Sentence-3.12.1,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.12-Sentence-3.12.2 ;
+    askg-onto:index "12"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.12-Sentence-3.12.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "5."@en ;
+    askg-onto:inSentence "5."^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-text,
+        askg-data:Entity-triple .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.12-Sentence-3.12.2 a askg-onto:Sentence ;
+    rdfs:label "Sentence 2"@en ;
+    domo:Text "Answer Generation: We utilize LLaMA2 [13] to generate answers based solely on the selected paragraphs."@en ;
+    askg-onto:inSentence "Answer Generation: We utilize LLaMA2 [13] to generate answers based solely on the selected paragraphs."^^xsd:string ;
+    askg-onto:index "2"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-answer_generation,
+        askg-data:Entity-llama2 .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.13 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 13"@en ;
+    domo:Text "This workflow leverages the structured information in our KG to provide more accurate and relevant context for the LLM, thereby improving answer quality and reducing hallucinations."@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.13-Sentence-3.13.1 ;
+    askg-onto:index "13"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.13-Sentence-3.13.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "This workflow leverages the structured information in our KG to provide more accurate and relevant context for the LLM, thereby improving answer quality and reducing hallucinations."@en ;
+    askg-onto:inSentence "This workflow leverages the structured information in our KG to provide more accurate and relevant context for the LLM, thereby improving answer quality and reducing hallucinations."^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-answer_quality,
+        askg-data:Entity-context,
+        askg-data:Entity-hallucinations,
+        askg-data:Entity-kg,
+        askg-data:Entity-structured_information,
+        askg-data:Entity-workflow .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.2 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 2"@en ;
+    domo:Text "To address the challenge of \"AI hallucination\" faced by LLMs when dealing with complex questions, particularly those involving intricate fact verification, we have designed and implemented the KGQP (KG-enhanced Query Processing) workflow5. This process harnesses the potential advantages of LLMs and incorporates an academic KG (ASKG) aligned with a generic model (DOMO). As shown in Figure 1, this pipeline leverages KG-based context in LLM question-answering, utilizing structured information from ontology-based KGs like ASKG to provide accurate context to prompt engineering tasks with LLMs and reduce hallucinations."@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.2-Sentence-3.2.1,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.2-Sentence-3.2.2,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.2-Sentence-3.2.3 ;
+    askg-onto:index "2"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.2-Sentence-3.2.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "To address the challenge of \"AI hallucination\" faced by LLMs when dealing with complex questions, particularly those involving intricate fact verification, we have designed and implemented the KGQP (KG-enhanced Query Processing) workflow5."@en ;
+    askg-onto:inSentence "To address the challenge of \"AI hallucination\" faced by LLMs when dealing with complex questions, particularly those involving intricate fact verification, we have designed and implemented the KGQP (KG-enhanced Query Processing) workflow5."^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-ai_hallucination,
+        askg-data:Entity-kg-enhanced_query_processing_workflow,
+        askg-data:Entity-kgqp,
+        askg-data:Entity-llms .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.2-Sentence-3.2.2 a askg-onto:Sentence ;
+    rdfs:label "Sentence 2"@en ;
+    domo:Text "This process harnesses the potential advantages of LLMs and incorporates an academic KG (ASKG) aligned with a generic model (DOMO)."@en ;
+    askg-onto:inSentence "This process harnesses the potential advantages of LLMs and incorporates an academic KG (ASKG) aligned with a generic model (DOMO)."^^xsd:string ;
+    askg-onto:index "2"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-academic_kg_\(askg\),
+        askg-data:Entity-advantages,
+        askg-data:Entity-generic_model_\(domo\),
+        askg-data:Entity-llms .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.2-Sentence-3.2.3 a askg-onto:Sentence ;
+    rdfs:label "Sentence 3"@en ;
+    domo:Text "As shown in Figure 1, this pipeline leverages KG-based context in LLM question-answering, utilizing structured information from ontology-based KGs like ASKG to provide accurate context to prompt engineering tasks with LLMs and reduce hallucinations."@en ;
+    askg-onto:inSentence "As shown in Figure 1, this pipeline leverages KG-based context in LLM question-answering, utilizing structured information from ontology-based KGs like ASKG to provide accurate context to prompt engineering tasks with LLMs and reduce hallucinations."^^xsd:string ;
+    askg-onto:index "3"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-askg,
+        askg-data:Entity-hallucinations,
+        askg-data:Entity-kg-based_context,
+        askg-data:Entity-llm_question-answering,
+        askg-data:Entity-llms,
+        askg-data:Entity-ontology-based_kgs,
+        askg-data:Entity-prompt_engineering_tasks,
+        askg-data:Entity-structured_information .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.3 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 3"@en ;
+    domo:Text "The workflow's main steps as shown in Figure 1 involves: 1. **Entity Identification:** We utilize GPT-4 for identifying entities in user queries. GPT-4 demonstrates exceptional performance in entity recognition and matching [12], accurately identifying entities and their corresponding quantities within user queries."@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.3-Sentence-3.3.1,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.3-Sentence-3.3.2,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.3-Sentence-3.3.3 ;
+    askg-onto:index "3"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.3-Sentence-3.3.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "The workflow's main steps as shown in Figure 1 involves: 1."@en ;
+    askg-onto:inSentence "The workflow's main steps as shown in Figure 1 involves: 1."^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-steps,
+        askg-data:Entity-workflow .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.3-Sentence-3.3.2 a askg-onto:Sentence ;
+    rdfs:label "Sentence 2"@en ;
+    domo:Text "**Entity Identification:** We utilize GPT-4 for identifying entities in user queries."@en ;
+    askg-onto:inSentence "**Entity Identification:** We utilize GPT-4 for identifying entities in user queries."^^xsd:string ;
+    askg-onto:index "2"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-gpt-4,
+        askg-data:Entity-identifying_entities_in_user_queries .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.3-Sentence-3.3.3 a askg-onto:Sentence ;
+    rdfs:label "Sentence 3"@en ;
+    domo:Text "GPT-4 demonstrates exceptional performance in entity recognition and matching [12], accurately identifying entities and their corresponding quantities within user queries."@en ;
+    askg-onto:inSentence "GPT-4 demonstrates exceptional performance in entity recognition and matching [12], accurately identifying entities and their corresponding quantities within user queries."^^xsd:string ;
+    askg-onto:index "3"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-entity_recognition_and_matching,
+        askg-data:Entity-exceptional_performance,
+        askg-data:Entity-gpt-4,
+        askg-data:Entity-identifying_entities,
+        askg-data:Entity-quantities_within_user_queries .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.4 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 4"@en ;
+    domo:Text "2. **Retrieval of Relevant Paragraphs:** We employ SPARQL queries with exact and string matching techniques:"@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.4-Sentence-3.4.1,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.4-Sentence-3.4.2 ;
+    askg-onto:index "4"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.4-Sentence-3.4.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "2."@en ;
+    askg-onto:inSentence "2."^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-algorithm,
+        askg-data:Entity-author,
+        askg-data:Entity-dataset,
+        askg-data:Entity-experiment,
+        askg-data:Entity-finding,
+        askg-data:Entity-framework,
+        askg-data:Entity-method,
+        askg-data:Entity-organization,
+        askg-data:Entity-publication,
+        askg-data:Entity-research_area,
+        askg-data:Entity-researcher,
+        askg-data:Entity-scientist,
+        askg-data:Entity-study,
+        askg-data:Entity-system,
+        askg-data:Entity-technique,
+        askg-data:Entity-tool .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.4-Sentence-3.4.2 a askg-onto:Sentence ;
+    rdfs:label "Sentence 2"@en ;
+    domo:Text "**Retrieval of Relevant Paragraphs:** We employ SPARQL queries with exact and string matching techniques:"@en ;
+    askg-onto:inSentence "**Retrieval of Relevant Paragraphs:** We employ SPARQL queries with exact and string matching techniques:"^^xsd:string ;
+    askg-onto:index "2"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-exact_and_string_matching_techniques,
+        askg-data:Entity-sparql_queries .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.5 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 5"@en ;
+    domo:Text "1https://w3id.org/kgcp/MEL-TNNT 2https://w3id.org/kgcp/PARSE 3https://w3id.org/kgcp/ 4https://w3id.org/kgcp/DDM 5https://w3id.org/kgcp/KGQP"@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.5-Sentence-3.5.1 ;
+    askg-onto:index "5"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.5-Sentence-3.5.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "1https://w3id.org/kgcp/MEL-TNNT 2https://w3id.org/kgcp/PARSE 3https://w3id.org/kgcp/ 4https://w3id.org/kgcp/DDM 5https://w3id.org/kgcp/KGQP"@en ;
+    askg-onto:inSentence "1https://w3id.org/kgcp/MEL-TNNT 2https://w3id.org/kgcp/PARSE 3https://w3id.org/kgcp/ 4https://w3id.org/kgcp/DDM 5https://w3id.org/kgcp/KGQP"^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-ddm,
+        askg-data:Entity-kgqp,
+        askg-data:Entity-mel-tnnt,
+        askg-data:Entity-parse,
+        askg-data:Entity-tool .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.6 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 6"@en ;
+    domo:Text "![2_image_0.png](2_image_0.png)"@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.6-Sentence-3.6.1 ;
+    askg-onto:index "6"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.6-Sentence-3.6.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "![2_image_0.png](2_image_0.png)"@en ;
+    askg-onto:inSentence "![2_image_0.png](2_image_0.png)"^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-algorithm,
+        askg-data:Entity-company,
+        askg-data:Entity-data_analysis,
+        askg-data:Entity-data_mining,
+        askg-data:Entity-dataset,
+        askg-data:Entity-machine_learning,
+        askg-data:Entity-method,
+        askg-data:Entity-person,
+        askg-data:Entity-research_area,
+        askg-data:Entity-research_paper,
+        askg-data:Entity-research_study,
+        askg-data:Entity-software,
+        askg-data:Entity-tool,
+        askg-data:Entity-university .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.7 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 7"@en ;
+    domo:Text "Figure 1: Flow chart of the KGQP mechanism: KG-LLM interaction process"@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.7-Sentence-3.7.1 ;
+    askg-onto:index "7"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.7-Sentence-3.7.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "Figure 1: Flow chart of the KGQP mechanism: KG-LLM interaction process"@en ;
+    askg-onto:inSentence "Figure 1: Flow chart of the KGQP mechanism: KG-LLM interaction process"^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-kg-llm_interaction_process,
+        askg-data:Entity-kgqp_mechanism .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.8 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 8"@en ;
+    domo:Text "· Exact Matching: We construct SPARQL queries to retrieve paragraphs directly related to the identified entities in the query."@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.8-Sentence-3.8.1 ;
+    askg-onto:index "8"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.8-Sentence-3.8.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "· Exact Matching: We construct SPARQL queries to retrieve paragraphs directly related to the identified entities in the query."@en ;
+    askg-onto:inSentence "· Exact Matching: We construct SPARQL queries to retrieve paragraphs directly related to the identified entities in the query."^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-identified_entities,
+        askg-data:Entity-paragraphs,
+        askg-data:Entity-sparql_queries .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.9 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 9"@en ;
+    domo:Text "· String Matching: When exact matching fails to retrieve sufficient relevant entities, we employ more flexible search techniques. These include case-insensitive searches and searches for any occurrences of the specified substring within the entity label, allowing for partial matches and retrieving more potentially relevant entities."@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.9-Sentence-3.9.1,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.9-Sentence-3.9.2 ;
+    askg-onto:index "9"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.9-Sentence-3.9.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "· String Matching: When exact matching fails to retrieve sufficient relevant entities, we employ more flexible search techniques."@en ;
+    askg-onto:inSentence "· String Matching: When exact matching fails to retrieve sufficient relevant entities, we employ more flexible search techniques."^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-flexible_search_techniques,
+        askg-data:Entity-string_matching .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-3-Paragraph-3.9-Sentence-3.9.2 a askg-onto:Sentence ;
+    rdfs:label "Sentence 2"@en ;
+    domo:Text "These include case-insensitive searches and searches for any occurrences of the specified substring within the entity label, allowing for partial matches and retrieving more potentially relevant entities."@en ;
+    askg-onto:inSentence "These include case-insensitive searches and searches for any occurrences of the specified substring within the entity label, allowing for partial matches and retrieving more potentially relevant entities."^^xsd:string ;
+    askg-onto:index "2"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-case-insensitive_searches,
+        askg-data:Entity-searches_for_occurrences_of_specified_substring .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-4 a askg-onto:Section ;
+    rdfs:label "Section 4"@en ;
+    domo:Text "3.  Evaluation And Conclusions"@en ;
+    askg-onto:hasParagraph askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.1,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.10,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.2,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.3,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.4,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.5,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.6,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.7,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.8,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.9 ;
+    askg-onto:index "4"^^xsd:int ;
+    askg-onto:level "3"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.1 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 1"@en ;
+    domo:Text "We compare our KGQP method against a vector-based baseline. In the baseline experiment, a simple chunking approach was employed to preprocess the text data. The dataset used in this experiment consists of 10 scientific papers in the field of computer science. These papers were all published by the same two authors, who are also the experts involved in the subsequent"@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.1-Sentence-4.1.1,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.1-Sentence-4.1.2,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.1-Sentence-4.1.3,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.1-Sentence-4.1.4 ;
+    askg-onto:index "1"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.1-Sentence-4.1.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "We compare our KGQP method against a vector-based baseline."@en ;
+    askg-onto:inSentence "We compare our KGQP method against a vector-based baseline."^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-kgqp_method,
+        askg-data:Entity-vector-based_baseline .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.1-Sentence-4.1.2 a askg-onto:Sentence ;
+    rdfs:label "Sentence 2"@en ;
+    domo:Text "In the baseline experiment, a simple chunking approach was employed to preprocess the text data."@en ;
+    askg-onto:inSentence "In the baseline experiment, a simple chunking approach was employed to preprocess the text data."^^xsd:string ;
+    askg-onto:index "2"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-chunking_approach,
+        askg-data:Entity-text_data .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.1-Sentence-4.1.3 a askg-onto:Sentence ;
+    rdfs:label "Sentence 3"@en ;
+    domo:Text "The dataset used in this experiment consists of 10 scientific papers in the field of computer science."@en ;
+    askg-onto:inSentence "The dataset used in this experiment consists of 10 scientific papers in the field of computer science."^^xsd:string ;
+    askg-onto:index "3"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-computer_science,
+        askg-data:Entity-dataset,
+        askg-data:Entity-experiment,
+        askg-data:Entity-scientific_papers .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.1-Sentence-4.1.4 a askg-onto:Sentence ;
+    rdfs:label "Sentence 4"@en ;
+    domo:Text "These papers were all published by the same two authors, who are also the experts involved in the subsequent"@en ;
+    askg-onto:inSentence "These papers were all published by the same two authors, who are also the experts involved in the subsequent"^^xsd:string ;
+    askg-onto:index "4"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-papers,
+        askg-data:Entity-subsequent,
+        askg-data:Entity-two_authors .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.10 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 10"@en ;
+    domo:Text "6These paragraph entities were extracted through the DDM pipeline."@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.10-Sentence-4.10.1 ;
+    askg-onto:index "10"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.10-Sentence-4.10.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "6These paragraph entities were extracted through the DDM pipeline."@en ;
+    askg-onto:inSentence "6These paragraph entities were extracted through the DDM pipeline."^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-ddm_pipeline,
+        askg-data:Entity-paragraph_entities .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.2 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 2"@en ;
+    domo:Text "Table 1 Comparison of KG-based and Vector-based Systems on five questions"@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.2-Sentence-4.2.1 ;
+    askg-onto:index "2"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.2-Sentence-4.2.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "Table 1 Comparison of KG-based and Vector-based Systems on five questions"@en ;
+    askg-onto:inSentence "Table 1 Comparison of KG-based and Vector-based Systems on five questions"^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-kg-based_systems,
+        askg-data:Entity-vector-based_systems .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.3 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 3"@en ;
+    domo:Text "| Evaluator | System | Relevance | Accuracy | Completeness | Readability | |-------------|---------------|-------------|------------|----------------|---------------| | Evaluator 1 | KG\\-based | 3.4 | 3.8 | 3.4 | 4.0 | | | Vector\\-based | 3.4 | 3.4 | 2.8 | 4.0 | | Evaluator 2 | KG\\-based | 3.6 | 3.6 | 3.6 | 4.2 | | | Vector\\-based | 3.6 | 3.4 | 3.2 | 4.2 | | Evaluator 3 | KG\\-based | 4.6 | 4.0 | 4.0 | 4.6 | | | Vector\\-based | 4.2 | 3.8 | 3.2 | 4.0 | | Average | KG\\-based | 3.9 | 3.8 | 3.7 | 4.3 | | | Vector\\-based | 3.7 | 3.5 | 3.1 | 4.1 |"@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.3-Sentence-4.3.1 ;
+    askg-onto:index "3"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.3-Sentence-4.3.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "| Evaluator | System | Relevance | Accuracy | Completeness | Readability | |-------------|---------------|-------------|------------|----------------|---------------| | Evaluator 1 | KG\\-based | 3.4 | 3.8 | 3.4 | 4.0 | | | Vector\\-based | 3.4 | 3.4 | 2.8 | 4.0 | | Evaluator 2 | KG\\-based | 3.6 | 3.6 | 3.6 | 4.2 | | | Vector\\-based | 3.6 | 3.4 | 3.2 | 4.2 | | Evaluator 3 | KG\\-based | 4.6 | 4.0 | 4.0 | 4.6 | | | Vector\\-based | 4.2 | 3.8 | 3.2 | 4.0 | | Average | KG\\-based | 3.9 | 3.8 | 3.7 | 4.3 | | | Vector\\-based | 3.7 | 3.5 | 3.1 | 4.1 |"@en ;
+    askg-onto:inSentence "| Evaluator | System | Relevance | Accuracy | Completeness | Readability | |-------------|---------------|-------------|------------|----------------|---------------| | Evaluator 1 | KG\\-based | 3.4 | 3.8 | 3.4 | 4.0 | | | Vector\\-based | 3.4 | 3.4 | 2.8 | 4.0 | | Evaluator 2 | KG\\-based | 3.6 | 3.6 | 3.6 | 4.2 | | | Vector\\-based | 3.6 | 3.4 | 3.2 | 4.2 | | Evaluator 3 | KG\\-based | 4.6 | 4.0 | 4.0 | 4.6 | | | Vector\\-based | 4.2 | 3.8 | 3.2 | 4.0 | | Average | KG\\-based | 3.9 | 3.8 | 3.7 | 4.3 | | | Vector\\-based | 3.7 | 3.5 | 3.1 | 4.1 |"^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-2.8,
+        askg-data:Entity-3.1,
+        askg-data:Entity-3.2,
+        askg-data:Entity-3.4,
+        askg-data:Entity-3.5,
+        askg-data:Entity-3.6,
+        askg-data:Entity-3.7,
+        askg-data:Entity-3.8,
+        askg-data:Entity-3.9,
+        askg-data:Entity-4.0,
+        askg-data:Entity-4.1,
+        askg-data:Entity-4.2,
+        askg-data:Entity-4.3,
+        askg-data:Entity-4.6,
+        askg-data:Entity-average,
+        askg-data:Entity-evaluator_1,
+        askg-data:Entity-evaluator_2,
+        askg-data:Entity-evaluator_3,
+        askg-data:Entity-kg-based,
+        askg-data:Entity-vector-based .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.4 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 4"@en ;
+    domo:Text "human evaluation. The dataset was divided into chunks with a maximum of 100 tokens per chunk and a 5% overlap ratio between adjacent chunks. This ensures that the content length of each chunk obtained by \"Simple Chunking\" is comparable to the average length of Paragraphs6 in KGQP process and provides richer contextual information. This chunking process yielded a total of 618 text chunks."@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.4-Sentence-4.4.1,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.4-Sentence-4.4.2,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.4-Sentence-4.4.3,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.4-Sentence-4.4.4 ;
+    askg-onto:index "4"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.4-Sentence-4.4.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "human evaluation."@en ;
+    askg-onto:inSentence "human evaluation."^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-evaluation,
+        askg-data:Entity-human_evaluation .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.4-Sentence-4.4.2 a askg-onto:Sentence ;
+    rdfs:label "Sentence 2"@en ;
+    domo:Text "The dataset was divided into chunks with a maximum of 100 tokens per chunk and a 5% overlap ratio between adjacent chunks."@en ;
+    askg-onto:inSentence "The dataset was divided into chunks with a maximum of 100 tokens per chunk and a 5% overlap ratio between adjacent chunks."^^xsd:string ;
+    askg-onto:index "2"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-100_tokens,
+        askg-data:Entity-5%,
+        askg-data:Entity-chunks,
+        askg-data:Entity-dataset .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.4-Sentence-4.4.3 a askg-onto:Sentence ;
+    rdfs:label "Sentence 3"@en ;
+    domo:Text "This ensures that the content length of each chunk obtained by \"Simple Chunking\" is comparable to the average length of Paragraphs6 in KGQP process and provides richer contextual information."@en ;
+    askg-onto:inSentence "This ensures that the content length of each chunk obtained by \"Simple Chunking\" is comparable to the average length of Paragraphs6 in KGQP process and provides richer contextual information."^^xsd:string ;
+    askg-onto:index "3"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-content_length_comparison,
+        askg-data:Entity-kgqp_process,
+        askg-data:Entity-paragraphs6,
+        askg-data:Entity-simple_chunking .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.4-Sentence-4.4.4 a askg-onto:Sentence ;
+    rdfs:label "Sentence 4"@en ;
+    domo:Text "This chunking process yielded a total of 618 text chunks."@en ;
+    askg-onto:inSentence "This chunking process yielded a total of 618 text chunks."^^xsd:string ;
+    askg-onto:index "4"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-618_text_chunks,
+        askg-data:Entity-chunking_process .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.5 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 5"@en ;
+    domo:Text "Our evaluation employed both human assessment and quantitative metrics. Three evaluators, including two human experts and Claude [14], scored answers from KG-based and vector-based (Simple Chunking) methods across four dimensions: Relevance, Accuracy, Completeness, and Readability, using a 5-point scale."@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.5-Sentence-4.5.1,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.5-Sentence-4.5.2 ;
+    askg-onto:index "5"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.5-Sentence-4.5.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "Our evaluation employed both human assessment and quantitative metrics."@en ;
+    askg-onto:inSentence "Our evaluation employed both human assessment and quantitative metrics."^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-evaluation,
+        askg-data:Entity-human_assessment,
+        askg-data:Entity-quantitative_metrics .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.5-Sentence-4.5.2 a askg-onto:Sentence ;
+    rdfs:label "Sentence 2"@en ;
+    domo:Text "Three evaluators, including two human experts and Claude [14], scored answers from KG-based and vector-based (Simple Chunking) methods across four dimensions: Relevance, Accuracy, Completeness, and Readability, using a 5-point scale."@en ;
+    askg-onto:inSentence "Three evaluators, including two human experts and Claude [14], scored answers from KG-based and vector-based (Simple Chunking) methods across four dimensions: Relevance, Accuracy, Completeness, and Readability, using a 5-point scale."^^xsd:string ;
+    askg-onto:index "2"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-accuracy,
+        askg-data:Entity-answers,
+        askg-data:Entity-completeness,
+        askg-data:Entity-dimensions,
+        askg-data:Entity-evaluators,
+        askg-data:Entity-kg-based_methods,
+        askg-data:Entity-readability,
+        askg-data:Entity-relevance,
+        askg-data:Entity-vector-based_methods .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.6 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 6"@en ;
+    domo:Text "We also conducted entity extraction, calculating overlap and Jaccard distance between the two methods. Semantic distance was measured using GIST-Embedding [15]. Additionally, we analyzed context diversity by recording the number of article sources per answer and calculated similarity between answers and user query embeddings."@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.6-Sentence-4.6.1,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.6-Sentence-4.6.2,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.6-Sentence-4.6.3 ;
+    askg-onto:index "6"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.6-Sentence-4.6.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "We also conducted entity extraction, calculating overlap and Jaccard distance between the two methods."@en ;
+    askg-onto:inSentence "We also conducted entity extraction, calculating overlap and Jaccard distance between the two methods."^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-entity_extraction,
+        askg-data:Entity-jaccard_distance,
+        askg-data:Entity-method,
+        askg-data:Entity-overlap .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.6-Sentence-4.6.2 a askg-onto:Sentence ;
+    rdfs:label "Sentence 2"@en ;
+    domo:Text "Semantic distance was measured using GIST-Embedding [15]."@en ;
+    askg-onto:inSentence "Semantic distance was measured using GIST-Embedding [15]."^^xsd:string ;
+    askg-onto:index "2"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-gist-embedding,
+        askg-data:Entity-semantic_distance .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.6-Sentence-4.6.3 a askg-onto:Sentence ;
+    rdfs:label "Sentence 3"@en ;
+    domo:Text "Additionally, we analyzed context diversity by recording the number of article sources per answer and calculated similarity between answers and user query embeddings."@en ;
+    askg-onto:inSentence "Additionally, we analyzed context diversity by recording the number of article sources per answer and calculated similarity between answers and user query embeddings."^^xsd:string ;
+    askg-onto:index "3"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-answer,
+        askg-data:Entity-answers,
+        askg-data:Entity-context_diversity,
+        askg-data:Entity-number_of_article_sources,
+        askg-data:Entity-user_query_embeddings .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.7 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 7"@en ;
+    domo:Text "As shown in Table 1, the KG-based method consistently outperformed the vector-based approach across all evaluated dimensions. The most significant improvements were observed in Completeness and Accuracy, demonstrating the KG-based method's effectiveness in providing more comprehensive and precise answers. These results suggest that our proposed approach effectively enhances question-answering performance in academic contexts."@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.7-Sentence-4.7.1,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.7-Sentence-4.7.2,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.7-Sentence-4.7.3 ;
+    askg-onto:index "7"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.7-Sentence-4.7.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "As shown in Table 1, the KG-based method consistently outperformed the vector-based approach across all evaluated dimensions."@en ;
+    askg-onto:inSentence "As shown in Table 1, the KG-based method consistently outperformed the vector-based approach across all evaluated dimensions."^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-kg-based_method,
+        askg-data:Entity-vector-based_approach .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.7-Sentence-4.7.2 a askg-onto:Sentence ;
+    rdfs:label "Sentence 2"@en ;
+    domo:Text "The most significant improvements were observed in Completeness and Accuracy, demonstrating the KG-based method's effectiveness in providing more comprehensive and precise answers."@en ;
+    askg-onto:inSentence "The most significant improvements were observed in Completeness and Accuracy, demonstrating the KG-based method's effectiveness in providing more comprehensive and precise answers."^^xsd:string ;
+    askg-onto:index "2"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-accuracy,
+        askg-data:Entity-completeness,
+        askg-data:Entity-effectiveness,
+        askg-data:Entity-kg-based_method .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.7-Sentence-4.7.3 a askg-onto:Sentence ;
+    rdfs:label "Sentence 3"@en ;
+    domo:Text "These results suggest that our proposed approach effectively enhances question-answering performance in academic contexts."@en ;
+    askg-onto:inSentence "These results suggest that our proposed approach effectively enhances question-answering performance in academic contexts."^^xsd:string ;
+    askg-onto:index "3"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-academic_contexts,
+        askg-data:Entity-approach,
+        askg-data:Entity-question-answering_performance .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.8 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 8"@en ;
+    domo:Text "Our approach shows promise despite challenges posed by varied document structures. Future work will focus on better integrating DDM with the PARSE Pipeline for full automation and extending our framework to support Multimodal Knowledge Graphs and Question Answering for figures and tables."@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.8-Sentence-4.8.1,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.8-Sentence-4.8.2 ;
+    askg-onto:index "8"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.8-Sentence-4.8.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "Our approach shows promise despite challenges posed by varied document structures."@en ;
+    askg-onto:inSentence "Our approach shows promise despite challenges posed by varied document structures."^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-challenges_posed_by_varied_document_structures,
+        askg-data:Entity-our_approach .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.8-Sentence-4.8.2 a askg-onto:Sentence ;
+    rdfs:label "Sentence 2"@en ;
+    domo:Text "Future work will focus on better integrating DDM with the PARSE Pipeline for full automation and extending our framework to support Multimodal Knowledge Graphs and Question Answering for figures and tables."@en ;
+    askg-onto:inSentence "Future work will focus on better integrating DDM with the PARSE Pipeline for full automation and extending our framework to support Multimodal Knowledge Graphs and Question Answering for figures and tables."^^xsd:string ;
+    askg-onto:index "2"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-ddm,
+        askg-data:Entity-figures_and_tables,
+        askg-data:Entity-framework,
+        askg-data:Entity-multimodal_knowledge_graphs,
+        askg-data:Entity-parse_pipeline,
+        askg-data:Entity-question_answering .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.9 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 9"@en ;
+    domo:Text "In conclusion, our KG-based method demonstrates consistent superiority in producing relevant, accurate, and comprehensive answers while maintaining high readability. The observed improvements across all metrics underscore the potential of our approach in enhancing questionanswering performance within academic contexts. As we address current limitations and expand the system's capabilities, we anticipate further advancements in academic knowledge management and discovery."@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.9-Sentence-4.9.1,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.9-Sentence-4.9.2,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.9-Sentence-4.9.3 ;
+    askg-onto:index "9"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.9-Sentence-4.9.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "In conclusion, our KG-based method demonstrates consistent superiority in producing relevant, accurate, and comprehensive answers while maintaining high readability."@en ;
+    askg-onto:inSentence "In conclusion, our KG-based method demonstrates consistent superiority in producing relevant, accurate, and comprehensive answers while maintaining high readability."^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-kg-based_method,
+        <https://www.anu.edu.au/data/scholarly/Entity-relevant,_accurate,_and_comprehensive_answers>,
+        askg-data:Entity-superiority .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.9-Sentence-4.9.2 a askg-onto:Sentence ;
+    rdfs:label "Sentence 2"@en ;
+    domo:Text "The observed improvements across all metrics underscore the potential of our approach in enhancing questionanswering performance within academic contexts."@en ;
+    askg-onto:inSentence "The observed improvements across all metrics underscore the potential of our approach in enhancing questionanswering performance within academic contexts."^^xsd:string ;
+    askg-onto:index "2"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-academic_contexts,
+        askg-data:Entity-our_approach,
+        askg-data:Entity-question-answering_performance .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-4-Paragraph-4.9-Sentence-4.9.3 a askg-onto:Sentence ;
+    rdfs:label "Sentence 3"@en ;
+    domo:Text "As we address current limitations and expand the system's capabilities, we anticipate further advancements in academic knowledge management and discovery."@en ;
+    askg-onto:inSentence "As we address current limitations and expand the system's capabilities, we anticipate further advancements in academic knowledge management and discovery."^^xsd:string ;
+    askg-onto:index "3"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-academic_knowledge_management,
+        askg-data:Entity-academic_knowledge_management_and_discovery,
+        askg-data:Entity-advancements,
+        askg-data:Entity-capabilities,
+        askg-data:Entity-system,
+        askg-data:Entity-system_capabilities .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5 a askg-onto:Section ;
+    rdfs:label "Section 5"@en ;
+    domo:Text "References"@en ;
+    askg-onto:hasParagraph askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.1,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.10,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.11,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.12,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.13,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.14,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.15,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.2,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.3,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.4,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.5,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.6,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.7,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.8,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.9 ;
+    askg-onto:index "5"^^xsd:int ;
+    askg-onto:level "4"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.1 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 1"@en ;
+    domo:Text "[1] J. Wu, Q. Gao, Z. Liu, W. Wei, A Survey on Embedding Techniques for Scholarly Knowledge Graphs, in: International Conference on Web Information Systems Engineering, Springer, Singapore, 2020, pp. 150–160."@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.1-Sentence-5.1.1,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.1-Sentence-5.1.2,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.1-Sentence-5.1.3,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.1-Sentence-5.1.4,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.1-Sentence-5.1.5,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.1-Sentence-5.1.6 ;
+    askg-onto:index "1"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.1-Sentence-5.1.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "[1] J."@en ;
+    askg-onto:inSentence "[1] J."^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-j.>,
+        askg-data:Entity-researcher .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.1-Sentence-5.1.2 a askg-onto:Sentence ;
+    rdfs:label "Sentence 2"@en ;
+    domo:Text "Wu, Q."@en ;
+    askg-onto:inSentence "Wu, Q."^^xsd:string ;
+    askg-onto:index "2"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-researcher,
+        <https://www.anu.edu.au/data/scholarly/Entity-wu,_q.> .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.1-Sentence-5.1.3 a askg-onto:Sentence ;
+    rdfs:label "Sentence 3"@en ;
+    domo:Text "Gao, Z."@en ;
+    askg-onto:inSentence "Gao, Z."^^xsd:string ;
+    askg-onto:index "3"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-gao,_z.>,
+        askg-data:Entity-researcher .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.1-Sentence-5.1.4 a askg-onto:Sentence ;
+    rdfs:label "Sentence 4"@en ;
+    domo:Text "Liu, W."@en ;
+    askg-onto:inSentence "Liu, W."^^xsd:string ;
+    askg-onto:index "4"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-liu,_w.>,
+        askg-data:Entity-researcher .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.1-Sentence-5.1.5 a askg-onto:Sentence ;
+    rdfs:label "Sentence 5"@en ;
+    domo:Text "Wei, A Survey on Embedding Techniques for Scholarly Knowledge Graphs, in: International Conference on Web Information Systems Engineering, Springer, Singapore, 2020, pp."@en ;
+    askg-onto:inSentence "Wei, A Survey on Embedding Techniques for Scholarly Knowledge Graphs, in: International Conference on Web Information Systems Engineering, Springer, Singapore, 2020, pp."^^xsd:string ;
+    askg-onto:index "5"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-2020,
+        askg-data:Entity-a_survey_on_embedding_techniques_for_scholarly_knowledge_graphs,
+        askg-data:Entity-springer,
+        askg-data:Entity-wei .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.1-Sentence-5.1.6 a askg-onto:Sentence ;
+    rdfs:label "Sentence 6"@en ;
+    domo:Text "150–160."@en ;
+    askg-onto:inSentence "150–160."^^xsd:string ;
+    askg-onto:index "6"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-150–160>,
+        askg-data:Entity-some_measurement .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.10 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 10"@en ;
+    domo:Text "[10] S. Seneviratne, S. J. Rodríguez Méndez, X. Zhang, P. G. Omran, K. Taylor, A. Haller, TNNT: The Named Entity Recognition Toolkit, in: Proceedings of the 11th on Knowledge Capture Conference, 2021, pp. 249–252."@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.10-Sentence-5.10.1,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.10-Sentence-5.10.10,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.10-Sentence-5.10.2,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.10-Sentence-5.10.3,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.10-Sentence-5.10.4,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.10-Sentence-5.10.5,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.10-Sentence-5.10.6,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.10-Sentence-5.10.7,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.10-Sentence-5.10.8,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.10-Sentence-5.10.9 ;
+    askg-onto:index "10"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.10-Sentence-5.10.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "[10] S."@en ;
+    askg-onto:inSentence "[10] S."^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-researcher,
+        <https://www.anu.edu.au/data/scholarly/Entity-s.> .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.10-Sentence-5.10.10 a askg-onto:Sentence ;
+    rdfs:label "Sentence 10"@en ;
+    domo:Text "249–252."@en ;
+    askg-onto:inSentence "249–252."^^xsd:string ;
+    askg-onto:index "10"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-249–252>,
+        askg-data:Entity-pages .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.10-Sentence-5.10.2 a askg-onto:Sentence ;
+    rdfs:label "Sentence 2"@en ;
+    domo:Text "Seneviratne, S."@en ;
+    askg-onto:inSentence "Seneviratne, S."^^xsd:string ;
+    askg-onto:index "2"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-seneviratne,_s.> .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.10-Sentence-5.10.3 a askg-onto:Sentence ;
+    rdfs:label "Sentence 3"@en ;
+    domo:Text "J."@en ;
+    askg-onto:inSentence "J."^^xsd:string ;
+    askg-onto:index "3"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-j.> .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.10-Sentence-5.10.4 a askg-onto:Sentence ;
+    rdfs:label "Sentence 4"@en ;
+    domo:Text "Rodríguez Méndez, X."@en ;
+    askg-onto:inSentence "Rodríguez Méndez, X."^^xsd:string ;
+    askg-onto:index "4"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-researcher,
+        <https://www.anu.edu.au/data/scholarly/Entity-rodríguez_méndez,_x.> .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.10-Sentence-5.10.5 a askg-onto:Sentence ;
+    rdfs:label "Sentence 5"@en ;
+    domo:Text "Zhang, P."@en ;
+    askg-onto:inSentence "Zhang, P."^^xsd:string ;
+    askg-onto:index "5"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-researcher,
+        <https://www.anu.edu.au/data/scholarly/Entity-zhang,_p.> .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.10-Sentence-5.10.6 a askg-onto:Sentence ;
+    rdfs:label "Sentence 6"@en ;
+    domo:Text "G."@en ;
+    askg-onto:inSentence "G."^^xsd:string ;
+    askg-onto:index "6"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-g.> .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.10-Sentence-5.10.7 a askg-onto:Sentence ;
+    rdfs:label "Sentence 7"@en ;
+    domo:Text "Omran, K."@en ;
+    askg-onto:inSentence "Omran, K."^^xsd:string ;
+    askg-onto:index "7"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-omran,_k.>,
+        askg-data:Entity-researcher .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.10-Sentence-5.10.8 a askg-onto:Sentence ;
+    rdfs:label "Sentence 8"@en ;
+    domo:Text "Taylor, A."@en ;
+    askg-onto:inSentence "Taylor, A."^^xsd:string ;
+    askg-onto:index "8"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-person,
+        <https://www.anu.edu.au/data/scholarly/Entity-taylor,_a.> .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.10-Sentence-5.10.9 a askg-onto:Sentence ;
+    rdfs:label "Sentence 9"@en ;
+    domo:Text "Haller, TNNT: The Named Entity Recognition Toolkit, in: Proceedings of the 11th on Knowledge Capture Conference, 2021, pp."@en ;
+    askg-onto:inSentence "Haller, TNNT: The Named Entity Recognition Toolkit, in: Proceedings of the 11th on Knowledge Capture Conference, 2021, pp."^^xsd:string ;
+    askg-onto:index "9"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-haller,
+        askg-data:Entity-proceedings_of_the_11th_on_knowledge_capture_conference,
+        askg-data:Entity-the_named_entity_recognition_toolkit .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.11 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 11"@en ;
+    domo:Text "[11] B. Zhang, S. J. Rodríguez Méndez, P. G. Omran, ASKG: An Approach to Enrich Scholarly Knowledge Graphs through Paper Decomposition with Deep Learning, in: ISWC 2023 Posters and Demos: 22nd International Semantic Web Conference, Athens, Greece, 2023."@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.11-Sentence-5.11.1,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.11-Sentence-5.11.2,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.11-Sentence-5.11.3,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.11-Sentence-5.11.4,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.11-Sentence-5.11.5,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.11-Sentence-5.11.6 ;
+    askg-onto:index "11"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.11-Sentence-5.11.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "[11] B."@en ;
+    askg-onto:inSentence "[11] B."^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-b .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.11-Sentence-5.11.2 a askg-onto:Sentence ;
+    rdfs:label "Sentence 2"@en ;
+    domo:Text "Zhang, S."@en ;
+    askg-onto:inSentence "Zhang, S."^^xsd:string ;
+    askg-onto:index "2"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-researcher,
+        <https://www.anu.edu.au/data/scholarly/Entity-zhang,_s.> .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.11-Sentence-5.11.3 a askg-onto:Sentence ;
+    rdfs:label "Sentence 3"@en ;
+    domo:Text "J."@en ;
+    askg-onto:inSentence "J."^^xsd:string ;
+    askg-onto:index "3"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-j.>,
+        askg-data:Entity-unknown_paper .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.11-Sentence-5.11.4 a askg-onto:Sentence ;
+    rdfs:label "Sentence 4"@en ;
+    domo:Text "Rodríguez Méndez, P."@en ;
+    askg-onto:inSentence "Rodríguez Méndez, P."^^xsd:string ;
+    askg-onto:index "4"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-researcher,
+        <https://www.anu.edu.au/data/scholarly/Entity-rodríguez_méndez,_p.> .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.11-Sentence-5.11.5 a askg-onto:Sentence ;
+    rdfs:label "Sentence 5"@en ;
+    domo:Text "G."@en ;
+    askg-onto:inSentence "G."^^xsd:string ;
+    askg-onto:index "5"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-g.>,
+        askg-data:Entity-person .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.11-Sentence-5.11.6 a askg-onto:Sentence ;
+    rdfs:label "Sentence 6"@en ;
+    domo:Text "Omran, ASKG: An Approach to Enrich Scholarly Knowledge Graphs through Paper Decomposition with Deep Learning, in: ISWC 2023 Posters and Demos: 22nd International Semantic Web Conference, Athens, Greece, 2023."@en ;
+    askg-onto:inSentence "Omran, ASKG: An Approach to Enrich Scholarly Knowledge Graphs through Paper Decomposition with Deep Learning, in: ISWC 2023 Posters and Demos: 22nd International Semantic Web Conference, Athens, Greece, 2023."^^xsd:string ;
+    askg-onto:index "6"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-askg:_an_approach_to_enrich_scholarly_knowledge_graphs_through_paper_decomposition_with_deep_learning>,
+        askg-data:Entity-omran .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.12 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 12"@en ;
+    domo:Text "[12] J. Achiam, S. Adler, S. Agarwal, L. Ahmad, I. Akkaya, F. L. Aleman, D. Almeida, J. Altenschmidt, S. Altman, S. Anadkat, et al., GPT-4 technical report, arXiv preprint arXiv:2303.08774 (2023)."@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.12-Sentence-5.12.1,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.12-Sentence-5.12.10,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.12-Sentence-5.12.11,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.12-Sentence-5.12.12,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.12-Sentence-5.12.2,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.12-Sentence-5.12.3,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.12-Sentence-5.12.4,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.12-Sentence-5.12.5,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.12-Sentence-5.12.6,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.12-Sentence-5.12.7,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.12-Sentence-5.12.8,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.12-Sentence-5.12.9 ;
+    askg-onto:index "12"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.12-Sentence-5.12.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "[12] J."@en ;
+    askg-onto:inSentence "[12] J."^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-author,
+        <https://www.anu.edu.au/data/scholarly/Entity-j.> .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.12-Sentence-5.12.10 a askg-onto:Sentence ;
+    rdfs:label "Sentence 10"@en ;
+    domo:Text "Altenschmidt, S."@en ;
+    askg-onto:inSentence "Altenschmidt, S."^^xsd:string ;
+    askg-onto:index "10"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-altenschmidt,_s.>,
+        askg-data:Entity-researcher .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.12-Sentence-5.12.11 a askg-onto:Sentence ;
+    rdfs:label "Sentence 11"@en ;
+    domo:Text "Altman, S."@en ;
+    askg-onto:inSentence "Altman, S."^^xsd:string ;
+    askg-onto:index "11"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-altman,_s.>,
+        askg-data:Entity-person .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.12-Sentence-5.12.12 a askg-onto:Sentence ;
+    rdfs:label "Sentence 12"@en ;
+    domo:Text "Anadkat, et al., GPT-4 technical report, arXiv preprint arXiv:2303.08774 (2023)."@en ;
+    askg-onto:inSentence "Anadkat, et al., GPT-4 technical report, arXiv preprint arXiv:2303.08774 (2023)."^^xsd:string ;
+    askg-onto:index "12"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-2023,
+        askg-data:Entity-anadkat,
+        askg-data:Entity-arxiv,
+        <https://www.anu.edu.au/data/scholarly/Entity-arxiv:2303.08774>,
+        askg-data:Entity-gpt-4_technical_report .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.12-Sentence-5.12.2 a askg-onto:Sentence ;
+    rdfs:label "Sentence 2"@en ;
+    domo:Text "Achiam, S."@en ;
+    askg-onto:inSentence "Achiam, S."^^xsd:string ;
+    askg-onto:index "2"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-achiam,_s.>,
+        askg-data:Entity-researcher .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.12-Sentence-5.12.3 a askg-onto:Sentence ;
+    rdfs:label "Sentence 3"@en ;
+    domo:Text "Adler, S."@en ;
+    askg-onto:inSentence "Adler, S."^^xsd:string ;
+    askg-onto:index "3"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-adler,_s.>,
+        askg-data:Entity-researcher .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.12-Sentence-5.12.4 a askg-onto:Sentence ;
+    rdfs:label "Sentence 4"@en ;
+    domo:Text "Agarwal, L."@en ;
+    askg-onto:inSentence "Agarwal, L."^^xsd:string ;
+    askg-onto:index "4"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-agarwal,_l.>,
+        askg-data:Entity-researcher .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.12-Sentence-5.12.5 a askg-onto:Sentence ;
+    rdfs:label "Sentence 5"@en ;
+    domo:Text "Ahmad, I."@en ;
+    askg-onto:inSentence "Ahmad, I."^^xsd:string ;
+    askg-onto:index "5"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-ahmad,_i.>,
+        askg-data:Entity-researcher .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.12-Sentence-5.12.6 a askg-onto:Sentence ;
+    rdfs:label "Sentence 6"@en ;
+    domo:Text "Akkaya, F."@en ;
+    askg-onto:inSentence "Akkaya, F."^^xsd:string ;
+    askg-onto:index "6"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-akkaya,_f.>,
+        askg-data:Entity-researcher .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.12-Sentence-5.12.7 a askg-onto:Sentence ;
+    rdfs:label "Sentence 7"@en ;
+    domo:Text "L."@en ;
+    askg-onto:inSentence "L."^^xsd:string ;
+    askg-onto:index "7"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-l.>,
+        askg-data:Entity-person .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.12-Sentence-5.12.8 a askg-onto:Sentence ;
+    rdfs:label "Sentence 8"@en ;
+    domo:Text "Aleman, D."@en ;
+    askg-onto:inSentence "Aleman, D."^^xsd:string ;
+    askg-onto:index "8"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-aleman,_d.>,
+        askg-data:Entity-researcher .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.12-Sentence-5.12.9 a askg-onto:Sentence ;
+    rdfs:label "Sentence 9"@en ;
+    domo:Text "Almeida, J."@en ;
+    askg-onto:inSentence "Almeida, J."^^xsd:string ;
+    askg-onto:index "9"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-almeida,_j.>,
+        askg-data:Entity-research_on_xyz .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.13 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 13"@en ;
+    domo:Text "[13] H. Touvron, T. Lavril, G. Izacard, X. Martinet, M.-A. Lachaux, T. Lacroix, B. Rozière, N. Goyal, E. Hambro, F. Azhar, A. Rodriguez, A. Joulin, E. Grave, G. Lample, LLaMA: Open and Efficient Foundation Language Models, 2023. **arXiv:2302.13971**."@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.13-Sentence-5.13.1,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.13-Sentence-5.13.10,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.13-Sentence-5.13.11,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.13-Sentence-5.13.12,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.13-Sentence-5.13.13,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.13-Sentence-5.13.14,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.13-Sentence-5.13.15,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.13-Sentence-5.13.16,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.13-Sentence-5.13.2,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.13-Sentence-5.13.3,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.13-Sentence-5.13.4,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.13-Sentence-5.13.5,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.13-Sentence-5.13.6,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.13-Sentence-5.13.7,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.13-Sentence-5.13.8,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.13-Sentence-5.13.9 ;
+    askg-onto:index "13"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.13-Sentence-5.13.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "[13] H."@en ;
+    askg-onto:inSentence "[13] H."^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-h.> .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.13-Sentence-5.13.10 a askg-onto:Sentence ;
+    rdfs:label "Sentence 10"@en ;
+    domo:Text "Hambro, F."@en ;
+    askg-onto:inSentence "Hambro, F."^^xsd:string ;
+    askg-onto:index "10"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-hambro,_f.>,
+        askg-data:Entity-person .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.13-Sentence-5.13.11 a askg-onto:Sentence ;
+    rdfs:label "Sentence 11"@en ;
+    domo:Text "Azhar, A."@en ;
+    askg-onto:inSentence "Azhar, A."^^xsd:string ;
+    askg-onto:index "11"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-azhar,_a.>,
+        askg-data:Entity-researcher .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.13-Sentence-5.13.12 a askg-onto:Sentence ;
+    rdfs:label "Sentence 12"@en ;
+    domo:Text "Rodriguez, A."@en ;
+    askg-onto:inSentence "Rodriguez, A."^^xsd:string ;
+    askg-onto:index "12"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-researcher,
+        <https://www.anu.edu.au/data/scholarly/Entity-rodriguez,_a.> .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.13-Sentence-5.13.13 a askg-onto:Sentence ;
+    rdfs:label "Sentence 13"@en ;
+    domo:Text "Joulin, E."@en ;
+    askg-onto:inSentence "Joulin, E."^^xsd:string ;
+    askg-onto:index "13"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-joulin,_e.>,
+        askg-data:Entity-person .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.13-Sentence-5.13.14 a askg-onto:Sentence ;
+    rdfs:label "Sentence 14"@en ;
+    domo:Text "Grave, G."@en ;
+    askg-onto:inSentence "Grave, G."^^xsd:string ;
+    askg-onto:index "14"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-author,
+        <https://www.anu.edu.au/data/scholarly/Entity-grave,_g.> .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.13-Sentence-5.13.15 a askg-onto:Sentence ;
+    rdfs:label "Sentence 15"@en ;
+    domo:Text "Lample, LLaMA: Open and Efficient Foundation Language Models, 2023."@en ;
+    askg-onto:inSentence "Lample, LLaMA: Open and Efficient Foundation Language Models, 2023."^^xsd:string ;
+    askg-onto:index "15"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-2023,
+        askg-data:Entity-lample,
+        askg-data:Entity-language_model,
+        <https://www.anu.edu.au/data/scholarly/Entity-llama:_open_and_efficient_foundation_language_models> .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.13-Sentence-5.13.16 a askg-onto:Sentence ;
+    rdfs:label "Sentence 16"@en ;
+    domo:Text "**arXiv:2302.13971**."@en ;
+    askg-onto:inSentence "**arXiv:2302.13971**."^^xsd:string ;
+    askg-onto:index "16"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-arxiv:2302.13971>,
+        askg-data:Entity-paper .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.13-Sentence-5.13.2 a askg-onto:Sentence ;
+    rdfs:label "Sentence 2"@en ;
+    domo:Text "Touvron, T."@en ;
+    askg-onto:inSentence "Touvron, T."^^xsd:string ;
+    askg-onto:index "2"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-researcher,
+        <https://www.anu.edu.au/data/scholarly/Entity-touvron,_t.> .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.13-Sentence-5.13.3 a askg-onto:Sentence ;
+    rdfs:label "Sentence 3"@en ;
+    domo:Text "Lavril, G."@en ;
+    askg-onto:inSentence "Lavril, G."^^xsd:string ;
+    askg-onto:index "3"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-lavril,_g.>,
+        askg-data:Entity-research_paper .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.13-Sentence-5.13.4 a askg-onto:Sentence ;
+    rdfs:label "Sentence 4"@en ;
+    domo:Text "Izacard, X."@en ;
+    askg-onto:inSentence "Izacard, X."^^xsd:string ;
+    askg-onto:index "4"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-izacard,_x.>,
+        askg-data:Entity-researcher .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.13-Sentence-5.13.5 a askg-onto:Sentence ;
+    rdfs:label "Sentence 5"@en ;
+    domo:Text "Martinet, M.-A."@en ;
+    askg-onto:inSentence "Martinet, M.-A."^^xsd:string ;
+    askg-onto:index "5"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-martinet,_m.-a.>,
+        askg-data:Entity-researcher .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.13-Sentence-5.13.6 a askg-onto:Sentence ;
+    rdfs:label "Sentence 6"@en ;
+    domo:Text "Lachaux, T."@en ;
+    askg-onto:inSentence "Lachaux, T."^^xsd:string ;
+    askg-onto:index "6"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-lachaux,_t.>,
+        askg-data:Entity-person .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.13-Sentence-5.13.7 a askg-onto:Sentence ;
+    rdfs:label "Sentence 7"@en ;
+    domo:Text "Lacroix, B."@en ;
+    askg-onto:inSentence "Lacroix, B."^^xsd:string ;
+    askg-onto:index "7"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-lacroix,_b.> .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.13-Sentence-5.13.8 a askg-onto:Sentence ;
+    rdfs:label "Sentence 8"@en ;
+    domo:Text "Rozière, N."@en ;
+    askg-onto:inSentence "Rozière, N."^^xsd:string ;
+    askg-onto:index "8"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-researcher,
+        <https://www.anu.edu.au/data/scholarly/Entity-rozière,_n.> .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.13-Sentence-5.13.9 a askg-onto:Sentence ;
+    rdfs:label "Sentence 9"@en ;
+    domo:Text "Goyal, E."@en ;
+    askg-onto:inSentence "Goyal, E."^^xsd:string ;
+    askg-onto:index "9"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-goyal,_e.>,
+        askg-data:Entity-person .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.14 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 14"@en ;
+    domo:Text "[14] Anthropic, Claude: Introducing Claude, https://www.anthropic.com/index/ introducing-claude, 2023."@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.14-Sentence-5.14.1 ;
+    askg-onto:index "14"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.14-Sentence-5.14.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "[14] Anthropic, Claude: Introducing Claude, https://www.anthropic.com/index/ introducing-claude, 2023."@en ;
+    askg-onto:inSentence "[14] Anthropic, Claude: Introducing Claude, https://www.anthropic.com/index/ introducing-claude, 2023."^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-anthropic,
+        askg-data:Entity-claude .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.15 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 15"@en ;
+    domo:Text "[15] A. V. Solatorio, GISTEmbed: Guided In-sample Selection of Training Negatives for Text Embedding Fine-tuning, arXiv preprint arXiv:2402.16829 (2024). URL: https://arxiv.org/ abs/2402.16829. **arXiv:2402.16829**."@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.15-Sentence-5.15.1,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.15-Sentence-5.15.2,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.15-Sentence-5.15.3,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.15-Sentence-5.15.4,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.15-Sentence-5.15.5 ;
+    askg-onto:index "15"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.15-Sentence-5.15.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "[15] A."@en ;
+    askg-onto:inSentence "[15] A."^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-[15]>,
+        askg-data:Entity-a .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.15-Sentence-5.15.2 a askg-onto:Sentence ;
+    rdfs:label "Sentence 2"@en ;
+    domo:Text "V."@en ;
+    askg-onto:inSentence "V."^^xsd:string ;
+    askg-onto:index "2"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-concept,
+        askg-data:Entity-v .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.15-Sentence-5.15.3 a askg-onto:Sentence ;
+    rdfs:label "Sentence 3"@en ;
+    domo:Text "Solatorio, GISTEmbed: Guided In-sample Selection of Training Negatives for Text Embedding Fine-tuning, arXiv preprint arXiv:2402.16829 (2024)."@en ;
+    askg-onto:inSentence "Solatorio, GISTEmbed: Guided In-sample Selection of Training Negatives for Text Embedding Fine-tuning, arXiv preprint arXiv:2402.16829 (2024)."^^xsd:string ;
+    askg-onto:index "3"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-2024,
+        askg-data:Entity-arxiv,
+        <https://www.anu.edu.au/data/scholarly/Entity-arxiv:2402.16829>,
+        askg-data:Entity-gistembed,
+        <https://www.anu.edu.au/data/scholarly/Entity-gistembed:_guided_in-sample_selection_of_training_negatives_for_text_embedding_fine-tuning>,
+        askg-data:Entity-solatorio,
+        askg-data:Entity-tool .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.15-Sentence-5.15.4 a askg-onto:Sentence ;
+    rdfs:label "Sentence 4"@en ;
+    domo:Text "URL: https://arxiv.org/ abs/2402.16829."@en ;
+    askg-onto:inSentence "URL: https://arxiv.org/ abs/2402.16829."^^xsd:string ;
+    askg-onto:index "4"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-2402.16829,
+        askg-data:Entity-arxiv.org,
+        askg-data:Entity-paper .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.15-Sentence-5.15.5 a askg-onto:Sentence ;
+    rdfs:label "Sentence 5"@en ;
+    domo:Text "**arXiv:2402.16829**."@en ;
+    askg-onto:inSentence "**arXiv:2402.16829**."^^xsd:string ;
+    askg-onto:index "5"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-arxiv:2402.16829>,
+        askg-data:Entity-paper .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.2 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 2"@en ;
+    domo:Text "[2] X. Wang, C. Zhang, X. Li, M. Zhang, S. Ma, Review on Knowledge Graph Techniques for Retrieving Scientific Publications, Frontiers of Computer Science 14 (2020) 143301."@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.2-Sentence-5.2.1,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.2-Sentence-5.2.2,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.2-Sentence-5.2.3,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.2-Sentence-5.2.4,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.2-Sentence-5.2.5,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.2-Sentence-5.2.6 ;
+    askg-onto:index "2"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.2-Sentence-5.2.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "[2] X."@en ;
+    askg-onto:inSentence "[2] X."^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-concept,
+        askg-data:Entity-x .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.2-Sentence-5.2.2 a askg-onto:Sentence ;
+    rdfs:label "Sentence 2"@en ;
+    domo:Text "Wang, C."@en ;
+    askg-onto:inSentence "Wang, C."^^xsd:string ;
+    askg-onto:index "2"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-researcher,
+        <https://www.anu.edu.au/data/scholarly/Entity-wang,_c.> .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.2-Sentence-5.2.3 a askg-onto:Sentence ;
+    rdfs:label "Sentence 3"@en ;
+    domo:Text "Zhang, X."@en ;
+    askg-onto:inSentence "Zhang, X."^^xsd:string ;
+    askg-onto:index "3"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-researcher,
+        <https://www.anu.edu.au/data/scholarly/Entity-zhang,_x.> .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.2-Sentence-5.2.4 a askg-onto:Sentence ;
+    rdfs:label "Sentence 4"@en ;
+    domo:Text "Li, M."@en ;
+    askg-onto:inSentence "Li, M."^^xsd:string ;
+    askg-onto:index "4"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-li,_m.>,
+        askg-data:Entity-researcher .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.2-Sentence-5.2.5 a askg-onto:Sentence ;
+    rdfs:label "Sentence 5"@en ;
+    domo:Text "Zhang, S."@en ;
+    askg-onto:inSentence "Zhang, S."^^xsd:string ;
+    askg-onto:index "5"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-researcher,
+        <https://www.anu.edu.au/data/scholarly/Entity-zhang,_s.> .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.2-Sentence-5.2.6 a askg-onto:Sentence ;
+    rdfs:label "Sentence 6"@en ;
+    domo:Text "Ma, Review on Knowledge Graph Techniques for Retrieving Scientific Publications, Frontiers of Computer Science 14 (2020) 143301."@en ;
+    askg-onto:inSentence "Ma, Review on Knowledge Graph Techniques for Retrieving Scientific Publications, Frontiers of Computer Science 14 (2020) 143301."^^xsd:string ;
+    askg-onto:index "6"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-14,
+        askg-data:Entity-143301,
+        askg-data:Entity-2020,
+        askg-data:Entity-frontiers_of_computer_science,
+        askg-data:Entity-ma,
+        askg-data:Entity-review_on_knowledge_graph_techniques_for_retrieving_scientific_publications .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.3 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 3"@en ;
+    domo:Text "[3] B. Abu-Salih, Domain-specific knowledge graphs: A survey, Journal of Network and Computer Applications 185 (2021) 103076."@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.3-Sentence-5.3.1,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.3-Sentence-5.3.2 ;
+    askg-onto:index "3"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.3-Sentence-5.3.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "[3] B."@en ;
+    askg-onto:inSentence "[3] B."^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-b.>,
+        askg-data:Entity-unknown .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.3-Sentence-5.3.2 a askg-onto:Sentence ;
+    rdfs:label "Sentence 2"@en ;
+    domo:Text "Abu-Salih, Domain-specific knowledge graphs: A survey, Journal of Network and Computer Applications 185 (2021) 103076."@en ;
+    askg-onto:inSentence "Abu-Salih, Domain-specific knowledge graphs: A survey, Journal of Network and Computer Applications 185 (2021) 103076."^^xsd:string ;
+    askg-onto:index "2"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-103076,
+        askg-data:Entity-185,
+        askg-data:Entity-2021,
+        askg-data:Entity-abu-salih,
+        <https://www.anu.edu.au/data/scholarly/Entity-domain-specific_knowledge_graphs:_a_survey>,
+        askg-data:Entity-journal_of_network_and_computer_applications .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.4 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 4"@en ;
+    domo:Text "[4] A. B. Cano, C. Gómez-Rodríguez, A. O. Tijani, Combining Text Embeddings and Knowledge Graphs for Scholarly Document Classification, in: European Conference on Information Retrieval, Springer, Cham, 2021, pp. 249–263."@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.4-Sentence-5.4.1,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.4-Sentence-5.4.2,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.4-Sentence-5.4.3,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.4-Sentence-5.4.4,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.4-Sentence-5.4.5,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.4-Sentence-5.4.6,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.4-Sentence-5.4.7 ;
+    askg-onto:index "4"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.4-Sentence-5.4.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "[4] A."@en ;
+    askg-onto:inSentence "[4] A."^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-[4]>,
+        askg-data:Entity-a .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.4-Sentence-5.4.2 a askg-onto:Sentence ;
+    rdfs:label "Sentence 2"@en ;
+    domo:Text "B."@en ;
+    askg-onto:inSentence "B."^^xsd:string ;
+    askg-onto:index "2"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-b,
+        askg-data:Entity-concept .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.4-Sentence-5.4.3 a askg-onto:Sentence ;
+    rdfs:label "Sentence 3"@en ;
+    domo:Text "Cano, C."@en ;
+    askg-onto:inSentence "Cano, C."^^xsd:string ;
+    askg-onto:index "3"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-cano,_c.>,
+        askg-data:Entity-researcher .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.4-Sentence-5.4.4 a askg-onto:Sentence ;
+    rdfs:label "Sentence 4"@en ;
+    domo:Text "Gómez-Rodríguez, A."@en ;
+    askg-onto:inSentence "Gómez-Rodríguez, A."^^xsd:string ;
+    askg-onto:index "4"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-gómez-rodríguez,_a.>,
+        askg-data:Entity-researcher .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.4-Sentence-5.4.5 a askg-onto:Sentence ;
+    rdfs:label "Sentence 5"@en ;
+    domo:Text "O."@en ;
+    askg-onto:inSentence "O."^^xsd:string ;
+    askg-onto:index "5"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-o.>,
+        askg-data:Entity-unknown .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.4-Sentence-5.4.6 a askg-onto:Sentence ;
+    rdfs:label "Sentence 6"@en ;
+    domo:Text "Tijani, Combining Text Embeddings and Knowledge Graphs for Scholarly Document Classification, in: European Conference on Information Retrieval, Springer, Cham, 2021, pp."@en ;
+    askg-onto:inSentence "Tijani, Combining Text Embeddings and Knowledge Graphs for Scholarly Document Classification, in: European Conference on Information Retrieval, Springer, Cham, 2021, pp."^^xsd:string ;
+    askg-onto:index "6"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-2021,
+        askg-data:Entity-combining_text_embeddings_and_knowledge_graphs_for_scholarly_document_classification,
+        askg-data:Entity-springer,
+        askg-data:Entity-tijani .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.4-Sentence-5.4.7 a askg-onto:Sentence ;
+    rdfs:label "Sentence 7"@en ;
+    domo:Text "249–263."@en ;
+    askg-onto:inSentence "249–263."^^xsd:string ;
+    askg-onto:index "7"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-249–263>,
+        askg-data:Entity-article .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.5 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 5"@en ;
+    domo:Text "[5] D. Sanmartin, KG-RAG: Bridging the Gap Between Knowledge and Creativity, arXiv preprint arXiv:2405.12035 (2024). URL: https://doi.org/10.48550/arXiv.2405.12035."@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.5-Sentence-5.5.1,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.5-Sentence-5.5.2,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.5-Sentence-5.5.3 ;
+    askg-onto:index "5"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.5-Sentence-5.5.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "[5] D."@en ;
+    askg-onto:inSentence "[5] D."^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-d.>,
+        askg-data:Entity-person .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.5-Sentence-5.5.2 a askg-onto:Sentence ;
+    rdfs:label "Sentence 2"@en ;
+    domo:Text "Sanmartin, KG-RAG: Bridging the Gap Between Knowledge and Creativity, arXiv preprint arXiv:2405.12035 (2024)."@en ;
+    askg-onto:inSentence "Sanmartin, KG-RAG: Bridging the Gap Between Knowledge and Creativity, arXiv preprint arXiv:2405.12035 (2024)."^^xsd:string ;
+    askg-onto:index "2"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-arxiv,
+        <https://www.anu.edu.au/data/scholarly/Entity-arxiv:2405.12035>,
+        <https://www.anu.edu.au/data/scholarly/Entity-kg-rag:_bridging_the_gap_between_knowledge_and_creativity>,
+        askg-data:Entity-sanmartin .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.5-Sentence-5.5.3 a askg-onto:Sentence ;
+    rdfs:label "Sentence 3"@en ;
+    domo:Text "URL: https://doi.org/10.48550/arXiv.2405.12035."@en ;
+    askg-onto:inSentence "URL: https://doi.org/10.48550/arXiv.2405.12035."^^xsd:string ;
+    askg-onto:index "3"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-arxiv.2405.12035,
+        askg-data:Entity-paper .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.6 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 6"@en ;
+    domo:Text "[6] G. Agrawal, T. Kumarage, Z. Alghamdi, H. Liu, Can Knowledge Graphs Reduce Hallucinations in LLMs? : A Survey, NAACL (2024). URL: https://doi.org/10.48550/arXiv.2311.07914."@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.6-Sentence-5.6.1,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.6-Sentence-5.6.2,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.6-Sentence-5.6.3,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.6-Sentence-5.6.4,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.6-Sentence-5.6.5,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.6-Sentence-5.6.6,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.6-Sentence-5.6.7 ;
+    askg-onto:index "6"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.6-Sentence-5.6.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "[6] G."@en ;
+    askg-onto:inSentence "[6] G."^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-g,
+        askg-data:Entity-researcher .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.6-Sentence-5.6.2 a askg-onto:Sentence ;
+    rdfs:label "Sentence 2"@en ;
+    domo:Text "Agrawal, T."@en ;
+    askg-onto:inSentence "Agrawal, T."^^xsd:string ;
+    askg-onto:index "2"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-agrawal,_t.>,
+        askg-data:Entity-researcher .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.6-Sentence-5.6.3 a askg-onto:Sentence ;
+    rdfs:label "Sentence 3"@en ;
+    domo:Text "Kumarage, Z."@en ;
+    askg-onto:inSentence "Kumarage, Z."^^xsd:string ;
+    askg-onto:index "3"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-a_researcher,
+        <https://www.anu.edu.au/data/scholarly/Entity-kumarage,_z.> .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.6-Sentence-5.6.4 a askg-onto:Sentence ;
+    rdfs:label "Sentence 4"@en ;
+    domo:Text "Alghamdi, H."@en ;
+    askg-onto:inSentence "Alghamdi, H."^^xsd:string ;
+    askg-onto:index "4"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-alghamdi,_h.>,
+        askg-data:Entity-research_paper .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.6-Sentence-5.6.5 a askg-onto:Sentence ;
+    rdfs:label "Sentence 5"@en ;
+    domo:Text "Liu, Can Knowledge Graphs Reduce Hallucinations in LLMs?"@en ;
+    askg-onto:inSentence "Liu, Can Knowledge Graphs Reduce Hallucinations in LLMs?"^^xsd:string ;
+    askg-onto:index "5"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-knowledge_graphs_reduce_hallucinations_in_llms,
+        <https://www.anu.edu.au/data/scholarly/Entity-liu,_can> .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.6-Sentence-5.6.6 a askg-onto:Sentence ;
+    rdfs:label "Sentence 6"@en ;
+    domo:Text ": A Survey, NAACL (2024)."@en ;
+    askg-onto:inSentence ": A Survey, NAACL (2024)."^^xsd:string ;
+    askg-onto:index "6"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-a_survey,
+        askg-data:Entity-naacl,
+        askg-data:Entity-naacl_\(2024\),
+        askg-data:Entity-organization,
+        askg-data:Entity-paper,
+        askg-data:Entity-publication .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.6-Sentence-5.6.7 a askg-onto:Sentence ;
+    rdfs:label "Sentence 7"@en ;
+    domo:Text "URL: https://doi.org/10.48550/arXiv.2311.07914."@en ;
+    askg-onto:inSentence "URL: https://doi.org/10.48550/arXiv.2311.07914."^^xsd:string ;
+    askg-onto:index "7"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-arxiv.2311.07914,
+        askg-data:Entity-author,
+        askg-data:Entity-paper .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.7 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 7"@en ;
+    domo:Text "[7] S. Pan, L. Luo, Y. Wang, C. Chen, J. Wang, X. Wu, Unifying Large Language Models and Knowledge Graphs: A Roadmap (2023)."@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.7-Sentence-5.7.1,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.7-Sentence-5.7.2,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.7-Sentence-5.7.3,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.7-Sentence-5.7.4,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.7-Sentence-5.7.5,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.7-Sentence-5.7.6,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.7-Sentence-5.7.7 ;
+    askg-onto:index "7"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.7-Sentence-5.7.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "[7] S."@en ;
+    askg-onto:inSentence "[7] S."^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-researcher,
+        <https://www.anu.edu.au/data/scholarly/Entity-s.> .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.7-Sentence-5.7.2 a askg-onto:Sentence ;
+    rdfs:label "Sentence 2"@en ;
+    domo:Text "Pan, L."@en ;
+    askg-onto:inSentence "Pan, L."^^xsd:string ;
+    askg-onto:index "2"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-a_researcher,
+        <https://www.anu.edu.au/data/scholarly/Entity-pan,_l.> .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.7-Sentence-5.7.3 a askg-onto:Sentence ;
+    rdfs:label "Sentence 3"@en ;
+    domo:Text "Luo, Y."@en ;
+    askg-onto:inSentence "Luo, Y."^^xsd:string ;
+    askg-onto:index "3"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-luo,_y.>,
+        askg-data:Entity-research_paper .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.7-Sentence-5.7.4 a askg-onto:Sentence ;
+    rdfs:label "Sentence 4"@en ;
+    domo:Text "Wang, C."@en ;
+    askg-onto:inSentence "Wang, C."^^xsd:string ;
+    askg-onto:index "4"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-researcher,
+        <https://www.anu.edu.au/data/scholarly/Entity-wang,_c.> .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.7-Sentence-5.7.5 a askg-onto:Sentence ;
+    rdfs:label "Sentence 5"@en ;
+    domo:Text "Chen, J."@en ;
+    askg-onto:inSentence "Chen, J."^^xsd:string ;
+    askg-onto:index "5"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-chen,_j.>,
+        askg-data:Entity-researcher .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.7-Sentence-5.7.6 a askg-onto:Sentence ;
+    rdfs:label "Sentence 6"@en ;
+    domo:Text "Wang, X."@en ;
+    askg-onto:inSentence "Wang, X."^^xsd:string ;
+    askg-onto:index "6"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-researcher,
+        <https://www.anu.edu.au/data/scholarly/Entity-wang,_x.> .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.7-Sentence-5.7.7 a askg-onto:Sentence ;
+    rdfs:label "Sentence 7"@en ;
+    domo:Text "Wu, Unifying Large Language Models and Knowledge Graphs: A Roadmap (2023)."@en ;
+    askg-onto:inSentence "Wu, Unifying Large Language Models and Knowledge Graphs: A Roadmap (2023)."^^xsd:string ;
+    askg-onto:index "7"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-research_area,
+        <https://www.anu.edu.au/data/scholarly/Entity-unifying_large_language_models_and_knowledge_graphs:_a_roadmap>,
+        askg-data:Entity-wu .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.8 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 8"@en ;
+    domo:Text "[8] R. Jia, B. Zhang, S. J. Rodríguez Méndez, P. G. Omran, Leveraging Large Language Models for Semantic Query Processing in a Scholarly Knowledge Graph, arXiv preprint arXiv:2405.15374 (2024). URL: https://doi.org/10.48550/arXiv.2405.15374."@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.8-Sentence-5.8.1,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.8-Sentence-5.8.2,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.8-Sentence-5.8.3,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.8-Sentence-5.8.4,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.8-Sentence-5.8.5,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.8-Sentence-5.8.6,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.8-Sentence-5.8.7,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.8-Sentence-5.8.8 ;
+    askg-onto:index "8"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.8-Sentence-5.8.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "[8] R."@en ;
+    askg-onto:inSentence "[8] R."^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-r.>,
+        askg-data:Entity-researcher .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.8-Sentence-5.8.2 a askg-onto:Sentence ;
+    rdfs:label "Sentence 2"@en ;
+    domo:Text "Jia, B."@en ;
+    askg-onto:inSentence "Jia, B."^^xsd:string ;
+    askg-onto:index "2"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-jia,_b.>,
+        askg-data:Entity-researcher .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.8-Sentence-5.8.3 a askg-onto:Sentence ;
+    rdfs:label "Sentence 3"@en ;
+    domo:Text "Zhang, S."@en ;
+    askg-onto:inSentence "Zhang, S."^^xsd:string ;
+    askg-onto:index "3"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-researcher,
+        <https://www.anu.edu.au/data/scholarly/Entity-zhang,_s.> .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.8-Sentence-5.8.4 a askg-onto:Sentence ;
+    rdfs:label "Sentence 4"@en ;
+    domo:Text "J."@en ;
+    askg-onto:inSentence "J."^^xsd:string ;
+    askg-onto:index "4"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-j.>,
+        askg-data:Entity-unknown_paper .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.8-Sentence-5.8.5 a askg-onto:Sentence ;
+    rdfs:label "Sentence 5"@en ;
+    domo:Text "Rodríguez Méndez, P."@en ;
+    askg-onto:inSentence "Rodríguez Méndez, P."^^xsd:string ;
+    askg-onto:index "5"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-person,
+        <https://www.anu.edu.au/data/scholarly/Entity-rodríguez_méndez,_p.> .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.8-Sentence-5.8.6 a askg-onto:Sentence ;
+    rdfs:label "Sentence 6"@en ;
+    domo:Text "G."@en ;
+    askg-onto:inSentence "G."^^xsd:string ;
+    askg-onto:index "6"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-g,
+        askg-data:Entity-person .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.8-Sentence-5.8.7 a askg-onto:Sentence ;
+    rdfs:label "Sentence 7"@en ;
+    domo:Text "Omran, Leveraging Large Language Models for Semantic Query Processing in a Scholarly Knowledge Graph, arXiv preprint arXiv:2405.15374 (2024)."@en ;
+    askg-onto:inSentence "Omran, Leveraging Large Language Models for Semantic Query Processing in a Scholarly Knowledge Graph, arXiv preprint arXiv:2405.15374 (2024)."^^xsd:string ;
+    askg-onto:index "7"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-arxiv_preprint_arxiv:2405.15374_(2024)>,
+        askg-data:Entity-leveraging_large_language_models_for_semantic_query_processing_in_a_scholarly_knowledge_graph,
+        askg-data:Entity-omran .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.8-Sentence-5.8.8 a askg-onto:Sentence ;
+    rdfs:label "Sentence 8"@en ;
+    domo:Text "URL: https://doi.org/10.48550/arXiv.2405.15374."@en ;
+    askg-onto:inSentence "URL: https://doi.org/10.48550/arXiv.2405.15374."^^xsd:string ;
+    askg-onto:index "8"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-arxiv.2405.15374,
+        askg-data:Entity-author,
+        askg-data:Entity-paper .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.9 a askg-onto:Paragraph ;
+    rdfs:label "Paragraph 9"@en ;
+    domo:Text "[9] S. J. Rodríguez Méndez, P. G. Omran, A. Haller, K. Taylor, MEL: Metadata Extractor & Loader, in: ISWC (Posters/Demos/Industry), 2021."@en ;
+    askg-onto:hasSentence askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.9-Sentence-5.9.1,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.9-Sentence-5.9.2,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.9-Sentence-5.9.3,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.9-Sentence-5.9.4,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.9-Sentence-5.9.5,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.9-Sentence-5.9.6,
+        askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.9-Sentence-5.9.7 ;
+    askg-onto:index "9"^^xsd:int .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.9-Sentence-5.9.1 a askg-onto:Sentence ;
+    rdfs:label "Sentence 1"@en ;
+    domo:Text "[9] S."@en ;
+    askg-onto:inSentence "[9] S."^^xsd:string ;
+    askg-onto:index "1"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-person,
+        <https://www.anu.edu.au/data/scholarly/Entity-s.> .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.9-Sentence-5.9.2 a askg-onto:Sentence ;
+    rdfs:label "Sentence 2"@en ;
+    domo:Text "J."@en ;
+    askg-onto:inSentence "J."^^xsd:string ;
+    askg-onto:index "2"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-j.>,
+        askg-data:Entity-person .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.9-Sentence-5.9.3 a askg-onto:Sentence ;
+    rdfs:label "Sentence 3"@en ;
+    domo:Text "Rodríguez Méndez, P."@en ;
+    askg-onto:inSentence "Rodríguez Méndez, P."^^xsd:string ;
+    askg-onto:index "3"^^xsd:int ;
+    askg-onto:mentions askg-data:Entity-researcher,
+        <https://www.anu.edu.au/data/scholarly/Entity-rodríguez_méndez,_p.> .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.9-Sentence-5.9.4 a askg-onto:Sentence ;
+    rdfs:label "Sentence 4"@en ;
+    domo:Text "G."@en ;
+    askg-onto:inSentence "G."^^xsd:string ;
+    askg-onto:index "4"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-g.>,
+        askg-data:Entity-unknown .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.9-Sentence-5.9.5 a askg-onto:Sentence ;
+    rdfs:label "Sentence 5"@en ;
+    domo:Text "Omran, A."@en ;
+    askg-onto:inSentence "Omran, A."^^xsd:string ;
+    askg-onto:index "5"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-omran,_a.>,
+        askg-data:Entity-research_papers .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.9-Sentence-5.9.6 a askg-onto:Sentence ;
+    rdfs:label "Sentence 6"@en ;
+    domo:Text "Haller, K."@en ;
+    askg-onto:inSentence "Haller, K."^^xsd:string ;
+    askg-onto:index "6"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-haller,_k.>,
+        askg-data:Entity-researcher .
+
+askg-data:Paper-0a236cd8bd20b1e9-Section-5-Paragraph-5.9-Sentence-5.9.7 a askg-onto:Sentence ;
+    rdfs:label "Sentence 7"@en ;
+    domo:Text "Taylor, MEL: Metadata Extractor & Loader, in: ISWC (Posters/Demos/Industry), 2021."@en ;
+    askg-onto:inSentence "Taylor, MEL: Metadata Extractor & Loader, in: ISWC (Posters/Demos/Industry), 2021."^^xsd:string ;
+    askg-onto:index "7"^^xsd:int ;
+    askg-onto:mentions <https://www.anu.edu.au/data/scholarly/Entity-mel:_metadata_extractor_&_loader>,
+        askg-data:Entity-taylor .
+
+askg-data:Entity-2020 rdfs:label "2020"@en ;
+    askg-onto:entityType "Index"@en,
+        "Publication"@en .
+
+askg-data:Entity-2021 rdfs:label "2021"@en ;
+    askg-onto:entityType "Publication"@en,
+        "Result"@en .
+
+askg-data:Entity-2023 rdfs:label "2023"@en ;
+    askg-onto:entityType "Publication"@en .
+
+askg-data:Entity-a rdfs:label "A"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-a_researcher rdfs:label "a researcher"@en ;
+    askg-onto:entityType "Researcher"@en .
+
+askg-data:Entity-academic_contexts rdfs:label "academic contexts"@en ;
+    askg-onto:entityType "Domain"@en .
+
+askg-data:Entity-academic_knowledge_management_and_discovery rdfs:label "academic knowledge management and discovery"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-algorithm rdfs:label "Algorithm"@en ;
+    askg-onto:entityType "Algorithm"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-arxiv:2402.16829> rdfs:label "arXiv:2402.16829"@en ;
+    askg-onto:entityType "Index"@en,
+        "Paper"@en .
+
+askg-data:Entity-b rdfs:label "B"@en ;
+    askg-onto:entityType "Concept"@en,
+        "Person"@en .
+
+askg-data:Entity-company rdfs:label "Company"@en ;
+    askg-onto:entityType "Company"@en,
+        "Organization"@en .
+
+askg-data:Entity-complex_queries rdfs:label "complex queries"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-computer_science rdfs:label "computer science"@en ;
+    askg-onto:entityType "Domain"@en,
+        "Research Area"@en .
+
+askg-data:Entity-context rdfs:label "context"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-evaluation rdfs:label "evaluation"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-experiment rdfs:label "Experiment"@en,
+        "experiment"@en ;
+    askg-onto:entityType "Experiment"@en .
+
+askg-data:Entity-g rdfs:label "G"@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-gist-embedding rdfs:label "GIST-Embedding"@en ;
+    askg-onto:entityType "Tool"@en .
+
+askg-data:Entity-gpt-4 rdfs:label "GPT-4"@en ;
+    askg-onto:entityType "Tool"@en .
+
+askg-data:Entity-hallucinations rdfs:label "hallucinations"@en ;
+    askg-onto:entityType "Result"@en .
+
+askg-data:Entity-jia rdfs:label "Jia"@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-knowledge_graphs rdfs:label "Knowledge Graphs"@en,
+        "knowledge graphs"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-mel rdfs:label "MEL"@en ;
+    askg-onto:entityType "Tool"@en .
+
+askg-data:Entity-metadata_kg rdfs:label "Metadata KG"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-organization rdfs:label "Organization"@en ;
+    askg-onto:entityType "Organization"@en .
+
+askg-data:Entity-our_approach rdfs:label "Our approach"@en,
+        "our approach"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-parse rdfs:label "PARSE"@en ;
+    askg-onto:entityType "Method"@en,
+        "Tool"@en .
+
+askg-data:Entity-question-answering_performance rdfs:label "question-answering performance"@en ;
+    askg-onto:entityType "Result"@en .
+
+askg-data:Entity-readability rdfs:label "Readability"@en,
+        "readability"@en ;
+    askg-onto:entityType "Concept"@en,
+        "Metric"@en .
+
+askg-data:Entity-relevance rdfs:label "Relevance"@en,
+        "relevance"@en ;
+    askg-onto:entityType "Concept"@en,
+        "Metric"@en .
+
+askg-data:Entity-research_papers rdfs:label "research papers"@en ;
+    askg-onto:entityType "Paper"@en .
+
+askg-data:Entity-scientific_papers rdfs:label "scientific papers"@en ;
+    askg-onto:entityType "Dataset"@en,
+        "Paper"@en .
+
+askg-data:Entity-sparql_queries rdfs:label "SPARQL queries"@en ;
+    askg-onto:entityType "Tool"@en .
+
+askg-data:Entity-springer rdfs:label "Springer"@en ;
+    askg-onto:entityType "Organization"@en .
+
+askg-data:Entity-structured_information rdfs:label "structured information"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-system rdfs:label "System"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-tnnt rdfs:label "TNNT"@en ;
+    askg-onto:entityType "Tool"@en .
+
+askg-data:Entity-unknown_paper rdfs:label "unknown paper"@en ;
+    askg-onto:entityType "Paper"@en .
+
+askg-data:Entity-vector-based_methods rdfs:label "vector-based methods"@en ;
+    askg-onto:entityType "Method"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-wang,_c.> rdfs:label "Wang, C."@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-workflow rdfs:label "workflow"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-zhang rdfs:label "Zhang"@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-accuracy rdfs:label "Accuracy"@en,
+        "accuracy"@en ;
+    askg-onto:entityType "Concept"@en,
+        "Metric"@en .
+
+askg-data:Entity-answers rdfs:label "answers"@en ;
+    askg-onto:entityType "Concept"@en,
+        "Result"@en .
+
+askg-data:Entity-arxiv rdfs:label "arXiv"@en ;
+    askg-onto:entityType "Platform"@en,
+        "Publication"@en .
+
+askg-data:Entity-askg rdfs:label "ASKG"@en ;
+    askg-onto:entityType "Concept"@en,
+        "Dataset"@en .
+
+askg-data:Entity-completeness rdfs:label "Completeness"@en,
+        "completeness"@en ;
+    askg-onto:entityType "Concept"@en,
+        "Metric"@en .
+
+askg-data:Entity-framework rdfs:label "Framework"@en,
+        "framework"@en ;
+    askg-onto:entityType "Concept"@en,
+        "Framework"@en .
+
+askg-data:Entity-kg-based_method rdfs:label "KG-based method"@en ;
+    askg-onto:entityType "Method"@en .
+
+askg-data:Entity-publication rdfs:label "Publication"@en ;
+    askg-onto:entityType "Publication"@en .
+
+askg-data:Entity-research_area rdfs:label "Research Area"@en ;
+    askg-onto:entityType "Concept"@en,
+        "Research Area"@en,
+        "Research Field"@en .
+
+askg-data:Entity-rodríguez-méndez rdfs:label "Rodríguez-Méndez"@en ;
+    askg-onto:entityType "Person"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-rodríguez_méndez,_p.> rdfs:label "Rodríguez Méndez, P."@en ;
+    askg-onto:entityType "Person"@en,
+        "Researcher"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-s.> rdfs:label "S."@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-triple rdfs:label "triple"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-unknown rdfs:label "unknown"@en ;
+    askg-onto:entityType "Concept"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-zhang,_s.> rdfs:label "Zhang, S."@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-dataset rdfs:label "Dataset"@en,
+        "dataset"@en ;
+    askg-onto:entityType "Dataset"@en .
+
+askg-data:Entity-kg rdfs:label "KG"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-kgqp rdfs:label "KGQP"@en ;
+    askg-onto:entityType "Tool"@en .
+
+askg-data:Entity-method rdfs:label "Method"@en,
+        "method"@en ;
+    askg-onto:entityType "Concept"@en,
+        "Method"@en .
+
+askg-data:Entity-omran rdfs:label "Omran"@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-research_paper rdfs:label "Research Paper"@en ;
+    askg-onto:entityType "Paper"@en .
+
+askg-data:Entity-author rdfs:label "Author"@en ;
+    askg-onto:entityType "Author"@en .
+
+askg-data:Entity-concept rdfs:label "Concept"@en,
+        "concept"@en ;
+    askg-onto:entityType "Concept"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-g.> rdfs:label "G."@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-tool rdfs:label "Tool"@en ;
+    askg-onto:entityType "Concept"@en,
+        "Tool"@en .
+
+askg-data:Entity-kgs rdfs:label "KGs"@en ;
+    askg-onto:entityType "Concept"@en .
+
+askg-data:Entity-ddm rdfs:label "DDM"@en ;
+    askg-onto:entityType "Concept"@en,
+        "Method"@en,
+        "Organization"@en,
+        "Tool"@en .
+
+<https://www.anu.edu.au/data/scholarly/Entity-j.> rdfs:label "J."@en ;
+    askg-onto:entityType "Person"@en .
+
+askg-data:Entity-paper rdfs:label "Paper"@en,
+        "paper"@en ;
+    askg-onto:entityType "Paper"@en,
+        "Publication"@en .
+
+askg-data:Entity-llms rdfs:label "LLMs"@en ;
+    askg-onto:entityType "Concept"@en,
+        "Model"@en,
+        "System"@en,
+        "Tool"@en .
+
+askg-data:Entity-person rdfs:label "Person"@en ;
+    askg-onto:entityType "Concept"@en,
+        "Person"@en .
+
+askg-data:Entity-researcher rdfs:label "Researcher"@en ;
+    askg-onto:entityType "Person"@en,
+        "Researcher"@en .
+
