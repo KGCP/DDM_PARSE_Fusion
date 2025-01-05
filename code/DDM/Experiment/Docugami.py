@@ -1,12 +1,11 @@
 #Set environment variables(optional)
 import os
-os.environ['DOCUGAMI_API_KEY'] = 'N+Q0kpu4EsddgIzF6Bf4q8YhQHhKX6kXwdv/Oo9o7OaczQT2O6hqL386y1AskWKz2YpcnyO9AWxllBE07pu02M+V5XzZlcouxOUqWYiz48XhztxG4N5OUMIbNxU2HqLZqSqSNE0WPJ5qH2PD52IMwb5Wwucieo7HjQJrd1AN53Ti33ivX8Eozt0qGVO5EcHH8q0ZvXeE8uIB0SkviMZ/sbYPp17SWhxEqZcZV+yawmV6n8nnBxI9QWlKYLm9f7KTT3Pl0c+wx6+9NHNtgbQFWXR8rz/n/+VbHIC4wyYl5Iy3t4mfXg4FfOYzbZAeWILKSr7/mMYUGFXXRlXYKuwnJQ=='
-
+os.environ['DOCUGAMI_API_KEY'] = 'Your API Key'
 
 import requests
 
-access_token = "N+Q0kpu4EsddgIzF6Bf4q8YhQHhKX6kXwdv/Oo9o7OaczQT2O6hqL386y1AskWKz2YpcnyO9AWxllBE07pu02M+V5XzZlcouxOUqWYiz48XhztxG4N5OUMIbNxU2HqLZqSqSNE0WPJ5qH2PD52IMwb5Wwucieo7HjQJrd1AN53Ti33ivX8Eozt0qGVO5EcHH8q0ZvXeE8uIB0SkviMZ/sbYPp17SWhxEqZcZV+yawmV6n8nnBxI9QWlKYLm9f7KTT3Pl0c+wx6+9NHNtgbQFWXR8rz/n/+VbHIC4wyYl5Iy3t4mfXg4FfOYzbZAeWILKSr7/mMYUGFXXRlXYKuwnJQ=="
-document_id = "pj7tzwh7uem7"
+access_token = "Your Access Token"
+document_id = "document ID"
 headers = {
     "Authorization": f"Bearer {access_token}"
 }
@@ -22,8 +21,7 @@ print(response.json())
 url = "https://api.docugami.com/v1preview1/documents"
 
 headers = {
-    "Authorization": "Bearer N+Q0kpu4EsddgIzF6Bf4q8YhQHhKX6kXwdv/Oo9o7OaczQT2O6hqL386y1AskWKz2YpcnyO9AWxllBE07pu02M+V5XzZlcouxOUqWYiz48XhztxG4N5OUMIbNxU2HqLZqSqSNE0WPJ5qH2PD52IMwb5Wwucieo7HjQJrd1AN53Ti33ivX8Eozt0qGVO5EcHH8q0ZvXeE8uIB0SkviMZ/sbYPp17SWhxEqZcZV+yawmV6n8nnBxI9QWlKYLm9f7KTT3Pl0c+wx6+9NHNtgbQFWXR8rz/n/+VbHIC4wyYl5Iy3t4mfXg4FfOYzbZAeWILKSr7/mMYUGFXXRlXYKuwnJQ=="
-}
+    "Authorization": "Authorization: Bearer {access_token}"}
 response = requests.get(url, headers=headers, params=params)
 
 if response.status_code == 200:
@@ -39,8 +37,7 @@ else:
 url = "https://api.docugami.com/v1preview1/docsets"
 
 headers = {
-    "Authorization": "Bearer N+Q0kpu4EsddgIzF6Bf4q8YhQHhKX6kXwdv/Oo9o7OaczQT2O6hqL386y1AskWKz2YpcnyO9AWxllBE07pu02M+V5XzZlcouxOUqWYiz48XhztxG4N5OUMIbNxU2HqLZqSqSNE0WPJ5qH2PD52IMwb5Wwucieo7HjQJrd1AN53Ti33ivX8Eozt0qGVO5EcHH8q0ZvXeE8uIB0SkviMZ/sbYPp17SWhxEqZcZV+yawmV6n8nnBxI9QWlKYLm9f7KTT3Pl0c+wx6+9NHNtgbQFWXR8rz/n/+VbHIC4wyYl5Iy3t4mfXg4FfOYzbZAeWILKSr7/mMYUGFXXRlXYKuwnJQ=="
-}
+    "Authorization": "Authorization: Bearer {access_token}"}
 
 params = {
     # If you want to use specific query parameters, you can add them here.
@@ -64,8 +61,7 @@ else:
 
 
 from langchain.document_loaders import DocugamiLoader
-
-access_token = "N+Q0kpu4EsddgIzF6Bf4q8YhQHhKX6kXwdv/Oo9o7OaczQT2O6hqL386y1AskWKz2YpcnyO9AWxllBE07pu02M+V5XzZlcouxOUqWYiz48XhztxG4N5OUMIbNxU2HqLZqSqSNE0WPJ5qH2PD52IMwb5Wwucieo7HjQJrd1AN53Ti33ivX8Eozt0qGVO5EcHH8q0ZvXeE8uIB0SkviMZ/sbYPp17SWhxEqZcZV+yawmV6n8nnBxI9QWlKYLm9f7KTT3Pl0c+wx6+9NHNtgbQFWXR8rz/n/+VbHIC4wyYl5Iy3t4mfXg4FfOYzbZAeWILKSr7/mMYUGFXXRlXYKuwnJQ=="
+access_token = "Your Access Token"
 docset_id = "40itqf14h7r7"  # Replace it with the actual docset_id
 document_id = "pj7tzwh7uem7"  # Replace it with the actual document_id
 
