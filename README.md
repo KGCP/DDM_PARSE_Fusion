@@ -1,5 +1,5 @@
 ![Integration_Pipeline](docs/flowchart.png)
-# DPFusion (DDM_PARSE_Fusion）
+# DPFusion (DDM_PARSE_Fusion)
 This repository continues our previous work titled **"Towards Building an RDF-based Deep Document Model and Retrieval-Augmented Generation System for Enhanced Question Answering with Large Language Models"**.
 
 
@@ -11,4 +11,3 @@ The primary focus of this repository is:
 - **Structurally-aware** question answering by incorporating hierarchical document structures.
 - **Diverse** and **path-enhanced** responses through enhanced retrieval mechanisms.  
 - **Accurate** and **high-quality** answers by leveraging structural metadata and scholarly knowledge graphs.
-
