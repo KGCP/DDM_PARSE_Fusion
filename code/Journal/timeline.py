@@ -156,6 +156,9 @@ def visualize_timeline():
     y_labels = []
     
     # Add phases and milestones
+    min_y_pos = 0  # Track the minimum y position
+    
+    # Add phases and milestones
     for phase_idx, (phase_name, phase_details) in enumerate(timeline.items()):
         # Determine phase position
         if phase_idx == 0:  # Phase 1 - April
@@ -182,6 +185,7 @@ def visualize_timeline():
         # Add milestones with increased spacing
         for milestone_idx, milestone in enumerate(phase_details["milestones"]):
             y_pos -= y_spacing  # Increase space between milestones
+            min_y_pos = min(min_y_pos, y_pos)  # Update minimum y position
             
             # Determine milestone position
             if phase_idx == 0:  # Phase 1
@@ -239,8 +243,11 @@ def visualize_timeline():
         "Final\nSubmission": 11    # End of June
     }
     
-    # Calculate the bottom position for milestone labels
-    bottom_pos = y_pos - 3
+    # Calculate the bottom position for milestone labels - closer to x-axis
+    bottom_pos = min_y_pos - 1  # Reduce the gap
+    
+    # Set y-axis limit to include the bottom labels
+    ax.set_ylim(bottom_pos - 1, 1)  # Add some padding at top and bottom
     
     for event, week_idx in key_weeks.items():
         ax.axvline(x=week_idx, color='black', linestyle='--', alpha=0.7, zorder=0)
@@ -251,7 +258,7 @@ def visualize_timeline():
     ax.grid(True, axis='x', alpha=0.3)
     
     # Adjust plot margins to accommodate longer labels
-    plt.subplots_adjust(left=0.3, bottom=0.2)  # Increase left and bottom margins
+    plt.subplots_adjust(left=0.3, bottom=0.15)  # Reduce bottom margin
     
     # Set title and labels
     ax.set_title('PARSE-DDM Integration Journal Paper Timeline (April-June 2024)', 
