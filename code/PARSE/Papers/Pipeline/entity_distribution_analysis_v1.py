@@ -9,25 +9,26 @@ import numpy as np
 import pandas as pd
 
 def analyze_ttl_file(file_path):
-    """分析单个TTL文件中的实体类型"""
     g = Graph()
     g.parse(file_path, format="turtle")
 
-    # 定义命名空间
     askg_onto = Namespace("https://www.anu.edu.au/onto/scholarly#")
 
-    # 查询所有实体类型
     entity_types = []
     query = """
     SELECT DISTINCT ?label ?type
     WHERE {
         ?entity <http://www.w3.org/2000/01/rdf-schema#label> ?label ;
                 <https://www.anu.edu.au/onto/scholarly#entityType> ?type .
+        FILTER(str(?type) != "Concept@en" && str(?type) != "Concept")
     }
     """
 
     for row in g.query(query):
-        entity_types.append(str(row.type))
+        entity_type = str(row.type)
+        if '@' in entity_type:
+            entity_type = entity_type.split('@')[0]
+        entity_types.append(entity_type)
 
     return entity_types
 
