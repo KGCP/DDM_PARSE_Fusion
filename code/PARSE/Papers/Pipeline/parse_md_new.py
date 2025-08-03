@@ -11,11 +11,13 @@ import re, html, xml.etree.ElementTree as ET
 from hashlib import md5
 from urllib.parse import quote
 from typing import Dict, List, Tuple, Set
-
+import dotenv
 import markdown
 from rdflib import Graph, Namespace, Literal, URIRef
 from rdflib.namespace import RDF, RDFS, DC, XSD, OWL, SKOS
 import utils
+
+dotenv.load_dotenv()
 
 # --------------------------------------------------------------------------- #
 # Namespaces
@@ -27,18 +29,13 @@ NUMBER_OF_SENTENCES = "numberOfSentences"
 HAS_CITATION = "hasCitation"
 
 # --------------------------------------------------------------------------- #
-# MEANINGFUL_TYPES 保持完全不变
+# MEANINGFUL_TYPES - 专注于天文学和计算机科学领域
 MEANINGFUL_TYPES = {
-    # People and Organizations
     "Person",
     "Researcher",
     "Scientist",
     "Author",
-    "Organization",
-    "Institution",
-    "University",
-    "Company",
-    "Research Group",
+    "Organization",  
     # Academic Concepts
     "Algorithm",
     "Method",
@@ -66,17 +63,28 @@ MEANINGFUL_TYPES = {
     "Tool",
     "Software",
     "Platform",
-    # Scientific Terms
-    "Protein",
-    "Gene",
-    "Molecule",
-    "Cell Type",
-    "Disease",
-    "Condition",
-    "Symptom",
+    # Computer Science & Astronomy Terms (删除生物相关)
     "Technology",
     "Device",
     "Equipment",
+    "Telescope",
+    "Observatory",
+    "Satellite",
+    "Galaxy",
+    "Star",
+    "Planet",
+    "Nebula",
+    "Black Hole",
+    "Neural Network",
+    "Machine Learning",
+    "Deep Learning",
+    "Computer Vision",
+    "Natural Language Processing",
+    "Programming Language",
+    "Operating System",
+    "Processor",
+    "Memory",
+    "Network",
     # Metrics and Measurements
     "Metric",
     "Measure",
@@ -518,9 +526,10 @@ if __name__ == "__main__":
         print("✓ OpenAI API key found")
         print()
 
-    # 设置默认的输入和输出目录
-    input_dir = "./markdown/test"
-    output_dir = "./output/test"
+    # 设置默认的输入和输出目录 - 使用相对于脚本文件的路径
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    input_dir = os.path.join(script_dir, "markdown", "test")
+    output_dir = os.path.join(script_dir, "output", "test")
 
     print(f"Processing markdown files from: {input_dir}")
     print(f"Output TTL files to: {output_dir}")
