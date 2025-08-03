@@ -1,4 +1,20 @@
 # -*- coding: utf-8 -*-
+"""
+md2ttl_v3_batch_hardpath.py
+
+按你的要求：
+- **不使用 argparse**，直接在文件顶部用常量显式写死/可手动改路径。
+- 递归遍历 ROOT_MD_DIR 下所有 .md 文件，逐个生成 ttl 到 OUT_TTL_DIR。
+- 其余逻辑与 md2ttl_v3_fullname_refnode_posint.py 一致（index 统一 positiveInteger，改进 title 提取）。
+- 不做 owl:sameAs。
+
+直接运行：
+    python md2ttl_v3_batch_hardpath.py
+
+如需改路径，直接改下面两个常量：
+    ROOT_MD_DIR = "/home/rujia/Data/marker/UTBDpapers_output"
+    OUT_TTL_DIR = "/home/rujia/Data/marker/UTBD_ttl"
+"""
 
 import os
 import re
@@ -12,7 +28,7 @@ from rdflib import Graph, Namespace, Literal, URIRef
 from rdflib.namespace import RDF, RDFS, DC, XSD
 
 # -------------------- 路径常量（按需修改） --------------------
-ROOT_MD_DIR = "/home/rujia/Data/marker/Arxiv_2022S2_Output"
+ROOT_MD_DIR = "/home/rujia/Data/marker/Arxiv_2022S1_Output"
 OUT_TTL_DIR = "/home/rujia/Data/marker/CS_ttl"
 
 # -------------------- 命名空间 --------------------
