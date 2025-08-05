@@ -385,53 +385,25 @@ def generate_ttl(doc, output_file, paper_id, md_content, existing_papers=None):
     ay_idx:  Dict[str, URIRef] = {}
 
     for i, ref in enumerate(refs, 1):
-        real_idx = ref.get('idx')
-        # 使用原始编号作为 ID，如果没有则使用序列号
-        ref_id = real_idx if real_idx else str(i)
-        ref_uri = URIRef(ASKG_DATA + f"Paper-{clean_uri(paper_id)}-Reference-{ref_id}")
-
+        ref_uri = URIRef(ASKG_DATA + f"Paper-{clean_uri(paper_id)}-Reference-{i}")
         g.add((ref_uri, RDF.type, ASKG_ONTO.Reference))
-        g.add((ref_uri, RDFS.label, Literal(f"Reference {ref_id}", lang="en")))
-        g.add((ref_uri, DOMO.Text, Literal(ref['raw'], lang="en")))
+        g.add((ref_uri, RDFS.label, Literal(f"Reference {i}", lang="en")))
+        g.add((ref_uri, DOMO.Text, Literal(ref["raw"], lang="en")))
 
-        # 添加 index 属性（无论是否为数字）
-        if real_idx:
-            if real_idx.isdigit():
-                g.add((ref_uri, URIRef(ASKG_ONTO + "index"), Literal(int(real_idx), datatype=XSD.positiveInteger)))
-                num_idx[real_idx] = ref_uri
-            else:
-                # 非数字索引也要保存
-                num_idx[real_idx] = ref_uri
+        # ★ 使用 .get() 并确保字段存在
+        authors = ref.get("authors", "")
+        year    = ref.get("year", "")
 
-        # 添加年份属性
-        year = ref.get('year', '')
-        if year and year.isdigit():
-            g.add((ref_uri, URIRef(ASKG_ONTO + "year"), Literal(int(year), datatype=XSD.positiveInteger)))
-
-        # 添加标题属性
-        title = ref.get('title', '')
-        if title:
-            g.add((ref_uri, DC.title, Literal(title, lang="en")))
-        else:
-            # 尝试从原始文本猜测标题
-            raw = ref['raw']
-            raw_wo_lead = _lead_num_pat.sub('', raw, count=1).strip()
-            ymatch = _year_pat.search(raw_wo_lead)
-            if ymatch:
-                guess = guess_title_from_raw(raw_wo_lead, ymatch.end())
-            else:
-                dot = raw_wo_lead.find('.')
-                guess = clean_md_markup(raw_wo_lead[:dot] if dot != -1 else raw_wo_lead).strip(' "')
-            if guess:
-                g.add((ref_uri, DC.title, Literal(guess, lang="en")))
-
-        # 添加作者属性和作者-年份索引
-        authors = ref.get('authors', '')
-        if authors and re.search(r"[A-Za-z]", authors):
+        if re.search(r"[A-Za-z]", authors):
             g.add((ref_uri, author_p, Literal(authors, lang="en")))
-            if year and year.isdigit():
-                surname = authors.split(',')[0].split()[-1].lower() if ',' in authors else authors.split()[-1].lower()
+            if year:
+                g.add((ref_uri, DC.date, Literal(year, datatype=XSD.gYear)))
+                surname = _first_surname(authors).lower()
                 ay_idx[f"{surname}_{year}"] = ref_uri
+
+        idx_num = ref.get("idx")
+        if idx_num:
+            num_idx[idx_num] = ref_uri
 
     # ---- Walk XML ----
     for sec in doc.findall("./section"):
