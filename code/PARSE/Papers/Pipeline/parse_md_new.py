@@ -23,7 +23,7 @@ dotenv.load_dotenv()
 # Namespaces
 ASKG_DATA = Namespace("https://www.anu.edu.au/data/scholarly/")
 ASKG_ONTO = Namespace("https://www.anu.edu.au/onto/scholarly#")
-DOMO = Namespace("http://example.org/domo/")
+DOMO = Namespace("http://data.anu.edu.au/def/ont/domo#")
 
 NUMBER_OF_SENTENCES = "numberOfSentences"
 HAS_CITATION = "hasCitation"
@@ -100,18 +100,19 @@ _ref_heading_pat = re.compile(
     r"^(#{1,6})\s*(references?|bibliography|works\s+cited)\s*$", re.I | re.M
 )
 
-_ref_pat = re.compile(r"""
-    ^\s*
-    (?P<lead>\[\d+\]|\d+[.)])?\s*      # [12]  或 12.
-    (?P<authors>.+?)                   # 作者串（贪婪到年份前）
-    \s*\(\s*(?P<year>\d{4})\s*\)\.     # (2023).
-    \s*
-    (?P<title>[^.]+?\.)                # 标题直到下一个句点
-""", re.X)
+_lead_num_pat = re.compile(r"^\s*(\[(?P<n1>\d+)\]|(?P<n2>\d+)[.)])\s*")
+_year_pat = re.compile(r"(19|20)\d{2}")
+_detail_pat = re.compile(r"""
+    ^\s*(?:\[(?P<i1>\d+)\]|(?P<i2>\d+)[.)])?\s*
+    (?P<authors>.+?)\s*\(\s*(?P<year>(19|20)\d{2})\s*\)\.?\s*
+    (?P<title>[^.]+?)\.\s*
+""", re.X | re.S)
 
-_lead_num_pat = re.compile(r"\s*(?:\[(?P<num>\d+)\]|(?P<num2>\d+)[.)])")
-
-_num_pat = re.compile(r"\[(\d+(?:[\u2013\u2014\-]\d+)?(?:,\s*\d+(?:[\u2013\u2014\-]\d+)?)*)\]")
+_num_pat = re.compile(
+    r"\[((?:\d+\s*(?:[\u2013\u2014\-]\s*\d+)?)"  # 13 or 13-15
+    r"(?:\s*,\s*\d+\s*(?:[\u2013\u2014\-]\s*\d+)?)*)\]"
+)
+_range_pat = re.compile(r"(\d+)\s*[\u2013\u2014\-]\s*(\d+)")
 _auth_pat = re.compile(
     r"(?:^|\W)([A-Z][A-Za-z\-]+)(?:\s+et\s+al)?(?:\s+and\s+[A-Z][A-Za-z\-]+)?\s*(?:,|\(|\s)(\d{4})(?:\)|\b)"
 )
@@ -120,10 +121,11 @@ def _expand_num(tok: str) -> List[str]:
     out = []
     for seg in tok.split(','):
         seg = seg.strip()
-        if re.search(r"[\u2013\u2014\-]", seg):
-            a, b = re.split(r"[\u2013\u2014\-]", seg)
-            out.extend(map(str, range(int(a), int(b) + 1)))
-        else:
+        m = _range_pat.fullmatch(seg)
+        if m:
+            a, b = int(m.group(1)), int(m.group(2))
+            out.extend(map(str, range(a, b + 1)))
+        elif seg:
             out.append(seg)
     return out
 
@@ -155,45 +157,77 @@ def _first_surname(authors: str) -> str:
     parts = authors.strip().split()
     return parts[0] if len(parts) == 1 else parts[-1]
 
+def clean_md_markup(text: str) -> str:
+    return re.sub(r"[*_`]+", "", text)
+
+def split_ref_lines(block: str) -> List[str]:
+    return [ln.strip() for ln in re.split(r'(?:\n|<br\s*/?>)+', block) if ln.strip()]
+
+def group_references(lines: List[str]) -> List[str]:
+    entries, buf = [], []
+    for line in lines:
+        if _lead_num_pat.match(line) and buf:
+            entries.append(" ".join(buf).strip())
+            buf = [line]
+        else:
+            buf.append(line)
+    if buf:
+        entries.append(" ".join(buf).strip())
+    return entries
+
+def guess_title_from_raw(raw_wo_lead: str, year_pos: int) -> str:
+    after = raw_wo_lead[year_pos:] if year_pos >= 0 else raw_wo_lead
+    after = after.lstrip(").,;: \t")
+    dot = after.find('.')
+    cand = after[:dot] if dot != -1 else after
+    cand = clean_md_markup(cand).strip(' "')
+    return cand[:200]
+
+def refine_fields(raw: str) -> Dict:
+    idx = None
+    mlead = _lead_num_pat.match(raw)
+    if mlead:
+        idx = mlead.group('n1') or mlead.group('n2')
+        content = raw[mlead.end():].strip()
+    else:
+        content = raw
+
+    authors = title = ""
+    year = ""
+
+    m = _detail_pat.match(content)
+    if m:
+        d = m.groupdict()
+        if not idx:
+            idx = d.get('i1') or d.get('i2')
+        authors = (d.get('authors') or '').strip(' .')
+        year    = (d.get('year') or '').strip()
+        title   = (d.get('title') or '').strip(' "')
+    else:
+        y = _year_pat.search(content)
+        if y:
+            year = y.group(0)
+            title = guess_title_from_raw(content, y.end())
+        if y:
+            authors = content[:y.start()].strip(' .')
+
+    return {
+        'idx': idx,
+        'year': year,
+        'title': title,
+        'authors': authors,
+        'raw': clean_md_markup(raw)
+    }
+
 def parse_reference_lines(block: str) -> List[Dict]:
     """
-    将参考文献块拆分为行并解析。
-    - 无论正则是否完全匹配，都尽量提取行首编号，填充到 idx 字段。
-    - 其余字段缺失时留空，避免后续 KeyError。
+    使用 marker2ttl_723.py 的改进逻辑解析参考文献块
+    - 更好的分组和字段提取
+    - 更强的错误恢复能力
     """
-    refs: List[Dict] = []
-
-    # 按换行或 <br/> 拆分
-    for raw in re.split(r'(?:\n|<br\s*/?>)+', block):
-        raw = raw.strip()
-        if not raw:
-            continue
-
-        # 1) 先抓行首编号
-        lead_m = _lead_num_pat.match(raw)
-        idx_num = (lead_m.group("num") or lead_m.group("num2")) if lead_m else None
-
-        # 2) 再用完整正则解析
-        m = _ref_pat.match(raw)
-        if m:                                   # 成功解析
-            d = m.groupdict()
-            refs.append({
-                "idx":     idx_num or re.sub(r"[^\d]", "", d.get("lead") or "") or None,
-                "authors": (d.get("authors") or "").strip(" ."),
-                "year":    d.get("year") or "",
-                "title":   (d.get("title") or "").strip(),
-                "raw":     raw
-            })
-        else:                                  # 解析失败：至少保留 idx 与原始行
-            refs.append({
-                "idx":     idx_num,             # 可能是 None
-                "authors": "",
-                "year":    "",
-                "title":   "",
-                "raw":     raw
-            })
-
-    return refs
+    lines  = split_ref_lines(block)
+    groups = group_references(lines)
+    return [refine_fields(g) for g in groups]
 
 # --------------------------------------------------------------------------- #
 # === 原清洗/分段/分句函数 =====================================================
@@ -285,8 +319,35 @@ def _clean_uri(text: str, max_len: int = 80) -> str:
     return base or md5(text.encode()).hexdigest()[:12]
 
 # 使用第一段代码的简化逻辑
+def P_normaliseName(name: str) -> str:
+    """
+    标准化名称，替换特殊字符为简短的缩写形式
+    """
+    if name is None: 
+        return None
+    
+    DASH = "-"  # 定义 DASH 常量
+    
+    normalised: str = name\
+        .replace('/', "_Pr_")\
+        .replace("µ", "_Mi_")\
+        .replace('%', "_PC_")\
+        .replace('(', "_LP_")\
+        .replace(')', "_RP_")\
+        .replace('{', "_LB_")\
+        .replace('}', "_RB_")\
+        .replace("+", "_Pl_")\
+        .replace("*", "_As_")\
+        .replace("|", "_VB_")
+    
+    # 将其他非字母数字字符替换为破折号
+    normalised = re.sub('[^A-Za-z0-9_\-\.]+', DASH, normalised)
+    # 如果以 '.' 结尾，替换为 "__Dt"
+    return re.sub('\.$', "__Dt", normalised)
+
 def clean_uri(t: str, limit=80) -> str:
-    base = re.sub(r"[^\w\s-]", "", t).lower().replace(" ", "_")
+    """使用改进的标准化函数处理 URI"""
+    base = P_normaliseName(t).lower().replace(" ", "_")
     return quote(base)[:limit] or md5(t.encode()).hexdigest()[:12]
 
 # --------------------------------------------------------------------------- #
@@ -324,25 +385,53 @@ def generate_ttl(doc, output_file, paper_id, md_content, existing_papers=None):
     ay_idx:  Dict[str, URIRef] = {}
 
     for i, ref in enumerate(refs, 1):
-        ref_uri = URIRef(ASKG_DATA + f"Paper-{clean_uri(paper_id)}-Reference-{i}")
+        real_idx = ref.get('idx')
+        # 使用原始编号作为 ID，如果没有则使用序列号
+        ref_id = real_idx if real_idx else str(i)
+        ref_uri = URIRef(ASKG_DATA + f"Paper-{clean_uri(paper_id)}-Reference-{ref_id}")
+
         g.add((ref_uri, RDF.type, ASKG_ONTO.Reference))
-        g.add((ref_uri, RDFS.label, Literal(f"Reference {i}", lang="en")))
-        g.add((ref_uri, DOMO.Text, Literal(ref["raw"], lang="en")))
+        g.add((ref_uri, RDFS.label, Literal(f"Reference {ref_id}", lang="en")))
+        g.add((ref_uri, DOMO.Text, Literal(ref['raw'], lang="en")))
 
-        # ★ 使用 .get() 并确保字段存在
-        authors = ref.get("authors", "")
-        year    = ref.get("year", "")
+        # 添加 index 属性（无论是否为数字）
+        if real_idx:
+            if real_idx.isdigit():
+                g.add((ref_uri, URIRef(ASKG_ONTO + "index"), Literal(int(real_idx), datatype=XSD.positiveInteger)))
+                num_idx[real_idx] = ref_uri
+            else:
+                # 非数字索引也要保存
+                num_idx[real_idx] = ref_uri
 
-        if re.search(r"[A-Za-z]", authors):
+        # 添加年份属性
+        year = ref.get('year', '')
+        if year and year.isdigit():
+            g.add((ref_uri, URIRef(ASKG_ONTO + "year"), Literal(int(year), datatype=XSD.positiveInteger)))
+
+        # 添加标题属性
+        title = ref.get('title', '')
+        if title:
+            g.add((ref_uri, DC.title, Literal(title, lang="en")))
+        else:
+            # 尝试从原始文本猜测标题
+            raw = ref['raw']
+            raw_wo_lead = _lead_num_pat.sub('', raw, count=1).strip()
+            ymatch = _year_pat.search(raw_wo_lead)
+            if ymatch:
+                guess = guess_title_from_raw(raw_wo_lead, ymatch.end())
+            else:
+                dot = raw_wo_lead.find('.')
+                guess = clean_md_markup(raw_wo_lead[:dot] if dot != -1 else raw_wo_lead).strip(' "')
+            if guess:
+                g.add((ref_uri, DC.title, Literal(guess, lang="en")))
+
+        # 添加作者属性和作者-年份索引
+        authors = ref.get('authors', '')
+        if authors and re.search(r"[A-Za-z]", authors):
             g.add((ref_uri, author_p, Literal(authors, lang="en")))
-            if year:
-                g.add((ref_uri, DC.date, Literal(year, datatype=XSD.gYear)))
-                surname = _first_surname(authors).lower()
+            if year and year.isdigit():
+                surname = authors.split(',')[0].split()[-1].lower() if ',' in authors else authors.split()[-1].lower()
                 ay_idx[f"{surname}_{year}"] = ref_uri
-
-        idx_num = ref.get("idx")
-        if idx_num:
-            num_idx[idx_num] = ref_uri
 
     # ---- Walk XML ----
     for sec in doc.findall("./section"):
@@ -378,7 +467,9 @@ def generate_ttl(doc, output_file, paper_id, md_content, existing_papers=None):
                 return ay_idx.get(token.lower())
 
             for tok in [c.text for c in para.findall("citation")]:
-                obj = _cite(tok) or Literal(tok.replace("_", " "))
+                obj = _cite(tok)
+                if obj is None:
+                    continue
                 if obj not in para_seen:
                     g.add((para_uri, has_cit_p, obj)); para_seen.add(obj)
                 if obj not in sec_seen:
@@ -398,7 +489,9 @@ def generate_ttl(doc, output_file, paper_id, md_content, existing_papers=None):
 
                 sent_seen: Set[URIRef] = set()
                 for tok in [c.text for c in sent.findall("citation")]:
-                    obj = _cite(tok) or Literal(tok.replace("_", " "))
+                    obj = _cite(tok)
+                    if obj is None:
+                        continue
                     if obj not in sent_seen:
                         g.add((sent_uri, has_cit_p, obj));   sent_seen.add(obj)
                     if obj not in para_seen:
