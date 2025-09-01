@@ -11,6 +11,7 @@ import re, html, xml.etree.ElementTree as ET
 from hashlib import md5
 from urllib.parse import quote
 from typing import Dict, List, Tuple, Set
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import dotenv
 import markdown
 from rdflib import Graph, Namespace, Literal, URIRef
@@ -434,6 +435,8 @@ def generate_ttl(doc, output_file, paper_id, md_content, existing_papers=None):
                 ay_idx[f"{surname}_{year}"] = ref_uri
 
     # ---- Walk XML ----
+    # Collect sentences for concurrent entity extraction
+    entity_requests: List[Tuple[URIRef, str, str]] = []  # (sent_uri, text, s_id)
     for sec in doc.findall("./section"):
         sid     = sec.get("ID")
         sec_uri = URIRef(ASKG_DATA + f"Paper-{clean_uri(paper_id)}-Section-{sid}")
@@ -501,57 +504,45 @@ def generate_ttl(doc, output_file, paper_id, md_content, existing_papers=None):
 
                 # 添加句子文本
                 g.add((sent_uri, in_sent_p, Literal(s_txt, datatype=XSD.string)))
+                # 实体抽取改为并发收集，稍后统一处理
+                if ENABLE_ENTITY_EXTRACTION and s_txt:
+                    entity_requests.append((sent_uri, s_txt, s_id))
 
-                # 实体抽取（可选，如果失败则跳过）
+    # 并发执行实体抽取，并在主线程写入图
+    if ENABLE_ENTITY_EXTRACTION and entity_requests:
+        print(f"    🔍 Extracting entities concurrently with 10 workers for {len(entity_requests)} sentences...")
+        with ThreadPoolExecutor(max_workers=10) as executor:
+            future_to_item = {executor.submit(utils.get_entities, txt): (uri, txt, sid) for (uri, txt, sid) in entity_requests}
+            for future in as_completed(future_to_item):
+                sent_uri, s_txt, s_id = future_to_item[future]
                 try:
-                    if ENABLE_ENTITY_EXTRACTION:
-                        print(f"    🔍 Extracting entities from sentence: {s_id}")
-                        print(
-                            f"       Text: {s_txt[:100]}{'...' if len(s_txt) > 100 else ''}"
-                        )
-                        ents, has_ents = utils.get_entities(s_txt)
-                        if has_ents:
-                            print(f"    ✓ Found {len(ents)} entities:")
-                            for i, e in enumerate(ents, 1):
-                                print(
-                                    f"      {i}. {e.head} ({e.head_type}) --{e.relation}--> {e.tail} ({e.tail_type})"
-                                )
-                                if e.head_type in MEANINGFUL_TYPES:
-                                    h_uri = URIRef(
-                                        ASKG_DATA + f"Entity-{clean_uri(e.head)}"
-                                    )
-                                    g.add((sent_uri, mentions_p, h_uri))
-                                    g.add(
-                                        (h_uri, RDFS.label, Literal(e.head, lang="en"))
-                                    )
-                                    g.add(
-                                        (
-                                            h_uri,
-                                            ent_type_p,
-                                            Literal(e.head_type, lang="en"),
-                                        )
-                                    )
-                                if e.tail_type in MEANINGFUL_TYPES:
-                                    t_uri = URIRef(
-                                        ASKG_DATA + f"Entity-{clean_uri(e.tail)}"
-                                    )
-                                    g.add((sent_uri, mentions_p, t_uri))
-                                    g.add(
-                                        (t_uri, RDFS.label, Literal(e.tail, lang="en"))
-                                    )
-                                    g.add(
-                                        (
-                                            t_uri,
-                                            ent_type_p,
-                                            Literal(e.tail_type, lang="en"),
-                                        )
-                                    )
-                        else:
-                            print(f"    - No entities found in this sentence")
+                    ents, has_ents = future.result()
                 except Exception as e:
-                    print(
-                        f"    Warning: Entity extraction failed for sentence (continuing without entities): {str(e)[:100]}"
-                    )
+                    print(f"    Warning: Entity extraction failed for a sentence (continuing without entities): {str(e)[:100]}")
+                    continue
+                if not has_ents:
+                    continue
+                if globals().get('LOG_NER_DETAILS', True):
+                    try:
+                        print(f"    ✓ Entities for sentence {s_id}: {len(ents)}")
+                        for i, e in enumerate(ents, 1):
+                            print(f"      {i}. {e.head} ({e.head_type}) --{e.relation}--> {e.tail} ({e.tail_type})")
+                    except Exception:
+                        pass
+                for ent in ents:
+                    try:
+                        if ent.head_type in MEANINGFUL_TYPES:
+                            h_uri = URIRef(ASKG_DATA + f"Entity-{clean_uri(ent.head)}")
+                            g.add((sent_uri, mentions_p, h_uri))
+                            g.add((h_uri, RDFS.label, Literal(ent.head, lang="en")))
+                            g.add((h_uri, ent_type_p, Literal(ent.head_type, lang="en")))
+                        if ent.tail_type in MEANINGFUL_TYPES:
+                            t_uri = URIRef(ASKG_DATA + f"Entity-{clean_uri(ent.tail)}")
+                            g.add((sent_uri, mentions_p, t_uri))
+                            g.add((t_uri, RDFS.label, Literal(ent.tail, lang="en")))
+                            g.add((t_uri, ent_type_p, Literal(ent.tail_type, lang="en")))
+                    except Exception as ex:
+                        print(f"    Warning: Failed to add entity triples: {str(ex)[:100]}")
 
     g.serialize(destination=output_file, format="turtle")
     print("✓ TTL saved:", output_file)
@@ -584,25 +575,48 @@ def process_all_markdown_files(input_dir="./markdown", output_dir="./output"):
         print(f"Error: Input directory {input_dir} does not exist!")
         return
 
-    md_files = [f for f in os.listdir(input_dir) if f.endswith(".md")]
-    print(f"Found {len(md_files)} markdown files")
+    md_files = []
+    for root, _, files in os.walk(input_dir):
+        for f in files:
+            if f.lower().endswith(".md"):
+                md_files.append(os.path.join(root, f))
+    print(f"Found {len(md_files)} markdown files (recursively)")
 
     if not md_files:
         print(f"No markdown files found in {input_dir}")
         return
 
-    for i, md_file in enumerate(md_files, 1):
-        print(f"Processing file {i}/{len(md_files)}: {md_file}")
-        in_path = os.path.join(input_dir, md_file)
-        out_path = os.path.join(output_dir, f"{os.path.splitext(md_file)[0]}.ttl")
+    # 检查已处理的文件
+    processed_count = 0
+    skipped_count = 0
+    
+    for i, in_path in enumerate(md_files, 1):
+        rel_path = os.path.relpath(in_path, input_dir)
+        out_path = os.path.join(output_dir, f"{os.path.splitext(rel_path)[0]}.ttl")
+        os.makedirs(os.path.dirname(out_path), exist_ok=True)
+        
+        # 检查输出文件是否已存在
+        if os.path.exists(out_path):
+            print(f"⏭️  Skipping {i}/{len(md_files)}: {rel_path} (already processed)")
+            skipped_count += 1
+            continue
+            
+        print(f"🔄 Processing file {i}/{len(md_files)}: {rel_path}")
         try:
             process_markdown_file(in_path, out_path)
-            print(f"✓ Successfully processed: {md_file}")
+            print(f"✓ Successfully processed: {rel_path}")
+            processed_count += 1
         except Exception as e:
-            print(f"✗ Error processing {md_file}: {str(e)}")
+            print(f"✗ Error processing {rel_path}: {str(e)}")
             import traceback
 
             traceback.print_exc()
+    
+    print(f"\n📊 Processing Summary:")
+    print(f"   Total files found: {len(md_files)}")
+    print(f"   Files processed: {processed_count}")
+    print(f"   Files skipped (already done): {skipped_count}")
+    print(f"   Files failed: {len(md_files) - processed_count - skipped_count}")
 
 
 # --------------------------------------------------------------------------- #
@@ -619,10 +633,10 @@ if __name__ == "__main__":
         print("✓ OpenAI API key found")
         print()
 
-    # 设置默认的输入和输出目录 - 使用相对于脚本文件的路径
+    # 设置输入和输出目录
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    input_dir = os.path.join(script_dir, "markdown", "test")
-    output_dir = os.path.join(script_dir, "output", "test")
+    input_dir = r"D:\Develop\DDM_PARSE_Fusion\code\PARSE\Papers\Pipeline\markdown\MarkdownFiles"
+    output_dir = os.path.join(script_dir, "output")
 
     print(f"Processing markdown files from: {input_dir}")
     print(f"Output TTL files to: {output_dir}")
